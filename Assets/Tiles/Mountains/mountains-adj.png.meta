@@ -1,18 +1,36 @@
 fileFormatVersion: 2
 guid: 1930688f87cf80b4ab6a7c5af268573b
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: water-tropical-shallow_3
-    21300002: water-tropical-shallow_4
-    21300004: water-tropical-shallow_5
-    21300006: water-tropical-shallow_6
-    21300008: water-tropical-shallow_7
-    21300010: water-tropical-shallow_8
-    21300012: mountains-adj_0
-    21300014: mountains-adj_1
-    21300016: mountains-adj_2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: water-tropical-shallow_3
+  - first:
+      213: 21300002
+    second: water-tropical-shallow_4
+  - first:
+      213: 21300004
+    second: water-tropical-shallow_5
+  - first:
+      213: 21300006
+    second: water-tropical-shallow_6
+  - first:
+      213: 21300008
+    second: water-tropical-shallow_7
+  - first:
+      213: 21300010
+    second: water-tropical-shallow_8
+  - first:
+      213: 21300012
+    second: mountains-adj_0
+  - first:
+      213: 21300014
+    second: mountains-adj_1
+  - first:
+      213: 21300016
+    second: mountains-adj_2
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -32,6 +50,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -41,8 +60,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -63,11 +82,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -78,7 +101,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -89,7 +113,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -100,7 +125,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -111,6 +137,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -130,6 +157,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7204ffaa3f8a97449890f8bd74cb7a77
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -150,6 +178,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 458a926ec3baa4f4cb0f94b2c4397683
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -170,6 +199,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 56c29a08d867c8245ba0899ea99c40ce
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -178,10 +208,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 051accbb29dd0034b90d7adb7287e4bc
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

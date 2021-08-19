@@ -65,12 +65,12 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _IsUnderworld: 0
-    - _Luminance: 1.0002095
+    - _Luminance: 1.1434927
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Saturation: 1.0002095
+    - _Saturation: 1.1434927
     - _ShowingUnderworld: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -80,3 +80,4 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
