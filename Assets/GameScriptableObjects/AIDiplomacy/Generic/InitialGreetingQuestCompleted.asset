@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: InitialGreetingQuestCompleted
+  m_EditorClassIdentifier: 
+  guid: 2b8ea6cd-6963-4b8f-8fe7-e52fb1316b2d
+  guidNameSet: InitialGreetingQuestCompleted
+  message: npc_unit_introduction. Your reputation precedes you! For quest_complete_description;
+    we must thank you for that. We have been eager to meet you and are well disposed
+    toward you.
+  options: []
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

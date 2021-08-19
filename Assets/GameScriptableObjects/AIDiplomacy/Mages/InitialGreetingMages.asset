@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: InitialGreetingMages
+  m_EditorClassIdentifier: 
+  guid: 3678f266-e74d-49fe-8954-cb7e1ca9a65a
+  guidNameSet: InitialGreetingMages
+  message: Who goes there? I am player_unit_introduction. Who are you?
+  options:
+  - text: 
+    result: {fileID: 11400000, guid: c3babece2d99c1041bdfc242379a9f1d, type: 2}
+    instructions: []
+  executeOnce: 0
+  focusPlayer: 1

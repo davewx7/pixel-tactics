@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 788f89d7cbe3377419a2352eba1bd790, type: 3}
+  m_Name: BoonExitUnderworld
+  m_EditorClassIdentifier: 
+  guid: b91e9c20-5509-461e-82b8-cb5dc077fb3b
+  guidNameSet: BoonExitUnderworld
+  priority: 3
+  embargoAfterOffering: 4
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  createBuilding: {fileID: 0}
+  dialogStorylineText: '<i>"You made it all the day down here did you? Glad to have
+    you save us. But maybe you''re looking for a way out now?"</i> the man asks, a
+    wry grin on his face.
+
+
+    <i>"Why, you didn''t think the way you came in was the only way in did you? Oh
+    no, we have a nice little secret passage back to the surface tucked away back
+    here. Maybe you''d like to see it?"</i> The Dwarf holds up a lantern and offers
+    to show you an alternative way out of this gloomy cave.'
+  declineStoryText: Never follow a dwarf in a cave. Or so your mother taught you.
+    You decline his offer and explore this little subterranean village instead.
+  avatarSprite: {fileID: 0}
+  effectText: Find Secret Passage
+  storyText: You thank him for his offer and gladly follow him, ready to be out of
+    this cave!

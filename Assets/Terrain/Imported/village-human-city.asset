@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: village-human-city
+  m_EditorClassIdentifier: 
+  guid: 6ced4c9f-268b-489b-a0a0-b33536e81f07
+  guidNameSet: village-human-city
+  rules: {fileID: 11400000, guid: c224f1393af670c4c91dd5d5d1510ec7, type: 2}
+  villageInfo: {fileID: 11400000, guid: 9919304609b579049a129847f705a317, type: 2}
+  _winterTerrain: {fileID: 11400000, guid: ef16ffdd933cb394f8ebf46805996475, type: 2}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Village
+  zorder: 100
+  adjacent: []
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites: []
+  overlaySprites:
+  - {fileID: 21300000, guid: 2e367223b4702944faebc96a2e1e2ce5, type: 3}
+  - {fileID: 21300000, guid: 71575fead39062442a23ef82c9fb0706, type: 3}
+  - {fileID: 21300000, guid: 82241e4724641ab4a8d25f81ede75caf, type: 3}
+  - {fileID: 21300000, guid: af0386f4c48bd28468d76d132089d4df, type: 3}
+  castleWalls: []
+  _base: {fileID: 11400000, guid: 80d276771071e944fbbe4936052f1ca1, type: 2}
+  yadj: 0
+  waterline: 0

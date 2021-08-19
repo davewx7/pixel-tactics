@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: drake-burner
+  m_EditorClassIdentifier: 
+  guid: 71d941ee-8f8c-4619-a930-69e049684cfa
+  guidNameSet: drake-burner
+  portrait: {fileID: 21300000, guid: 76c47f0a6783f3042a2e645a8d2681fa, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Drake Burner
+  classId: burner
+  raceId: drake
+  tags:
+  - {fileID: 11400000, guid: 7bb056e1798244a4ab82075b64c4ba1c, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: fa9a776883830de488cec3d88e856d67, type: 2}
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 999c581d-eafc-4058-bbdc-9bca4ba0c8e7
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 36
+  criticalEvasion: 0
+  evasion: 30
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: 66d7596460f626c449e772b00dea2a1d, type: 2}
+  - {fileID: 11400000, guid: b3c997aef46a57f4ba1e4a45acd68c78, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: 9dc9089b97af6a740836e044313ca6a9, type: 3}
+    description: claws
+    id: claws
+    damage: 7
+    nstrikes: 2
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: 1597274830879f646ab5303d4e124f72, type: 3}
+    description: fire breath
+    id: fire
+    damage: 6
+    nstrikes: 4
+    accuracy: 10
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 1
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: 0fffc0c3dd968ba4e8d194c7a16aaf6d, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 34a3a21768015864d982aefd2ff8a3ea, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: cc62e835965f8644dbea81ac455ab9a6, type: 3}
+    - {fileID: 21300000, guid: 834496935cc39aa40ba0b8fcc7236535, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: fire-inhale
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 42980646b338f8f4b8b58ecf3d134b04, type: 3}
+    - {fileID: 21300000, guid: d88d45d45ddec4d43865e0e73b20c9d2, type: 3}
+    - {fileID: 21300000, guid: b653fa158b0839d469a6c5c0db79c78d, type: 3}
+    - {fileID: 21300000, guid: cb62f7b36c1da9a42bb2664434b8a10e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: fire
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a0dccea7f9888504fb108be247470095, type: 3}
+    - {fileID: 21300000, guid: 85cab08194f71b84b9660cecfa433459, type: 3}
+    - {fileID: 21300000, guid: 6c5e5e43910c2514493ec361ffc357e5, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 2
+      animType: 2
+      tag: fire
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 77efd8bfa5701ff4c83415b92b2d325f, type: 3}
+    - {fileID: 21300000, guid: 77c1a0b666ec8604a9ac9cb8cba9817f, type: 3}
+    - {fileID: 21300000, guid: 4a9fc92c813228b40ad14a811149c62a, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: fly
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: d6f7711ed8c825e46ab5b4fdae20a9f4, type: 3}
+    - {fileID: 21300000, guid: c1b9c57552e895e40adfc31db1116e62, type: 3}
+    - {fileID: 21300000, guid: df36d1a5e12c8784b8d91b7939e17335, type: 3}
+    - {fileID: 21300000, guid: deb171f38b8fd434ea040cdd493e2a14, type: 3}
+    - {fileID: 21300000, guid: 46cf9152fdb896246a2573377cc081b9, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: fly-2-upstroke
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a56e1c936551c9c4793e5b76154bdc7e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: fly-3-upstroke
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 8ca79db8437469947b3d77c2b148b211, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c1daf021823cea14e8b5679028bc159d, type: 3}
+    - {fileID: 21300000, guid: bc883d92fbd2a4943a4fca9c6a68d636, type: 3}
+    - {fileID: 21300000, guid: e163eeb072a4d2641973dfece23cc84f, type: 3}
+    - {fileID: 21300000, guid: f3b775965a0e85e488f61b80a0d53e04, type: 3}
+    - {fileID: 21300000, guid: b5257be9bb8c667488e019a254e4541a, type: 3}
+    - {fileID: 21300000, guid: 30796c130feee054dbfdb2330eb49d5c, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: takeoff
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 047b54a599f559c45bcf4dcf1d1c4352, type: 3}
+    - {fileID: 21300000, guid: e0e18d618e5d2b94f8e8141cc2d5599a, type: 3}
+    - {fileID: 21300000, guid: a79cf8f639721404992287cc39a1fc56, type: 3}
+    - {fileID: 21300000, guid: 0ff1d3762eb63b946b18bc550b800ebb, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

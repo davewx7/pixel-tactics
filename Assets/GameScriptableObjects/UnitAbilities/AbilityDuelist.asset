@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6ecf1099ffea5a458d11f62fe447f1b, type: 3}
+  m_Name: AbilityDuelist
+  m_EditorClassIdentifier: 
+  guid: 73b41f42-00c7-4c0d-bb05-6fff2510e553
+  guidNameSet: AbilityDuelist
+  description: Duelist
+  icon: {fileID: 21300000, guid: c41536360253f1d44ba382746abdac44, type: 3}
+  tooltip: This unit gains +30% EV during its first fight each round.
+  unitMod:
+    description: Duelist
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 1
+    hitpoints: 0
+    experience: 0
+    evasion: 30
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []

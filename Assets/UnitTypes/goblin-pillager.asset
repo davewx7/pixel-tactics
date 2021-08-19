@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: goblin-pillager
+  m_EditorClassIdentifier: 
+  guid: f2fbfac6-d9af-4765-8fcf-422556a78b67
+  guidNameSet: goblin-pillager
+  portrait: {fileID: 21300000, guid: 3458b81ed9e28f84e827f4935eb01a2f, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Goblin Pillager
+  classId: pillager
+  raceId: goblin
+  tags:
+  - {fileID: 11400000, guid: 47fd162dda53eb842a2847f24fb0b9ce, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: dfb676ce152237d47a477c5ff7329640, type: 2}
+  abilityArgs: []
+  cost: 10
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: c18366fc-ea77-457d-baae-167db402a7f4
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 34
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 70
+  armor: 0
+  resistance: 0
+  movement: 8
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: f3fe41b600139454cb0cd743b39002c0, type: 3}
+    description: fangs
+    id: attack
+    damage: 7
+    nstrikes: 3
+    accuracy: 10
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 193d6e89e0a63a64e8030b01d035cea3, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7071e26110989864082a9fc7ed5bb9b4, type: 3}
+    - {fileID: 21300000, guid: 4b855887aa65ff3459cd3477220f0c95, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 29e3b14b925d94a459d619d0025f658e, type: 3}
+    - {fileID: 21300000, guid: a3232e0420705d54a866f5672374429c, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: moving
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 0ddecfb9a03a06b4aa1934f2fd1e3530, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

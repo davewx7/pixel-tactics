@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 43683a2db7766af4ab323503c9244ac0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _magicAttackDummyAbility: {fileID: 11400000, guid: 87d0ea41c32a9594684e4fb41c4937ef,
+      type: 2}
+  - _image: {instanceID: 0}
+  - _rangeIcon: {instanceID: 0}
+  - _nameText: {instanceID: 0}
+  - _statsText: {instanceID: 0}
+  - _rangeText: {instanceID: 0}
+  - _abilitiesTransform: {instanceID: 0}
+  - _rangeMelee: {instanceID: 0}
+  - _rangeRanged: {instanceID: 0}
+  - _iconChargeAvailable: {instanceID: 0}
+  - _iconChargeExpended: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

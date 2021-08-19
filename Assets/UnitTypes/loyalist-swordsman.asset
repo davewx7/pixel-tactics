@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: loyalist-swordsman
+  m_EditorClassIdentifier: 
+  guid: 9cb0caf2-529e-413b-bf7a-89beed86db61
+  guidNameSet: loyalist-swordsman
+  portrait: {fileID: 21300000, guid: 5218a95fc3657c64490df6e56676051b, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Warrior
+  classId: swordsman
+  raceId: loyalist
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 2c65e3d1-3e1c-4651-8b8c-76cc419ce052
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 64
+  hitpointsMax: 42
+  criticalEvasion: 0
+  evasion: 50
+  armor: 1
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: 4582b3f742953fc48bb951a30b5f1597, type: 3}
+    description: sword
+    id: attack-melee
+    damage: 6
+    nstrikes: 4
+    accuracy: 20
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: 6e30010cc297e824c8114de1f69629d3, type: 2}
+    - {fileID: 11400000, guid: 121d2dd2d77e4a04b97a8aed8e1bbdcd, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 3dbae408a14f30a4b9ea2ad9b18928c2, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: d079cfd3abce8d4448764601b21d1a8a, type: 3}
+    - {fileID: 21300000, guid: 59bb5cadec593af419bbdc7208645a42, type: 3}
+    - {fileID: 21300000, guid: 76f9c26b2afbcc743bbf8cb810320a1f, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 093264126264d654899212047403d230, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 1
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 944691d3a8ba9994ea5f44fed48bdea9, type: 3}
+    - {fileID: 21300000, guid: cbb90e3285a53c74bad451f890307759, type: 3}
+    - {fileID: 21300000, guid: 1f9e5c6b75b65584d8a8d4c1dfa13462, type: 3}
+    - {fileID: 21300000, guid: 5e824b71c38f52e47a47c4692a366089, type: 3}
+    - {fileID: 21300000, guid: b7d81ba693042c4469d7c347f46050e1, type: 3}
+    - {fileID: 21300000, guid: fcec2015041252d4ab1749dc01ef9f63, type: 3}
+    - {fileID: 21300000, guid: 41412ab81e6fc3746b4455f60bfe9882, type: 3}
+    - {fileID: 21300000, guid: aac13c7715f02e7469eb29195fcf9c05, type: 3}
+    - {fileID: 21300000, guid: cc58ba925c154484d8094ee92fc43c93, type: 3}
+    - {fileID: 21300000, guid: 5673f12d1de6d914981a5aea4cce95cb, type: 3}
+    - {fileID: 21300000, guid: 9f490ff8b7492074686bd64a5d68f678, type: 3}
+    - {fileID: 21300000, guid: db9ebd8b2da7825419d2008e93925a2b, type: 3}
+    duration: 2
+    reverse: 0
+    cycle: 0
+    events: []

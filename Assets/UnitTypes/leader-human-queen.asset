@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: leader-human-queen
+  m_EditorClassIdentifier: 
+  guid: f3ea0a36-4835-4fa1-9339-ffa115b3e185
+  guidNameSet: leader-human-queen
+  portrait: {fileID: 21300000, guid: f1594fe1aa48f804fa30078fc501c1d5, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Queen
+  classId: human-queen
+  raceId: leader
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 66504e95-b04d-478c-baae-e33ee7799c1a
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 80
+  hitpointsMax: 44
+  criticalEvasion: 0
+  evasion: 50
+  armor: 1
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: bf6eed3e7836f8f48814484252b8cbbd, type: 3}
+    description: dagger
+    id: 
+    damage: 6
+    nstrikes: 2
+    accuracy: 10
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 9f4ee7e517358e848b9d17ba92f1e9de, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f5358237f9753a348bf74cdb4e23ce61, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 88af7f36859d1944da389f2d93f97e9e, type: 3}
+    - {fileID: 21300000, guid: 45f54b5bbdf45b54bada46eb4a45b307, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: e767a46594f40684aa29e1344052f0d5, type: 3}
+    - {fileID: 21300000, guid: 0d107129ee0051b49b6c75ccaffb41e8, type: 3}
+    - {fileID: 21300000, guid: e81897ff2cb6ea044b037342c2602697, type: 3}
+    - {fileID: 21300000, guid: 036c75a8cdf995f41b74071273ef8e5a, type: 3}
+    - {fileID: 21300000, guid: 19f197b935114614ea4bf17423192709, type: 3}
+    - {fileID: 21300000, guid: 5d636ef98e33edd4d8323f0e9f9c59a6, type: 3}
+    - {fileID: 21300000, guid: c9d3a7a75d0ae9f4c855ce695b8794a5, type: 3}
+    - {fileID: 21300000, guid: c8646bd658e5cdd40b6f7450455d4a62, type: 3}
+    - {fileID: 21300000, guid: 439b7af4f51c987448a446e4348d38ea, type: 3}
+    - {fileID: 21300000, guid: c87f99e2cfe945f4881b6ace4170c8f2, type: 3}
+    - {fileID: 21300000, guid: 7f7e9dabf18be5148b8a6b772a7a8b3d, type: 3}
+    - {fileID: 21300000, guid: 696598851b4741f46a9bab868d781fab, type: 3}
+    - {fileID: 21300000, guid: 0e907d6dfe6e0bd43ae2cfed122f811d, type: 3}
+    - {fileID: 21300000, guid: cdf9b0f88cb5dc3448a5af01af3c05ec, type: 3}
+    - {fileID: 21300000, guid: 215432e55f228564eb201f99f8cb5d10, type: 3}
+    - {fileID: 21300000, guid: 75de7ef6662a32445be40b6e7ed05618, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: hat
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 2f677869f4b0d7d48b61a5fa5d86dfcf, type: 3}
+    - {fileID: 21300000, guid: c407728dabe9c5147ae7ab991c90f169, type: 3}
+    - {fileID: 21300000, guid: b5674642f8b39b04dbefb6cddcc330c3, type: 3}
+    - {fileID: 21300000, guid: e4594ea5a04ef2347a685050daca8f7d, type: 3}
+    - {fileID: 21300000, guid: bae9af83267bdf04e8868cca1458c0bd, type: 3}
+    - {fileID: 21300000, guid: 921f8ce0a051f844289646a0a4c3c721, type: 3}
+    - {fileID: 21300000, guid: 71e465f5e1b69c6469d35f98a162b8ee, type: 3}
+    - {fileID: 21300000, guid: b11c0e1266e521742a78c68db090ff57, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 5
+      tag: magic
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: acf6bb49300e0be47a29516ae0dfa7eb, type: 3}
+    - {fileID: 21300000, guid: 11bbc440f1e930f4c86e3b6c46202a5d, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: swoosh
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 735df83edfc99ab4f9d5787d3f83900a, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

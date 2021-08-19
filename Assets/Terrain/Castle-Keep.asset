@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: Castle-Keep
+  m_EditorClassIdentifier: 
+  guid: 0f2a05d9-3893-4f8c-83b2-204f25e5ec15
+  guidNameSet: Castle-Keep
+  rules: {fileID: 11400000, guid: 0d90263231adf024fa1d2d0cd18cef8e, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Castle
+  zorder: 3000
+  adjacent: []
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites:
+  - {fileID: 21300000, guid: 4933575263ce27d4e8de57b0e6b9d154, type: 3}
+  overlaySprites: []
+  castleWalls:
+  - {fileID: 21300000, guid: cd0e24f2510c37c4cbc18c9e2c44b310, type: 3}
+  - {fileID: 21300000, guid: e7672adf3dfd846428b13eb59ed3db96, type: 3}
+  - {fileID: 21300000, guid: a278e35400d88d34fb281ff1b672d3ed, type: 3}
+  - {fileID: 21300000, guid: 21849ce37c6cce644a677fe66439e9f5, type: 3}
+  - {fileID: 21300000, guid: 0e8076c637fb206468eb52f733985f7b, type: 3}
+  - {fileID: 21300000, guid: 209ff4adc9dca2043b28cfe7040832c3, type: 3}
+  - {fileID: 21300000, guid: 393a1f8853e3bec4d912231756c18e95, type: 3}
+  - {fileID: 21300000, guid: 186265d46a651bb40b595b6e81c23f8a, type: 3}
+  - {fileID: 21300000, guid: 03c6af1cfa5eb00438e4cb2fffd1beab, type: 3}
+  - {fileID: 21300000, guid: cf487650a0c14074db866953d0c9a7ec, type: 3}
+  - {fileID: 21300000, guid: ec9d7620c597dc84ea205d5b689d4e7a, type: 3}
+  - {fileID: 21300000, guid: c5ddf909cde2b7e47945ac02ef7dcd31, type: 3}
+  _base: {fileID: 0}
+  yadj: 0.4
+  waterline: 0

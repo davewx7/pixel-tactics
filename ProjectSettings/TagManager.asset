@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GameConfig
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - TileCursor
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3299885331
+    locked: 0
+  - name: GroundAdj
+    uniqueID: 3886812665
+    locked: 0
+  - name: TileOverlay
+    uniqueID: 2267073009
+    locked: 0
+  - name: TileCastleWalls
+    uniqueID: 994720549
+    locked: 0
+  - name: Forest
+    uniqueID: 4057114501
+    locked: 0
+  - name: Flags
+    uniqueID: 263649517
+    locked: 0
+  - name: TileLabels
+    uniqueID: 1303740703
+    locked: 0
+  - name: LootLayer
+    uniqueID: 372571427
+    locked: 0
+  - name: MapArrow
+    uniqueID: 3211300139
+    locked: 0
+  - name: UnitStatsBehind
+    uniqueID: 378073975
+    locked: 0
+  - name: Unit
+    uniqueID: 1955010505
+    locked: 0
+  - name: UnitAttacking
+    uniqueID: 3908283035
+    locked: 0
+  - name: TownBuilding
+    uniqueID: 2037247035
+    locked: 0
+  - name: UnitStats
+    uniqueID: 1038182729
+    locked: 0
+  - name: Projectile
+    uniqueID: 1083300049
+    locked: 0
+  - name: Fog
+    uniqueID: 3639842651
+    locked: 0
+  - name: Shroud
+    uniqueID: 2053294203
+    locked: 0
+  - name: Cursor
+    uniqueID: 4287991715
+    locked: 0
+  - name: AttackWarning
+    uniqueID: 2630952827
+    locked: 0
+  - name: SpeechBubbles
+    uniqueID: 1180522337
+    locked: 0
+  - name: UI
+    uniqueID: 4139700951
+    locked: 0
+  - name: PostProc
+    uniqueID: 2556215769
+    locked: 0
+  - name: DeathLayer
+    uniqueID: 3504119847
+    locked: 0
+  - name: AboveDeathLayer
+    uniqueID: 3303354899
+    locked: 0

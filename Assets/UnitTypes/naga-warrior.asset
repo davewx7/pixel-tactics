@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: naga-warrior
+  m_EditorClassIdentifier: 
+  guid: 35ca581c-046a-45bb-8650-c7079888ee1c
+  guidNameSet: naga-warrior
+  portrait: {fileID: 21300000, guid: 62fbd6742e3406648aba3f8e202fa403, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Naga Warrior
+  classId: warrior
+  raceId: naga
+  tags:
+  - {fileID: 11400000, guid: 9d9439c6c109df84eaa5183b19fa7772, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: ace7ed63e14c38941821d2a273d184c3, type: 2}
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 7b1930f0-e497-45dd-8fb1-15f4df9378ea
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 46
+  hitpointsMax: 34
+  criticalEvasion: 0
+  evasion: 60
+  armor: 1
+  resistance: 0
+  movement: 7
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: f7963507fd6e850438e1df8445d69c38, type: 3}
+    description: sword
+    id: melee
+    damage: 5
+    nstrikes: 4
+    accuracy: 10
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a895328afd1fae342954927644e6b0d3, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 0a8efe842d1269b4a98364f7d9e4790a, type: 3}
+    - {fileID: 21300000, guid: 1ef1be67e77dfd84c88f8fdac16382b2, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 952a8e06fca12c548a753bff31198404, type: 3}
+    - {fileID: 21300000, guid: 01def6cfe94431c44bb7fde4051c7bc7, type: 3}
+    - {fileID: 21300000, guid: 96bee5c273093b9438d8f24a1a50dfc8, type: 3}
+    - {fileID: 21300000, guid: db7cd01eba747b6469ee8bd0b8e68876, type: 3}
+    - {fileID: 21300000, guid: 7f0a5d821c3e1474aa78714463baed90, type: 3}
+    - {fileID: 21300000, guid: 8291636422635c84d8f942beb530ea38, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

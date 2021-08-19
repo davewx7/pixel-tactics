@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac34700648386c4c8d5a3968176dddf, type: 3}
+  m_Name: BoonBlessingUndead
+  m_EditorClassIdentifier: 
+  guid: d2592c1e-263b-4278-99f4-48e88f2f6da6
+  guidNameSet: BoonBlessingUndead
+  alternatives: []
+  priority: 1
+  embargoAfterOffering: -1
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 0}
+  dialogStorylineText: Entering village_name, you notice the largest building in the
+    little hamlet is its shrine. Dare you pillage the shrine of its valuables, knowing
+    the clerics within are likely to put a curse on you?
+  declineStoryText: 
+  avatarSprite: {fileID: 21300000, guid: 45eba9e6daa1ab0488fb615b468896a5, type: 3}
+  effectText: Gain gold, become cursed
+  storyText: Desecrate the shrine and take all of its valuables!
+  curseMessage: You loot the shrine of all it has, seizing some 14 gold. However,
+    as you leave that place you feel that a <color=#ff4444><link="curse">curse</link></color>
+    has come upon you. You wonder if desecrating the shrine will have been worth the
+    consequences.
+  curse: {fileID: 11400000, guid: a06e742e5f3c8624ea4e25f7f8e34dc5, type: 2}
+  gold: 14

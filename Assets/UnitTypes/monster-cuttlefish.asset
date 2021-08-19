@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: monster-cuttlefish
+  m_EditorClassIdentifier: 
+  guid: b625e00d-3874-4b8e-890d-fc6f40b6954d
+  guidNameSet: monster-cuttlefish
+  portrait: {fileID: 21300000, guid: 995fb08bf060cc849a2ed42d08e3c574, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Cuttlefish
+  classId: cuttlefish
+  raceId: monster
+  tags:
+  - {fileID: 11400000, guid: 24af785bf5c2ad7469cce1174b34b36b, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: ace7ed63e14c38941821d2a273d184c3, type: 2}
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 62ecb3ea-0b49-49f1-aee1-3002b9c6b137
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 26
+  criticalEvasion: 0
+  evasion: 50
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: e5beaa038bddbe74b91b76ff059fee9b, type: 3}
+    description: tentacle
+    id: melee
+    damage: 3
+    nstrikes: 6
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 9b6e12ad84e4c104aa9aa6059463f77b, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: d2df2b33ea63bde4fa442840c7d6cfcc, type: 3}
+    - {fileID: 21300000, guid: 647bd8d674c28144287039f3a2e3c29f, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 87a4ee94d19e7384498b1dcad4872c3d, type: 3}
+    - {fileID: 21300000, guid: 0cc444052d290b54d916aade70923d14, type: 3}
+    - {fileID: 21300000, guid: 34ca78fb0b7edf04fac46d5ca802cebe, type: 3}
+    - {fileID: 21300000, guid: b4e0d0025c074d34e90ece272e5fc21d, type: 3}
+    - {fileID: 21300000, guid: e781435de2785c447af5098114bdc653, type: 3}
+    - {fileID: 21300000, guid: c54bc7bb6abd4d44c89415d9aaa27d1d, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: ae9814941ec396b4e9cbe887c40258df, type: 3}
+    - {fileID: 21300000, guid: bdc7dd09666a8314ab8d03374dc4a7b4, type: 3}
+    - {fileID: 21300000, guid: 0834f3593a3b5f84faccf56fa99f0dd1, type: 3}
+    - {fileID: 21300000, guid: a2d543c860f31764b9282f72c2271682, type: 3}
+    - {fileID: 21300000, guid: 853775c60fd21f44f8a745807511ec5b, type: 3}
+    - {fileID: 21300000, guid: 54a251976631a3d44b8c2fe3286434fb, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: ranged
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 3bb734058d3d3774d86d914a9e1a9c20, type: 3}
+    - {fileID: 21300000, guid: 64cf7356c600a9d49b479ba2ca36cdd1, type: 3}
+    - {fileID: 21300000, guid: 637979e120e33104ead58c47fd368d18, type: 3}
+    - {fileID: 21300000, guid: f4820533562ffff4280ef61cc1bfba95, type: 3}
+    - {fileID: 21300000, guid: ae67817a917fced44959293719947f80, type: 3}
+    - {fileID: 21300000, guid: 3f6cd54285aef3c48a48b61e99d74edd, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

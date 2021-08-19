@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: beach
+  m_EditorClassIdentifier: 
+  guid: 14880715-8190-497f-a02c-9a9ccda4af6d
+  guidNameSet: beach
+  rules: {fileID: 11400000, guid: 7f1dea815fd079f4c8b5f5cc68453af1, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Beach
+  zorder: 20
+  adjacent:
+  - {fileID: 21300000, guid: 8cdf5f355ce15924185c5db1e5182818, type: 3}
+  - {fileID: 21300000, guid: 32336447dc153024b864ee19a35c36aa, type: 3}
+  - {fileID: 21300000, guid: f82be21537752b849a0aab852b3065a4, type: 3}
+  - {fileID: 21300000, guid: aa234f179d048f1438e59ed507dac987, type: 3}
+  - {fileID: 21300000, guid: 1ee30b6266e3a63458857470ed577827, type: 3}
+  - {fileID: 21300000, guid: 601521d29694fb14a8e89ecc4e50fb7a, type: 3}
+  adjacent2:
+  - {fileID: 21300000, guid: f1514e3ef5c0bfa4799a9f489b24309b, type: 3}
+  - {fileID: 21300000, guid: bcfdb79e339a1574f8fb5a53b8af86ca, type: 3}
+  - {fileID: 21300000, guid: 3b98a47027f66eb429584407c04598ae, type: 3}
+  - {fileID: 21300000, guid: 8327c21201f34dd4a944ab21c02bf284, type: 3}
+  - {fileID: 21300000, guid: 6f50281d0a3fbd04992f81e3fe7f0ede, type: 3}
+  - {fileID: 21300000, guid: 70f795daad8157c47a485067e54ff40e, type: 3}
+  adjacent3:
+  - {fileID: 21300000, guid: 51d63e2df828c884da933968e010dcf7, type: 3}
+  - {fileID: 21300000, guid: 42bb61450890c4d4db2dbfd6dbbf2b40, type: 3}
+  - {fileID: 21300000, guid: b0a0e3dfe1e162141ba931e96eecac2a, type: 3}
+  - {fileID: 21300000, guid: 2ceb94520b0ca4749941a6f37744b724, type: 3}
+  - {fileID: 21300000, guid: 6bb53a2cebb65b946a47428dbb26b1ef, type: 3}
+  - {fileID: 21300000, guid: 77e41278858b3194396dfe661d547a89, type: 3}
+  adjacent4:
+  - {fileID: 21300000, guid: 685ba2f16e0972841a6f213168516a73, type: 3}
+  - {fileID: 21300000, guid: 7934a22b3dec89f48b6af65832b8f781, type: 3}
+  - {fileID: 21300000, guid: 7501bdd81dab0f94ea50b7da5862526e, type: 3}
+  - {fileID: 21300000, guid: d8a096f5069442d43baeb481fa0a5dd7, type: 3}
+  - {fileID: 21300000, guid: b7b95818612bf3142bdfad6344531835, type: 3}
+  - {fileID: 21300000, guid: 02d6056f2dfb1dc42a56dfd27678e610, type: 3}
+  adjacent5: []
+  adjacent6: {fileID: 21300000, guid: df560d6084dd01c48b98ef4628aa7c94, type: 3}
+  _sprites:
+  - {fileID: 21300000, guid: 8bd21799462aac24e8dff01548741573, type: 3}
+  - {fileID: 21300000, guid: a76c700019361ae4b853fd6171b89f4c, type: 3}
+  - {fileID: 21300000, guid: 22bbd2abf999df548924601143b1d0c9, type: 3}
+  - {fileID: 21300000, guid: 60c683398553e52499600439cfe30080, type: 3}
+  - {fileID: 21300000, guid: af8af3eb6c9b0774e947c34b0d0dec1f, type: 3}
+  - {fileID: 21300000, guid: fb0dda80a4c7fd749bcbb26e6cc5e44d, type: 3}
+  - {fileID: 21300000, guid: 2898b48840b8b4b4faef1aced0005ca5, type: 3}
+  - {fileID: 21300000, guid: 17e5580f987b89d4f8f935ea7412ddab, type: 3}
+  overlaySprites: []
+  castleWalls: []
+  _base: {fileID: 0}
+  yadj: 0
+  waterline: 0

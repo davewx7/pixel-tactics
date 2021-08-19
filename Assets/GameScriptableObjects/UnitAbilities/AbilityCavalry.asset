@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6ecf1099ffea5a458d11f62fe447f1b, type: 3}
+  m_Name: AbilityCavalry
+  m_EditorClassIdentifier: 
+  guid: 0fdc5d1c-0657-448d-b4a6-69072deb7b35
+  guidNameSet: AbilityCavalry
+  description: Cavalry
+  icon: {fileID: 21300000, guid: 53e21fe828183ba4292dacba628d3d93, type: 3}
+  tooltip: Disadvantage in forest, mountain, and swamp. Vulnerable to polearm attacks.
+  unitMod:
+    description: (unknown)
+    useMod: 0
+    filter:
+      mustHaveTag: {fileID: 0}
+      excludeIfFoughtThisTurn: 0
+      baseAbility: {fileID: 0}
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  disadvantageInTerrain:
+  - {fileID: 11400000, guid: 517d5f0355a5287418a6b04f9e5e047f, type: 2}
+  - {fileID: 11400000, guid: add985989f0c8b24ca22320981bf580b, type: 2}
+  - {fileID: 11400000, guid: 7b0f01efff1325141a7055fe6ee92fc6, type: 2}

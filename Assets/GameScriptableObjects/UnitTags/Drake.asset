@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb29c9160ce1d194f920eabb89671117, type: 3}
+  m_Name: Drake
+  m_EditorClassIdentifier: 
+  guid: a33bf3b2-2d16-4eb7-ac04-837d193dfd44
+  guidNameSet: Drake
+  isRace: 1
+  description: Drake
+  descriptionPlural: Drakes
+  traits:
+  - {fileID: 11400000, guid: 53e690f2a80f0124d9a03cd5984e2c19, type: 2}
+  - {fileID: 11400000, guid: 9271ce67aef0ef04c9ac234d6e7930a2, type: 2}
+  - {fileID: 11400000, guid: c282b3926f058d549a20f0116ac701d9, type: 2}
+  - {fileID: 11400000, guid: 2c456e4179f409b4b8d96c1921a64c41, type: 2}
+  - {fileID: 11400000, guid: f1a273986b672b546b15c2a396958a3d, type: 2}
+  - {fileID: 11400000, guid: b9fa5495ce0c5c74eaa155902721fd5b, type: 2}
+  - {fileID: 11400000, guid: b361c4104572706488a310864977a117, type: 2}
+  numberOfTraits: 2
+  zombieTrait: {fileID: 11400000, guid: 37f4edf8cc2b1c843bafb8fb1804b3e6, type: 2}
+  cannotEnterTerrain: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  maleNames: "Egar,Elch,Ga\u2019ash,Gad\xE9 Ihn,Gakr\xE9 Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,Garlin
+    Ohn,Garrutin,Gart\u2019lo,Garushi,Gashinar,Gashol,Gaushii,Gaustun,Gegchi,Gelka
+    Kon,Gelknick,Gillan,Gisharri,Gost,Grada,Gr\xE6t Ihn,Grashen,Gravlan,Grag,Grelnit,Grenn
+    Ohn,Greth,Gribbel,Gridda,Grish,Gron Ihn,Ka,Kahn Ih,Karigan,Karri Kon,Karron,Kask,Kegrid,Kerath
+    Ihn,Kerath Kor,Klash,Kon Garash\xE9,Kraag,Krall Ohn,Kran Kor,Krash,Kraslar,Krenli,Kruggen,Kun,Mah
+    Toa,Margian,Mar\u2019Ildian,Markan,Markinos,Mar Ohn,Marra Di\u2019lek,Marrito,Marritos,Merkush,Merritos
+    Gark,Morust\xE9,Murr,Omatak\xE9,Reshan,Vashitt,Velnick,Veralon,Veramo,Verath,Verditt,Verkon,Verlinn,Vermad,Vertick,Vladnir"
+  femaleNames: Alen Ka,Alinash Mal,Ashirt,Auginet Ka,Auuglann,Damell,Dell,Demla,Dinsill,Eshi,Olath,Omage,Omagrra,Orra
+    Ka,Orridan,Orrida,Oshibi,Vallin,Valnirra,Valnitt,Velisk,Verra,Vellin Ka,Veshtar,Vushtin

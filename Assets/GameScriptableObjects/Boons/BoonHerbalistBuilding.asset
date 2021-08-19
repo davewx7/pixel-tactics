@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a09fe365fac2d19428704f57d6387fcb, type: 3}
+  m_Name: BoonHerbalistBuilding
+  m_EditorClassIdentifier: 
+  guid: fb8cea67-2487-4e7f-816d-8d9ce7052b29
+  guidNameSet: BoonHerbalistBuilding
+  priority: 1
+  embargoAfterOffering: 6
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 11400000, guid: 356361783e7998544829b7783bec378d, type: 2}
+  dialogStorylineText: '<i>"Greetings. Long have I awaited the day you would visit
+    us here in village_name. I have long treated the illnesses and ailments of those
+    in this village with my potions and concoctions. If you would I would support
+    your armies with my skills."</i>
+
+
+    This old woman introduces herself to you offering her herbalist''s hut to assist
+    your armies, though it will take a little time to orchestrate her enterprise helping
+    your armies.'
+  declineStoryText: You politely decline her offer, going to see what else is within
+    the village.
+  avatarSprite: {fileID: 21300000, guid: 3bcedcfd95f614d43b316fd670a09cca, type: 3}
+  effectText: Herbalist created in this village
+  storyText: Thank the woman for her help and tell her you will be happy to accept
+    her offer.

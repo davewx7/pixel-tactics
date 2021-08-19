@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: elf-sylph
+  m_EditorClassIdentifier: 
+  guid: 25954a61-500d-41eb-b1a5-f48584be38b8
+  guidNameSet: elf-sylph
+  portrait: {fileID: 21300000, guid: 8fab8e03c46515442ad190b027de9ca6, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Elf Sylph
+  classId: sylph
+  raceId: elf
+  tags:
+  - {fileID: 11400000, guid: ffb283ef68f579445a304e56bb9d1efe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: b4b5239d-f684-4084-aa5e-a24cdd826286
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 4
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells:
+    - {fileID: 11400000, guid: b2c80a143bf0d6343a2741612ae373c9, type: 2}
+    - {fileID: 11400000, guid: 7a945d60cacd55a4c814fd44620c00d0, type: 2}
+    - {fileID: 11400000, guid: c8a1f5e138a57554082527486d4e1426, type: 2}
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 45
+  criticalEvasion: 0
+  evasion: 50
+  armor: 0
+  resistance: 1
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: 0cc5fb103edd6dc41bbe96c4848788c7, type: 3}
+    description: staff
+    id: melee-attack
+    damage: 5
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: 3b260325b94277a41bc6fbaf08e7440c, type: 3}
+    description: frost
+    id: magic
+    damage: 19
+    nstrikes: 2
+    accuracy: 30
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 1
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: d34c5c4658afa514cab480a060efb0c4, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: d331c5be75eaf8649a60a9a4504a38ab, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []

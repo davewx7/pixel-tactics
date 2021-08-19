@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a786d29dac4d4f990127905c942fb, type: 3}
+  m_Name: MoonAmulet
+  m_EditorClassIdentifier: 
+  guid: 9aab71e2-fbe0-4952-a38e-d22da2bfea18
+  guidNameSet: MoonAmulet
+  modUntilEndOfTurn:
+    description: Moon Amulet
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 30
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription: []
+      excludeMelee: 0
+      excludedRanged: 0
+      excludeMagical: 0
+      excludePhysical: 0
+      damage: 0
+      accuracy: 30
+      critical: 0
+      nstrikes: 0
+      abilities: []
+      makesMagical: 0
+    abilities: []
+    abilityArgs: []
+  schools: []
+  consumable: 0
+  cooldown: 9
+  targetTypes: 00000000
+  targetTerrain: []
+  targetLevelLessOrEqualToSpellLevel: 0
+  mustControlTarget: 0
+  targetsKeep: 0
+  targetRange: 1
+  targetRadius: 0
+  rangeIsUnitVision: 0
+  rangeIsGlobal: 0
+  healTarget: 0
+  temporaryHitpoints: 0
+  drainLife: 0
+  blinkToTarget: 0
+  description: 
+  icon: {fileID: 0}
+  hueshift: 0
+  spellLevel: -1
+  refreshesMovement: 0
+  refreshesAttack: 0
+  summaryRules: 
+  applyStatus: {fileID: 0}
+  summonType: {fileID: 0}
+  numSummons: 1
+  createEquipment: []
+  cannotTargetBlessedUnit: 0
+  effectSource: {fileID: 7195097288595192750, guid: 07b83cbd8dd175a4ba86a26fab58a136,
+    type: 3}
+  effectDest: {fileID: 0}
+  tooltipRules: 
+  _noTargetsErrorMessage: No targets in range

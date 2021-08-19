@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: loyalist-heavyinfantry
+  m_EditorClassIdentifier: 
+  guid: a9f15962-d4f8-41e6-9992-ebaaff398acd
+  guidNameSet: loyalist-heavyinfantry
+  portrait: {fileID: 21300000, guid: ead8677ace344f747a0199e0517e3291, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Heavy Infantry
+  classId: heavyinfantry
+  raceId: loyalist
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 18
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: e583c74b-f1f7-4d70-bb1e-e1991c09de31
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 32
+  criticalEvasion: 0
+  evasion: 10
+  armor: 4
+  resistance: 0
+  movement: 4
+  levelsInto:
+  - {fileID: 11400000, guid: fff7db1c32e7b0c4eab838c810c004c8, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: ee72beff80ad4354cb2f41b272f4e46a, type: 3}
+    description: Mace
+    id: attack
+    damage: 11
+    nstrikes: 2
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: b21a8ac2ba6fb804597373983852ea71, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 10ab78c7029bade479be666f44b7963d, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 9ee6a7a60c80e064b99a6687ba632116, type: 3}
+    - {fileID: 21300000, guid: 102204691c2d3fb43a34454ed96e49f5, type: 3}
+    - {fileID: 21300000, guid: c5ed6e4d5cc7ea54b9f75d0b657181b8, type: 3}
+    - {fileID: 21300000, guid: dc2743c0235939f4ba7a72e53b687a5d, type: 3}
+    - {fileID: 21300000, guid: 452bb0bea553c1445b4daad38297c79c, type: 3}
+    - {fileID: 21300000, guid: c8cc27763391272419295e17ac07008c, type: 3}
+    - {fileID: 21300000, guid: 01bfa0debd626cf41af2221a17c2ef99, type: 3}
+    - {fileID: 21300000, guid: b31e73d9c4ca53c4292e1145c2a32d73, type: 3}
+    - {fileID: 21300000, guid: c372675f5b4acfb47820ac6c650a0acd, type: 3}
+    - {fileID: 21300000, guid: 84aa2dffa7687be40973861224de9d8e, type: 3}
+    - {fileID: 21300000, guid: c87f038b7697a9340b951c9f2bed05de, type: 3}
+    - {fileID: 21300000, guid: daa90451d967397409ad6092c84a1f0c, type: 3}
+    - {fileID: 21300000, guid: 87648c40006d3454bb10d81682eb071c, type: 3}
+    - {fileID: 21300000, guid: 8a936f8b73c561b4f9effe4e9ae96e8b, type: 3}
+    - {fileID: 21300000, guid: 3309b108e343957458c13b3fd4f5c456, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: ac8c07c0b5cbfca43b9da43713fc5c56, type: 3}
+    - {fileID: 21300000, guid: 70829ea7b34eba14f9598232de2ee45b, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

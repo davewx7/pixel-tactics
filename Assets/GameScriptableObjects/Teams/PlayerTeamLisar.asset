@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b01e285977ca04b8fdc3a6d598f812, type: 3}
+  m_Name: PlayerTeamLisar
+  m_EditorClassIdentifier: 
+  guid: 160c934b-e662-44db-9771-1cdb88f1d766
+  guidNameSet: PlayerTeamLisar
+  debugForceShareVisionWithPlayer: 0
+  debugAISkip: 0
+  playerTeamReplaces: {fileID: 11400000, guid: 91ad6fcf711d52942b40501033818e25, type: 2}
+  speechPrompts: []
+  player: 1
+  barbarian: 0
+  primaryEnemy: 0
+  handlesCaveSpawns: 0
+  unitsHaveHaste: 0
+  unitsDieOnRulerDeath: 0
+  aiConquestRatio: 0
+  aiAggroRatio: 0
+  numQuestsForAlliance: 3
+  permanentFriends: []
+  swornEnemies: []
+  defaultRelationships: []
+  maxDepth: 2
+  initialGreetingAlreadyAtWar: {fileID: 0}
+  friendlyDiplomacy: {fileID: 0}
+  completedQuestDiplomacy: {fileID: 0}
+  alliedDiplomacy: {fileID: 0}
+  playerStoryText:
+  - I knew I had to get out of that room. Out of that castle. Out of that city. I
+    had to get far, far away.
+  - I realized she would never let me assume my rightful place as Queen. She would
+    see my head on a pike before she let that happen. This woman who was once my mother
+    had been corrupted by power.
+  - And so I waited. I planned. With the help of my servants I stole away from Weldyn
+    in the mid of night. I had to reach Nierloch, my family's ancestral home. There
+    I would try to raise support.
+  - Wesnoth was not the land I had once known. The reign of Asheviere was taking its
+    toll. Bandits, wolves, and fouler beasts wandered the land. The journey was harrowing,
+    but in the end I arrived at Nierloch.
+  - Now, I make my claim. Today my reign truly begins. I shall stake my claim. For
+    I am Li'sar, rightful Queen of Wesnoth.
+  fealtyOffer: 
+  baseUpkeep: 0
+  coloring: {fileID: 11400000, guid: b920abfc40023cb438d430dc595dad81, type: 2}
+  ai: {fileID: 0}
+  _diplomacy: {fileID: 0}
+  flagType: {fileID: 11400000, guid: 48ed2ffac69cf1f4abcbe9d259934018, type: 2}
+  teamNameIsProperNoun: 0
+  teamName: Li'sar
+  rulerName: Li'sar
+  rulerTitle: Princess
+  factionDescription: Betrayed by her mother, princess Li'sar has fled to her family's
+    ancestral home. There she hopes to gather support for her claim to the throne.
+  startingGold: 50
+  baseIncome: -1
+  incomeRamp: []
+  hasRoads: 1
+  aquatic: 0
+  rulerType: {fileID: 11400000, guid: 16a52be9768efa94585adb34068ab84c, type: 2}
+  recruitmentOptions:
+  - {fileID: 11400000, guid: ade7de35e48d5934c8fd0ddf5c369927, type: 2}
+  - {fileID: 11400000, guid: 921191ba6f85f814697be102cb775aae, type: 2}
+  - {fileID: 11400000, guid: 63831740cf4210844ad87bbd987b37a6, type: 2}
+  - {fileID: 11400000, guid: ebc3d5c92ac1e214bae1b034246b5e3f, type: 2}
+  recruitmentSlots: 3
+  possibleQuests: []
+  knownSpells:
+  - {fileID: 11400000, guid: cdb77466df0f2114b8522a14d7f0c1fe, type: 2}
+  - {fileID: 11400000, guid: 02b95e9da01d6fd468c51c6faedecc42, type: 2}
+  - {fileID: 11400000, guid: 5b593ca8b1491354881a30ecf03f2f08, type: 2}
+  _uniqueEconomyBuildings: []
+  relationsDescriptions:
+  - maxRelations: 20
+    descriptions:
+    - have suffered great wrongs at the hand of your house in the past
+    - have long been enemies of your kind
+  - maxRelations: 30
+    descriptions:
+    - have never had good relations with your house
+    - have heard of you yet believe you are below our notice
+  - maxRelations: 40
+    descriptions:
+    - are naturally skeptical of your claim to be rightful Queen
+    - are cautious in our opinion of you
+  - maxRelations: 50
+    descriptions:
+    - have a history of peaceful relations with your house
+    - have always enjoyed peace with Nierloch
+  - maxRelations: 60
+    descriptions:
+    - have a history of good relations with your house
+    - always remember the aid that your house sent us in times of old
+  - maxRelations: 100
+    descriptions:
+    - have always been good friends of your house
+    - have always enjoyed friendship with your house

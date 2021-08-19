@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3cdb4b6f567da479993795d1d909bc, type: 3}
+  m_Name: CaveSpawnOrcs
+  m_EditorClassIdentifier: 
+  guid: 6002307d-c678-4ce0-bf87-1c4e2e8a2465
+  guidNameSet: CaveSpawnOrcs
+  rumorDescription: a tribe of orcs
+  unitTypes:
+  - {fileID: 11400000, guid: 1557a6a61c7cea84d94b6a1ea4cb1a8b, type: 2}
+  - {fileID: 11400000, guid: 4ea2d3df8b1b0f040a53b85d9544d7d7, type: 2}
+  - {fileID: 11400000, guid: b8bd52abddd412140a3c54ae18c75d85, type: 2}
+  - {fileID: 11400000, guid: 5e6336c8e2e481e42b10ecfcc390d9a0, type: 2}
+  - {fileID: 11400000, guid: c0e53a5327d6f9248ac3d6e8ee6d6f93, type: 2}
+  - {fileID: 11400000, guid: 92cbb1fd7a2d6d343825d21fc8ca7590, type: 2}
+  budgetByYear: 12000000180000001e000000240000002a0000002a00000030000000320000003200000032000000
+  spawnMonths:
+  - {fileID: 11400000, guid: d64febee2af737d4e8261af11db9db62, type: 2}
+  - {fileID: 11400000, guid: 0eb254c6729c0354ba22639da919c8fb, type: 2}
+  - {fileID: 11400000, guid: 6fa0a773ff0e25a45934d6990ff1a1a5, type: 2}

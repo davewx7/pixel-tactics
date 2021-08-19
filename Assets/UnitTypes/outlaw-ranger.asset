@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: outlaw-ranger
+  m_EditorClassIdentifier: 
+  guid: f3a1cceb-17ca-4a53-9011-1f3044017e7a
+  guidNameSet: outlaw-ranger
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Outlaw Ranger
+  classId: ranger
+  raceId: outlaw
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: cad39843-d32f-4d22-b820-f79fb0fa0482
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a5b1f3363e47bb0438f55fa4cba83372, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: bow
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a85b7ca61906bfc488794211fe0be06b, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: bow-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 6078c94e59dffa34c983708575409254, type: 3}
+    - {fileID: 21300000, guid: cc4594df6cd032f43a870cc3debb6916, type: 3}
+    - {fileID: 21300000, guid: 0ce6df57b7d6c814d8d51a200c5c5f57, type: 3}
+    - {fileID: 21300000, guid: da2602d453291004e9add5d0c80fb548, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: bow
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 5f61f663d08af92468886b38d8fb0e5d, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: sword-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: d215f24d17a08414bbc914aa05f3ad1e, type: 3}
+    - {fileID: 21300000, guid: 9ea022ea2732cf6418d29f84ac2a7027, type: 3}
+    - {fileID: 21300000, guid: 05b65d1964014224b81bffd125c6f600, type: 3}
+    - {fileID: 21300000, guid: 073554f9c7db616459db2b751a00e12e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: sword
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f75f4db14a1f0f54a848b45fa0d0e640, type: 3}
+    - {fileID: 21300000, guid: b6eba4ee2419ded438cf2fdb78df6b22, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

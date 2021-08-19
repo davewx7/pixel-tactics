@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a03e288bf0d84045b27fea9848ae76e, type: 3}
+  m_Name: GreatHallBuildingUndead
+  m_EditorClassIdentifier: 
+  guid: 80759503-e6d7-4fee-bada-67ab26c21dbe
+  guidNameSet: GreatHallBuildingUndead
+  buildingName: Great Hall
+  tooltip: Allows you to buy basic items and equipment. Allows you to build Inns and
+    Practice Yards in your villages.
+  achievementText: Trade flourishes once more. You may now buy items and equipment
+    for your units.
+  additionalAchievementText:
+  - title: A Treasure Found
+    message: You have also taken possession of the <color=#aaaaff><link="equip">Spectral
+      Amulet</link></color>, a symbol of the Necromancers.
+  givesHaste: 0
+  icon: {fileID: 21300000, guid: d1f956bd4cb99e04592f871c9110767a, type: 3}
+  loc: {x: 0, y: 0}
+  buildCost: 100
+  unitRecruits: []
+  recruitSlots: 0
+  increaseDiplomacy: 0
+  villageHealAmount: 0
+  villageBuildingsAvailable:
+  - {fileID: 11400000, guid: 572970bfac90a7d419a995babbf01cfa, type: 2}
+  - {fileID: 11400000, guid: 143054d809db79249b7bc64d370682d7, type: 2}
+  spells: []
+  equipmentInMarket:
+  - {fileID: 11400000, guid: 9dfa5381cea48244aba4c6e7f96eec01, type: 2}
+  - {fileID: 11400000, guid: f5d43c7a8a96e7843abb7a83011b73a2, type: 2}
+  - {fileID: 11400000, guid: 0dd917335f0c7b04493f3ec3ed94a584, type: 2}
+  - {fileID: 11400000, guid: 98f61c4c4f3b06546b8f2e2cd0e3ac11, type: 2}
+  - {fileID: 11400000, guid: 386013d18b908e94e8411624ce6784c1, type: 2}
+  recruitExperienceBonus: 0
+  potionGranted: 0
+  grantsEquipmentOnBuild: {fileID: 11400000, guid: 9369371a59279ab4191f399418f328cf,
+    type: 2}
+  modMaxUnits: -1
+  globalUnitMod:
+    description: (unknown)
+    useMod: 1
+    filter:
+      mustHaveTag: {fileID: 0}
+      excludeIfFoughtThisTurn: 0
+      baseAbility: {fileID: 0}
+      mustHaveStatus: {fileID: 0}
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  doubleXpHighLevelUnits: 0
+  temporalUnitDuration: 0

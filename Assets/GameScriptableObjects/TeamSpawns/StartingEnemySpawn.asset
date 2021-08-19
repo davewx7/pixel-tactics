@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d9d4bff63721e449dae9801b10a294, type: 3}
+  m_Name: StartingEnemySpawn
+  m_EditorClassIdentifier: 
+  guid: add99d61-bb00-44db-bf13-4970e9f379cb
+  guidNameSet: StartingEnemySpawn
+  _round: 0
+  _startingGold: 22
+  _baseIncome: 3
+  _autoCaptureVillageRadius: 6
+  _team: {fileID: 11400000, guid: 8d36b8b7f37bc724ab39ddbf4df9d909, type: 2}
+  _targetTeam: {fileID: 11400000, guid: 80d41bae47bc2e541bf3de1ea1d3c09c, type: 2}
+  _minDistance: 10
+  _maxDistance: 11
+  _preferShortDistance: 0
+  _maxTravelCost: 20
+  _minDistanceFromOtherKeeps: 6
+  _keepTerrain: {fileID: 11400000, guid: 2fd11aa38033b3349ae8f017d19d8600, type: 2}
+  _castleTerrain: {fileID: 11400000, guid: 19d886c554e7b5048b020d4705db8465, type: 2}
+  possibleTerrain:
+  - {fileID: 11400000, guid: 8dfca8d594eb0e44784dc1892d921d33, type: 2}
+  - {fileID: 11400000, guid: 517d5f0355a5287418a6b04f9e5e047f, type: 2}
+  - {fileID: 11400000, guid: 51c90df8d4f283e4db79d7ace15b89c5, type: 2}
+  - {fileID: 11400000, guid: add985989f0c8b24ca22320981bf580b, type: 2}
+  - {fileID: 11400000, guid: 7b0f01efff1325141a7055fe6ee92fc6, type: 2}
+  _castleSize: 2
+  _revertTerrainOnRulerDeath: 0
+  _defeatTeamStoryEvent:
+    valid: 1
+    goldReward: 20
+    renownReward: 100
+    renownDescription: Encampments Sacked
+    terrainChanges:
+    - loc:
+        _loc: {x: 32, y: 39}
+        _depth: 1
+      terrain:
+        terrain: {fileID: 11400000, guid: 83705e4e64d39f341a65847aca2db5e3, type: 2}
+        groundOverride: {fileID: 0}
+    - loc:
+        _loc: {x: 31, y: 38}
+        _depth: 1
+      terrain:
+        terrain: {fileID: 11400000, guid: 83705e4e64d39f341a65847aca2db5e3, type: 2}
+        groundOverride: {fileID: 0}
+    - loc:
+        _loc: {x: 32, y: 38}
+        _depth: 1
+      terrain:
+        terrain: {fileID: 11400000, guid: 83705e4e64d39f341a65847aca2db5e3, type: 2}
+        groundOverride: {fileID: 0}
+    dialog:
+    - dialogTitle: Victory
+      dialogText: You sack the bandit encampment and gain 20 gold pieces and 100 renown.

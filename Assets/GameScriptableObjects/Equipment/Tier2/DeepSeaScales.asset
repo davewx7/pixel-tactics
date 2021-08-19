@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: DeepSeaScales
+  m_EditorClassIdentifier: 
+  guid: 74692575-d90d-4356-8916-646b8223ef2d
+  guidNameSet: DeepSeaScales
+  icon: {fileID: 21300000, guid: 2d987f2f1ce03454aa907394a37b24ac, type: 3}
+  hueShift: 0.5
+  description: Deep Sea Scales
+  summaryRules: Swimming
+  tooltipRules: You have advantage in water terrain
+  slot: {fileID: 11400000, guid: 05141ee8ba37e0d409a5619f0672b97c, type: 2}
+  consumable: 0
+  tier: 2
+  teamAssociation:
+  - {fileID: 11400000, guid: 0ae95ce6f1b53404ea919c29e8ae48f1, type: 2}
+  activatedAbility: {fileID: 0}
+  beginTurnEffect: {fileID: 0}
+  mod:
+    description: Deep Sea Scales
+    useMod: 0
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription: []
+      excludeMelee: 0
+      excludedRanged: 0
+      damage: 0
+      accuracy: 0
+      critical: 0
+      nstrikes: 0
+      abilities:
+      - ability: {fileID: 11400000, guid: f24d0125d63153f4986cfbcf5c7f6c0f, type: 2}
+        param: 25
+        useParam: 1
+      makesMagical: 0
+    abilities: []
+    abilityArgs: []
+  advantagedTerrain:
+  - {fileID: 11400000, guid: ad923f12954f7f24f9c52fdcd3cfb532, type: 2}
+  - {fileID: 11400000, guid: 1fe0c76b519a7e34088af89693294258, type: 2}
+  disadvantagedTerrain: []
+  attackRequired: []
+  _price: -1

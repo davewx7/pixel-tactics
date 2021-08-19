@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: UndeadDialogMakeWarNoContact
+  m_EditorClassIdentifier: 
+  guid: fafaae2b-4f45-434d-bd2e-ee0d531289e5
+  guidNameSet: UndeadDialogMakeWarNoContact
+  message: The quest_enemy_team_name have long been a thorn in my side, and they will
+    be one in yours as well. Will you agree to seek them out and destroy them?
+  options:
+  - text: I have not yet met them, but if they are your enemies they are my enemies.
+      I will fight them.
+    result: {fileID: 11400000, guid: 87b2d46d6916755439379e8e7cbeae32, type: 2}
+    instructions: []
+    conditions: 
+  - text: A ruler must not make war so haphazardly. I will not agree to this, and
+      if this means I shall have to fight you instead, then so be it.
+    result: {fileID: 11400000, guid: 1933674f3143e7846a58012526b38271, type: 2}
+    instructions: []
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 1

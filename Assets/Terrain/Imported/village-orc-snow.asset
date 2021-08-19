@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: village-orc-snow
+  m_EditorClassIdentifier: 
+  guid: 30d9f922-e132-4a2c-a89e-8178a528bc92
+  guidNameSet: village-orc-snow
+  rules: {fileID: 11400000, guid: c224f1393af670c4c91dd5d5d1510ec7, type: 2}
+  villageInfo: {fileID: 11400000, guid: f76f8a829287f1d498bf9c20ffdbb1f6, type: 2}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Village
+  zorder: 110
+  adjacent: []
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites: []
+  overlaySprites:
+  - {fileID: 21300000, guid: dd0ee0770080e5848908487ab7d54b62, type: 3}
+  - {fileID: 21300000, guid: 93285aaf3ea95d74285989fc7483862d, type: 3}
+  - {fileID: 21300000, guid: 5d8edee9535a9e8489bb41532ae43217, type: 3}
+  - {fileID: 21300000, guid: 4fa0ea87ebbb1234d8d0e32eb642eabf, type: 3}
+  castleWalls: []
+  _base: {fileID: 11400000, guid: 388a380231408834f8ec39f969f22fa4, type: 2}
+  yadj: 0
+  waterline: 0

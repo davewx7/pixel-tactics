@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd3d8654d148ac946992a194f0b76522, type: 3}
+  m_Name: Month8
+  m_EditorClassIdentifier: 
+  guid: 395a6c3d-f1b3-457d-a70e-b4d0ac809841
+  guidNameSet: Month8
+  description: 
+  ordinal: Eighth
+  season: {fileID: 11400000, guid: aca9aa2d86336ab449bd7c0bded50ee4, type: 2}

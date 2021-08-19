@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b01e285977ca04b8fdc3a6d598f812, type: 3}
+  m_Name: UnderworldTeamGoblins1
+  m_EditorClassIdentifier: 
+  guid: 44613ed3-8f20-488d-b880-d31c20878c04
+  guidNameSet: UnderworldTeamGoblins1
+  debugForceShareVisionWithPlayer: 0
+  debugAISkip: 0
+  playerTeamReplaces: {fileID: 0}
+  speechPrompts: []
+  player: 0
+  barbarian: 1
+  primaryEnemy: 0
+  handlesCaveSpawns: 0
+  unitsHaveHaste: 0
+  unitsDieOnRulerDeath: 0
+  aiConquestRatio: 0
+  aiAggroRatio: 0
+  numQuestsForAlliance: 3
+  permanentFriends: []
+  swornEnemies:
+  - {fileID: 11400000, guid: 80d41bae47bc2e541bf3de1ea1d3c09c, type: 2}
+  defaultRelationships: []
+  maxDepth: 2
+  initialGreetingAlreadyAtWar: {fileID: 0}
+  friendlyDiplomacy: {fileID: 0}
+  completedQuestDiplomacy: {fileID: 0}
+  alliedDiplomacy: {fileID: 0}
+  playerStoryText: []
+  fealtyOffer: 
+  baseUpkeep: 3
+  coloring: {fileID: 11400000, guid: d93d81397f9d56c4eafe7695c5383b39, type: 2}
+  ai: {fileID: 11400000, guid: d7c139b0fc324744bb14d6ef7b558291, type: 2}
+  _diplomacy: {fileID: 11400000, guid: 167355ef6ff38d247ab5d0e1c152e880, type: 2}
+  flagType: {fileID: 11400000, guid: 453e6bc8be5157542acac83a2abfc018, type: 2}
+  teamNameIsProperNoun: 1
+  teamName: Goblins
+  rulerName: Goblin Chief
+  rulerTitle: 
+  factionDescription: goblins
+  factionTooltipDescription: Goblins are small, weak, but evasive creatures. They
+    use pack tactics to swarm their enemies. They are the weakest denizens of the
+    underworld, but you will still want to tread carefully when stepping into their
+    lair!
+  startingGold: -1
+  baseIncome: 3
+  incomeRamp:
+  - nround: 12
+    namount: 3
+    repeating: 1
+  hasRoads: 0
+  aquatic: 0
+  rulerType: {fileID: 11400000, guid: 5ef2d7073d0d13e429555f4acd788618, type: 2}
+  recruitmentOptions:
+  - {fileID: 11400000, guid: 27fe525b353319a49bcf6ee1e1ec18e9, type: 2}
+  - {fileID: 11400000, guid: fd1fec27aebf79b4eb37c6de186668b0, type: 2}
+  - {fileID: 11400000, guid: 5ef2d7073d0d13e429555f4acd788618, type: 2}
+  recruitmentSlots: -1
+  possibleQuests: []
+  knownSpells: []
+  _uniqueEconomyBuildings: []
+  relationsDescriptions: []

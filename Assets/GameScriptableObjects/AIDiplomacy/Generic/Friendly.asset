@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: Friendly
+  m_EditorClassIdentifier: 
+  guid: 29a62e7f-d90b-4627-b17a-c36c0c719435
+  guidNameSet: Friendly
+  message: 
+  options:
+  - text: 
+    result: {fileID: 11400000, guid: afdd516a6c8004a43ab2f79443e411d4, type: 2}
+    instructions: []
+    conditions: 04000000
+  - text: 
+    result: {fileID: 11400000, guid: 890b8cf734bd4cb419c4e6f437edb336, type: 2}
+    instructions: []
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

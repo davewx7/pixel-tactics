@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: leader-human-scion
+  m_EditorClassIdentifier: 
+  guid: 08af35ad-bbe6-4e87-8223-0b0b99c7fb0e
+  guidNameSet: leader-human-scion
+  portrait: {fileID: 21300000, guid: bd1688b9c0979bd4a9e74752bb76a15d, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Scion
+  classId: human-scion
+  raceId: leader
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: b90ac235285a8004aa6897a8e4f8211f, type: 2}
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride:
+  - {fileID: 11400000, guid: bf47cd02889142344bc5d305f5147667, type: 2}
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 5f8d97f3-c81f-4a8e-942d-25f71e7b56b6
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 3
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells:
+    - {fileID: 11400000, guid: 02b95e9da01d6fd468c51c6faedecc42, type: 2}
+    - {fileID: 11400000, guid: 5b593ca8b1491354881a30ecf03f2f08, type: 2}
+    - {fileID: 11400000, guid: eef06e45724d2b642895fdbebe93940c, type: 2}
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 56
+  hitpointsMax: 44
+  criticalEvasion: 0
+  evasion: 70
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: f7963507fd6e850438e1df8445d69c38, type: 3}
+    description: sword
+    id: attack
+    damage: 8
+    nstrikes: 4
+    accuracy: 20
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 4598502f1d9e56d449f79cbbb44fc790, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a0c5a57977b9f4742ba0bb56d5e23d59, type: 3}
+    - {fileID: 21300000, guid: 84246c15eb608d344874ba59b581ce2c, type: 3}
+    - {fileID: 21300000, guid: 18f8e70b5bfb66345962367aa81e8010, type: 3}
+    - {fileID: 21300000, guid: 30a5baafcded70a4dafb41c72b032a09, type: 3}
+    - {fileID: 21300000, guid: b01f5ed0ae585824fb3b102fe5e4b076, type: 3}
+    - {fileID: 21300000, guid: 4df8b50540d5a55489facecc80b2d77d, type: 3}
+    - {fileID: 21300000, guid: bbfc15332fa776142bfc3d28858e4c14, type: 3}
+    - {fileID: 21300000, guid: bce30402c64d2374ba079552fb20b1b6, type: 3}
+    - {fileID: 21300000, guid: 314eeed7cd8eb2748b6a6bb8a56bf699, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a8c7761096304fa47bdffb63e38a662a, type: 3}
+    - {fileID: 21300000, guid: 67150fc8f0e1c114687e4ab8aadebd4c, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: dodge
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 05f98cf24aaaebe4c8b03c9583de737e, type: 3}
+    - {fileID: 21300000, guid: 5917f45cb13ba9448be7ef164f2f5624, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 5
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: bb705651b91a4cc4cb5e231d1fb0ad46, type: 3}
+    - {fileID: 21300000, guid: f872a70d1ea179343b06ba484ec24a9d, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: resting
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: da580c5a0522b6b4781bc5403f709f7b, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

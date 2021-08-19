@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c62752b6f9f723a438f6ad8a24f0a436, type: 3}
+  m_Name: MerfolkVillage
+  m_EditorClassIdentifier: 
+  guid: 76875976-e1a6-4017-a60a-140d21df1c98
+  guidNameSet: MerfolkVillage
+  villageDescription: Merfolk
+  villagerPortrait: {fileID: 21300000, guid: be6d90863ff0ee546b97e0c6782df048, type: 3}
+  boons:
+  - {fileID: 11400000, guid: 8b9c0fdb9522bf84f898b36951ca1ded, type: 2}
+  - {fileID: 11400000, guid: 3a6cdd513a68bea4dae680398974a599, type: 2}
+  - {fileID: 11400000, guid: a3564be85e7350344bcd4cc2d5458fa1, type: 2}
+  - {fileID: 11400000, guid: bbc3682e8834aad429659e1e8cb8a3cf, type: 2}
+  - {fileID: 11400000, guid: e8386d7efb61453468a61cb91bb221a6, type: 2}
+  - {fileID: 11400000, guid: 2af27ed5cfd4cff40bd43324f210162e, type: 2}
+  - {fileID: 11400000, guid: e36427d70b59dd442a3477d6615b3eec, type: 2}
+  - {fileID: 11400000, guid: f4de2ae36a8883e4a87220620a532685, type: 2}
+  - {fileID: 11400000, guid: 7142172664baecc4da1b8fc2e9ab0909, type: 2}
+  - {fileID: 11400000, guid: f1cea77bcf08a874eb40e726ca452b8c, type: 2}
+  - {fileID: 11400000, guid: f100005a4384b4a4495d294ee83756bb, type: 2}
+  - {fileID: 11400000, guid: d172e453c1251e9469a2ea81e6f80492, type: 2}
+  - {fileID: 11400000, guid: d6829843d7717284f881411d6767c6e2, type: 2}
+  - {fileID: 11400000, guid: 47758307528dd2b488c7c94c79cc596a, type: 2}
+  - {fileID: 11400000, guid: d1f0884547b57754d9e469b84987cf23, type: 2}
+  - {fileID: 11400000, guid: ceff1154e1ca31c40bdb65426685f924, type: 2}
+  - {fileID: 11400000, guid: ac4cf98bf417b9146b44875dbe5f58c0, type: 2}
+  - {fileID: 11400000, guid: b1a688eda7f5d154397b21f40eb8ed1a, type: 2}
+  - {fileID: 11400000, guid: 440872c786bd3da4196d7ac66c3d3830, type: 2}
+  - {fileID: 11400000, guid: 3aef92bc898b4e94b9b9a1ae8b462184, type: 2}
+  - {fileID: 11400000, guid: 548d35a7e11c86c48b6ea1735e6b3318, type: 2}
+  - {fileID: 11400000, guid: 0481d25d7fea57d4abfae591d0e5d7d5, type: 2}
+  namePrefixes:
+  - rules: []
+    names:
+    - Te'
+    - Ta'
+    - So'
+  namePostfixes: []
+  names:
+  - Kata
+  - Dora
+  - Fema
+  - Katarata
+  - Setara
+  - Mafora
+  - Soto

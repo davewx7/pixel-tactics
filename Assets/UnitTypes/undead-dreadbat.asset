@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: undead-dreadbat
+  m_EditorClassIdentifier: 
+  guid: 417cd7cc-6cce-4ff1-8180-60691c860923
+  guidNameSet: undead-dreadbat
+  portrait: {fileID: 21300000, guid: e1f243e412840d044b06aa0408ab74f5, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Dreadbat
+  classId: dreadbat
+  raceId: undead
+  tags:
+  - {fileID: 11400000, guid: b365a57449800304492401d99f6a81c3, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: fa9a776883830de488cec3d88e856d67, type: 2}
+  abilityArgs: []
+  cost: 10
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 64b29b81-7ce0-4f11-8d08-64f448c4d5aa
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: cc7e93f7c4f05a743a51c96374803837, type: 3}
+    description: fangs
+    id: attack
+    damage: 4
+    nstrikes: 2
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: f24d0125d63153f4986cfbcf5c7f6c0f, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f7df20e54c85fe4439bc9e3dbcd433a6, type: 3}
+    - {fileID: 21300000, guid: 183ca55d8523217439760ef4601a1903, type: 3}
+    - {fileID: 21300000, guid: ea3952efb1499a94f910384c9efd0676, type: 3}
+    - {fileID: 21300000, guid: 25d64290fae002f4189da743fcf786f1, type: 3}
+    - {fileID: 21300000, guid: 0f86d06facb9dbc4d8875ffc3983ff4d, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 2
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 6f755c307c069804c9300d21635019e3, type: 3}
+    - {fileID: 21300000, guid: 877919438b58c2942aacc89183d46328, type: 3}
+    - {fileID: 21300000, guid: 354ce4a530cb544468e1769413323c6d, type: 3}
+    - {fileID: 21300000, guid: b2c2dd56e01446b448d92967a8667548, type: 3}
+    - {fileID: 21300000, guid: 69584f0fd53c9594eac7b217eb5fb766, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []

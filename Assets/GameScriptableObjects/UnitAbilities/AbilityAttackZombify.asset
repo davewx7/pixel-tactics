@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2c34f324b1e794695b978cca414163, type: 3}
+  m_Name: AbilityAttackZombify
+  m_EditorClassIdentifier: 
+  guid: fdbf9d3f-ecd3-4620-964a-519874d4b12d
+  guidNameSet: AbilityAttackZombify
+  description: Plague
+  icon: {fileID: 21300000, guid: 9d2512a592dee324c8aa079c75f80f5c, type: 3}
+  tooltip: When units are killed with this attack, they become zombies.
+  defaultParam: 0
+  applyStatus: {fileID: 0}
+  AIMultiplier: 2

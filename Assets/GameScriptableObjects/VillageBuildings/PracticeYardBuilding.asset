@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399fc44b4e15d8c47a955e3dafbdca47, type: 3}
+  m_Name: PracticeYardBuilding
+  m_EditorClassIdentifier: 
+  guid: 713b91e7-20e5-408d-8254-2a51edf7c8e9
+  guidNameSet: PracticeYardBuilding
+  upgrades: []
+  icon: {fileID: 21300000, guid: e094bb57cde793b449f95a9628421016, type: 3}
+  description: Practice Yard
+  rulesText: Your units that end their turn in this village gain 3 experience.
+  xpGainEndTurn: 3
+  goldCost: 3
+  timeCost: 1
+  goldIncome: 0
+  buildingIncome: 0
+  temporaryHitpointsEndOfTurn: 0
+  equipmentAvailablePool: []
+  equipmentAvailableCount: -1
+  equipmentAvailableByTier: 
+  giveStatusAfterRest: []
+  giveEquipmentOnEndTurn: []
+  mustBeAdjacentToTerrain: []
+  mustBeAdjacentToOcean: 0
+  mustBeAdjacentToRiver: 0
+  acceleratesResting: 0
+  regenerateAtEndOfTurn: 0
+  allowsChangingSpells: 0
+  unitMod:
+    description: (unknown)
+    useMod: 0
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []

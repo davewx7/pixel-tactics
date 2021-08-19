@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da144b7c317e1849a8664683144b71a, type: 3}
+  m_Name: BoonEquipment
+  m_EditorClassIdentifier: 
+  guid: d47e45bc-85d1-40d9-8f3d-fed9f173ae46
+  guidNameSet: BoonEquipment
+  priority: 1
+  dialogStorylineText: As you prepare to enter the village, a well-dressed figure
+    approaches you. <i>"You look like the kind of person who would like to acquire
+    a rare item or two, and who might even have the coin to pay for it. Do you care
+    to see my wares?"</i> he asks, gesturing to a wagon behind him.
+  declineStoryText: You have a village to visit and a kingdom to build, no time to
+    shop for trinkets
+  avatarSprite: {fileID: 21300000, guid: 8a38b2aae2dbd014390ab4cace602f5d, type: 3}
+  effectText: Shop for items
+  storyText: Shop for a helpful item that might be useful in battle.

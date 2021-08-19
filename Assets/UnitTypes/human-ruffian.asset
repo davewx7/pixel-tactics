@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: human-ruffian
+  m_EditorClassIdentifier: 
+  guid: bb46ff47-6f14-44b6-90aa-8c4d9a6d6c84
+  guidNameSet: human-ruffian
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Ruffian
+  classId: ruffian
+  raceId: human
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 5079a4e2-0e93-4fa3-a823-5e2d02a94ffe
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 0
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: 53c30353df35b7148a19f3233aecbbd0, type: 2}
+  - {fileID: 11400000, guid: bfc6eb38d02860049826872809a60b00, type: 2}
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 492a96c32eccabe41bdecc7e007c6351, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 50111241abea16e409380ed91d57fc51, type: 3}
+    - {fileID: 21300000, guid: ce82635be905cd847879e290356c875f, type: 3}
+    - {fileID: 21300000, guid: 365cfe11090c5144e9e7e5961a315e5f, type: 3}
+    - {fileID: 21300000, guid: 0e429a4f3ffa3204ab94cc9343bffa45, type: 3}
+    - {fileID: 21300000, guid: 73a57a511963a2d41a184aee16ad8806, type: 3}
+    - {fileID: 21300000, guid: 22ac9754436d5304f9c5d4cb7105f7a2, type: 3}
+    - {fileID: 21300000, guid: 9510bf6cbce17934e9e2b46425a4d831, type: 3}
+    - {fileID: 21300000, guid: f0a6fce1ce0cded4eb413b789bb41665, type: 3}
+    - {fileID: 21300000, guid: 87a106606e080c7479957ef494c72a4e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 4d5b71188fc8e0d4db32298c52229736, type: 3}
+    - {fileID: 21300000, guid: c89a98d43c3169e4bb732df57df0eaa5, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

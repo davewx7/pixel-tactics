@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b01e285977ca04b8fdc3a6d598f812, type: 3}
+  m_Name: UndeadStartingEnemyTeam
+  m_EditorClassIdentifier: 
+  guid: 850bf021-0022-47a8-96d7-64be381aae10
+  guidNameSet: UndeadStartingEnemyTeam
+  debugForceShareVisionWithPlayer: 0
+  debugAISkip: 0
+  playerTeamReplaces: {fileID: 0}
+  player: 0
+  barbarian: 1
+  primaryEnemy: 0
+  handlesCaveSpawns: 0
+  unitsHaveHaste: 0
+  unitsDieOnRulerDeath: 0
+  aiConquestRatio: 0
+  aiAggroRatio: 0
+  numQuestsForAlliance: 3
+  permanentFriends: []
+  swornEnemies:
+  - {fileID: 11400000, guid: e6574919d29a7cb4486370e67b5c2da1, type: 2}
+  defaultRelationships: []
+  maxDepth: 2
+  initialGreetingAlreadyAtWar: {fileID: 0}
+  friendlyDiplomacy: {fileID: 0}
+  completedQuestDiplomacy: {fileID: 0}
+  alliedDiplomacy: {fileID: 0}
+  playerStoryText: []
+  fealtyOffer: 
+  baseUpkeep: 3
+  coloring: {fileID: 11400000, guid: d93d81397f9d56c4eafe7695c5383b39, type: 2}
+  ai: {fileID: 11400000, guid: bb483eb03111e7142a780b28d42d4098, type: 2}
+  _diplomacy: {fileID: 11400000, guid: 4f5228aae7ea4a144bc7a4bb96c98792, type: 2}
+  flagType: {fileID: 11400000, guid: 453e6bc8be5157542acac83a2abfc018, type: 2}
+  teamNameIsProperNoun: 1
+  teamName: Rivals
+  rulerName: Necromancer
+  rulerTitle: 
+  factionDescription: 
+  startingGold: -1
+  baseIncome: -1
+  incomeRamp: []
+  hasRoads: 1
+  aquatic: 0
+  rulerType: {fileID: 11400000, guid: e3f14c55a6c0d394890872e656688115, type: 2}
+  recruitmentOptions:
+  - {fileID: 11400000, guid: a2e5201f2d073ef43bf7ff09215b5f95, type: 2}
+  - {fileID: 11400000, guid: e1bd43bf33deb89409c64968d4f00942, type: 2}
+  - {fileID: 11400000, guid: 7c8bdb01cc56f8d41a1aa7e33f7d2ca6, type: 2}
+  recruitmentSlots: -1
+  possibleQuests: []
+  knownSpells: []
+  _uniqueEconomyBuildings: []

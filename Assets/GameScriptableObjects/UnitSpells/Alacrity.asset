@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a786d29dac4d4f990127905c942fb, type: 3}
+  m_Name: Alacrity
+  m_EditorClassIdentifier: 
+  guid: a8969e0f-d6b7-40f7-a0fc-9baf25c2897c
+  guidNameSet: Alacrity
+  modUntilEndOfTurn:
+    description: Alacrity
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 20
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription: []
+      excludeMelee: 0
+      excludedRanged: 0
+      damage: 0
+      accuracy: 20
+      critical: 0
+      nstrikes: 0
+      abilities: []
+      makesMagical: 0
+    abilities: []
+    abilityArgs: []
+  schools:
+  - {fileID: 11400000, guid: 7f3a2f1de7426bc4ca8f08f2bf897fb8, type: 2}
+  targetTypes: 0000000001000000
+  targetTerrain: []
+  targetLevelLessOrEqualToSpellLevel: 0
+  mustControlTarget: 0
+  targetsKeep: 0
+  targetRange: 3
+  targetRadius: 0
+  rangeIsUnitVision: 0
+  healTarget: 0
+  temporaryHitpoints: 0
+  drainLife: 0
+  blinkToTarget: 0
+  description: Alacrity
+  icon: {fileID: 21300000, guid: 16ca839f46c774145b13381c393906e5, type: 3}
+  spellLevel: 1
+  refreshesMovement: 0
+  refreshesAttack: 0
+  summaryRules: +20%ACC, +20%EV
+  applyStatus: {fileID: 0}
+  summonType: {fileID: 0}
+  effectSource: {fileID: 0}
+  effectDest: {fileID: 0}
+  tooltipRules: +20% Accuracy, +20% Evasion this round.

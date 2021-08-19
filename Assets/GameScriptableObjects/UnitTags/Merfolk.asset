@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb29c9160ce1d194f920eabb89671117, type: 3}
+  m_Name: Merfolk
+  m_EditorClassIdentifier: 
+  guid: 694ea7fa-9c6a-4894-ac30-e0ff556791fc
+  guidNameSet: Merfolk
+  isRace: 1
+  description: Merfolk
+  descriptionPlural: Merfolk
+  traits:
+  - {fileID: 11400000, guid: 53e690f2a80f0124d9a03cd5984e2c19, type: 2}
+  - {fileID: 11400000, guid: 9271ce67aef0ef04c9ac234d6e7930a2, type: 2}
+  - {fileID: 11400000, guid: c282b3926f058d549a20f0116ac701d9, type: 2}
+  - {fileID: 11400000, guid: 2c456e4179f409b4b8d96c1921a64c41, type: 2}
+  - {fileID: 11400000, guid: f1a273986b672b546b15c2a396958a3d, type: 2}
+  - {fileID: 11400000, guid: b9fa5495ce0c5c74eaa155902721fd5b, type: 2}
+  - {fileID: 11400000, guid: b361c4104572706488a310864977a117, type: 2}
+  numberOfTraits: 2
+  zombieTrait: {fileID: 11400000, guid: 27e118c1e749a834390041f96e5517bf, type: 2}
+  cannotEnterTerrain: []
+  advantagedTerrain:
+  - {fileID: 11400000, guid: 1fe0c76b519a7e34088af89693294258, type: 2}
+  - {fileID: 11400000, guid: ad923f12954f7f24f9c52fdcd3cfb532, type: 2}
+  - {fileID: 11400000, guid: 7b0f01efff1325141a7055fe6ee92fc6, type: 2}
+  disadvantagedTerrain: []
+  maleNames: Absu,Abzu,Aigaion,Alastyn,Apalala,Apam,Apsu,Aremata,Atlahua,Atlaua,Barinthus,Dhakhan,Dylan,Elcmar,Ember,Enki,Faro,Habaek,Ikatere,Jamm,Jin,Kinilau,Kulullu,Labuna,Laut,Lir,Llyr,Ludd,Makara,Maui,Melicertes,Mimir,Natat,Nechtan,Neptune,Nereus,Nethuns,Njord,Nuada,Nudd,Nudimmud,Nun,Oceanus,Okeanos,Phorcys,Pontus,Popoa,Poseidon,Proteus,Raja,Rau,Rorua,Ryujin,Scylla,Sinilau,Sisiutl,Tagaloa,Tanaoa,Tangaloa,Tangaroa,Thaumas,Tikitiki,Tini,Tinilau,Tinirau,Toniwha,Triton,Vizi,Vodnik,Vourukasa
+  femaleNames: "Aglaopheme,Amphitrite,Aphrodite,Ariel,Atargatis,Calypso,Delphine,Derceto,Diktynna,Electra,Galatea,Himeropa,Jengu,Leucosia,Ligia,Lori
+    Lamaris,Mama Wata,Marina,Miranda,Miriam,Molpe,Parthenope,Pelagia,Pisinoe,R\xC3\xA2n,Sedna,Stella
+    Maris,Thelxiepia,Tirgata,Vatea,Ved-Ava,Veen emo,Vete-ema"

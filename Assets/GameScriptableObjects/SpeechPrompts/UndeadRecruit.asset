@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a9c9c0c7b457a0499299e23dfb6618f, type: 3}
+  m_Name: UndeadRecruit
+  m_EditorClassIdentifier: 
+  guid: 3837f715-3f5f-4b62-b386-6a161886b028
+  guidNameSet: UndeadRecruit
+  oncePerGame: 0
+  embargoTime: 120
+  filterSpeaker:
+    unitTypesMatching: []
+    teamsMatching: []
+    playerUnitsMatch: 1
+    aiUnitsMatch: 0
+    barbarianUnitsMatch: 0
+    primaryEnemyUnitsMatch: 0
+    unitMustBeAbleToSpeak: 0
+  filterSightedUnits: []
+  filterRecruitedUnits:
+  - unitTypesMatching:
+    - {fileID: 11400000, guid: a2e5201f2d073ef43bf7ff09215b5f95, type: 2}
+    - {fileID: 11400000, guid: 7c8bdb01cc56f8d41a1aa7e33f7d2ca6, type: 2}
+    - {fileID: 11400000, guid: 1fccdcd0e097bb14bb27a6cb9d7c0747, type: 2}
+    teamsMatching: []
+    playerUnitsMatch: 1
+    aiUnitsMatch: 0
+    barbarianUnitsMatch: 0
+    primaryEnemyUnitsMatch: 0
+    unitMustBeAbleToSpeak: 1
+  triggerOnSightUnderworldGate: 0
+  nextPrompt: {fileID: 0}
+  _speech:
+  - Rise, rise my children!
+  - Rise, my child!
+  - Rise up! Be born anew!
+  - Serve me!

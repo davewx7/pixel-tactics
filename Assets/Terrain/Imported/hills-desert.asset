@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: hills-desert
+  m_EditorClassIdentifier: 
+  guid: b16f3032-0f50-4753-8e7a-f3cfc2229645
+  guidNameSet: hills-desert
+  rules: {fileID: 11400000, guid: 51c90df8d4f283e4db79d7ace15b89c5, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Dunes
+  zorder: 20
+  adjacent:
+  - {fileID: 21300000, guid: c8fb7187d6d687341984fe0906523322, type: 3}
+  - {fileID: 21300000, guid: 225485c3fb8bd5e49b355137042c8aba, type: 3}
+  - {fileID: 21300000, guid: 7f17343c541d0b14baa0f29bdd897c03, type: 3}
+  - {fileID: 21300000, guid: 051ffa8c59585424887016927df0e351, type: 3}
+  - {fileID: 21300000, guid: 7e36b477d7746ba439610994c601533e, type: 3}
+  - {fileID: 21300000, guid: 62adf7ab4d8631d42aaf2958f7bcff4f, type: 3}
+  adjacent2:
+  - {fileID: 21300000, guid: bce81820cf4a09943a975ab4f56039de, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: d5df7a63ff9faa541b24b1dcfc471685, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites:
+  - {fileID: 21300000, guid: 9e43d8fee7cb8c145809b2c4c9ee79ab, type: 3}
+  - {fileID: 21300000, guid: fd2e1bd69027b47469bc859e68149302, type: 3}
+  - {fileID: 21300000, guid: c2ed27a1217349f449533121a6728816, type: 3}
+  overlaySprites: []
+  castleWalls: []
+  _base: {fileID: 0}
+  yadj: 0
+  waterline: 0

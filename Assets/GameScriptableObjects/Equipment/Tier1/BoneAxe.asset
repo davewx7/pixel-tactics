@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: BoneAxe
+  m_EditorClassIdentifier: 
+  guid: 594ee87a-4f8d-4281-bbe9-0d9c017bef16
+  guidNameSet: BoneAxe
+  icon: {fileID: 21300000, guid: 248139a25b589ab4e9cc5433e7b8292d, type: 3}
+  hueShift: 0.3
+  description: Bone Axe
+  summaryRules: +1 damage
+  tooltipRules: +1 damage
+  slot: {fileID: 11400000, guid: f94604dc440f8284183d512db7ddef7d, type: 2}
+  consumable: 0
+  tier: 1
+  teamAssociation:
+  - {fileID: 11400000, guid: 4a0ef6aff68766c44a4f0e6cc04530c7, type: 2}
+  activatedAbility: {fileID: 0}
+  beginTurnEffect: {fileID: 0}
+  castSpellEffect: {fileID: 0}
+  mod:
+    description: Bone Axe
+    useMod: 1
+    filter:
+      mustHaveTag: {fileID: 0}
+      excludeIfFoughtThisTurn: 0
+      baseAbility: {fileID: 0}
+      mustHaveStatus: {fileID: 0}
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription:
+      - axe
+      excludeMelee: 0
+      excludedRanged: 0
+      excludeMagical: 0
+      excludePhysical: 0
+      damage: 1
+      accuracy: 0
+      critical: 0
+      nstrikes: 0
+      abilities: []
+      makesMagical: 0
+    abilities: []
+    abilityArgs: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  attackRequired:
+  - axe
+  _price: 6

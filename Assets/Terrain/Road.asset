@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: Road
+  m_EditorClassIdentifier: 
+  guid: 539088bc-9d7d-40e0-8ac1-04d824acc464
+  guidNameSet: Road
+  rules: {fileID: 11400000, guid: 8dfca8d594eb0e44784dc1892d921d33, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Road
+  zorder: 20
+  adjacent:
+  - {fileID: 21300012, guid: 70ef7135ecd8e0148accb789a2d2f63d, type: 3}
+  - {fileID: 21300014, guid: 70ef7135ecd8e0148accb789a2d2f63d, type: 3}
+  - {fileID: 21300016, guid: 70ef7135ecd8e0148accb789a2d2f63d, type: 3}
+  - {fileID: 21300018, guid: 70ef7135ecd8e0148accb789a2d2f63d, type: 3}
+  - {fileID: 21300020, guid: 70ef7135ecd8e0148accb789a2d2f63d, type: 3}
+  - {fileID: 21300022, guid: 70ef7135ecd8e0148accb789a2d2f63d, type: 3}
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites:
+  - {fileID: 21300006, guid: 781d572167c91914bb95e5361d8d8a70, type: 3}
+  - {fileID: 21300008, guid: 781d572167c91914bb95e5361d8d8a70, type: 3}
+  - {fileID: 21300010, guid: 781d572167c91914bb95e5361d8d8a70, type: 3}
+  overlaySprites: []
+  castleWalls: []
+  _base: {fileID: 0}
+  yadj: 0
+  waterline: 0

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a786d29dac4d4f990127905c942fb, type: 3}
+  m_Name: EndurancePotion
+  m_EditorClassIdentifier: 
+  guid: 801c3156-5442-4899-a6b9-ff4fbb5e3832
+  guidNameSet: EndurancePotion
+  modUntilEndOfTurn:
+    description: 
+    useMod: 0
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  schools: []
+  consumable: 1
+  cooldown: -1
+  targetTypes: 00000000
+  targetTerrain: []
+  targetLevelLessOrEqualToSpellLevel: 0
+  mustControlTarget: 0
+  targetsKeep: 0
+  targetRange: 1
+  targetRadius: 0
+  rangeIsUnitVision: 0
+  healTarget: 0
+  temporaryHitpoints: 16
+  drainLife: 0
+  blinkToTarget: 0
+  description: 
+  icon: {fileID: 0}
+  hueshift: 0
+  spellLevel: -1
+  refreshesMovement: 0
+  refreshesAttack: 0
+  summaryRules: 
+  applyStatus: {fileID: 0}
+  summonType: {fileID: 0}
+  numSummons: 1
+  createEquipment: []
+  cannotTargetBlessedUnit: 0
+  effectSource: {fileID: 0}
+  effectDest: {fileID: 7195097288595192750, guid: b6e9c2aead987a643b0a8649788b1097,
+    type: 3}
+  tooltipRules: 
+  _noTargetsErrorMessage: No targets in range

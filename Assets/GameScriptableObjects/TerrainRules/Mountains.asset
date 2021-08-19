@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52b975513f4dee45a4c6bd4370b8c25, type: 3}
+  m_Name: Mountains
+  m_EditorClassIdentifier: 
+  guid: 1e71c4b8-815e-4431-84b2-3a0c13a02627
+  guidNameSet: Mountains
+  terrainName: Mountains
+  moveCost: 3
+  visionCost: 3
+  roadBuildCost: 500
+  canReplaceWithRoad: 1
+  canLongRest: 0
+  village: 0
+  chargeWorks: 0
+  keep: 0
+  castle: 0
+  aquatic: 0
+  elevatedVision: 1
+  minimapColor: {r: 0.3018868, g: 0.2159312, b: 0.13243146, a: 1}
+  unitMod:
+    description: Terrain
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 10
+    criticalEvasion: 0
+    armor: 1
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []

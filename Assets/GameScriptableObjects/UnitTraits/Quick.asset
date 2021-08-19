@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3145b769396bd4dbeb0a987a88b8ec, type: 3}
+  m_Name: Quick
+  m_EditorClassIdentifier: 
+  guid: 9be26f5f-3546-4775-b722-acde15c790a7
+  guidNameSet: Quick
+  traitName: Quick
+  traitTooltip: +1 movement, -2 hitpoints
+  unitMod:
+    description: Quick
+    useMod: 1
+    hitpoints: -2
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 1
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []

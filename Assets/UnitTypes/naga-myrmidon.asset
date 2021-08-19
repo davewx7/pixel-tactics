@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: naga-myrmidon
+  m_EditorClassIdentifier: 
+  guid: 2672eba7-f825-4e87-9e0e-585520da5262
+  guidNameSet: naga-myrmidon
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Naga Myrmidon
+  classId: myrmidon
+  raceId: naga
+  tags:
+  - {fileID: 11400000, guid: 9d9439c6c109df84eaa5183b19fa7772, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: ace7ed63e14c38941821d2a273d184c3, type: 2}
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 57a86bd6-b075-477a-bd2e-0dd18039f4cc
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 31789183f007bd240922ebbff669db75, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 61504a70bbbce4c409d754ec31636493, type: 3}
+    - {fileID: 21300000, guid: 44ac31930d6307d4cbae35fdc30c8bb8, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 061b4ab705c56504aa32f53e22e4ca87, type: 3}
+    - {fileID: 21300000, guid: 73ac30bbc4e1a8b4989d6e37e8b0d757, type: 3}
+    - {fileID: 21300000, guid: 6aeb33f376b3c87449611075ff0ca677, type: 3}
+    - {fileID: 21300000, guid: 1659d81346487ec4cb1db7adde94791f, type: 3}
+    - {fileID: 21300000, guid: 5ac912258cf302540b45bd03cd4dd079, type: 3}
+    - {fileID: 21300000, guid: 4d21b08ac98e84247bd2a10e75422e6b, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

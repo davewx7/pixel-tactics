@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385df7a4fb37b3042b88ddc0b35b4b35, type: 3}
+  m_Name: SeasonFall
+  m_EditorClassIdentifier: 
+  guid: f75c095f-68c4-4644-a45a-474aa5165528
+  guidNameSet: SeasonFall
+  season: 2
+  description: Fall
+  alignmentMods: []

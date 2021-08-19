@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b58189855420a2d458a9eef2548f493a, type: 3}
+  m_Name: BoonBlessing
+  m_EditorClassIdentifier: 
+  guid: 18cf19dc-c9f7-4a57-9f6b-b81cad14d507
+  guidNameSet: BoonBlessing
+  alternatives:
+  - team: {fileID: 11400000, guid: e6574919d29a7cb4486370e67b5c2da1, type: 2}
+    boon: {fileID: 11400000, guid: b610285b06dbf46458784383e144123b, type: 2}
+  priority: 1
+  embargoAfterOffering: -1
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 11400000, guid: 80cd10d0fea0c584da109f6fadbec0d7, type: 2}
+  dialogStorylineText: Entering village_name, you notice the largest building in the
+    little hamlet is its shrine. You could spend your time here worshipping at the
+    shrine, hoping to receive some kind of a blessing for your piety.
+  declineStoryText: You feel the divine will be more impressed by your piety if you
+    see to your people, you go about your business in the village.
+  avatarSprite: {fileID: 21300000, guid: d220a133b665bad49aa44077c117dcad, type: 3}
+  effectText: Gain a Blessing
+  storyText: Pray at the shrine, hoping for a blessing in battle.
+  blessings:
+  - {fileID: 11400000, guid: 432bb9b62f3ef5a43a7f6d67018c3e99, type: 2}
+  - {fileID: 11400000, guid: 65f4524aab3814e44accbbf03dbc35ec, type: 2}

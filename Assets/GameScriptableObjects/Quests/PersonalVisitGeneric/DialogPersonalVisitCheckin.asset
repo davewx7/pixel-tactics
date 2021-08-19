@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: DialogPersonalVisitCheckin
+  m_EditorClassIdentifier: 
+  guid: dc80c923-7168-44ea-b354-87c7d1d535cc
+  guidNameSet: DialogPersonalVisitCheckin
+  message: Greetings. How goes your promised journey to our castle? Well, I trust?
+  options:
+  - text: It goes well, you will see me there soon.
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  - text: I have changed my mind. I need you not as vassals and will use you as an
+      example of those who displease me. Prepare to die.
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: loyalist-fencer
+  m_EditorClassIdentifier: 
+  guid: 2f93616f-4bfb-450c-8b3c-1b5bbbccabca
+  guidNameSet: loyalist-fencer
+  portrait: {fileID: 21300000, guid: 0c5ff1ab50ed351459f50c5e160d34cf, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Fencer
+  classId: fencer
+  raceId: loyalist
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: b90ac235285a8004aa6897a8e4f8211f, type: 2}
+  - {fileID: 11400000, guid: a765bcbd21a3c8d438c8d22637e51f46, type: 2}
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 8f280f9b-f863-41df-97e0-8eff0ea0dd0e
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 24
+  criticalEvasion: 0
+  evasion: 50
+  armor: 0
+  resistance: 0
+  movement: 6
+  levelsInto:
+  - {fileID: 11400000, guid: 7f14af50e52ef1e4d8ac51fd1401c7d2, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: f797840da9e8f7149aa003ffb5ca3023, type: 3}
+    description: sword
+    id: attack
+    damage: 3
+    nstrikes: 4
+    accuracy: 40
+    critical: 5
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 3b3500f41b1ffa54f85ce1884e9036c8, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 6b86238b8ef5597489d47b64c2eab3d5, type: 3}
+    - {fileID: 21300000, guid: 1d79baabe34defc4d8e74ca7f44e72c3, type: 3}
+    - {fileID: 21300000, guid: c469ab54c748907468acc7967b84a194, type: 3}
+    - {fileID: 21300000, guid: f09f8c4ad7a9c5142a5fda7506899d7c, type: 3}
+    - {fileID: 21300000, guid: c5cf49e53b424f2488b84c8e0bafffa6, type: 3}
+    - {fileID: 21300000, guid: d75541d167e73d74bb7f271f22149109, type: 3}
+    - {fileID: 21300000, guid: e623c0be406d99d47a517fffcc130abd, type: 3}
+    - {fileID: 21300000, guid: aced2d5c7e3db924eb2418ab2679c669, type: 3}
+    - {fileID: 21300000, guid: 0e0f90fd2bacdd44a851d643fca3636f, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f85f983183b662246b58804261088091, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 1
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: ca353b577205b404d969d4d86bb731ae, type: 3}
+    - {fileID: 21300000, guid: 38c39cc4bdf8e6b408e90f5fd1a509f4, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c97dec1c06b11254294a392a4ddce6ab, type: 3}
+    - {fileID: 21300000, guid: 81174df49f38cb84d873652ffcb6c586, type: 3}
+    - {fileID: 21300000, guid: bcf4aa86c440d314f92024172f23d858, type: 3}
+    - {fileID: 21300000, guid: ac08fb09cc6cf6340a4ad3f13ac14450, type: 3}
+    - {fileID: 21300000, guid: e1660d7658e44c341a11948a228a3d34, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 1
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 8a64eef9319c7584899fe01bb190b591, type: 3}
+    - {fileID: 21300000, guid: 73849da3a5ae94a499000f61fadf1f47, type: 3}
+    - {fileID: 21300000, guid: 134d9d55f6467a542869e91c69067282, type: 3}
+    - {fileID: 21300000, guid: c25474b907b8d2d4ca99a679ffb82d62, type: 3}
+    - {fileID: 21300000, guid: 2d58e38b3bd485c4393ee6d3372eb7d9, type: 3}
+    - {fileID: 21300000, guid: b218f0927dbbefa48beab6948578da5a, type: 3}
+    - {fileID: 21300000, guid: a9f0ba16e5b855f4da4960691325e814, type: 3}
+    duration: 2
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: stand
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 79b08fe295026f44bb59689039af4d7c, type: 3}
+    - {fileID: 21300000, guid: b50f0a3f28886a4439f66c8fce9aeb14, type: 3}
+    - {fileID: 21300000, guid: 7a4d63fda08b3884db5c6125449c535b, type: 3}
+    - {fileID: 21300000, guid: 60904ea53899b14418f0a322453114fc, type: 3}
+    - {fileID: 21300000, guid: acb972e5daca0bc4cbf1466ab65a3ad6, type: 3}
+    - {fileID: 21300000, guid: 56adb188e25475d4fa0466a3f2931386, type: 3}
+    - {fileID: 21300000, guid: a66cc3b1b92e4d24f8b9354ffca984ac, type: 3}
+    - {fileID: 21300000, guid: cf52ec97b15c60c40ab570130e52993e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

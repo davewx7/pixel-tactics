@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c854db2839a1bd042a2e11825691f7d4, type: 3}
+  m_Name: BoonBanditAmbush
+  m_EditorClassIdentifier: 
+  guid: 09630952-b277-4b2b-ad6b-4ebfa79d1cf5
+  guidNameSet: BoonBanditAmbush
+  priority: 1
+  embargoAfterOffering: 12
+  forcedSecondaryBoon: {fileID: 11400000, guid: f67e1e76fda93a14199b938dfceb0b19,
+    type: 2}
+  dialogStorylineText: 'You walk into the town, only to find it is full of bandits,
+    and they seem ready to take advantage of your isolation from the rest of your
+    forces.
+
+
+    <i>"Well what have we here? A little far from home? How about you hand us that
+    purse full of gold you have there and we''ll be on our way?"</i>'
+  declineStoryText: You hand over some gold rather than have to fight them.
+  avatarSprite: {fileID: 21300000, guid: a6a3ed58369d0734b93a95c3c0d93725, type: 3}
+  effectText: Fight bandits
+  storyText: You won't be extorted that easily, you're ready to fight!
+  unitTypes:
+  - {fileID: 11400000, guid: 312bcb627b6b5194f91f0ae5ecc64da4, type: 2}
+  - {fileID: 11400000, guid: bfc6eb38d02860049826872809a60b00, type: 2}
+  - {fileID: 11400000, guid: bfc6eb38d02860049826872809a60b00, type: 2}

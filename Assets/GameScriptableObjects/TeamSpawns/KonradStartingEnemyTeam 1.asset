@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b01e285977ca04b8fdc3a6d598f812, type: 3}
+  m_Name: KonradStartingEnemyTeam 1
+  m_EditorClassIdentifier: 
+  guid: 90d503b0-9a91-4840-b2f3-20d4312e2da2
+  guidNameSet: KonradStartingEnemyTeam 1
+  playerTeamReplaces: {fileID: 0}
+  player: 0
+  barbarian: 1
+  handlesCaveSpawns: 0
+  unitsHaveHaste: 0
+  aiConquestRatio: 0
+  aiAggroRatio: 0
+  permanentFriends: []
+  swornEnemies:
+  - {fileID: 11400000, guid: e92a8f675c4d05448b19974be3df3364, type: 2}
+  initialGreeting: {fileID: 0}
+  initialGreetingAlreadyAtWar: {fileID: 0}
+  friendlyDiplomacy: {fileID: 0}
+  completedQuestDiplomacy: {fileID: 0}
+  alliedDiplomacy: {fileID: 0}
+  fealtyOffer: 
+  baseUpkeep: 3
+  coloring: {fileID: 11400000, guid: d93d81397f9d56c4eafe7695c5383b39, type: 2}
+  ai: {fileID: 11400000, guid: bb483eb03111e7142a780b28d42d4098, type: 2}
+  flagType: {fileID: 11400000, guid: 453e6bc8be5157542acac83a2abfc018, type: 2}
+  teamNameIsProperNoun: 1
+  teamName: Orcs
+  rulerName: Orcish Chief
+  rulerTitle: 
+  factionDescription: 
+  startingGold: -1
+  baseIncome: -1
+  hasRoads: 1
+  aquatic: 0
+  rulerType: {fileID: 11400000, guid: 74fe176a864815a4584c5fb04d868e73, type: 2}
+  recruitmentOptions:
+  - {fileID: 11400000, guid: b8bd52abddd412140a3c54ae18c75d85, type: 2}
+  - {fileID: 11400000, guid: 1557a6a61c7cea84d94b6a1ea4cb1a8b, type: 2}
+  recruitmentSlots: -1
+  possibleQuests: []

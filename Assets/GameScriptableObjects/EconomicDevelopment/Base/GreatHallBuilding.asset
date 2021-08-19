@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a03e288bf0d84045b27fea9848ae76e, type: 3}
+  m_Name: GreatHallBuilding
+  m_EditorClassIdentifier: 
+  guid: 802db4ca-da66-4ec4-acb7-1203c30621da
+  guidNameSet: GreatHallBuilding
+  buildingName: Great Hall
+  tooltip: Allows you to buy basic items and equipment. Allows you to build Inns and
+    Practice Yards in your villages.
+  achievementText: Trade flourishes once more. You may now buy items and equipment
+    for your units.
+  additionalAchievementText:
+  - title: A Treasure Found
+    message: While rebuilding the Great Hall, an ancient amulet was discovered. The
+      <color=#aaaaff><link="equip">Ruler's Amulet</link></color> of your house. Keep
+      it safe upon your person and use it to teleport back to your keep in a time
+      of need.
+  givesHaste: 0
+  icon: {fileID: 21300000, guid: d1f956bd4cb99e04592f871c9110767a, type: 3}
+  loc: {x: 0, y: 0}
+  buildCost: 100
+  unitRecruits: []
+  recruitSlots: 0
+  increaseDiplomacy: 0
+  villageHealAmount: 0
+  villageBuildingsAvailable:
+  - {fileID: 11400000, guid: 572970bfac90a7d419a995babbf01cfa, type: 2}
+  - {fileID: 11400000, guid: 143054d809db79249b7bc64d370682d7, type: 2}
+  spells: []
+  equipmentInMarket:
+  - {fileID: 11400000, guid: 517dcc8cf79c50b459b7c203ec78f4de, type: 2}
+  - {fileID: 11400000, guid: 864062889963d1245901a91b09179988, type: 2}
+  - {fileID: 11400000, guid: c973d6f6095fdb54993335ecf058d867, type: 2}
+  - {fileID: 11400000, guid: f5d43c7a8a96e7843abb7a83011b73a2, type: 2}
+  - {fileID: 11400000, guid: 0dd917335f0c7b04493f3ec3ed94a584, type: 2}
+  - {fileID: 11400000, guid: 67ba1d3678fb4af4ea45d8f82628ea6c, type: 2}
+  - {fileID: 11400000, guid: 98f61c4c4f3b06546b8f2e2cd0e3ac11, type: 2}
+  recruitExperienceBonus: 0
+  potionGranted: 0
+  grantsEquipmentOnBuild: {fileID: 11400000, guid: 3551c86f03788b544bc8a4161f5eca48,
+    type: 2}
+  modMaxUnits: -1
+  globalUnitMod:
+    description: (unknown)
+    useMod: 1
+    filter:
+      mustHaveTag: {fileID: 0}
+      excludeIfFoughtThisTurn: 0
+      baseAbility: {fileID: 0}
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  doubleXpHighLevelUnits: 0

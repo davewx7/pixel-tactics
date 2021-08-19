@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: desert-road
+  m_EditorClassIdentifier: 
+  guid: 4fa609eb-254c-4fd4-b875-0d23f83dfc0f
+  guidNameSet: desert-road
+  rules: {fileID: 11400000, guid: 8dfca8d594eb0e44784dc1892d921d33, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Road
+  zorder: 30
+  adjacent:
+  - {fileID: 21300000, guid: c9f16afb939fe2d48b1553213487a49f, type: 3}
+  - {fileID: 21300000, guid: ebe3bb4f7f4cc48468c6789a9079fec1, type: 3}
+  - {fileID: 21300000, guid: 632cb71ba5cebd749931028ac19d60b8, type: 3}
+  - {fileID: 21300000, guid: 3582516c750426b408227c49e967ada7, type: 3}
+  - {fileID: 21300000, guid: 2aab1e0d8ebfd2141b80abbd42192395, type: 3}
+  - {fileID: 21300000, guid: 50791045f71d3db4fae088bdbe255ee8, type: 3}
+  adjacent2:
+  - {fileID: 21300000, guid: 48a530552d186fc4db0bc6c0d9a17bd7, type: 3}
+  - {fileID: 21300000, guid: 0c641f2c115592e4f91422f4f28002fa, type: 3}
+  - {fileID: 21300000, guid: 47cb6ef353a314f4db7fac8c4ee74e11, type: 3}
+  - {fileID: 21300000, guid: 43497ef5c55b7444d803f325bed38144, type: 3}
+  - {fileID: 21300000, guid: 250f1ea41ac685840906c03678f2df29, type: 3}
+  - {fileID: 21300000, guid: 3ceff84cba242814b8311c38131d0c71, type: 3}
+  adjacent3:
+  - {fileID: 21300000, guid: f0cd1cda90bd81d4486d5f6b8252a464, type: 3}
+  - {fileID: 21300000, guid: f1e84d1fb65993646808cfd446c9a2ed, type: 3}
+  - {fileID: 21300000, guid: e450614b44c6b344aadfc1f75ce61b06, type: 3}
+  - {fileID: 21300000, guid: bc745fb8ad1894444980f730147f4073, type: 3}
+  - {fileID: 21300000, guid: 3e47b7598104aca41b1421daa77a9ae7, type: 3}
+  - {fileID: 21300000, guid: baf1041976315984fa34d73699cb9092, type: 3}
+  adjacent4:
+  - {fileID: 21300000, guid: 3e363d26237928544b9a1c68ba1ff90b, type: 3}
+  - {fileID: 21300000, guid: 45f3982ef958d88479e788ac8538c657, type: 3}
+  - {fileID: 21300000, guid: d908c0201a9b4704f9d8f000fcf6bb53, type: 3}
+  - {fileID: 21300000, guid: 3b291bec7be50614ba4afe14e3311055, type: 3}
+  - {fileID: 21300000, guid: 634818892fb4ed94c8bc248bbe5e4c1b, type: 3}
+  - {fileID: 21300000, guid: 5635c4ea3890e1548839d82bada3bc6f, type: 3}
+  adjacent5: []
+  adjacent6: {fileID: 21300000, guid: e697fab5e998545449581bf397aa99de, type: 3}
+  _sprites:
+  - {fileID: 21300000, guid: d2eeb60e01dd5da48afdff7f403112a4, type: 3}
+  - {fileID: 21300000, guid: 310c456a2cd87d341abe27fa3e89b967, type: 3}
+  - {fileID: 21300000, guid: 7f5a323d950b74c42bec3d455390d211, type: 3}
+  - {fileID: 21300000, guid: 93ad1a3d190152f448084ec5dafe6740, type: 3}
+  - {fileID: 21300000, guid: 57db0a4671ae1074fa2cdf64835cbaec, type: 3}
+  - {fileID: 21300000, guid: 44976f90e216bcc478c21a48ecc4d94b, type: 3}
+  - {fileID: 21300000, guid: dd9fa7839ecd1d54fa50817c217551ae, type: 3}
+  overlaySprites: []
+  castleWalls: []
+  _base: {fileID: 0}
+  yadj: 0
+  waterline: 0

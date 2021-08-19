@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: DialogMakeWarNoContact
+  m_EditorClassIdentifier: 
+  guid: fc60557c-c2a0-4a94-970d-f907ea908cfb
+  guidNameSet: DialogMakeWarNoContact
+  message: Quest_enemy_team_name have long been a thorn in my side, and they will
+    be one in yours as well. Will you agree to seek them out and destroy them?
+  options:
+  - text: <color=#aaffaa>[Accept]</color> I have not yet met them, but if they are
+      your enemies they are my enemies. I will fight them.
+    result: {fileID: 11400000, guid: dbdf55899f3f6a84285e5106e4540ede, type: 2}
+    instructions: []
+    conditions: 
+  - text: <color=#ffaaaa>[Hostile]</color> A ruler must not make war so haphazardly.
+      I will not agree to this, and if this means I shall have to fight you instead,
+      then so be it.
+    result: {fileID: 11400000, guid: 1a551bf5996ee764b94cd8896e85151c, type: 2}
+    instructions: []
+    conditions: 
+  - text: <color=#aaffff>[Diplomacy]</color> I do wish to prove myself worthy of the
+      throne, but perhaps there is something else I can do to prove myself to you?
+    result: {fileID: 0}
+    instructions: []
+    conditions: 06000000
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 1

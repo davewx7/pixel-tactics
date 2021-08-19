@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: elf-scout
+  m_EditorClassIdentifier: 
+  guid: e327985b-ee24-44ff-80b4-896cc543020f
+  guidNameSet: elf-scout
+  portrait: {fileID: 21300000, guid: 0ab262bf50665814895e1ac2e395ef22, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Elf Scout
+  classId: scout
+  raceId: elf
+  tags:
+  - {fileID: 11400000, guid: ffb283ef68f579445a304e56bb9d1efe, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: fddf0bbaf17fa4f4f877e425eeb0376b, type: 2}
+  abilityArgs: []
+  cost: 20
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: a56aa56d-a47c-4d16-82e6-f61a60989a5e
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 32
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 1
+  movement: 8
+  levelsInto:
+  - {fileID: 11400000, guid: c4cec7ad4df6bd44288dd77845616617, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: 24ced9cc0808ccf4790238abcfb513bb, type: 3}
+    description: sword
+    id: melee
+    damage: 6
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: d9e33d1224202394db1f622bf467cb83, type: 3}
+    description: bow
+    id: ranged
+    damage: 5
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: 81d7c471b6560e249acc88193c0c648a, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: defcfd4f260f06b47b708fff35127ff0, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f938a2d7290a8c04aa3a8c203cb32e4c, type: 3}
+    - {fileID: 21300000, guid: e7aa1ea38b2136a41aa31c5b2db0c190, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 1
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7e1174a2f76f60b4bac745eaeb153550, type: 3}
+    - {fileID: 21300000, guid: 6661bcb117359034f8732011c9ccb29b, type: 3}
+    - {fileID: 21300000, guid: 94afef4530390a048b4081bf5e2e4a74, type: 3}
+    - {fileID: 21300000, guid: d293cd11ddd8ee94f84ed989ab967096, type: 3}
+    - {fileID: 21300000, guid: 73048f8f62d1a454eb4ac610a5e1dd34, type: 3}
+    - {fileID: 21300000, guid: 6d61efeba75d01f48a9a5d24f053ed9b, type: 3}
+    - {fileID: 21300000, guid: fadf74dbda5565b4686f226938e5dc62, type: 3}
+    - {fileID: 21300000, guid: 669111979f71ae54c83d60fcd5166a95, type: 3}
+    - {fileID: 21300000, guid: 4f41f1e71f636034a9efe4a1ec0bdc10, type: 3}
+    - {fileID: 21300000, guid: 96305f7bc3d2c4f41a707dc4a644e73f, type: 3}
+    - {fileID: 21300000, guid: dd48ffb46e86afb40b5e782a55435e4f, type: 3}
+    - {fileID: 21300000, guid: 19e5e829a20fce8468dc915fadba962f, type: 3}
+    - {fileID: 21300000, guid: f55edd4bc35b500438a26b2676866fb0, type: 3}
+    - {fileID: 21300000, guid: 4db00644f8b74b044af503ae662b79f3, type: 3}
+    - {fileID: 21300000, guid: 3fb59c73ac7c16144977f2b89b082c91, type: 3}
+    - {fileID: 21300000, guid: 1665b20c26fc0ab4a87520095b312e86, type: 3}
+    duration: 2
+    reverse: 0
+    cycle: 0
+    events: []

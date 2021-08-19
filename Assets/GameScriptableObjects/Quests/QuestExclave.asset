@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cea551cf5875344a8789f8f1e9e0dfb, type: 3}
+  m_Name: QuestExclave
+  m_EditorClassIdentifier: 
+  guid: 3a2ecd76-2d10-4f69-89f8-147f3b3ad7df
+  guidNameSet: QuestExclave
+  questOfferTitle: Quest

@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: leader-konrad-commander
+  m_EditorClassIdentifier: 
+  guid: 35d708ef-ded3-4e2b-92b3-295fb111c697
+  guidNameSet: leader-konrad-commander
+  portrait: {fileID: 21300000, guid: 0afde854ee0fcc64a91fc94848e783f7, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Commander
+  classId: konrad-commander
+  raceId: leader
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 34
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: b8a1bb67-45d6-427c-a030-bd23b278abf5
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 3
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 80
+  hitpointsMax: 54
+  criticalEvasion: 0
+  evasion: 50
+  armor: 2
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: 24ced9cc0808ccf4790238abcfb513bb, type: 3}
+    description: sword
+    id: attack
+    damage: 7
+    nstrikes: 4
+    accuracy: 30
+    critical: 20
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: d9e33d1224202394db1f622bf467cb83, type: 3}
+    description: bow
+    id: bow-attack
+    damage: 8
+    nstrikes: 3
+    accuracy: 20
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: 81d7c471b6560e249acc88193c0c648a, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 706af0c727099ae41a733988fb2c8b25, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 16d9a375580a9ef4d95afad71d3cc953, type: 3}
+    - {fileID: 21300000, guid: cecda752c63e16a4dbbfd3f51c758e4c, type: 3}
+    - {fileID: 21300000, guid: 3bea4374bd7b7924086b6c5b1deba5d3, type: 3}
+    - {fileID: 21300000, guid: a9f2d5fac0017a449b4fb1362043c5d6, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: bow
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 05d11ef2ec244a44699f396556b38f7c, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: bow-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 8b98377053fcf3e4d8321209d29f6985, type: 3}
+    - {fileID: 21300000, guid: 20959eddcd2d43e44ab40369b1704350, type: 3}
+    - {fileID: 21300000, guid: 687eb1f70d4e6be4184601afad4ab5dd, type: 3}
+    - {fileID: 21300000, guid: f7d797d71f9f169439cc83ef1ac3e27f, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: bow
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 6e51412cf89db8443afd188963c54233, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: ed1e343b6cc2f1140ad9b5c302c154fb, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 5
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: ef20334b037761c45b1041057bdf70cf, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: scepter
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: bbde0ef17c1ab6a4886800f9246fc7cc, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: scepter-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 22a99b39434316f4983f16e68af4517a, type: 3}
+    - {fileID: 21300000, guid: 4e1f4336ad4850041a37ace2ec694204, type: 3}
+    - {fileID: 21300000, guid: 2569b87f73cb25241afb02cf43ca63a1, type: 3}
+    - {fileID: 21300000, guid: 41ff2b08f1b6f36498cf8091042eb3d7, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: scepter
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 218582c5190d66c44a7a6af619c0da0b, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 5
+      tag: scepter
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c4021f25e07fd1449a8cfd6a9fc34f0b, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

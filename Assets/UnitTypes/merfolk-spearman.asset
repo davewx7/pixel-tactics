@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: merfolk-spearman
+  m_EditorClassIdentifier: 
+  guid: ccaeea28-c593-41bb-a5d1-3bd04a2ea883
+  guidNameSet: merfolk-spearman
+  portrait: {fileID: 21300000, guid: 75272ddbfec6b58418f7d0a3025ceff3, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Merfolk Spearman
+  classId: spearman
+  raceId: merfolk
+  tags:
+  - {fileID: 11400000, guid: 707a121924d6ae849ba0785978cec3a9, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: ace7ed63e14c38941821d2a273d184c3, type: 2}
+  abilityArgs: []
+  cost: 22
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 2b278177-1877-49cb-a752-f13d4a62c71d
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 46
+  hitpointsMax: 38
+  criticalEvasion: 0
+  evasion: 50
+  armor: 0
+  resistance: 1
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: d644dc6284d139c47ad1efb97b305e87, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: e483663cd6cf1314c9968ac2b5c4bb61, type: 3}
+    description: spear
+    id: attack
+    damage: 7
+    nstrikes: 2
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: e483663cd6cf1314c9968ac2b5c4bb61, type: 3}
+    description: spear
+    id: attack
+    damage: 8
+    nstrikes: 3
+    accuracy: 20
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: f37f29db184aec54bb6d428b0930e262, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 93d2eb4fbe3bd17449aa25bc54362351, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 6714e2ca74d62394fb6de15d3ca43a31, type: 3}
+    - {fileID: 21300000, guid: b8899db3bcfab26408329daa06e72c43, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

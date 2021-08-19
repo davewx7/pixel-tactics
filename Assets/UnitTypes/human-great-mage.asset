@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: human-great-mage
+  m_EditorClassIdentifier: 
+  guid: c820f4db-090c-4a55-9a50-845f89391f74
+  guidNameSet: human-great-mage
+  portrait: {fileID: 21300000, guid: 9c57590ada4869447bca3a03fc8fed83, type: 3}
+  portraitFemale: {fileID: 21300000, guid: c7fa58974af85bb44ba60620dbbbdf9a, type: 3}
+  description: Great Mage
+  classId: great-mage
+  raceId: human
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 9e48d5d2-8673-4f71-837f-edbb1da1f525
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 30
+  armor: 0
+  resistance: 4
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: e889259821b88f14e82db746c044c5b3, type: 3}
+    description: staff
+    id: attack-staff
+    damage: 4
+    nstrikes: 2
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: 027cf8c56f23ff6489b2cfc0cc396315, type: 3}
+    description: 
+    id: attack-magic
+    damage: 7
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 1
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: 39c86790914f86047be134b990b12e63, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: fa3e4a29cbf72504f8369e14313dcb76, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7fd83739ba216434b95f737df37dd534, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 5
+      tag: attack-magic
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 9db667183f645c745ab192589b67c323, type: 3}
+    - {fileID: 21300000, guid: 6607734d2d9905c429c6ff6da3259698, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 2
+      tag: attack-staff
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c05f78780601dd142a5a5d5b156aabe4, type: 3}
+    - {fileID: 21300000, guid: 996bf0875a6705246b522da0fc1cecc2, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 03ff8b3a29cd1a444aec42ccb17f1fdf, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 5
+      tag: attack-magic
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 88c2f75148cfb414ba159d0328a45de0, type: 3}
+    - {fileID: 21300000, guid: 4d13dd771d03fc040a09897ba8a45663, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack-staff
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 1f46c4b42af2a934da92f556ebafc1c7, type: 3}
+    - {fileID: 21300000, guid: 4d3b1035228baea4cabbd11c54188c38, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: cb3efea99888ec94db3b5ec0e46616d5, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

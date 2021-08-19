@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: loyalist-pikeman
+  m_EditorClassIdentifier: 
+  guid: fa8561c2-c1a1-4894-b350-2962f223c4a8
+  guidNameSet: loyalist-pikeman
+  portrait: {fileID: 21300000, guid: 5218a95fc3657c64490df6e56676051b, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Pikeman
+  classId: pikeman
+  raceId: loyalist
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 4e432652-bae9-46eb-8968-46b29ed09bb9
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 56
+  hitpointsMax: 42
+  criticalEvasion: 0
+  evasion: 40
+  armor: 2
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: e483663cd6cf1314c9968ac2b5c4bb61, type: 3}
+    description: spear
+    id: attack
+    damage: 9
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: 6e30010cc297e824c8114de1f69629d3, type: 2}
+    - {fileID: 11400000, guid: 121d2dd2d77e4a04b97a8aed8e1bbdcd, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 427e6380befdd0a4d8c254e44ffeb2f1, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 48443721a9a06b94baa4006345653c32, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 8031e108deb375e4990f739ee9418303, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 00545ff6d59523c4197c813e28a0773c, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 2
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 53d2ba69edb78e841869ec88f4c2b08e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 8d9728fd7f2aa92449993778fa745919, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7b431d11d4d4ed845b730283374ae851, type: 3}
+    - {fileID: 21300000, guid: 2ec574f2ea4c06c49bfa4d80495204c9, type: 3}
+    - {fileID: 21300000, guid: b5cf1270394276243af9121384ad41fa, type: 3}
+    - {fileID: 21300000, guid: 71eac44d2de0d264a8f753d1d5a572aa, type: 3}
+    - {fileID: 21300000, guid: b205072bfcb273148892c3410b9de390, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 1
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 9a410503fce96e942b233872a882f503, type: 3}
+    - {fileID: 21300000, guid: 3fa80e73e10de914cacacdd614ffd3c0, type: 3}
+    - {fileID: 21300000, guid: ab6ee70c9cd950b4b97f1455a7996fea, type: 3}
+    - {fileID: 21300000, guid: 33304792b96f9384584a110e8d54c134, type: 3}
+    duration: 2
+    reverse: 0
+    cycle: 0
+    events: []

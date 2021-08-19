@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52b975513f4dee45a4c6bd4370b8c25, type: 3}
+  m_Name: Forest
+  m_EditorClassIdentifier: 
+  guid: 38128c83-947d-46c9-8e78-dc343418784a
+  guidNameSet: Forest
+  terrainName: Forest
+  moveCost: 2
+  visionCost: 2
+  roadBuildCost: 150
+  canReplaceWithRoad: 1
+  canLongRest: 0
+  capturable: 0
+  chargeWorks: 0
+  keep: 0
+  castle: 0
+  aquatic: 0
+  elevatedVision: 0
+  minimapColor: {r: 0, g: 0.2784314, b: 0, a: 1}
+  unitMod:
+    description: Terrain
+    useMod: 1
+    hitpoints: 0
+    experience: 0
+    evasion: 10
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []

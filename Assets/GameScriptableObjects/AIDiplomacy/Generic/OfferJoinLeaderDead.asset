@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: OfferJoinLeaderDead
+  m_EditorClassIdentifier: 
+  guid: bd66d3b6-4a55-4e45-aa60-d284bc2691f7
+  guidNameSet: OfferJoinLeaderDead
+  message: With our ruler dead, and war raging, I am not sure what to do. I have heard
+    you are a valiant claimant to the throne. Would you pay for my supplies if I would
+    serve and fight for you?
+  options:
+  - text: '[Pay 8 gold] Join and serve us, we always have need of more warriors'
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  - text: We do not have the resources to support more units at this time.
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

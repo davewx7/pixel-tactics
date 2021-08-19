@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: BarkskinArmor
+  m_EditorClassIdentifier: 
+  guid: cb460076-b1c5-4a4e-b750-b5940967b99e
+  guidNameSet: BarkskinArmor
+  icon: {fileID: 21300000, guid: c350f32a4998cb54aad17d0e7ae02fbe, type: 3}
+  description: Barkskin Armor
+  summaryRules: +12THP
+  tooltipRules: +12 Temporary Hitpoints at the start of each turn
+  slot: {fileID: 11400000, guid: 7a996e45b0350584bb70cfeaa3cc5cfe, type: 2}
+  tier: 2
+  teamAssociation:
+  - {fileID: 11400000, guid: 3117881e450f6b24aa7f45064ce7e885, type: 2}
+  activatedAbility: {fileID: 0}
+  beginTurnEffect: {fileID: 11400000, guid: df75a6b2d6af32f449422653d2f5c86c, type: 2}
+  mod:
+    description: 
+    useMod: 0
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription: []
+      excludeMelee: 0
+      excludedRanged: 0
+      damage: 0
+      accuracy: 10
+      critical: 10
+      nstrikes: 0
+      abilities: []
+      makesMagical: 0
+    abilities: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  attackRequired: []
+  _price: 19

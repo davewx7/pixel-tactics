@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: cave-mushrooms
+  m_EditorClassIdentifier: 
+  guid: bdaa9715-5baa-4f31-a95d-7cd1f68a4b3f
+  guidNameSet: cave-mushrooms
+  rules: {fileID: 11400000, guid: 517d5f0355a5287418a6b04f9e5e047f, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Mushrooms
+  zorder: -500
+  adjacent: []
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites: []
+  overlaySprites:
+  - {fileID: 21300000, guid: 7788dd557c15e9a45bc3d2892f5daf9f, type: 3}
+  - {fileID: 21300000, guid: b9a7e2cff1a11a941b7f0d05261ab17c, type: 3}
+  - {fileID: 21300000, guid: ec26586d2c8c59e43bb601d418050386, type: 3}
+  - {fileID: 21300000, guid: b1583e792b849154b9f9167204aac071, type: 3}
+  - {fileID: 21300000, guid: 2e0ef5475eca9714da3e5d762f94a944, type: 3}
+  castleWalls: []
+  _base: {fileID: 11400000, guid: fb5c341facbab2845b362f4c0212b845, type: 2}
+  yadj: 0
+  waterline: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3cdb4b6f567da479993795d1d909bc, type: 3}
+  m_Name: CaveSpawnGoblins
+  m_EditorClassIdentifier: 
+  guid: 240a5619-35b5-432b-a7d6-0903cfdf1df0
+  guidNameSet: CaveSpawnGoblins
+  rumorDescription: a warren of goblins
+  unitTypes:
+  - {fileID: 11400000, guid: 5ef2d7073d0d13e429555f4acd788618, type: 2}
+  - {fileID: 11400000, guid: cd8d60ff758feb84fa710d07d80efbdf, type: 2}
+  - {fileID: 11400000, guid: fd1fec27aebf79b4eb37c6de186668b0, type: 2}
+  - {fileID: 11400000, guid: 27fe525b353319a49bcf6ee1e1ec18e9, type: 2}
+  budgetByYear: 12000000180000001e000000240000002a0000002a00000030000000320000003200000032000000
+  spawnMonths:
+  - {fileID: 11400000, guid: d64febee2af737d4e8261af11db9db62, type: 2}
+  - {fileID: 11400000, guid: 0eb254c6729c0354ba22639da919c8fb, type: 2}
+  - {fileID: 11400000, guid: 6fa0a773ff0e25a45934d6990ff1a1a5, type: 2}

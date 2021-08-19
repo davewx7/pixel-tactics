@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: outlaw-assassin
+  m_EditorClassIdentifier: 
+  guid: 63acd3d3-84df-496e-b278-30b2bc502167
+  guidNameSet: outlaw-assassin
+  portrait: {fileID: 21300000, guid: 96719c95b055e814da0c7d281b5394bc, type: 3}
+  portraitFemale: {fileID: 21300000, guid: 0ad1562a319e1254991853cadc88d6ca, type: 3}
+  description: Assassin
+  classId: assassin
+  raceId: outlaw
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: b90ac235285a8004aa6897a8e4f8211f, type: 2}
+  abilityArgs: []
+  cost: 34
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 77269a2c-e99f-4acd-b002-6ec7a1f84253
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 3
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 64
+  hitpointsMax: 32
+  criticalEvasion: 0
+  evasion: 80
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: bf6eed3e7836f8f48814484252b8cbbd, type: 3}
+    description: dagger
+    id: melee-1
+    damage: 9
+    nstrikes: 2
+    accuracy: 40
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: a65f5de82dfb3e249a08d2b2b2aec4d3, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: 3f17bd45db1157e40b4c4d1669456eea, type: 3}
+    description: knife
+    id: throwknife
+    damage: 14
+    nstrikes: 1
+    accuracy: 40
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: 8c0957c2b4a0bdb4b85657e845b1f56a, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: 6ad37bd07b4b9074daf551ed66a28f10, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 2688b14ea08add3419bb6b4b9bcac630, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 69bdbeec027d2f34f9e20f18efd58c76, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 45e8b7e0b5d5c0f40915ac6340dd3f9c, type: 3}
+    - {fileID: 21300000, guid: bbfc44b8747b2f4489b01a9b7964d9f9, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 2
+      tag: melee-1
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c8a1b82eb6b2a7c42a5ae9575ba2e996, type: 3}
+    - {fileID: 21300000, guid: 25243110589cae54c895dc27662b62d7, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 2
+      tag: melee-2
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 50ea8f9dd3e4bdf4e905f6a6e328b82d, type: 3}
+    - {fileID: 21300000, guid: 23882cf86d8b31d45be034cb3a3b2eed, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 2
+      tag: throwknife
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 93398838f7b43d84a96bc04a5fe8735e, type: 3}
+    - {fileID: 21300000, guid: 46433a78122d97e439e24c07370813aa, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 49d3c4c25c3637543ad58a2b47786bcc, type: 3}
+    - {fileID: 21300000, guid: 933d0c52ecf475f4fb2fdcc0a67fc8f2, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee-1
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f383dabed2cbdc84dac239cd65f6de2b, type: 3}
+    - {fileID: 21300000, guid: 41c95356e3e8978439703d704a9e5f4e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee-2
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 28e24241d02461642a138bb4c740c555, type: 3}
+    - {fileID: 21300000, guid: a90e09d3423b9684c88000d5cb018386, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: throwknife
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 2c902680a70a1e849b3085912336ef06, type: 3}
+    - {fileID: 21300000, guid: 1a723e2b92ddf69418cf5f1906bdd77f, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a09fe365fac2d19428704f57d6387fcb, type: 3}
+  m_Name: BoonPortBuilding
+  m_EditorClassIdentifier: 
+  guid: 384cf81a-cc15-4a3e-ae44-b771e3d21482
+  guidNameSet: BoonPortBuilding
+  priority: 1
+  embargoAfterOffering: 12
+  minimumRound: 3
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  createBuilding: {fileID: 11400000, guid: fc87166a94cc8274d8a27c6949f8275e, type: 2}
+  dialogStorylineText: 'Entering the village, an old man approaches you.
+
+
+    <i>"With the world at war, many of the great trade routes have been destroyed,"</i>
+    He starts. <i>"Cut off the trade routes. Rule the world. Or something of that
+    nature. I myself had the misfortune to have my ship attacked on the high seas.
+    Ended up washing up here. Yet I''ll tell you, this place looks like with a good
+    set of docks built it could serve as a place for ships to make port. With your
+    help and support I would be happy to get the townspeople together to build some
+    docks and establish this place as a port. It could be an important key to your
+    kingdom. What say you?"</i>'
+  declineStoryText: His ship sunk, and yet he claims himself as an expert at seafaring?
+    You decilne his request and move on.
+  avatarSprite: {fileID: 21300000, guid: a03ee6ada6f07be4c8f33b4950c94bb7, type: 3}
+  effectText: Port created in this village
+  storyText: Trade and commerce are as important as ever. You enthusiastically help
+    this man establish this village as a port.

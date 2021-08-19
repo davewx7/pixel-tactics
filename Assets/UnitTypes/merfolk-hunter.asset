@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: merfolk-hunter
+  m_EditorClassIdentifier: 
+  guid: 6f16746b-6e0d-44bf-998a-78ec178c0832
+  guidNameSet: merfolk-hunter
+  portrait: {fileID: 21300000, guid: 8c6371788376e4b4ebb21be57abdae8d, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Merfolk Hunter
+  classId: hunter
+  raceId: merfolk
+  tags:
+  - {fileID: 11400000, guid: 707a121924d6ae849ba0785978cec3a9, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: ace7ed63e14c38941821d2a273d184c3, type: 2}
+  abilityArgs: []
+  cost: 11
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 31bc718d-41d7-4008-8d99-fb4f792d0513
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 31
+  hitpointsMax: 26
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 1
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: 27a296bca5d6e98469e2258a1ee29369, type: 2}
+  - {fileID: 11400000, guid: 08ee9ab37b1244147a0e51857c7b5c60, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: e483663cd6cf1314c9968ac2b5c4bb61, type: 3}
+    description: Spear
+    id: javelin
+    damage: 4
+    nstrikes: 2
+    accuracy: -10
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: e483663cd6cf1314c9968ac2b5c4bb61, type: 3}
+    description: Spear
+    id: throw
+    damage: 5
+    nstrikes: 3
+    accuracy: 20
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: f37f29db184aec54bb6d428b0930e262, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f1d64022476acd441b763b3d5fb15479, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: javelin
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 073c07ecb2f523a44b3374fa30f287bf, type: 3}
+    - {fileID: 21300000, guid: ae9ea746179f2ca4087c1b4db8098657, type: 3}
+    - {fileID: 21300000, guid: 142a395b9f05c5c4690ac84bb1cefba0, type: 3}
+    - {fileID: 21300000, guid: 803844bea1f59634ebc0ea10bc7f164d, type: 3}
+    - {fileID: 21300000, guid: 6bfcbcac92f89984e94518eac237788e, type: 3}
+    - {fileID: 21300000, guid: 00c1621813270854ea221d073e149272, type: 3}
+    - {fileID: 21300000, guid: f5d628f557973a74bb56566dbda02f52, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: javelin-base
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: cb80a9d41d435de4ea9dbf7ce11bb257, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: javelin
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: bdef0a78fedfb9e4e9350c82cdec87cb, type: 3}
+    - {fileID: 21300000, guid: 5d42c87650de83d4ca84464a7662c6b9, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: throw
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f123efe0de944f2408909ebde9faef37, type: 3}
+    - {fileID: 21300000, guid: 5559a94b9f4981040b15a8b0776cfe54, type: 3}
+    - {fileID: 21300000, guid: e1a01b6217771384ba7e35d416a8e5c1, type: 3}
+    - {fileID: 21300000, guid: 9489e71998214204b83bd912545fbc0f, type: 3}
+    - {fileID: 21300000, guid: b84cea5f49f6c6e4a9e9b889120ca379, type: 3}
+    - {fileID: 21300000, guid: ed3f2d94c1e03724180b2cfab2b844dd, type: 3}
+    - {fileID: 21300000, guid: 177dfa3876fab004fbb6441ce12586bd, type: 3}
+    - {fileID: 21300000, guid: 08e5b38cd052cac4796505113b7f1723, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

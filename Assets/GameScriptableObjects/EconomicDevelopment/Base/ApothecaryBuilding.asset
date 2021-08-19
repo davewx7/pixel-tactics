@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a03e288bf0d84045b27fea9848ae76e, type: 3}
+  m_Name: ApothecaryBuilding
+  m_EditorClassIdentifier: 
+  guid: 513a180d-38ba-4df7-9da0-c90202b78336
+  guidNameSet: ApothecaryBuilding
+  buildingName: Apothecary
+  tooltip: Your units heal 8 hitpoints each round when in a village instead of 4.
+  achievementText: Your units now heal more when in villages. You may now construct
+    Herbalists in your villages. Your units will now be able to purchase more types
+    of potions and other consumables.
+  additionalAchievementText: []
+  givesHaste: 0
+  icon: {fileID: 21300000, guid: 18de89491b27eee429be90dd15b1d47f, type: 3}
+  loc: {x: 0, y: 1}
+  buildCost: 200
+  unitRecruits: []
+  recruitSlots: 1
+  increaseDiplomacy: 0
+  villageHealAmount: 8
+  villageBuildingsAvailable:
+  - {fileID: 11400000, guid: 356361783e7998544829b7783bec378d, type: 2}
+  spells: []
+  equipmentInMarket:
+  - {fileID: 11400000, guid: d04fd06e5468d9d4988f9627a565c4be, type: 2}
+  - {fileID: 11400000, guid: 98f61c4c4f3b06546b8f2e2cd0e3ac11, type: 2}
+  - {fileID: 11400000, guid: f1d4b839a0797824c85824fe4b79b325, type: 2}
+  - {fileID: 11400000, guid: 66c36e723d832bf44a17b622bfb1018f, type: 2}
+  - {fileID: 11400000, guid: bee6f47536e184c41899ffcc1b33e319, type: 2}
+  recruitExperienceBonus: 0
+  potionGranted: 0
+  grantsEquipmentOnBuild: {fileID: 0}

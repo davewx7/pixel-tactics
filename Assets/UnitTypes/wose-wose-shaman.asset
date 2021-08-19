@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: wose-wose-shaman
+  m_EditorClassIdentifier: 
+  guid: be72dc9e-9af6-499d-b3c1-cdc3f33cb375
+  guidNameSet: wose-wose-shaman
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Wose Wose Shaman
+  classId: wose-shaman
+  raceId: wose
+  tags:
+  - {fileID: 11400000, guid: 39716117a3f372042ac1f7ea8b1ca68b, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: b4ad621c22403394082c46877ab85a73, type: 2}
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: edd9c08c-f699-4474-8cff-a7504ef3b39d
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a3a9c6f0e3d841a4e8f81577474f12f5, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: fef7d79892447a9428d2b1c45c38e92c, type: 3}
+    - {fileID: 21300000, guid: fb8245461b8e3aa4085dc99f702d6426, type: 3}
+    - {fileID: 21300000, guid: b0d3ef27c9e883f47b8031949aeabb3a, type: 3}
+    - {fileID: 21300000, guid: 7832bfc71adb44e44bfee47f66d84c51, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack-ranged
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: e13a5db68f8b6bc429be3ad8b9f83ad9, type: 3}
+    - {fileID: 21300000, guid: 4f7e8a71344e1974480e2414dba55530, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 1b3bb9d42b1cff94a9a608ee7c96aaf3, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

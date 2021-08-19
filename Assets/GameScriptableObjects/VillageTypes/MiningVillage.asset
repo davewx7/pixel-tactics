@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c62752b6f9f723a438f6ad8a24f0a436, type: 3}
+  m_Name: MiningVillage
+  m_EditorClassIdentifier: 
+  guid: 27e4f652-129c-43ea-8d03-86ffd4d8c789
+  guidNameSet: MiningVillage
+  villageDescription: Mining
+  villagerPortrait: {fileID: 21300000, guid: 511148360a175ad4cb8dd52a7a41721f, type: 3}
+  boons:
+  - {fileID: 11400000, guid: 65c8466e0f0813d439080ea57d1f6520, type: 2}
+  - {fileID: 11400000, guid: e4e3841b34d120442b3cbd98ae5416f9, type: 2}
+  - {fileID: 11400000, guid: 2af27ed5cfd4cff40bd43324f210162e, type: 2}
+  namePrefixes: []
+  namePostfixes:
+  - rules: []
+    names:
+    - drum
+    - hall
+    - rune
+    - dark
+    - hearth
+    - forge
+  names:
+  - Grim
+  - Aug
+  - Dul
+  - Glam
+  - Gom
+  - Aig
+  - Pel

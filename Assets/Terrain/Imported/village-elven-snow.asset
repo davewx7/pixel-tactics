@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: village-elven-snow
+  m_EditorClassIdentifier: 
+  guid: 6bd79663-c7c6-4fdc-9fcf-97f3886c1e07
+  guidNameSet: village-elven-snow
+  rules: {fileID: 11400000, guid: c224f1393af670c4c91dd5d5d1510ec7, type: 2}
+  villageInfo: {fileID: 11400000, guid: 08eba8754111b9e4d9c0f1822348af7e, type: 2}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Village
+  zorder: 100
+  adjacent: []
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites: []
+  overlaySprites:
+  - {fileID: 21300000, guid: 769b8598968c3c344bdc4b1b9f41a996, type: 3}
+  - {fileID: 21300000, guid: 907a0c06bd68f5346839f5ec7ae6ed43, type: 3}
+  - {fileID: 21300000, guid: 546d57444ed50d74cb652b832786bacf, type: 3}
+  - {fileID: 21300000, guid: 418d5c2a246e7024289d1d17937ed9a6, type: 3}
+  castleWalls: []
+  _base: {fileID: 11400000, guid: 602e5ae662e95b94fa2f74887666aa58, type: 2}
+  yadj: 0
+  waterline: 0

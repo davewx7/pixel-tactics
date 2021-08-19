@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a786d29dac4d4f990127905c942fb, type: 3}
+  m_Name: LethargySpell
+  m_EditorClassIdentifier: 
+  guid: 29c463ed-7ee9-4f8a-9199-9ed5ca8e7d88
+  guidNameSet: LethargySpell
+  modUntilEndOfTurn:
+    description: (unknown)
+    useMod: 1
+    filter:
+      mustHaveTag: {fileID: 0}
+      excludeIfFoughtThisTurn: 0
+      baseAbility: {fileID: 0}
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  schools:
+  - {fileID: 11400000, guid: ec9cde8dcf72950409f8d718fbf7dd86, type: 2}
+  - {fileID: 11400000, guid: 5203d242bf1079e499249c14f474cb2f, type: 2}
+  consumable: 0
+  cooldown: -1
+  targetTypes: 02000000
+  targetTerrain: []
+  targetLevelLessOrEqualToSpellLevel: 0
+  mustControlTarget: 0
+  targetsKeep: 0
+  targetRange: 2
+  targetRadius: 0
+  rangeIsUnitVision: 0
+  rangeIsGlobal: 0
+  healTarget: 0
+  temporaryHitpoints: 0
+  drainLife: 0
+  blinkToTarget: 0
+  description: Lethargy
+  icon: {fileID: 21300000, guid: e889259821b88f14e82db746c044c5b3, type: 3}
+  hueshift: 0
+  spellLevel: 1
+  refreshesMovement: 0
+  refreshesAttack: 0
+  summaryRules: 
+  applyStatus: {fileID: 11400000, guid: 0ba6cd09bfb99344ab17dc5a9624161d, type: 2}
+  summonType: {fileID: 0}
+  numSummons: 1
+  createEquipment: []
+  cannotTargetBlessedUnit: 0
+  effectSource: {fileID: 0}
+  effectDest: {fileID: 0}
+  tooltipRules: Target enemy becomes lethargic, having -20% evasion this round and
+    your units have +20% chance to land a critical hit on it.
+  _noTargetsErrorMessage: No targets in range

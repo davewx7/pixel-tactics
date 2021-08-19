@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: keep-aquatic
+  m_EditorClassIdentifier: 
+  guid: 4d3ff18a-737a-4bfd-916d-322e8665839e
+  guidNameSet: keep-aquatic
+  rules: {fileID: 11400000, guid: 0d90263231adf024fa1d2d0cd18cef8e, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Keep
+  zorder: 2100
+  adjacent: []
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites:
+  - {fileID: 21300000, guid: 3111f07587a83e94c9e6b3a97da31f19, type: 3}
+  overlaySprites: []
+  castleWalls:
+  - {fileID: 21300000, guid: 794daf71d6a3e044fb8a3317464f1bda, type: 3}
+  - {fileID: 21300000, guid: aa54397d47c559f488f3067de18d12a2, type: 3}
+  - {fileID: 21300000, guid: 622bbb0cb215442419e39af5265fb439, type: 3}
+  - {fileID: 21300000, guid: 7937e8b573d11d64b93bf1f9d23cdeb4, type: 3}
+  - {fileID: 21300000, guid: 942fd1d4ac4a8c54b819c3bdc6cb9ac0, type: 3}
+  - {fileID: 21300000, guid: 98b025c5e6cbde246b44a9d198f64a73, type: 3}
+  - {fileID: 21300000, guid: 2a8fbb99e1b0b5e4996b6584a23b8f31, type: 3}
+  - {fileID: 21300000, guid: f64bb38fa185aa045abacbb69c2a400c, type: 3}
+  - {fileID: 21300000, guid: 4b38a44fce0e89f4abf79d64a70b97d7, type: 3}
+  - {fileID: 21300000, guid: a8f6cf77e11477a4bb9b5e382f14d92d, type: 3}
+  - {fileID: 21300000, guid: 346f72b0d254dbd459ece494b3abda97, type: 3}
+  - {fileID: 21300000, guid: 056a35d44af447d46ae6664b83e2dc9b, type: 3}
+  _base: {fileID: 0}
+  yadj: 0.4
+  waterline: 0

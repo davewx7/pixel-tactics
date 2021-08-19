@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a786d29dac4d4f990127905c942fb, type: 3}
+  m_Name: EnchantedForestSpell
+  m_EditorClassIdentifier: 
+  guid: fbc21714-ff52-4fb9-9d91-d7cbccbde3c8
+  guidNameSet: EnchantedForestSpell
+  modUntilEndOfTurn:
+    description: (unknown)
+    useMod: 0
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+  schools:
+  - {fileID: 11400000, guid: ec9cde8dcf72950409f8d718fbf7dd86, type: 2}
+  targetTypes: 000000000100000002000000
+  targetTerrain:
+  - {fileID: 11400000, guid: 517d5f0355a5287418a6b04f9e5e047f, type: 2}
+  targetLevelLessOrEqualToSpellLevel: 0
+  mustControlTarget: 0
+  targetsKeep: 0
+  targetRange: 1
+  targetRadius: 1
+  rangeIsUnitVision: 1
+  healTarget: 0
+  temporaryHitpoints: 0
+  blinkToTarget: 0
+  description: Enchanted Forest
+  icon: {fileID: 21300000, guid: c350f32a4998cb54aad17d0e7ae02fbe, type: 3}
+  spellLevel: 1
+  refreshesMovement: 0
+  refreshesAttack: 0
+  summaryRules: Apply Sleep
+  applyStatus: {fileID: 11400000, guid: b4ceaaf5cbe45ac40999a96b39a11934, type: 2}
+  summonType: {fileID: 0}
+  effectSource: {fileID: 0}
+  effectDest: {fileID: 0}
+  tooltipRules: Target unit in forest and all adjacent units in forest fall asleep
+    this round. If they sleep until they awaken they are fully restored.

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: loyalist-cavalryman
+  m_EditorClassIdentifier: 
+  guid: 2fa52d71-6e42-4438-a983-35e149888835
+  guidNameSet: loyalist-cavalryman
+  portrait: {fileID: 21300000, guid: 7c9ed04da1a36e847b077575ca7574c4, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Cavalryman
+  classId: cavalryman
+  raceId: loyalist
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: fddf0bbaf17fa4f4f877e425eeb0376b, type: 2}
+  abilityArgs: []
+  cost: 22
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 13e002e5-756b-4aa3-b46f-2593bf0647a4
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 38
+  hitpointsMax: 36
+  criticalEvasion: 0
+  evasion: 30
+  armor: 2
+  resistance: 0
+  movement: 8
+  levelsInto:
+  - {fileID: 11400000, guid: f564ad36e706a8c4490869e8ce8f6dce, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: 4582b3f742953fc48bb951a30b5f1597, type: 3}
+    description: sword
+    id: sword
+    damage: 7
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7c7664a712df4d442920be225fd6d4f3, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 30dd9da2efa73624493bbe83317b3699, type: 3}
+    - {fileID: 21300000, guid: 36ec25424f6bdf74cba3c92e9aa6f97e, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd128e1a4d71622468be6df97c7c4444, type: 3}
+  m_Name: BoonPotion
+  m_EditorClassIdentifier: 
+  guid: da038f5f-a255-49f8-bfc4-efb2fcf05bac
+  guidNameSet: BoonPotion
+  priority: 1
+  embargoAfterOffering: -1
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 0}
+  dialogStorylineText: 
+  declineStoryText: 
+  avatarSprite: {fileID: 0}
+  effectText: Gain an item
+  storyText: Ask the villagers if they can spare a potion to aid you.

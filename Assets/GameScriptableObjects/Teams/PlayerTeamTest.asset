@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b01e285977ca04b8fdc3a6d598f812, type: 3}
+  m_Name: PlayerTeamTest
+  m_EditorClassIdentifier: 
+  guid: 3f996671-1a2a-4589-8042-e81f9d0fd0e9
+  guidNameSet: PlayerTeamTest
+  player: 0
+  barbarian: 0
+  handlesCaveSpawns: 0
+  unitsHaveHaste: 0
+  swornEnemies: []
+  initialGreeting: 
+  fealtyOffer: 
+  baseUpkeep: 3
+  coloring: {fileID: 11400000, guid: b920abfc40023cb438d430dc595dad81, type: 2}
+  ai: {fileID: 0}
+  teamName: 
+  rulerName: 
+  startingGold: -1
+  baseIncome: -1
+  rulerType: {fileID: 11400000, guid: 2b75dfe373bdb5547a926954113a5e32, type: 2}
+  recruitmentOptions:
+  - {fileID: 11400000, guid: 7320f25089d5093419660dc89574eca8, type: 2}
+  - {fileID: 11400000, guid: 777ad5c083be8c2498bd9086508ddf84, type: 2}
+  possibleQuests: []

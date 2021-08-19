@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: UndeadDialogMakeWarHasContact
+  m_EditorClassIdentifier: 
+  guid: a0d1bffb-fee5-4de8-a583-f7a458d42ee2
+  guidNameSet: UndeadDialogMakeWarHasContact
+  message: The quest_enemy_team_name have long been determined to destroy me. You
+    cannot be my ally and theirs. I beseech you to agree to destroy them.
+  options:
+  - text: So be it. I shall aid you in defeating them.
+    result: {fileID: 11400000, guid: 87b2d46d6916755439379e8e7cbeae32, type: 2}
+    instructions: []
+    conditions: 
+  - text: I do not seek allies, but subjects, and my subjects do not demand who I
+      fight. I would rather fight you than them.
+    result: {fileID: 11400000, guid: 1933674f3143e7846a58012526b38271, type: 2}
+    instructions: []
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844678c03ede8a049b3e372113cd4bf5, type: 3}
+  m_Name: BoonUnderworldEasy
+  m_EditorClassIdentifier: 
+  guid: c28681ed-497f-4e0d-9a66-7edb9a3dc476
+  guidNameSet: BoonUnderworldEasy
+  alternatives:
+  - team: {fileID: 11400000, guid: e6574919d29a7cb4486370e67b5c2da1, type: 2}
+    boon: {fileID: 11400000, guid: 9551127775b1c484db61c61fff86a1d4, type: 2}
+  priority: 1
+  embargoAfterOffering: -1
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 0}
+  dialogStorylineText: x
+  declineStoryText: 
+  avatarSprite: {fileID: 0}
+  effectText: 
+  storyText: 
+  _boons:
+  - {fileID: 11400000, guid: 0ca2065003294de44835fe493b1ac8de, type: 2}
+  - {fileID: 11400000, guid: 3e448a515d20a8c4f9d34c6a30fc32ad, type: 2}

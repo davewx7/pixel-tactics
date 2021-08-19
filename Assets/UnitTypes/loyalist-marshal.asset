@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: loyalist-marshal
+  m_EditorClassIdentifier: 
+  guid: ecb9ef88-b4aa-450d-a8e5-16abf16c84bb
+  guidNameSet: loyalist-marshal
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Marshal
+  classId: marshal
+  raceId: loyalist
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 097f509d-9442-4584-b144-e034c6f3ab31
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 0034f7b7c51f4c24298a3964978e23c7, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack-sword
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a82a4b057e216f94598683a6f4d8867a, type: 3}
+    - {fileID: 21300000, guid: 611cb103f58e31042b5fdf625ce2403a, type: 3}
+    - {fileID: 21300000, guid: 4314a83a8169c844991691663e71b4ee, type: 3}
+    - {fileID: 21300000, guid: 1fbd55c9faaa2d34c9417cfecc5e9633, type: 3}
+    - {fileID: 21300000, guid: 3fa30e0643957744c8e2eafb8b4a8915, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: crossbow
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: e7d0b1adf0fcae848a29ac5923a9b7a6, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: crossbow-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: bb4150bde0b18dc45a4a222ef1dd9b30, type: 3}
+    - {fileID: 21300000, guid: bc55629aa0cec274ebcefc26639f6338, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: crossbow
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f552691775ed8fd49a22db11fd1d9563, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: be6b2f38287e57b4c9e9c5a5193fd9e9, type: 3}
+    - {fileID: 21300000, guid: f5a183d118683e442b31fb1b6d2fe8c7, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f38342a314b91b845ba1a22c95962b52, type: 3}
+    - {fileID: 21300000, guid: b94ba207d6a9d9a44864cfbb16fbf278, type: 3}
+    - {fileID: 21300000, guid: bb55cb480d8363249bcb57a30fe89426, type: 3}
+    - {fileID: 21300000, guid: 57a0359058cbb774a970fab2258ab48c, type: 3}
+    - {fileID: 21300000, guid: 5965eb3e35a721244b8e9a29dfb97031, type: 3}
+    - {fileID: 21300000, guid: 821a8a25e56cd4e43bd47888af5537c7, type: 3}
+    - {fileID: 21300000, guid: 5342d7bc4675815469e4576aeadc763f, type: 3}
+    - {fileID: 21300000, guid: 21f2ebe18962088469b8ee2b9d7aee66, type: 3}
+    - {fileID: 21300000, guid: eca178d5105d42a4fb0c6e0246f3a063, type: 3}
+    - {fileID: 21300000, guid: f0ca8b811d5411a4abc015b57fc01ec1, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 5
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 97ab4d23051f77045a0742b6a26d447e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

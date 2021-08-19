@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: elf-druid
+  m_EditorClassIdentifier: 
+  guid: 62d1b78a-0f76-4991-9df5-9180390f3c3b
+  guidNameSet: elf-druid
+  portrait: {fileID: 21300000, guid: 8fab8e03c46515442ad190b027de9ca6, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Elf Druid
+  classId: druid
+  raceId: elf
+  tags:
+  - {fileID: 11400000, guid: ffb283ef68f579445a304e56bb9d1efe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: edce84c7-f532-4f8e-8bf0-94dd92bd87b8
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells:
+    - {fileID: 11400000, guid: b2c80a143bf0d6343a2741612ae373c9, type: 2}
+    - {fileID: 11400000, guid: 7a945d60cacd55a4c814fd44620c00d0, type: 2}
+    - {fileID: 11400000, guid: 78c6ba916d97ab544ace7d02e279158d, type: 2}
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 48
+  hitpointsMax: 36
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 1
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: 5f41f88559ddd944b9a37244c5f5b419, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: 0cc5fb103edd6dc41bbe96c4848788c7, type: 3}
+    description: staff
+    id: attack
+    damage: 4
+    nstrikes: 2
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: d8257964882a1134d9eab9d9b180c4f3, type: 3}
+    description: thorns
+    id: net
+    damage: 7
+    nstrikes: 2
+    accuracy: 10
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: ebedcfb28488a79419f1b84dac9e18d6, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: 5f11bf1bd31f7e245a623965cb7e0a7c, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 4ef42576051006d4795c226bd6a589b3, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 2627638e44fbecf4ca3837999f86f7e8, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: ff61fc2324ded5e44b741a64825113c4, type: 3}
+    - {fileID: 21300000, guid: b6e23829308e57f4e87d2857dc3410f5, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 5
+      tag: magic
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 5bc47353cc273574096e77a46f72ca52, type: 3}
+    - {fileID: 21300000, guid: 3acc8dc4acb5fda4289fd2e89463eb47, type: 3}
+    - {fileID: 21300000, guid: 47e795a6512b7334a93ac084a69eafaa, type: 3}
+    - {fileID: 21300000, guid: c8e58499b3aaeb143b0d36d9c9b5566e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

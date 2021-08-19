@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: loyalist-master-at-arms
+  m_EditorClassIdentifier: 
+  guid: bcd230a2-08cf-48ee-99d2-0103ba188c52
+  guidNameSet: loyalist-master-at-arms
+  portrait: {fileID: 21300000, guid: 0c5ff1ab50ed351459f50c5e160d34cf, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Master-at-arms
+  classId: master-at-arms
+  raceId: loyalist
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: a765bcbd21a3c8d438c8d22637e51f46, type: 2}
+  - {fileID: 11400000, guid: b90ac235285a8004aa6897a8e4f8211f, type: 2}
+  abilityArgs: []
+  cost: 32
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 1f9e4205-da14-43c8-9cfd-c779c6ead193
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 3
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 60
+  hitpointsMax: 38
+  criticalEvasion: 0
+  evasion: 70
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: f797840da9e8f7149aa003ffb5ca3023, type: 3}
+    description: sword
+    id: melee-2
+    damage: 5
+    nstrikes: 5
+    accuracy: 60
+    critical: 20
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 2c9588f64c2b89d43aa7c66894f8993b, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: crossbow
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: d7e7dde8472ac3e4c88bebc2a7631c50, type: 3}
+    - {fileID: 21300000, guid: 5b7f7f002f17b9e439746f3133c8874e, type: 3}
+    - {fileID: 21300000, guid: d53f6699d9b3a3d4480c0b75d239fac7, type: 3}
+    - {fileID: 21300000, guid: 7683cb2175fdd7245aa64d496eae5cc2, type: 3}
+    - {fileID: 21300000, guid: a7666eea703637142a292410c5c923b5, type: 3}
+    - {fileID: 21300000, guid: 25e8a8e2ec543f1499e63dcc74d6d215, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 92581e26b2bd7ac4fbe91755fe153fe1, type: 3}
+    - {fileID: 21300000, guid: 920e22ecdb0d046429e325ce46f65f75, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee-1
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: eda113cf3e52950459a7c5a398a34121, type: 3}
+    - {fileID: 21300000, guid: 74961b53f3cde784ead1cdf998c73be3, type: 3}
+    - {fileID: 21300000, guid: 741aa23ae13bf7545b3a3f360ae35409, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee-2
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 8cd954b4ca726a5428e2ba431cb4939f, type: 3}
+    - {fileID: 21300000, guid: f8c8ba6e456032d4dab1bafcaba27bc9, type: 3}
+    - {fileID: 21300000, guid: 3709724edb1e52748be30638a0b46c6d, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee-3
+      zombietype: 
+    sprites:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: ca7d2a5cd02d0c34997704df873923cb, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: recover
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 41274161246de9042b280c845b24bca0, type: 3}
+    - {fileID: 21300000, guid: 355ffb193c57c4f438dd2221ad18e0d6, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: victory
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 22b31be6a6f333b41b9917d16d4f47d2, type: 3}
+    - {fileID: 21300000, guid: d8ed0709f7005d842a2075c9bc2dfcb7, type: 3}
+    - {fileID: 21300000, guid: e714b8d5f68eac349aab2ce1c60286dd, type: 3}
+    - {fileID: 21300000, guid: 21dd82efc73d2bd4993a956c08fdbb83, type: 3}
+    - {fileID: 21300000, guid: db566e808c8866743bd5541272f465c1, type: 3}
+    - {fileID: 21300000, guid: 815d83356a40dbc41ade525bdc6bda45, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

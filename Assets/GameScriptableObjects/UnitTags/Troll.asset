@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb29c9160ce1d194f920eabb89671117, type: 3}
+  m_Name: Troll
+  m_EditorClassIdentifier: 
+  guid: f13c35ae-8f02-4a57-bd4a-0686d372523e
+  guidNameSet: Troll
+  isRace: 1
+  description: Troll
+  descriptionPlural: Trolls
+  traits:
+  - {fileID: 11400000, guid: 53e690f2a80f0124d9a03cd5984e2c19, type: 2}
+  - {fileID: 11400000, guid: 9271ce67aef0ef04c9ac234d6e7930a2, type: 2}
+  - {fileID: 11400000, guid: c282b3926f058d549a20f0116ac701d9, type: 2}
+  - {fileID: 11400000, guid: 2c456e4179f409b4b8d96c1921a64c41, type: 2}
+  - {fileID: 11400000, guid: f1a273986b672b546b15c2a396958a3d, type: 2}
+  - {fileID: 11400000, guid: b9fa5495ce0c5c74eaa155902721fd5b, type: 2}
+  - {fileID: 11400000, guid: b361c4104572706488a310864977a117, type: 2}
+  numberOfTraits: 2
+  zombieTrait: {fileID: 11400000, guid: c4f5a1e4021da7247868dfbf19884cdd, type: 2}
+  cannotEnterTerrain: []
+  advantagedTerrain:
+  - {fileID: 11400000, guid: 51c90df8d4f283e4db79d7ace15b89c5, type: 2}
+  - {fileID: 11400000, guid: add985989f0c8b24ca22320981bf580b, type: 2}
+  disadvantagedTerrain: []
+  maleNames: 
+  femaleNames: 

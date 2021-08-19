@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: troll-warrior
+  m_EditorClassIdentifier: 
+  guid: 04a9f267-f00e-4314-9dd4-b45a926cb642
+  guidNameSet: troll-warrior
+  portrait: {fileID: 21300000, guid: 5926f205010753e408b5e8d4569b8468, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Troll Warrior
+  classId: warrior
+  raceId: troll
+  tags:
+  - {fileID: 11400000, guid: af6d9699302e97e499353a4ce8f3c37a, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: b4ad621c22403394082c46877ab85a73, type: 2}
+  abilityArgs: []
+  cost: 36
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: a09eba74-908b-40ca-a85b-50e591d4bc5d
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 3
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 72
+  hitpointsMax: 66
+  criticalEvasion: 0
+  evasion: 30
+  armor: 1
+  resistance: 0
+  movement: 4
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: bb01401ac71401148b9884934ed080b2, type: 3}
+    description: club
+    id: attack
+    damage: 18
+    nstrikes: 2
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: b21a8ac2ba6fb804597373983852ea71, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 24b623b08cc2f0e46affb1de6e02721f, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 4846a819cfca90a4fb7d5a28c5bc531f, type: 3}
+    - {fileID: 21300000, guid: ac0ccd19edb152f4eb10d45dd608ccea, type: 3}
+    - {fileID: 21300000, guid: b2b2cdffdbd9d7c42869a2e78c24c026, type: 3}
+    - {fileID: 21300000, guid: ef9d66499e82cd74180308f75a9970c7, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 43e88e33f3ebe6849be5cc7c3319ffab, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

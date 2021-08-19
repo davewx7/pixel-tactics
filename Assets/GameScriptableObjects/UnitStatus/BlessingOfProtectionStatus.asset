@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d6edfdc2c14e4479984e3013e7d39b, type: 3}
+  m_Name: BlessingOfProtectionStatus
+  m_EditorClassIdentifier: 
+  guid: cb3acf96-b4bb-43ae-9285-a2f5feff3c30
+  guidNameSet: BlessingOfProtectionStatus
+  icon: {fileID: 21300000, guid: 3b0cd80983e67304381527a50bcc2803, type: 3}
+  description: Blessing of Protection
+  tooltip: 'Blessing of Protection: The next time this unit would be dealt combat
+    damage it evades all attacks that combat.'
+  applySlogan: 
+  expiresAfterOneRound: 0
+  unitMod:
+    description: Blessing
+    useMod: 0
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a03e288bf0d84045b27fea9848ae76e, type: 3}
+  m_Name: MageAcademyBuildingUndead
+  m_EditorClassIdentifier: 
+  guid: f235d7e4-3300-46aa-8f79-e95496e861f5
+  guidNameSet: MageAcademyBuildingUndead
+  buildingName: Necromancer's Tower
+  tooltip: Allows you to recruit Dark Adepts. Allows you to construct Libraries in
+    your villages.
+  achievementText: You may now recruit Dark Adepts. You may now construct Libraries
+    in your villages.
+  additionalAchievementText: []
+  givesHaste: 0
+  icon: {fileID: 21300000, guid: 81e6fba463b861045be437a8a842d156, type: 3}
+  loc: {x: -1, y: 1}
+  buildCost: 200
+  unitRecruits:
+  - {fileID: 11400000, guid: 60841c7396b3ec54da370bd7475316c4, type: 2}
+  recruitSlots: 1
+  increaseDiplomacy: 0
+  villageHealAmount: 0
+  villageBuildingsAvailable:
+  - {fileID: 11400000, guid: 8bde806fb2a2e6749b62ccc945c80985, type: 2}
+  spells: []
+  equipmentInMarket: []
+  recruitExperienceBonus: 0
+  potionGranted: 0
+  grantsEquipmentOnBuild: {fileID: 0}
+  modMaxUnits: -1
+  globalUnitMod:
+    description: (unknown)
+    useMod: 1
+    filter:
+      mustHaveTag: {fileID: 0}
+      excludeIfFoughtThisTurn: 0
+      baseAbility: {fileID: 0}
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  doubleXpHighLevelUnits: 0

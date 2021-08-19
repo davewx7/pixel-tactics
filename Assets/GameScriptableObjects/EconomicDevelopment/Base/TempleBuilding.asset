@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a03e288bf0d84045b27fea9848ae76e, type: 3}
+  m_Name: TempleBuilding
+  m_EditorClassIdentifier: 
+  guid: 49667b5e-3a34-47f8-a5f1-d4d12dc77090
+  guidNameSet: TempleBuilding
+  buildingName: Temple
+  tooltip: Allows you to recruit Clerics. Allows you to construct Shrines in your
+    villages.
+  achievementText: You may now recruit Clerics. You may now construct Shrines in your
+    villages.
+  additionalAchievementText: []
+  givesHaste: 0
+  icon: {fileID: 21300000, guid: 3d52706c01329c2418249d2f13939a22, type: 3}
+  loc: {x: 1, y: 1}
+  buildCost: 200
+  unitRecruits:
+  - {fileID: 11400000, guid: 2e4508a04c07f7f4290ef1726f13e33f, type: 2}
+  recruitSlots: 1
+  villageBuildingsAvailable:
+  - {fileID: 11400000, guid: 80cd10d0fea0c584da109f6fadbec0d7, type: 2}
+  spells: []
+  equipmentInMarket: []
+  recruitExperienceBonus: 0
+  potionGranted: 0
+  grantsEquipmentOnBuild: {fileID: 0}

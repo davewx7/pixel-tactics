@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: StartingEnemy1Greeting
+  m_EditorClassIdentifier: 
+  guid: 9f2b113e-7b74-4896-9d59-7292150b43bb
+  guidNameSet: StartingEnemy1Greeting
+  message: Who goes there? Yield before the rightful player_queen in player_her domain!
+  options:
+  - text: 
+    result: {fileID: 11400000, guid: 6c9e69ba1de08f1408a80380f528d8dd, type: 2}
+    instructions: []
+  executeOnce: 1
+  focusPlayer: 1

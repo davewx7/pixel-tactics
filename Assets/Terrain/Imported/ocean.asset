@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: ocean
+  m_EditorClassIdentifier: 
+  guid: 0b647802-68ce-455c-ac76-e0b2e14f3665
+  guidNameSet: ocean
+  rules: {fileID: 11400000, guid: ad923f12954f7f24f9c52fdcd3cfb532, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Ocean
+  zorder: -10
+  adjacent:
+  - {fileID: 21300000, guid: 076aa7925a0c3054bab9d7f635608ac1, type: 3}
+  - {fileID: 21300000, guid: cb96da84520c53a4bb3715aa82ab7906, type: 3}
+  - {fileID: 21300000, guid: bfb5e966ff9dedd489977eba87e3c1fa, type: 3}
+  - {fileID: 21300000, guid: 9a6dee3dcc7b03246a5837ed7b2e703d, type: 3}
+  - {fileID: 21300000, guid: dec26128d2c10164788a593a5111473e, type: 3}
+  - {fileID: 21300000, guid: 09d3281da94e8354f9fc6d663da20646, type: 3}
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites:
+  - {fileID: 21300000, guid: 2645b6653f603fb42a421c6935b9eef7, type: 3}
+  - {fileID: 21300000, guid: 3a190749c9b6a714a89cc8fea869789b, type: 3}
+  - {fileID: 21300000, guid: ce2889cfb2018684792c195a9ab2301f, type: 3}
+  - {fileID: 21300000, guid: fd91cbd40333f194eb4d95c7966dda8d, type: 3}
+  - {fileID: 21300000, guid: feba3831588b089458fb183e32d79e92, type: 3}
+  - {fileID: 21300000, guid: ae0053ab507ece0459526b79f3bbb578, type: 3}
+  - {fileID: 21300000, guid: d555edcc3dfd5d045bea21505934dda8, type: 3}
+  - {fileID: 21300000, guid: 921ff418df44fd84d8af53386f9f8700, type: 3}
+  - {fileID: 21300000, guid: 40ad321804350714da7b76ac23425037, type: 3}
+  - {fileID: 21300000, guid: 8a0079f779fcbcd4ab2d7bfe076dcdf8, type: 3}
+  - {fileID: 21300000, guid: 2c313aa3190cf0c4380a64df100263a1, type: 3}
+  - {fileID: 21300000, guid: 6a58f331b90d9f347abfb0f479f11a31, type: 3}
+  - {fileID: 21300000, guid: 895c578ead2b7cb4198e19edc6fb4172, type: 3}
+  - {fileID: 21300000, guid: b27df5775a6d20c4fa6ff5389d59f910, type: 3}
+  - {fileID: 21300000, guid: 565cfbe662b4d894c8239344ab426b36, type: 3}
+  overlaySprites: []
+  castleWalls: []
+  _base: {fileID: 0}
+  yadj: 0
+  waterline: 0.5

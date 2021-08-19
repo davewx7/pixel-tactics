@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a03e288bf0d84045b27fea9848ae76e, type: 3}
+  m_Name: ForgeBuilding
+  m_EditorClassIdentifier: 
+  guid: 722e1278-a488-491b-9162-2f48a865fa21
+  guidNameSet: ForgeBuilding
+  buildingName: Forge
+  tooltip: Allows you to recruit Heavy Infantry
+  achievementText: You may now recruit Heavy Infantry.
+  additionalAchievementText: []
+  givesHaste: 0
+  icon: {fileID: 21300000, guid: acba092eb80d9d4408787ec8ce71cb17, type: 3}
+  loc: {x: -2, y: -1}
+  buildCost: 400
+  unitRecruits:
+  - {fileID: 11400000, guid: 85857a50eaa60234dad708c37b3c9a0c, type: 2}
+  recruitSlots: 1
+  villageBuildingsAvailable: []
+  spells: []
+  equipmentInMarket: []
+  recruitExperienceBonus: 0
+  potionGranted: 0
+  grantsEquipmentOnBuild: {fileID: 0}

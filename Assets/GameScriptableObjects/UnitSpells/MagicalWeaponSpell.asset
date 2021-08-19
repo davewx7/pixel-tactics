@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a786d29dac4d4f990127905c942fb, type: 3}
+  m_Name: MagicalWeaponSpell
+  m_EditorClassIdentifier: 
+  guid: ea78df77-963d-4fb5-8b6e-3796228ac8fd
+  guidNameSet: MagicalWeaponSpell
+  modUntilEndOfTurn:
+    description: Magical Weapon
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription: []
+      excludeMelee: 0
+      excludedRanged: 0
+      excludeMagical: 0
+      excludePhysical: 0
+      damage: 0
+      accuracy: 20
+      critical: 0
+      nstrikes: 0
+      abilities: []
+      makesMagical: 1
+    abilities: []
+    abilityArgs: []
+  schools:
+  - {fileID: 11400000, guid: 7f3a2f1de7426bc4ca8f08f2bf897fb8, type: 2}
+  ispotion: 0
+  cooldown: 4
+  targetTypes: 0000000001000000
+  targetTerrain: []
+  targetLevelLessOrEqualToSpellLevel: 0
+  mustControlTarget: 0
+  targetsKeep: 0
+  targetRange: 3
+  targetRadius: 0
+  rangeIsUnitVision: 0
+  healTarget: 0
+  temporaryHitpoints: 0
+  drainLife: 0
+  blinkToTarget: 0
+  description: Magic Weapon
+  icon: {fileID: 21300000, guid: d90c6bd8ad9435f4a8f27e6c31f6e2ce, type: 3}
+  hueshift: 0
+  spellLevel: 1
+  refreshesMovement: 0
+  refreshesAttack: 0
+  summaryRules: 
+  applyStatus: {fileID: 0}
+  summonType: {fileID: 0}
+  numSummons: 1
+  createEquipment: []
+  cannotTargetBlessedUnit: 0
+  effectSource: {fileID: 0}
+  effectDest: {fileID: 0}
+  tooltipRules: Target's weapons are magical this turn and have +20% accuracy.
+  _noTargetsErrorMessage: No targets in range

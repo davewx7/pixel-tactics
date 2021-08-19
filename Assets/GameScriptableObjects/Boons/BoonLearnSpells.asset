@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0262f77072a1c854eb18ca658f945007, type: 3}
+  m_Name: BoonLearnSpells
+  m_EditorClassIdentifier: 
+  guid: 4d3e83a4-0d87-4d90-aba6-c34c16285c4c
+  guidNameSet: BoonLearnSpells
+  priority: 1
+  embargoAfterOffering: 4
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  createBuilding: {fileID: 11400000, guid: 8bde806fb2a2e6749b62ccc945c80985, type: 2}
+  dialogStorylineText: <i>"Greetings, traveler"</i> this wizened old man waves to
+    you as you enter the village. <i>"I am aware of your cause and while I am too
+    old and infirm to join you, I do maintain a small Library in the town for those
+    who wish to study the arcane arts. Perhaps you would like to visit it and study
+    with me? You might even learn something new."</i>
+  declineStoryText: Wars are not won in dusty little libraries. You go about your
+    business in town.
+  avatarSprite: {fileID: 21300000, guid: 63f0ecad6c8ff8b4fb0fea5496726e37, type: 3}
+  effectText: Learn some spells
+  storyText: Nothing is more important to you than learning the arcane arts. You take
+    time out from other business to visit the village library and study with the man.
+  _schools:
+  - {fileID: 11400000, guid: 7f3a2f1de7426bc4ca8f08f2bf897fb8, type: 2}
+  _acceptMessage: 'You take the opportunity to study and learn some new spells, making
+    sure to record them to place in your library. You feel yourself refreshed and
+    able to prepare these new spells now if you so wish.
+
+
+    <i>"You may return to this Library any time you wish"</i> the old man assures
+    you, <i>"It is a good place to prepare your spells, I keep my volumes well-stocked."</i>
+
+
+    This village has a <color=#ffffff>Library</color> in it. Your spellcasting units
+    may prepare their chosen spells here without having to take time to rest.'
+  numSpells: 2

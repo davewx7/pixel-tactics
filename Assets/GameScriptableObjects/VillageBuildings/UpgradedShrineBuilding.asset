@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399fc44b4e15d8c47a955e3dafbdca47, type: 3}
+  m_Name: UpgradedShrineBuilding
+  m_EditorClassIdentifier: 
+  guid: a0ff3234-59c3-4acc-bbd8-17aabaa8334b
+  guidNameSet: UpgradedShrineBuilding
+  upgrades: []
+  icon: {fileID: 21300000, guid: de736539ec0dcbc4dae2e14092c1d9f9, type: 3}
+  description: Shrine
+  rulesText: Your units that finish resting here gain a blessing. Has additional items
+    available. Units that end their turn here gain 8 temporary hitpoints.
+  xpGainFinishRest: 0
+  goldCost: 5
+  timeCost: 1
+  temporaryHitpointsEndOfTurn: 8
+  equipmentAvailablePool:
+  - {fileID: 11400000, guid: dfe5e0145f5e0184195e83c4f4c9e56b, type: 2}
+  - {fileID: 11400000, guid: a98abb7278afbcd47aa0a085ea5dfb43, type: 2}
+  - {fileID: 11400000, guid: 0ba0150d16c181347b7c186f2265b4fa, type: 2}
+  equipmentAvailableCount: -1
+  equipmentAvailableByTier: 
+  giveStatusAfterRest:
+  - {fileID: 11400000, guid: 65f4524aab3814e44accbbf03dbc35ec, type: 2}
+  - {fileID: 11400000, guid: 432bb9b62f3ef5a43a7f6d67018c3e99, type: 2}
+  giveEquipmentOnEndTurn: []
+  mustBeAdjacentToOcean: 0
+  acceleratesResting: 0
+  regenerateAtEndOfTurn: 0
+  unitMod:
+    description: (unknown)
+    useMod: 0
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []

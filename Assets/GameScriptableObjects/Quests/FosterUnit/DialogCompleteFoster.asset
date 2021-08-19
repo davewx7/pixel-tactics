@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: DialogCompleteFoster
+  m_EditorClassIdentifier: 
+  guid: ee4057e0-6174-4356-974e-25b5a23073e9
+  guidNameSet: DialogCompleteFoster
+  message: 'Why, unit_foster_name has come so far under your watchful eye. We are
+    so happy to hear daily of their exploits.
+
+
+    We are much indebted to you for showing such leadership to our kin. They may continue
+    serving you so long as we remain friends.'
+  options: []
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

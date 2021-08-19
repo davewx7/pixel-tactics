@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: LevitationPotion
+  m_EditorClassIdentifier: 
+  guid: 7266dd2e-780a-497e-9661-b594739e4e53
+  guidNameSet: LevitationPotion
+  icon: {fileID: 21300000, guid: 1f11a6c1f1b43624ebc8d9e5f6af8cb2, type: 3}
+  hueShift: 0.5
+  description: Potion of Levitation
+  summaryRules: Flying
+  tooltipRules: 'Consume: Unit has flying this round.'
+  slot: {fileID: 11400000, guid: e07a9503a3fdfbf499c1dd45af1a1ff9, type: 2}
+  consumable: 1
+  tier: 0
+  teamAssociation: []
+  activatedAbility: {fileID: 11400000, guid: 5d72f8b5119d8af4c8914af0a926410d, type: 2}
+  beginTurnEffect: {fileID: 0}
+  mod:
+    description: Potion of Levitation
+    useMod: 0
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  attackRequired: []
+  _price: 3

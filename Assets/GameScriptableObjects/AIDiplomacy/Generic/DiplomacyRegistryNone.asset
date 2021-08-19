@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d803fa1d26f6d47910021383f523ff, type: 3}
+  m_Name: DiplomacyRegistryNone
+  m_EditorClassIdentifier: 
+  guid: 65802728-056e-400a-a8d5-730d51cd8f6b
+  guidNameSet: DiplomacyRegistryNone
+  baseRegistry: {fileID: 0}
+  _initialGreeting: []
+  _initialGreetingPleased: []
+  _initialGreetingSwornEnemies: []
+  _initialGreetingAlreadyWar: []
+  _declareWar: []
+  _peacefulAgreement: []
+  _friendlyGreetingHasQuest: []
+  _friendlyGreetingNoQuest: []
+  _friendlyFarewell: []
+  _offerGift: []

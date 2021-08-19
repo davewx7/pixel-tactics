@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: cave-hills
+  m_EditorClassIdentifier: 
+  guid: 5796c047-5db8-478b-9f3e-cf80ad5a81dd
+  guidNameSet: cave-hills
+  rules: {fileID: 11400000, guid: 51c90df8d4f283e4db79d7ace15b89c5, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Hills
+  zorder: -999
+  adjacent:
+  - {fileID: 21300000, guid: 9e0038cb5346b6041a5a994b1bfccdef, type: 3}
+  - {fileID: 21300000, guid: 0410c20377e28494daed6900300e817f, type: 3}
+  - {fileID: 21300000, guid: e1d316181ad5d0a4c9585c8ea160972c, type: 3}
+  - {fileID: 21300000, guid: b4a04eaaf614cc84ea8c36dc6fd3cb34, type: 3}
+  - {fileID: 21300000, guid: efcb85969f5841d44b694e6d3fd0bf83, type: 3}
+  - {fileID: 21300000, guid: 5eb4136312c691247a4fc4430bfa93b6, type: 3}
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites:
+  - {fileID: 21300000, guid: 434d10a5decdda64384213f93bee6442, type: 3}
+  - {fileID: 21300000, guid: 4655819c92ba1074682a5631d7386334, type: 3}
+  - {fileID: 21300000, guid: 4e8a910f7c232c541a3dcb3565c033b3, type: 3}
+  overlaySprites: []
+  castleWalls: []
+  _base: {fileID: 0}
+  yadj: 0
+  waterline: 0

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb29c9160ce1d194f920eabb89671117, type: 3}
+  m_Name: Beast
+  m_EditorClassIdentifier: 
+  guid: f68defea-d838-4f73-9e29-356cddf3d6f3
+  guidNameSet: Beast
+  isRace: 1
+  description: Beast
+  descriptionPlural: Beasts
+  traits:
+  - {fileID: 11400000, guid: 53e690f2a80f0124d9a03cd5984e2c19, type: 2}
+  - {fileID: 11400000, guid: 9271ce67aef0ef04c9ac234d6e7930a2, type: 2}
+  - {fileID: 11400000, guid: c282b3926f058d549a20f0116ac701d9, type: 2}
+  - {fileID: 11400000, guid: 2c456e4179f409b4b8d96c1921a64c41, type: 2}
+  - {fileID: 11400000, guid: f1a273986b672b546b15c2a396958a3d, type: 2}
+  - {fileID: 11400000, guid: b9fa5495ce0c5c74eaa155902721fd5b, type: 2}
+  - {fileID: 11400000, guid: b361c4104572706488a310864977a117, type: 2}
+  numberOfTraits: 0
+  cannotEnterTerrain:
+  - {fileID: 11400000, guid: 1a68fcf486113404fbb942c733f9223e, type: 2}
+  - {fileID: 11400000, guid: 0d90263231adf024fa1d2d0cd18cef8e, type: 2}
+  - {fileID: 11400000, guid: c224f1393af670c4c91dd5d5d1510ec7, type: 2}
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  maleNames: 
+  femaleNames: 

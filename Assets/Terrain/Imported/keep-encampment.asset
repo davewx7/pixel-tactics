@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: keep-encampment
+  m_EditorClassIdentifier: 
+  guid: ae4700e6-8f7b-479b-b6b8-8e9851d977d4
+  guidNameSet: keep-encampment
+  rules: {fileID: 11400000, guid: 0d90263231adf024fa1d2d0cd18cef8e, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Keep
+  zorder: 2100
+  adjacent:
+  - {fileID: 21300000, guid: 81d6983ae7144ad459472724d178a275, type: 3}
+  - {fileID: 21300000, guid: af79baa8edde3834982278c40fe28724, type: 3}
+  - {fileID: 21300000, guid: 6eb6f96d6b79f6141b899983ffb7fe57, type: 3}
+  - {fileID: 21300000, guid: 7522f8dad66bd254f9848648ebe3344a, type: 3}
+  - {fileID: 21300000, guid: 68e058ffa5204a345a36e3e4fa332d56, type: 3}
+  - {fileID: 21300000, guid: 426f7e42ec59c5243a407f44fd88febf, type: 3}
+  adjacent2:
+  - {fileID: 21300000, guid: e700cef129e91e742a340873706cd809, type: 3}
+  - {fileID: 21300000, guid: 934d4430815da5a48b968f4004a3c9c8, type: 3}
+  - {fileID: 21300000, guid: 54d8c20a5fd42a24baef50055bb04574, type: 3}
+  - {fileID: 21300000, guid: 0d46adbf8da3810468cddee29ddaa379, type: 3}
+  - {fileID: 21300000, guid: 2dd42b6d5826e6a46b27c5d7ac1a27f4, type: 3}
+  - {fileID: 21300000, guid: 50528a6a2db57e548895f53f993c6213, type: 3}
+  adjacent3:
+  - {fileID: 21300000, guid: f3cee904dab299945998b05f88f708b5, type: 3}
+  - {fileID: 21300000, guid: 5c38f34ea8db6b147844391b3e293f95, type: 3}
+  - {fileID: 21300000, guid: 52a3c11f42db2794289a79bbfa958759, type: 3}
+  - {fileID: 21300000, guid: 4870af0058919a341bba752a0ec5d24c, type: 3}
+  - {fileID: 21300000, guid: 8b486cc1e4e87754d87ad379907d79ca, type: 3}
+  - {fileID: 21300000, guid: 05b0b25055a8fe44481ecbea206074ee, type: 3}
+  adjacent4:
+  - {fileID: 21300000, guid: ccd30a0d0b001ef4b8d6ddb1ce0c0af8, type: 3}
+  - {fileID: 21300000, guid: 59a7692790a4ca84dae9d42339f68cef, type: 3}
+  - {fileID: 21300000, guid: 4f71793b3726f18458b99d5d9437b133, type: 3}
+  - {fileID: 21300000, guid: a4df405b940cea9469cf238d26666880, type: 3}
+  - {fileID: 21300000, guid: 3164fbb9db88967479bcaa62dd9e33ce, type: 3}
+  - {fileID: 21300000, guid: 41fcdacf02683064290d9e468d92ba7b, type: 3}
+  adjacent5: []
+  adjacent6: {fileID: 21300000, guid: ef7331947d2f01d4ba7170aca4fe1c67, type: 3}
+  _sprites:
+  - {fileID: 21300000, guid: 0b6b14cfbbcb70e4fbdd0910743322b3, type: 3}
+  - {fileID: 21300000, guid: 47058f65db93d2e4aae38997ca9ca0e0, type: 3}
+  - {fileID: 21300000, guid: 934e08ac91e3009458015c40d104fff6, type: 3}
+  - {fileID: 21300000, guid: 0eb446707fe032443955ceace97d1635, type: 3}
+  - {fileID: 21300000, guid: 76eb5324e52931b47b15b339bfeaa98b, type: 3}
+  - {fileID: 21300000, guid: ceef29048fd97514889dfa599ec348e4, type: 3}
+  - {fileID: 21300000, guid: 72fb0a58a309b524488f3b11affd10d3, type: 3}
+  overlaySprites: []
+  castleWalls:
+  - {fileID: 21300000, guid: ece12a20999b3c148a2aa2522b826616, type: 3}
+  - {fileID: 21300000, guid: ff479f9b7659cad41861c5e38ef8a65e, type: 3}
+  - {fileID: 21300000, guid: 0bca0d7ad04000b48b2d272a30c8559b, type: 3}
+  - {fileID: 21300000, guid: 8a30b7c5b59872749ad514a6d2ef5569, type: 3}
+  - {fileID: 21300000, guid: c524a317b527a2f4fa4ffe14feb9a60e, type: 3}
+  - {fileID: 21300000, guid: d897fc8f090106c44867e1f763d0bea2, type: 3}
+  - {fileID: 21300000, guid: 603cba1e8439bfe4498d8ef53b660206, type: 3}
+  - {fileID: 21300000, guid: 81b116ce057c02248afce8346f560ae7, type: 3}
+  - {fileID: 21300000, guid: 993a529959297d9468d70583d0ce45bd, type: 3}
+  - {fileID: 21300000, guid: dc206e509f71d4e4fa2a14d6a5336fd3, type: 3}
+  - {fileID: 21300000, guid: 2bdcd0e82cb721f4b91cb0d00810877a, type: 3}
+  - {fileID: 21300000, guid: 1f86ef51c310bbf4eb46489380021e75, type: 3}
+  _base: {fileID: 0}
+  yadj: 0.4
+  waterline: 0

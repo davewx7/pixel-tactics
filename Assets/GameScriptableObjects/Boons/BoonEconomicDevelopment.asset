@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9121c2f56ed41d5488ea8e132f782489, type: 3}
+  m_Name: BoonEconomicDevelopment
+  m_EditorClassIdentifier: 
+  guid: 91d728e5-de10-4097-b072-fc681b1f243d
+  guidNameSet: BoonEconomicDevelopment
+  priority: 1
+  embargoAfterOffering: -1
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  createBuilding: {fileID: 0}
+  dialogStorylineText: 
+  declineStoryText: 
+  avatarSprite: {fileID: 0}
+  effectText: +20 Renown
+  storyText: 
+  amount: 20

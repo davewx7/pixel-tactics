@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: monster-scorpion
+  m_EditorClassIdentifier: 
+  guid: 3125191d-7959-4792-891f-d8053450a6eb
+  guidNameSet: monster-scorpion
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Monster Scorpion
+  classId: scorpion
+  raceId: monster
+  tags: []
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 080a5909-41e1-491f-9485-d130b91921d1
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 27ba99ba92a0cd641b6a9349de366682, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 1bf635aec0ad1e443a0ed19ce48ac392, type: 3}
+    - {fileID: 21300000, guid: bb2b7e9ebd78e8146a684c4e5ceef0ba, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 4cd1cf1077f25a5419a636b445b7748d, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: b62a1bac87094f14292bd62823c51db0, type: 3}
+    - {fileID: 21300000, guid: 4e591907edd2b9c4eb955f9c558d7e62, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 2
+      tag: pincer
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 74e6f0b6f62e51a45816322d99655bb1, type: 3}
+    - {fileID: 21300000, guid: 27ccf9d6a4eb1294ca324117aae5ff62, type: 3}
+    - {fileID: 21300000, guid: f44e9a65a473e62498d41913f8069eaa, type: 3}
+    - {fileID: 21300000, guid: c6d14b806bebc0e45b1f4c10f164f727, type: 3}
+    - {fileID: 21300000, guid: 9319ba9e7f6c6aa4c94f401dfc1094ae, type: 3}
+    - {fileID: 21300000, guid: 5a0b3dc03162ea74982dd50c2215584f, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: pincer
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: ece364382bca6574faa12472bafc9b1a, type: 3}
+    - {fileID: 21300000, guid: f8b79cbffdcf13e478420ccd71cdc4aa, type: 3}
+    - {fileID: 21300000, guid: 4309eaa389a01a74c967f5e98570e8a1, type: 3}
+    - {fileID: 21300000, guid: 84353562add53c94ab60fdd6af3b2155, type: 3}
+    - {fileID: 21300000, guid: a597ca89b189b2648aa42de5cd8c9cfe, type: 3}
+    - {fileID: 21300000, guid: decfc106e6b476d4bbc3d0330ddad1cf, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: stinger
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: bcbf02f7fcff876409b3e082812abd74, type: 3}
+    - {fileID: 21300000, guid: 9c1e3fb667666ae40a46d740b0695df5, type: 3}
+    - {fileID: 21300000, guid: 60f5195909199e74b9bdcc15af49fe18, type: 3}
+    - {fileID: 21300000, guid: 7c5a413a5d2987d4cb4934ab2416447a, type: 3}
+    - {fileID: 21300000, guid: f5394bf15a0c0814ca5908aebde270c8, type: 3}
+    - {fileID: 21300000, guid: d1830fc7099e74648814ce4fb79c1406, type: 3}
+    - {fileID: 21300000, guid: 263d1ad54f6bb124ab37fc8f03d8f21f, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

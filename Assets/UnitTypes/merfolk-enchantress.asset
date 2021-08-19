@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: merfolk-enchantress
+  m_EditorClassIdentifier: 
+  guid: 54b0933f-b0d8-447d-8f5f-485f1c163a0a
+  guidNameSet: merfolk-enchantress
+  portrait: {fileID: 21300000, guid: be6d90863ff0ee546b97e0c6782df048, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Merfolk Enchantress
+  classId: enchantress
+  raceId: merfolk
+  tags:
+  - {fileID: 11400000, guid: 707a121924d6ae849ba0785978cec3a9, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: ace7ed63e14c38941821d2a273d184c3, type: 2}
+  abilityArgs: []
+  cost: 22
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: b4023856-8e48-4fd0-b5e9-a9b48fa7579d
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells:
+    - {fileID: 11400000, guid: bd1e6946028d10e48b31e5981a97961a, type: 2}
+    - {fileID: 11400000, guid: 3b056c2b4ef699c439fa59bb92b38580, type: 2}
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 32
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 1
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: aff667ee42a1bf341878c7cd3ff7669e, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: b7b5de3fca05f794cb49f33bf8ba0ded, type: 3}
+    description: staff
+    id: attack
+    damage: 9
+    nstrikes: 1
+    accuracy: 20
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 1
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: 17240fee7c506dc4380c4f1c5d8aae2d, type: 3}
+    description: spray
+    id: spray
+    damage: 12
+    nstrikes: 2
+    accuracy: 20
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 1
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: 2fd03b190fd34a14b920b0aab845da4b, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 413626c245a7ad041877b8e821953e8d, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f6f7c8e64d4dc1c429452aadfff51585, type: 3}
+    - {fileID: 21300000, guid: 278bdfc530452f84b9de6d604de693f2, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

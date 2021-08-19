@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a786d29dac4d4f990127905c942fb, type: 3}
+  m_Name: SummonTentacle
+  m_EditorClassIdentifier: 
+  guid: b150d753-d479-4b4c-94a9-ff7082a7eaeb
+  guidNameSet: SummonTentacle
+  modUntilEndOfTurn:
+    description: (unknown)
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  schools:
+  - {fileID: 11400000, guid: c2d62dbfbe53e32468808459afb3893b, type: 2}
+  targetTypes: 03000000
+  targetTerrain: []
+  targetLevelLessOrEqualToSpellLevel: 0
+  mustControlTarget: 0
+  targetsKeep: 0
+  targetRange: 1
+  targetRadius: 0
+  rangeIsUnitVision: 1
+  healTarget: 0
+  temporaryHitpoints: 0
+  drainLife: 0
+  blinkToTarget: 0
+  description: Summon Tentacle
+  icon: {fileID: 21300000, guid: e5beaa038bddbe74b91b76ff059fee9b, type: 3}
+  hueshift: 0
+  spellLevel: 1
+  refreshesMovement: 0
+  refreshesAttack: 0
+  summaryRules: 
+  applyStatus: {fileID: 0}
+  summonType: {fileID: 11400000, guid: d7f3730b15c1d504fbe3a1031acc5c21, type: 2}
+  numSummons: 1
+  cannotTargetBlessedUnit: 0
+  effectSource: {fileID: 0}
+  effectDest: {fileID: 0}
+  tooltipRules: Summon a Deep Sea Tentacle.
+  _noTargetsErrorMessage: No targets in range

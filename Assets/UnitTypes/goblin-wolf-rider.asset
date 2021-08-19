@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: goblin-wolf-rider
+  m_EditorClassIdentifier: 
+  guid: 58dfae86-ff2d-484e-bd8b-bc679f823746
+  guidNameSet: goblin-wolf-rider
+  portrait: {fileID: 21300000, guid: 2723e257913093a48a4ce10529f74384, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Goblin Wolf Rider
+  classId: wolf-rider
+  raceId: goblin
+  tags:
+  - {fileID: 11400000, guid: 47fd162dda53eb842a2847f24fb0b9ce, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: dfb676ce152237d47a477c5ff7329640, type: 2}
+  abilityArgs: []
+  cost: 17
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 27c7acb8-9aac-4229-81bd-bb0437d67cd0
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 32
+  criticalEvasion: 0
+  evasion: 50
+  armor: 0
+  resistance: 0
+  movement: 8
+  levelsInto:
+  - {fileID: 11400000, guid: 7647454a74f9df34d83c2a097379c400, type: 2}
+  - {fileID: 11400000, guid: ebe69a82e7bd6d646bd4d31cda17a802, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: f3fe41b600139454cb0cd743b39002c0, type: 3}
+    description: fangs
+    id: attack
+    damage: 5
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 4a85a8f9cff67db479043ddc9acd1624, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 24a7ebdebcb4b2649953104ad56de454, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 1afc1d14526b48041b334ddb2ccfd31b, type: 3}
+    - {fileID: 21300000, guid: 08bb5aa9950d4954abe4481bc563c974, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 1
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7c4b527eb8ed4a644a973862452b4f25, type: 3}
+    - {fileID: 21300000, guid: 7404ceb7ffa8a2344a5321b81d45959e, type: 3}
+    - {fileID: 21300000, guid: c4b72c9c3c8cf794499452f65e31d8a7, type: 3}
+    - {fileID: 21300000, guid: b442e82aec3faed4a9eaf6a54165e62a, type: 3}
+    - {fileID: 21300000, guid: 6e7706c69b1303f4fae54f2270828c1a, type: 3}
+    duration: 2
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: moving
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7d313ea6a02a54a45a3885f942f9a38d, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: water
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 8a072d0aa8ac2c94d8020c94bd137122, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

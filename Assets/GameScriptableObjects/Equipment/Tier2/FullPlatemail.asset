@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: FullPlatemail
+  m_EditorClassIdentifier: 
+  guid: 61ceb9c5-55ba-4896-8ad1-3a48accef3cc
+  guidNameSet: FullPlatemail
+  icon: {fileID: 21300000, guid: 8a43cb1cc8e3e814aa788125ae25defd, type: 3}
+  hueShift: 0
+  description: Full Platemail
+  summaryRules: +2 ARM
+  tooltipRules: +2 Armor, Evasion limited to 30%
+  slot: {fileID: 11400000, guid: 7a996e45b0350584bb70cfeaa3cc5cfe, type: 2}
+  consumable: 0
+  tier: 2
+  teamAssociation:
+  - {fileID: 11400000, guid: c4809bbd44ec22647ad27128084db861, type: 2}
+  activatedAbility: {fileID: 0}
+  beginTurnEffect: {fileID: 0}
+  mod:
+    description: Full Platemail
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: 30
+    criticalEvasion: 0
+    armor: 2
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  attackRequired: []
+  _price: 22

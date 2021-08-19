@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b01e285977ca04b8fdc3a6d598f812, type: 3}
+  m_Name: BarbarianTeam
+  m_EditorClassIdentifier: 
+  guid: c73863d1-eef2-4e8c-95be-f2bd4758a541
+  guidNameSet: BarbarianTeam
+  playerTeamReplaces: {fileID: 0}
+  player: 0
+  barbarian: 1
+  handlesCaveSpawns: 0
+  unitsHaveHaste: 0
+  aiConquestRatio: 0
+  aiAggroRatio: 0
+  permanentFriends: []
+  swornEnemies: []
+  initialGreetingAlreadyAtWar: {fileID: 0}
+  friendlyDiplomacy: {fileID: 0}
+  completedQuestDiplomacy: {fileID: 0}
+  alliedDiplomacy: {fileID: 0}
+  playerStoryText: []
+  fealtyOffer: 
+  baseUpkeep: 3
+  coloring: {fileID: 11400000, guid: d93d81397f9d56c4eafe7695c5383b39, type: 2}
+  ai: {fileID: 11400000, guid: adcaf9868ccf1484aa1efbd767ee4d5e, type: 2}
+  _diplomacy: {fileID: 11400000, guid: 167355ef6ff38d247ab5d0e1c152e880, type: 2}
+  flagType: {fileID: 11400000, guid: 453e6bc8be5157542acac83a2abfc018, type: 2}
+  teamNameIsProperNoun: 1
+  teamName: Monsters
+  rulerName: 
+  rulerTitle: 
+  factionDescription: 
+  startingGold: -1
+  baseIncome: -1
+  hasRoads: 1
+  aquatic: 0
+  rulerType: {fileID: 0}
+  recruitmentOptions:
+  - {fileID: 11400000, guid: c23d9f983fe489846951ffc78d65630a, type: 2}
+  recruitmentSlots: -1
+  possibleQuests: []
+  knownSpells: []
+  economyBuildings: []

@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: merfolk-netcaster
+  m_EditorClassIdentifier: 
+  guid: de6dc0ee-d21f-4089-aacf-a25470708b7e
+  guidNameSet: merfolk-netcaster
+  portrait: {fileID: 21300000, guid: 98c52289499833d4ea94909df2cc3d4d, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Merfolk Netcaster
+  classId: netcaster
+  raceId: merfolk
+  tags:
+  - {fileID: 11400000, guid: 707a121924d6ae849ba0785978cec3a9, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: ace7ed63e14c38941821d2a273d184c3, type: 2}
+  abilityArgs: []
+  cost: 22
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: a9e1516a-bdf9-4d42-9c9f-efb2a80118b5
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 48
+  hitpointsMax: 36
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 1
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: 877234402b39a7c4a891ebaf78c4586f, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: bb01401ac71401148b9884934ed080b2, type: 3}
+    description: club
+    id: club
+    damage: 6
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: 0382a8d0f75f1664092422cf96dfd70c, type: 3}
+    description: net
+    id: net
+    damage: 7
+    nstrikes: 2
+    accuracy: 20
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: ebedcfb28488a79419f1b84dac9e18d6, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: d59656b6ce94d6a47ac6c03206b3139f, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 184ea887168cce14bb1364738abff001, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 85617971a13ffcd4cbb3623fa2c76145, type: 3}
+    - {fileID: 21300000, guid: 1190faf498eaaa2448ef0313ba9d0aa3, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

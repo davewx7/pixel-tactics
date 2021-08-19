@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: dwarf-gryphon-master
+  m_EditorClassIdentifier: 
+  guid: e959bb6c-e0f0-47eb-af36-01717081922a
+  guidNameSet: dwarf-gryphon-master
+  portrait: {fileID: 21300000, guid: 6ef53ed4438a11f49a3fc2daa951d7e6, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Dwarf Gryphon Master
+  classId: gryphon-master
+  raceId: dwarf
+  tags:
+  - {fileID: 11400000, guid: 639d981ee0cebce4d994b1202dfa89cf, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: fa9a776883830de488cec3d88e856d67, type: 2}
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: b5d4b53d-40e5-41fa-ba9b-284adc727da8
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 40
+  armor: 1
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: d2553af4d60731940831689c53239abd, type: 3}
+    description: claws
+    id: claws
+    damage: 12
+    nstrikes: 2
+    accuracy: 10
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 67c65ff8360701448aac2564d2b294eb, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: flying
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f23dca0c19692b6469b2c1bd8bf13ee3, type: 3}
+    - {fileID: 21300000, guid: a4dbf2cec6a52214283c270e5f4f7ab7, type: 3}
+    - {fileID: 21300000, guid: ecb029f7a25e03f44bd193691e747502, type: 3}
+    - {fileID: 21300000, guid: 7a35a2f2c955e4a46b7a373741a40d0b, type: 3}
+    - {fileID: 21300000, guid: 6b2ddfc7dfb3ba642b184f00f01cef74, type: 3}
+    - {fileID: 21300000, guid: 31572cc46f8979a48934e5664fc0682e, type: 3}
+    - {fileID: 21300000, guid: a61840d84e7f1e348ad5b7a23129dd3e, type: 3}
+    - {fileID: 21300000, guid: 0cd529be291e9ff4caf39810d53ee690, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c0d137f3469e6d418ac6b6166adcbd2, type: 3}
+  m_Name: BoonRulerTaxesUndead
+  m_EditorClassIdentifier: 
+  guid: fd456e96-a5fd-4bd7-ad75-6889400a4163
+  guidNameSet: BoonRulerTaxesUndead
+  alternatives: []
+  priority: 1
+  embargoAfterOffering: -1
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 0}
+  dialogStorylineText: 
+  declineStoryText: 
+  avatarSprite: {fileID: 0}
+  effectText: Gain 12 gold
+  storyText: Gold is what you need today. Strike fear into the hearts of the villagers
+    and demand they give you all they have.
+  messageText: The villagers are terrified by you, desperately scrounging together
+    all the gold they can, offering it to you as tribute. You gain 12 gold.
+  amount: 12

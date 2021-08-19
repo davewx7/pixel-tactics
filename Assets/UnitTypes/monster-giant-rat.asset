@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: monster-giant-rat
+  m_EditorClassIdentifier: 
+  guid: dc419593-a67e-4094-8476-b1c1859bfc30
+  guidNameSet: monster-giant-rat
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Monster Giant Rat
+  classId: giant-rat
+  raceId: monster
+  tags:
+  - {fileID: 11400000, guid: 24af785bf5c2ad7469cce1174b34b36b, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: e1aef804-eb1b-4bc0-b8bc-1d3b06270b10
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 581137d03e67470478563f12f74c41c1, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c782a03eaa69ef24a9bd7cb7ce71040b, type: 3}
+    - {fileID: 21300000, guid: 4d49d6fac419e594b81c4404e43fd48a, type: 3}
+    - {fileID: 21300000, guid: e19ea53defa8ecb4e899dfd4c3086c74, type: 3}
+    - {fileID: 21300000, guid: d18a373daebf1f04ea49ab658607e79d, type: 3}
+    - {fileID: 21300000, guid: 9dfebb3a1d775314daded541fb793282, type: 3}
+    - {fileID: 21300000, guid: 9665f631f496408449997dfe2e4043f5, type: 3}
+    - {fileID: 21300000, guid: 93718c467bd2cbc4e8b988347e9e1f60, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7435623c8b18ae343bea16c16b3058ed, type: 3}
+    - {fileID: 21300000, guid: 20c6e2153fd9ac043ba8bf4382f32f5e, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 544880f414c317f4896a73d3e187a639, type: 3}
+    - {fileID: 21300000, guid: 28a15025be3e3f348a18a338b6425f2a, type: 3}
+    - {fileID: 21300000, guid: 2a007c457173a7040ba55304e6a57f5e, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

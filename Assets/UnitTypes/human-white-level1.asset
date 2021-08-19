@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: human-white-level1
+  m_EditorClassIdentifier: 
+  guid: 6f31c470-b04d-47da-8f94-065a9cf88490
+  guidNameSet: human-white-level1
+  portrait: {fileID: 21300000, guid: 45eba9e6daa1ab0488fb615b468896a5, type: 3}
+  portraitFemale: {fileID: 21300000, guid: 15a33f3dcfa690f48907860baf862f43, type: 3}
+  description: Cleric
+  classId: white-mage
+  raceId: human
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 15
+  alignment: 0
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: dda34369-3014-4e71-9ef7-b2f4ec45d538
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells:
+    - {fileID: 11400000, guid: b2c80a143bf0d6343a2741612ae373c9, type: 2}
+    - {fileID: 11400000, guid: 5977dc1ae2dab9a4b83b4b5293f602a8, type: 2}
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      terrainChanges: []
+      dialog: []
+  experienceMax: 36
+  hitpointsMax: 28
+  criticalEvasion: 0
+  evasion: 30
+  armor: 0
+  resistance: 4
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: cbf42ee8172546c4abe44ed8b7f08635, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: b7b5de3fca05f794cb49f33bf8ba0ded, type: 3}
+    description: staff
+    id: attack-staff
+    damage: 8
+    nstrikes: 2
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 1
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: 027cf8c56f23ff6489b2cfc0cc396315, type: 3}
+    description: lightbeam
+    id: attack-magic
+    damage: 5
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 1
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: b473dd349a8be0b40ac6a774e0dfff68, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: cc9a4e8d998bd31459b0bd40fac98afc, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: e9781946c396b474baa6d1f9e53d3ecf, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 3
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: caf4d875f98a49c488b310c8f3bb3c0f, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 4
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: 8b513d60cf50cf44bbcf3e40f095b484, type: 3}
+    - {fileID: 21300000, guid: d50b0597465270b4d918934826573bf0, type: 3}
+    - {fileID: 21300000, guid: d5444c8d0d8253a49b076d82bb43113b, type: 3}
+    - {fileID: 21300000, guid: baf18580d83a94244ab808bf1a75e782, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 2
+      tag: magic
+    sprites:
+    - {fileID: 21300000, guid: 156885f628bd9394f80f6be3487e0d64, type: 3}
+    - {fileID: 21300000, guid: c539abfef9af56144955fbef7ba7c170, type: 3}
+    - {fileID: 21300000, guid: 67607f34e05e34144a5c105f9da69e5e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 2
+      tag: melee
+    sprites:
+    - {fileID: 21300000, guid: d6d708a5862a1db49a39d49375cf038f, type: 3}
+    - {fileID: 21300000, guid: f7f08768c5438c847882fea5cf6f6a3c, type: 3}
+    - {fileID: 21300000, guid: bb8816e57705ee246a4ac9801c003615, type: 3}
+    - {fileID: 21300000, guid: 7a43408b18e7b444a9ea588f9c00898e, type: 3}
+    - {fileID: 21300000, guid: bfe64557a83433a419768423da1331e1, type: 3}
+    - {fileID: 21300000, guid: 5bd19ff220e5375448d7cc724d731f86, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: 43f3f2e50e3eb204f9f07b09b4a94c7f, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: 226907b93198815498d88a2b3e372859, type: 3}
+    - {fileID: 21300000, guid: c436836fa2b9d7444964a08fd12eef85, type: 3}
+    - {fileID: 21300000, guid: bf1d8651dc8a5b545878de87e83ad888, type: 3}
+    - {fileID: 21300000, guid: 15bd0535eb49ae94799f983b85a2aeee, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: magic
+    sprites:
+    - {fileID: 21300000, guid: b59624b0a3ccfed49a762d5322db1a99, type: 3}
+    - {fileID: 21300000, guid: bf370a70222d6924e8179e5e3410a7d8, type: 3}
+    - {fileID: 21300000, guid: b9941c1f6e86f18459a441d8189f284b, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee
+    sprites:
+    - {fileID: 21300000, guid: 89f36d937dc330c479fc1d741a431703, type: 3}
+    - {fileID: 21300000, guid: e62bc1e1d8b7834489ade24d15bba172, type: 3}
+    - {fileID: 21300000, guid: 1cea249c1bd6b0547b2d4d5f92019c61, type: 3}
+    - {fileID: 21300000, guid: 79495c819200af4429a0b4049810aaf0, type: 3}
+    - {fileID: 21300000, guid: 11c0ba812f413994bb33eba89c015d5b, type: 3}
+    - {fileID: 21300000, guid: caa8246d6c07a9844b04f64fd539f118, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

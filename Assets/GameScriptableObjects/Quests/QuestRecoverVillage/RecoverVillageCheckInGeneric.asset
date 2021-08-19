@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: RecoverVillageCheckInGeneric
+  m_EditorClassIdentifier: 
+  guid: 28d8eee8-0a47-4b07-a73a-957f8654218f
+  guidNameSet: RecoverVillageCheckInGeneric
+  message: We do hope that you are making some progress toward recapturing quest_village_recapture_name
+    from the Queen?
+  options:
+  - text: We are. I can assure you they will be dealt with soon.
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  - text: We will not be helping you any further. We have decided to fight you instead!
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

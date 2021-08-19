@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7efe75e97ab54baafb43cacaceace, type: 3}
+  m_Name: SlotBow
+  m_EditorClassIdentifier: 
+  guid: d041d04c-ef22-4f5b-9b26-2f7d3ae8d8c5
+  guidNameSet: SlotBow
+  description: bow
+  describeAsArticle: a bow
+  describePlural: bows
+  sprite: {fileID: 21300000, guid: 51f964ae7c8228a479002ebb6a607968, type: 3}
+  weapon: 1

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: QuestLevelUpFailed
+  m_EditorClassIdentifier: 
+  guid: f1b4957b-7151-4846-b32f-7e50d6163501
+  guidNameSet: QuestLevelUpFailed
+  message: It has taken you too long to show your worth in battle. Meanwhile, the
+    Queen grows in power daily. One such as you cannot rule us. And one who aspires
+    to rule and fails must die. So you shall die, now.
+  options: []
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

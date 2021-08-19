@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: cave-floor
+  m_EditorClassIdentifier: 
+  guid: 0d2c9d1b-d6dd-4fad-b638-deebc74b9a5e
+  guidNameSet: cave-floor
+  rules: {fileID: 11400000, guid: 8dfca8d594eb0e44784dc1892d921d33, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Flat
+  zorder: -1001
+  adjacent:
+  - {fileID: 21300000, guid: ad889086c3c3f2c4e9e7734d6ac3de4f, type: 3}
+  - {fileID: 21300000, guid: b8d488e9ffa25634aa805fab543d5a59, type: 3}
+  - {fileID: 21300000, guid: 9f2b4c0c99e852b4d8a2835c914513b1, type: 3}
+  - {fileID: 21300000, guid: 3628d6bcd96cbd6459c2986263542f0c, type: 3}
+  - {fileID: 21300000, guid: a215ed69e32be474d9b1108b5615a9ca, type: 3}
+  - {fileID: 21300000, guid: 17f643c80918b2843bc7c87b7c95271d, type: 3}
+  adjacent2:
+  - {fileID: 21300000, guid: bcce96abbf3ecbb4eaa346874ca12114, type: 3}
+  - {fileID: 21300000, guid: 9c6de573ad7dcfa4ebd79ea5832b3b3d, type: 3}
+  - {fileID: 21300000, guid: 99b5a4e90844b2041b904205ac3404a6, type: 3}
+  - {fileID: 21300000, guid: e06b6c31242cc8342b2757b1189b2bec, type: 3}
+  - {fileID: 21300000, guid: 66e707858d979c84db8be88c26d191b8, type: 3}
+  - {fileID: 21300000, guid: 4d0c2a8a2e09f074084325c241ffb90f, type: 3}
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites:
+  - {fileID: 21300000, guid: 53fb69a2ba654cd48a251e83b7e61b6c, type: 3}
+  - {fileID: 21300000, guid: aef921b2c3e1ef84d8a43f03c67fb85f, type: 3}
+  - {fileID: 21300000, guid: 56f240fc2bbabe04ea6f701d48f97d75, type: 3}
+  - {fileID: 21300000, guid: fd094d9d661d64a4eb2f490819532ff6, type: 3}
+  - {fileID: 21300000, guid: 668897659ecb45a47a9e51701d84fe6a, type: 3}
+  - {fileID: 21300000, guid: 7bbdcaa86a50e134a854b7bad8efb649, type: 3}
+  overlaySprites: []
+  castleWalls: []
+  _base: {fileID: 0}
+  yadj: 0
+  waterline: 0

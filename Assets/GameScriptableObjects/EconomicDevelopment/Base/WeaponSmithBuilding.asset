@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a03e288bf0d84045b27fea9848ae76e, type: 3}
+  m_Name: WeaponSmithBuilding
+  m_EditorClassIdentifier: 
+  guid: bcb450fd-b998-44d8-86e3-911e613db1ee
+  guidNameSet: WeaponSmithBuilding
+  buildingName: Weapon Smith
+  tooltip: Allows you to forge more advanced equipment for your units.
+  achievementText: Your units may now purchase more equipment.
+  additionalAchievementText: []
+  givesHaste: 0
+  icon: {fileID: 21300000, guid: 8f95babcb7d18b8469b1188e80bfbc80, type: 3}
+  loc: {x: -2, y: 0}
+  buildCost: 200
+  unitRecruits: []
+  recruitSlots: 0
+  villageBuildingsAvailable: []
+  spells: []
+  equipmentInMarket:
+  - {fileID: 11400000, guid: 985b2bfd0cf10214c95ecfb9e7dd58f1, type: 2}
+  - {fileID: 11400000, guid: f5d43c7a8a96e7843abb7a83011b73a2, type: 2}
+  - {fileID: 11400000, guid: 38b1b491e82776f498b0f52620a92f31, type: 2}
+  - {fileID: 11400000, guid: e7a428160e7742342bec021c15c0f0b9, type: 2}
+  - {fileID: 11400000, guid: 5216a626c5794024a871eb3324f7fb53, type: 2}
+  - {fileID: 11400000, guid: 568a3c1cfe16fa04fb8a8d544f30b783, type: 2}
+  recruitExperienceBonus: 0
+  potionGranted: 0
+  grantsEquipmentOnBuild: {fileID: 0}

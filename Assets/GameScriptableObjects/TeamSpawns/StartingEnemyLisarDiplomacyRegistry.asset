@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d803fa1d26f6d47910021383f523ff, type: 3}
+  m_Name: StartingEnemyLisarDiplomacyRegistry
+  m_EditorClassIdentifier: 
+  guid: fd4cfefd-6107-4c24-bd40-fc733cd72511
+  guidNameSet: StartingEnemyLisarDiplomacyRegistry
+  baseRegistry: {fileID: 0}
+  _initialGreeting:
+  - {fileID: 11400000, guid: 1efd38f8cb5ea844280e32d27726845d, type: 2}
+  - {fileID: 11400000, guid: 6c9e69ba1de08f1408a80380f528d8dd, type: 2}
+  _initialGreetingSwornEnemies:
+  - {fileID: 11400000, guid: 1efd38f8cb5ea844280e32d27726845d, type: 2}
+  - {fileID: 11400000, guid: 6c9e69ba1de08f1408a80380f528d8dd, type: 2}
+  _initialGreetingAlreadyWar:
+  - {fileID: 11400000, guid: 1efd38f8cb5ea844280e32d27726845d, type: 2}
+  - {fileID: 11400000, guid: 6c9e69ba1de08f1408a80380f528d8dd, type: 2}
+  _declareWar: []
+  _peacefulAgreement: []
+  _friendlyGreetingHasQuest: []
+  _friendlyGreetingNoQuest: []
+  _friendlyFarewell: []

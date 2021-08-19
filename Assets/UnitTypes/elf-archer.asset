@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: elf-archer
+  m_EditorClassIdentifier: 
+  guid: d5f0ebfa-f536-4a08-ad1d-25c4f82586f2
+  guidNameSet: elf-archer
+  portrait: {fileID: 21300000, guid: 03d8ac898377ad4439750faec14fd632, type: 3}
+  portraitFemale: {fileID: 21300000, guid: 0b624828fffef9744bcd956b9cafe0b3, type: 3}
+  description: Elf Archer
+  classId: archer
+  raceId: elf
+  tags:
+  - {fileID: 11400000, guid: ffb283ef68f579445a304e56bb9d1efe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 18
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: eb21202a-76c3-453d-bb3d-4fe04c2ecb7c
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 34
+  hitpointsMax: 29
+  criticalEvasion: 0
+  evasion: 50
+  armor: 0
+  resistance: 1
+  movement: 6
+  levelsInto:
+  - {fileID: 11400000, guid: e9a66c3d049fa9c43bb3d0ccda9700d5, type: 2}
+  - {fileID: 11400000, guid: f6bb5aea64ca6ac40b20961b9231a7d7, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: a3c91ccba5fa0e7438e9367a6dc224c8, type: 3}
+    description: sword
+    id: sword
+    damage: 4
+    nstrikes: 2
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: d9e33d1224202394db1f622bf467cb83, type: 3}
+    description: bow
+    id: bow-attack
+    damage: 5
+    nstrikes: 4
+    accuracy: 20
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: 81d7c471b6560e249acc88193c0c648a, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 809ace6d21fe12d4da054a3dcca641cc, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: b1ded4fc4a50ce64c9762148efafa771, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 2
+      tag: bow
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 358d0c08c6dd7404e8911d007762385d, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 2
+      tag: bow-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f23f95f7df12e0544b787b225cb547fa, type: 3}
+    - {fileID: 21300000, guid: 580368c8e3a013a41914f36d1b04b168, type: 3}
+    - {fileID: 21300000, guid: a1c5c6c04a407c24299fd256636a860b, type: 3}
+    - {fileID: 21300000, guid: 77b73d938c5fd014fa22457d988a846d, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 3
+      tag: bow
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 224b7ff567571ea48a9d56a6c477608a, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 4
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 8195200e2767fef49a9bdbfda8cc4d6b, type: 3}
+    - {fileID: 21300000, guid: d825cbe1fc4f87945a7214f0206749d7, type: 3}
+    - {fileID: 21300000, guid: c8390b2c0987bc544b7447334cbd9c66, type: 3}
+    - {fileID: 21300000, guid: 2e9c662dd719b5d4c95f1f17bd858f9c, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 2
+      tag: sword
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 85e05adbcafb359449262d1d126adb78, type: 3}
+    - {fileID: 21300000, guid: 4ed0d5601ff77d64ba79a4e364ae96e7, type: 3}
+    - {fileID: 21300000, guid: 5b33b24cd70b77e48b3a4b5600655f9e, type: 3}
+    - {fileID: 21300000, guid: eb7b4bc3e4475904e9bc4d0da744ba45, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 3
+      tag: sword
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 82ccf807af088ca4b8c8b6b54c623a21, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: bow
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a66db3916e25adf49a0b8a51317e3d21, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: bow-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 55674c32dea02ad4988834ab60d35825, type: 3}
+    - {fileID: 21300000, guid: d946785ead0201845ae633b11673bb63, type: 3}
+    - {fileID: 21300000, guid: 5da9929e1cbe71446abf41acd2a13456, type: 3}
+    - {fileID: 21300000, guid: b1e23f437a85b6a42812a69efcbe2d68, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: bow
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 1ce6515f0b60f22478c443d999d7e814, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a91ea5d47a2ee434e8314569b580ed4f, type: 3}
+    - {fileID: 21300000, guid: 4438e121562006d4fa691a63fecbacdc, type: 3}
+    - {fileID: 21300000, guid: d83da1700c44fb94ab03932db75cf4cc, type: 3}
+    - {fileID: 21300000, guid: 936fb0e77daaefe4ab0f434459339bd8, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 1
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c5f96b12ce84f3e4f9cbaf04c9254ac5, type: 3}
+    - {fileID: 21300000, guid: a3daa61e92ec82143aceb05ec3becc45, type: 3}
+    - {fileID: 21300000, guid: 96aaf434af9fde64eaa93413f69c9cc5, type: 3}
+    - {fileID: 21300000, guid: 6fa3624e61eca894a996fb245c3864a9, type: 3}
+    - {fileID: 21300000, guid: ba7f606cdff260045b4c18d25484cb88, type: 3}
+    - {fileID: 21300000, guid: 26b98bd5bce9b3e4e9f888f2668ad3a1, type: 3}
+    duration: 2
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: sword
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 867ec7c52c6a29440bd3d542d1128495, type: 3}
+    - {fileID: 21300000, guid: d8f187668a499bd4ca7438261d82910e, type: 3}
+    - {fileID: 21300000, guid: 3b7c99a9b06d9c74b8397ef4f73d662b, type: 3}
+    - {fileID: 21300000, guid: 723c3ac2e40d01d40ba3d46f73962b7d, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: sword
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 9d77c5dbb8339564fa3a89a9cfa8db8f, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

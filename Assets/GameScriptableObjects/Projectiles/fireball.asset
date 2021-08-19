@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dbd743d5548438468743ec514d668b7, type: 3}
+  m_Name: fireball
+  m_EditorClassIdentifier: 
+  guid: e49c987e-2d97-4a24-8ba0-8ae5cc5a5bee
+  guidNameSet: fireball
+  flightTime: 0.4
+  distanceTravel: 1
+  animFail:
+    matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: 23a43f64c5414bc4ea05d8e7c43a6ed7, type: 3}
+    - {fileID: 21300000, guid: 92f7e132bf662dc47a68e852a70a4358, type: 3}
+    - {fileID: 21300000, guid: 13fabe9b9e3c6b54c90805df09c4c76d, type: 3}
+    - {fileID: 21300000, guid: b4d072c7a4a5fbc4c87877e8a2c4d95c, type: 3}
+    - {fileID: 21300000, guid: d4db7aa4712a2be4a9bab71f471299cc, type: 3}
+    - {fileID: 21300000, guid: 5f6d66c157799004598c6a733964a5e4, type: 3}
+    - {fileID: 21300000, guid: 92786a27ac8f930439e3d6929bc34f42, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  animImpact:
+    matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: 63e299ebc9a2e104ba9a5f852e25cbea, type: 3}
+    - {fileID: 21300000, guid: 68c0881811a2f26498b2ef514099522a, type: 3}
+    - {fileID: 21300000, guid: aaed50f9dc02f5c4e82802bcd8d9bfda, type: 3}
+    - {fileID: 21300000, guid: 9c64912cf76c67c43ae5ceb42b4553c5, type: 3}
+    - {fileID: 21300000, guid: 061990ae7bbc3f8478d486131fcd6250, type: 3}
+    - {fileID: 21300000, guid: 1da8bfb7d4a318f4395c05d4e20aa852, type: 3}
+    - {fileID: 21300000, guid: 3165aef1c0291984998012147eb8263e, type: 3}
+    - {fileID: 21300000, guid: 971d1dcaa704a4549b6adf9a30dac9e8, type: 3}
+    - {fileID: 21300000, guid: 048c866d6d5fbbe4885b21ddcd135961, type: 3}
+    - {fileID: 21300000, guid: 3a7f79f4c44ed5046bb0f72365371e9b, type: 3}
+    - {fileID: 21300000, guid: 256b58bd52661ba4f98bf3e6954ad3f3, type: 3}
+    - {fileID: 21300000, guid: 97ed0b81efdda934f88a749904d94ee1, type: 3}
+    - {fileID: 21300000, guid: 8c209e6fab4ec4544ba96030b574f6dc, type: 3}
+    - {fileID: 21300000, guid: 0d8c4298b049e034198847bbffcfc96c, type: 3}
+    - {fileID: 21300000, guid: 0830c426932354b4a901725d3f9359e2, type: 3}
+    - {fileID: 21300000, guid: 5b63be3340ae56549b15e57f7cbd8186, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  animations:
+  - matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: 1c8e77376452e85429d8be956504be60, type: 3}
+    - {fileID: 21300000, guid: ef93136bf3b739d46aff579408d288f5, type: 3}
+    duration: 0.5
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: 27b5e23d3deb1c54a9bf364ad973cfc4, type: 3}
+    - {fileID: 21300000, guid: a82729c5f275f5b4086c1e8dc6e07c94, type: 3}
+    duration: 0.5
+    reverse: 0
+    cycle: 1
+    events: []

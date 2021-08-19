@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c0d137f3469e6d418ac6b6166adcbd2, type: 3}
+  m_Name: BoonGold
+  m_EditorClassIdentifier: 
+  guid: 1f12f2b5-bcfc-48ec-b173-fe75bfbecff6
+  guidNameSet: BoonGold
+  priority: 1
+  embargoAfterOffering: -1
+  forcedSecondaryBoon: {fileID: 0}
+  dialogStorylineText: 
+  declineStoryText: 
+  avatarSprite: {fileID: 0}
+  effectText: Gain 6 gold
+  storyText: Ask the villagers to help your cause by paying whatever they can spare
+    toward your cause.
+  messageText: The villagers scrounge together <color=#ffffff>6 gold</color> to offer
+    you as tribute.
+  amount: 6

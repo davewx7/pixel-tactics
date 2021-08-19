@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: DialogOfferFoster
+  m_EditorClassIdentifier: 
+  guid: 113c2957-92d5-45fa-8d9d-6398df07e778
+  guidNameSet: DialogOfferFoster
+  message: 'We have a young unit_foster_lord among us, unit_foster_name. unit_foster_He
+    must learn the ways of the world, must advance up through the ranks, must not
+    be coddled as unit_foster_he would be among us.
+
+
+    We ask that you be willing to take unit_foster_name among your ranks. Train unit_foster_him
+    up to be skilled and accomplished, a leader. If you can do this it would grow
+    trust between us. Perhaps we would even deem you suitable for the throne. Will
+    you agree to this?
+
+
+    <i>You will commit to advance unit_foster_name to level 2 within 12 rounds if
+    you accept this quest.</i>'
+  options:
+  - text: <color=#aaffaa>[Accept Quest]</color> I am very happy to foster one of your
+      young nobles. I will both protect them and train them as part of my forces.
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  - text: <color=#ffaaaa>[Hostile]</color> Don't be ridiculous, I have no time to
+      look after some brat!
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  - text: <color=#aaffff>[Diplomacy]</color> I do wish to prove myself worthy of the
+      throne, but perhaps there is something different I can do to prove myself?
+    result: {fileID: 0}
+    instructions: []
+    conditions: 06000000
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

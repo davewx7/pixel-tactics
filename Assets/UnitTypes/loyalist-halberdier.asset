@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: loyalist-halberdier
+  m_EditorClassIdentifier: 
+  guid: bbd73906-181e-4f1a-9a29-ed40c1bc3a62
+  guidNameSet: loyalist-halberdier
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Halberdier
+  classId: halberdier
+  raceId: loyalist
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 2d934b30-614a-4f55-a335-299def81c8bf
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 643cef81853209f4989d24e490f6be7c, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 58789883cef4e7f4385578269fdeafb1, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 1
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 0b4343a0c7d1c8741a15ecae51667d98, type: 3}
+    - {fileID: 21300000, guid: 55756b21dd58c824aa9b6fffa24b89fa, type: 3}
+    - {fileID: 21300000, guid: ed21372c766986e4083bfc7e65f4ec4b, type: 3}
+    - {fileID: 21300000, guid: 77d64c3e5d52305408f5589c296f0bcb, type: 3}
+    - {fileID: 21300000, guid: 8b38b63c1842df14da4b7f38d8d4c68b, type: 3}
+    - {fileID: 21300000, guid: 5048db01b4057c446854a88e33058846, type: 3}
+    - {fileID: 21300000, guid: 9ed1946ab8b14cf4d82ce407d23f489d, type: 3}
+    - {fileID: 21300000, guid: 5f66ca85a9e9db544a67d2f34e225a32, type: 3}
+    - {fileID: 21300000, guid: 3e63e7fc7e4e11b42b8c4caf99df53c6, type: 3}
+    - {fileID: 21300000, guid: ff3733290d992f4479b40bd47b224228, type: 3}
+    - {fileID: 21300000, guid: f4a68db8a58e3f54cb30c86351217736, type: 3}
+    - {fileID: 21300000, guid: b8b65ec191f71b949ba3c9d89d1635b2, type: 3}
+    duration: 2
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: pierce
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 0fc4c78d214abdf46aef40469a8a007a, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 2
+      tag: pierce
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 3b0d58f89bed560449f7d2b4ae69c5fe, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: pierce
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c3561d5945fd60846b01cfdfa2e9cd9c, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 2
+      animType: 2
+      tag: pierce
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f0918a1c5fbd8ca4ebaa50637cf6efe3, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 2
+      animType: 2
+      tag: slash
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a36d4eece90965c498e1b1dc751ae6e0, type: 3}
+    - {fileID: 21300000, guid: 58891f9d05a77c943ae7c5fb8e3661e8, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

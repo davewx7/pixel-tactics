@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: Village-Human
+  m_EditorClassIdentifier: 
+  guid: acf65f0f-f533-4f68-9739-b7b38451d2f8
+  guidNameSet: Village-Human
+  rules: {fileID: 11400000, guid: c224f1393af670c4c91dd5d5d1510ec7, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Village
+  zorder: 100
+  adjacent: []
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites: []
+  overlaySprites:
+  - {fileID: 21300000, guid: b364854742cfc254686e06cc23a36142, type: 3}
+  - {fileID: 21300000, guid: 58bf0b005c82118469178c0e882db511, type: 3}
+  - {fileID: 21300000, guid: f8d7f7ff76382384c802cad115ce0ad3, type: 3}
+  castleWalls: []
+  _base: {fileID: 11400000, guid: 94fb5a2e763494c4eb721d44097ee4f8, type: 2}
+  yadj: 0
+  waterline: 0

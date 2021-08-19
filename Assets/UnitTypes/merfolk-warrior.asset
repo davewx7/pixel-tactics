@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: merfolk-warrior
+  m_EditorClassIdentifier: 
+  guid: 596cd241-5a60-4548-a261-acaba02d2826
+  guidNameSet: merfolk-warrior
+  portrait: {fileID: 21300000, guid: a84bb3dcf306aee44b5ff6d4d2e614a7, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Merfolk Warrior
+  classId: warrior
+  raceId: merfolk
+  tags:
+  - {fileID: 11400000, guid: 707a121924d6ae849ba0785978cec3a9, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: ace7ed63e14c38941821d2a273d184c3, type: 2}
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 7b8fde39-c220-4311-8e0d-a56317464771
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 44
+  hitpointsMax: 38
+  criticalEvasion: 0
+  evasion: 30
+  armor: 1
+  resistance: 1
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: 4b5e37ab932be5243b9b2372f87f47f5, type: 2}
+  - {fileID: 11400000, guid: 5c6b6fff5aeab714290d6e26022be1e3, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: 914797bdbc4a7bd4b9d109d1762e4da3, type: 3}
+    description: trident
+    id: attack
+    damage: 9
+    nstrikes: 3
+    accuracy: 10
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 482857c90f4b47b489ba592b13ab209e, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f88bb468dcf7bd745a55b64089bf23a6, type: 3}
+    - {fileID: 21300000, guid: 3af6a83ac61d0c240b03fd22b7be969f, type: 3}
+    - {fileID: 21300000, guid: 0a7f27a2c0f490342aace6c12e80ba24, type: 3}
+    - {fileID: 21300000, guid: 17de6e43b19db5242b1977e8ca06074b, type: 3}
+    - {fileID: 21300000, guid: b84d34028f781564ab7390069f7a3e4e, type: 3}
+    - {fileID: 21300000, guid: 601b540e58cc1194f95b0a5c0cbeca27, type: 3}
+    - {fileID: 21300000, guid: 0068a7b85e4b61948b43f714ebbb336b, type: 3}
+    - {fileID: 21300000, guid: bb7c5b10e64615c4a81f42a9b8485a72, type: 3}
+    - {fileID: 21300000, guid: cb15e4f53c5ee8845bd4998ba9d6d141, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: cdf7115229d965f42b43e8dc49942246, type: 3}
+    - {fileID: 21300000, guid: 1f1a53a92ef95ef4c831a5927d1fbc0d, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

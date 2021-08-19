@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0262f77072a1c854eb18ca658f945007, type: 3}
+  m_Name: BoonLearnCommands
+  m_EditorClassIdentifier: 
+  guid: a890ab86-86f0-490f-b246-e2af60bf9f57
+  guidNameSet: BoonLearnCommands
+  priority: 1
+  embargoAfterOffering: 32
+  minimumRound: 6
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  dialogStorylineText: <i>"I am too old to fight, and have not visited the capital
+    in many a year"</i> the old man says as he sees you. <i>"Yet I know a true ruler
+    when I see one. I was a leader of troops once. Perhaps there is a tactic or two
+    I could teach you if you would care to listen."</i>
+  declineStoryText: This is surely an old, spent man. You have more important business
+    to attend to and quickly excuse yourself.
+  avatarSprite: {fileID: 21300000, guid: 4dac4ed61c7b50f4cb19b48d34fffec4, type: 3}
+  effectText: Learn leadership spells
+  storyText: You stop and listen to the man, realizing he may know a thing or two
+    about leadership and could teach you something.
+  _schools:
+  - {fileID: 11400000, guid: bf47cd02889142344bc5d305f5147667, type: 2}
+  _acceptMessage: Listening to the man's wisdom and advice, you learn some new words
+    of command you may use with your troops. You may take the time now to decide which
+    command spells you wish to keep prepared.
+  numSpells: 2

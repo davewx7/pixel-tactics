@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: grassland-semi-dry
+  m_EditorClassIdentifier: 
+  guid: 0e190dc8-7b55-4996-97b1-7ddd78cec3fc
+  guidNameSet: grassland-semi-dry
+  rules: {fileID: 11400000, guid: 8dfca8d594eb0e44784dc1892d921d33, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Grassland
+  zorder: 100
+  adjacent:
+  - {fileID: 21300000, guid: a0fce291781a89f4897eb590112c7f44, type: 3}
+  - {fileID: 21300000, guid: d75193c1b76e0b449a85a49e0615088a, type: 3}
+  - {fileID: 21300000, guid: 71c4f820feb457b43a1c2fce5d396b75, type: 3}
+  - {fileID: 21300000, guid: c9073361f42eab94aa7a7da3beaf1a7a, type: 3}
+  - {fileID: 21300000, guid: b771f4bdd9a5e65418a115054d5d88f7, type: 3}
+  - {fileID: 21300000, guid: 4c476cd26713ff64faff2d5b49be9c39, type: 3}
+  adjacent2:
+  - {fileID: 21300000, guid: 2d388bad17b9bfc45aae2b3cbeb3ff07, type: 3}
+  - {fileID: 21300000, guid: 7c6c14961ee73a64ca0a3094c49c2494, type: 3}
+  - {fileID: 21300000, guid: c4fb557fc2817074f82bd867e73086e5, type: 3}
+  - {fileID: 21300000, guid: 435800fe19dec9941bf078b4e3c0d5ed, type: 3}
+  - {fileID: 21300000, guid: 8e56a49f6f10bbf4eb1159c2e0def980, type: 3}
+  - {fileID: 21300000, guid: 339f0ccd54d93de46815584f975355e8, type: 3}
+  adjacent3:
+  - {fileID: 21300000, guid: 42aa312f13a000f49bfbb27129f4f37a, type: 3}
+  - {fileID: 21300000, guid: 12d1f5605e908b04aae9bfae46d4b540, type: 3}
+  - {fileID: 21300000, guid: 13acbc916b727e94e90d261831cfd44b, type: 3}
+  - {fileID: 21300000, guid: 2cd88d25bb2084b42bc1e6598db06aa5, type: 3}
+  - {fileID: 21300000, guid: f130e378362c28849b6722a99515a10b, type: 3}
+  - {fileID: 21300000, guid: 4fad307ffb15df54c89889b38ede7ec5, type: 3}
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites:
+  - {fileID: 21300000, guid: 1fd6d7754a98bfc46a83e97d17672b17, type: 3}
+  - {fileID: 21300000, guid: 1e2083f6311e5a3408f9ff1005293764, type: 3}
+  - {fileID: 21300000, guid: aeb4fdfa33c86c1439b22dc1658d8ac8, type: 3}
+  - {fileID: 21300000, guid: d3074eebdf57e914886d58bc9ede2f38, type: 3}
+  - {fileID: 21300000, guid: 5a8ebd6f2c13def4496c41d4fcfa3f09, type: 3}
+  - {fileID: 21300000, guid: d667027f63397d744a5c44846e04e5f3, type: 3}
+  overlaySprites: []
+  castleWalls: []
+  _base: {fileID: 0}
+  yadj: 0
+  waterline: 0

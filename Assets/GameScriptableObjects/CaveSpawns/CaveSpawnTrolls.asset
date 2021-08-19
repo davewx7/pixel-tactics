@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3cdb4b6f567da479993795d1d909bc, type: 3}
+  m_Name: CaveSpawnTrolls
+  m_EditorClassIdentifier: 
+  guid: 18554a21-08f8-4351-914b-ee7457e6f81f
+  guidNameSet: CaveSpawnTrolls
+  rumorDescription: a group of trolls
+  unitTypes:
+  - {fileID: 11400000, guid: f1ad9dff31ba2ad4f98fc1ac7947070b, type: 2}
+  - {fileID: 11400000, guid: 6a03186d7c339834ab58ed8f72dc79a7, type: 2}
+  - {fileID: 11400000, guid: 5ed3d4fcf7be0f740a99985af245f2ef, type: 2}
+  - {fileID: 11400000, guid: 986b6118a2ed1fb47996172edbe37bae, type: 2}
+  - {fileID: 11400000, guid: 7716f38b0f700014297cd2432e0503d3, type: 2}
+  - {fileID: 11400000, guid: 4a4c0b3e9e7fc0e4daf189f33cf1716f, type: 2}
+  budgetByYear: 12000000180000001e000000240000002a0000002a00000030000000320000003200000032000000
+  spawnMonths:
+  - {fileID: 11400000, guid: d64febee2af737d4e8261af11db9db62, type: 2}
+  - {fileID: 11400000, guid: 0eb254c6729c0354ba22639da919c8fb, type: 2}
+  - {fileID: 11400000, guid: 6fa0a773ff0e25a45934d6990ff1a1a5, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: DialogMakeWar
+  m_EditorClassIdentifier: 
+  guid: 531ecdd5-7cff-4266-b10e-95ae9f5741aa
+  guidNameSet: DialogMakeWar
+  message: 
+  options:
+  - text: 
+    result: {fileID: 11400000, guid: bcd368d5947aade458271a1349b516f3, type: 2}
+    instructions: []
+    conditions: 03000000
+  - text: 
+    result: {fileID: 11400000, guid: 6c23a87fe46282e48a45bf6cd97d7dd2, type: 2}
+    instructions: []
+    conditions: 02000000
+  - text: 
+    result: {fileID: 11400000, guid: 4d9cc6ca935c8b4478932d099c21eb18, type: 2}
+    instructions: []
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

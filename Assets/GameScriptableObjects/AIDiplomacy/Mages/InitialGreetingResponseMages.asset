@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: InitialGreetingResponseMages
+  m_EditorClassIdentifier: 
+  guid: bc818a29-608f-4dac-ab2d-d26444f0916e
+  guidNameSet: InitialGreetingResponseMages
+  message: npc_unit_introduction. Rightful player_king you say? It seems some would
+    consider such a claim to be treason. I hope you base your claim well.
+  options:
+  - text: I am the rightful ruler. Kneel here and now and swear an oath of fealty
+      to me or expect to die a traitor's death.
+    result: {fileID: 11400000, guid: d051a1355cef1b148a129ce7a6b01b34, type: 2}
+    instructions:
+    - {fileID: 11400000, guid: a4c1ec294fdadb44aaeca41bb68225dd, type: 2}
+  - text: I do hope to prove my right to rule. In the meantime might we enjoy peaceful
+      relations.
+    result: {fileID: 11400000, guid: 1cd2e357720eadc4e87abcbc3228177a, type: 2}
+    instructions: []
+  executeOnce: 0
+  focusPlayer: 0

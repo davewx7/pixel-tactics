@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: DialogRetrieveItemCompleted
+  m_EditorClassIdentifier: 
+  guid: 23366141-3d44-41f9-8fcc-19b38b4cd956
+  guidNameSet: DialogRetrieveItemCompleted
+  message: 'The Moon Amulet! You retrieved it! It is a marvelous thing to behold,
+    is it not?
+
+
+    And yet, who would be more worthy to use it than you! We thank you for showing
+    this great respect to our kin.'
+  options: []
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

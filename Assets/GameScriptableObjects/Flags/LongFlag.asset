@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7128b8324fc30424fa8b5488a6f44bd7, type: 3}
+  m_Name: LongFlag
+  m_EditorClassIdentifier: 
+  guid: a31ffec6-f5ea-440e-9e21-769e46cbffbc
+  guidNameSet: LongFlag
+  icon: {fileID: 21300000, guid: c47d6c04199620d4984113c6bb0bc357, type: 3}
+  anim:
+    matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: bfdc470354a9ff9429dca896a5ca4faa, type: 3}
+    - {fileID: 21300000, guid: bb0eca6765e34a145b09f0e645b06ec0, type: 3}
+    - {fileID: 21300000, guid: d313462b6f1d0ad43965eb72b09fd424, type: 3}
+    - {fileID: 21300000, guid: bc46de06251b287448b057ac87af7065, type: 3}
+    duration: 0.7
+    reverse: 0
+    cycle: 1
+    events: []

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52b975513f4dee45a4c6bd4370b8c25, type: 3}
+  m_Name: Swamp
+  m_EditorClassIdentifier: 
+  guid: 49724424-c11c-47d6-96cf-b2596f6f8914
+  guidNameSet: Swamp
+  terrainName: Swamp
+  moveCost: 2
+  visionCost: 2
+  roadBuildCost: 800
+  canReplaceWithRoad: 0
+  canLongRest: 0
+  capturable: 0
+  chargeWorks: 0
+  keep: 0
+  castle: 0
+  aquatic: 1
+  elevatedVision: 0
+  minimapColor: {r: 0.010012458, g: 0.4245283, b: 0.2917134, a: 1}
+  unitMod:
+    description: Terrain
+    useMod: 1
+    hitpoints: 0
+    experience: 0
+    evasion: -20
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []

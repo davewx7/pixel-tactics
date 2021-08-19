@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3145b769396bd4dbeb0a987a88b8ec, type: 3}
+  m_Name: Intelligent
+  m_EditorClassIdentifier: 
+  guid: 27b209b2-dd65-4457-916d-dc902333cdef
+  guidNameSet: Intelligent
+  traitName: Intelligent
+  traitTooltip: -7 experience required to level up
+  unitMod:
+    description: Intelligent
+    useMod: 1
+    hitpoints: 0
+    experience: -7
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []

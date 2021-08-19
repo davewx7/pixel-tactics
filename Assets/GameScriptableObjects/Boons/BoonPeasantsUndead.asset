@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879de2f260503f34a9bdb3b41ffafe07, type: 3}
+  m_Name: BoonPeasantsUndead
+  m_EditorClassIdentifier: 
+  guid: d7cb1cc5-7bae-49c7-9fa2-9f6e8fb3093f
+  guidNameSet: BoonPeasantsUndead
+  alternatives: []
+  priority: 2
+  embargoAfterOffering: 6
+  minimumRound: 0
+  minimumEnemiesLevel: 2
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 0}
+  dialogStorylineText: You enter the village, noticing that with a fertile graveyard
+    full of those who have passed away from plague and from war, this would be the
+    perfect place to raise some zombies to fight for you. With so many enemies about
+    perhaps it is a good idea.
+  declineStoryText: You have all the power you need and investigate what the living
+    have to offer you today, not the dead.
+  avatarSprite: {fileID: 21300000, guid: e9f39f742c5042d49a9d45d977e42dd8, type: 3}
+  effectText: Gain some allies
+  storyText: You raise some zombies up to fight for you!
+  _spawnType: {fileID: 11400000, guid: e1bd43bf33deb89409c64968d4f00942, type: 2}
+  _spawnQuantity: 3

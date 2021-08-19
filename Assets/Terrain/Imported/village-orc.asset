@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: village-orc
+  m_EditorClassIdentifier: 
+  guid: cca70073-c658-4f6b-8b33-4bdfc70ca334
+  guidNameSet: village-orc
+  rules: {fileID: 11400000, guid: c224f1393af670c4c91dd5d5d1510ec7, type: 2}
+  villageInfo: {fileID: 11400000, guid: f76f8a829287f1d498bf9c20ffdbb1f6, type: 2}
+  _winterTerrain: {fileID: 11400000, guid: 4d46849d177fefa4cb862f7b29915f47, type: 2}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Village
+  zorder: 110
+  adjacent: []
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites: []
+  overlaySprites:
+  - {fileID: 21300000, guid: 04908d9146f6ede47939095c9fdc893f, type: 3}
+  - {fileID: 21300000, guid: 082b4f52ad0625245af98dead1ee355c, type: 3}
+  - {fileID: 21300000, guid: cf839f424f5987e468adf74b6b668be7, type: 3}
+  - {fileID: 21300000, guid: 5fc142d54f817074483de2f2bd3111e1, type: 3}
+  - {fileID: 21300000, guid: aefbe539e56257e43af8e6214dec78df, type: 3}
+  castleWalls: []
+  _base: {fileID: 11400000, guid: a8d54d1917f097940bab3cbf5c9f20ff, type: 2}
+  yadj: 0
+  waterline: 0

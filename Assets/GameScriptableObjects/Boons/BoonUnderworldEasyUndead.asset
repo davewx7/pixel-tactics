@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844678c03ede8a049b3e372113cd4bf5, type: 3}
+  m_Name: BoonUnderworldEasyUndead
+  m_EditorClassIdentifier: 
+  guid: e72afacb-977b-4417-810f-d4f9925156ce
+  guidNameSet: BoonUnderworldEasyUndead
+  alternatives: []
+  priority: 1
+  embargoAfterOffering: -1
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 0}
+  dialogStorylineText: x
+  declineStoryText: 
+  avatarSprite: {fileID: 0}
+  effectText: 
+  storyText: 
+  _boons:
+  - {fileID: 11400000, guid: 0ca2065003294de44835fe493b1ac8de, type: 2}

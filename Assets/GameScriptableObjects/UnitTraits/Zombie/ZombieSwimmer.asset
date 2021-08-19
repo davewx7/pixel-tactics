@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3145b769396bd4dbeb0a987a88b8ec, type: 3}
+  m_Name: ZombieSwimmer
+  m_EditorClassIdentifier: 
+  guid: e52e02b5-d436-4049-ac6d-8a7484f8db4e
+  guidNameSet: ZombieSwimmer
+  traitName: Swimmer
+  traitTooltip: This zombie was a creature of the deep once and has some of the attributes
+    of a drake.
+  unitMod:
+    description: Swimmer
+    useMod: 1
+    filter:
+      mustHaveTag: {fileID: 0}
+      excludeIfFoughtThisTurn: 0
+      baseAbility: {fileID: 0}
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities:
+    - {fileID: 11400000, guid: ace7ed63e14c38941821d2a273d184c3, type: 2}
+    abilityArgs: []

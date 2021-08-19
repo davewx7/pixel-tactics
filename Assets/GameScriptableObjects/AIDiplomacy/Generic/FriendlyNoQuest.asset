@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: FriendlyNoQuest
+  m_EditorClassIdentifier: 
+  guid: f90b41b7-7542-40f3-83eb-772c6989f82a
+  guidNameSet: FriendlyNoQuest
+  message: Greetings. We have been watching closely and <link="relation_info">evaluating
+    your claim to the throne.</link>. I trust that all is still well between us?
+  options:
+  - text: It is, I hope to maintain the peace between us.
+    result: {fileID: 11400000, guid: 3a844680801181144b903bdb21c7c52d, type: 2}
+    instructions: []
+    conditions: 04000000
+  - text: I have decided that you are enemies of Wesnoth. I intend to destroy you.
+    result: {fileID: 11400000, guid: cfa1c5f9e3e0c534e949a7dd669895da, type: 2}
+    instructions: []
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

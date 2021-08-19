@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385df7a4fb37b3042b88ddc0b35b4b35, type: 3}
+  m_Name: SeasonWinter
+  m_EditorClassIdentifier: 
+  guid: 183006e5-9203-449b-8da1-bdbc571fcfdd
+  guidNameSet: SeasonWinter
+  season: 3
+  description: Winter
+  alignmentMods:
+  - alignment: 0
+    mod:
+      description: Winter
+      useMod: 1
+      filter:
+        excludeIfFoughtThisTurn: 0
+      hitpoints: 0
+      experience: 0
+      evasion: 0
+      criticalEvasion: 0
+      armor: 0
+      resistance: 0
+      movement: -1
+      vision: 0
+      setAlignment: 0
+      alignment: 0
+      attackMods:
+      - attackDescription: []
+        excludeMelee: 0
+        excludedRanged: 0
+        damage: -1
+        accuracy: -5
+        critical: 0
+        abilities: []
+        makesMagical: 0
+      abilities: []
+  - alignment: 2
+    mod:
+      description: Winter
+      useMod: 1
+      filter:
+        excludeIfFoughtThisTurn: 0
+      hitpoints: 0
+      experience: 0
+      evasion: 0
+      criticalEvasion: 0
+      armor: 0
+      resistance: 0
+      movement: 1
+      vision: 0
+      setAlignment: 0
+      alignment: 0
+      attackMods:
+      - attackDescription: []
+        excludeMelee: 0
+        excludedRanged: 0
+        damage: 1
+        accuracy: 5
+        critical: 0
+        abilities: []
+        makesMagical: 0
+      abilities: []

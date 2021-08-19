@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88fcd7b7a8122444f9db78b8f0af453d, type: 3}
+  m_Name: BoonHostilesZombies
+  m_EditorClassIdentifier: 
+  guid: c81011bd-f141-4956-9c4b-2db776f03e8c
+  guidNameSet: BoonHostilesZombies
+  priority: 1
+  embargoAfterOffering: -1
+  allowOnlyInNeutralVillages: 1
+  forcedSecondaryBoon: {fileID: 0}
+  dialogStorylineText: This village is infested by zombies! As you enter they leap
+    out to attack you.
+  declineStoryText: 
+  avatarSprite: {fileID: 21300000, guid: e9f39f742c5042d49a9d45d977e42dd8, type: 3}
+  effectText: 
+  storyText: 
+  unitTypes:
+  - {fileID: 11400000, guid: e1bd43bf33deb89409c64968d4f00942, type: 2}
+  - {fileID: 11400000, guid: e1bd43bf33deb89409c64968d4f00942, type: 2}
+  - {fileID: 11400000, guid: e1bd43bf33deb89409c64968d4f00942, type: 2}

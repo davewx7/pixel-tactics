@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: outlaw-rogue
+  m_EditorClassIdentifier: 
+  guid: 2ab84917-3513-42d1-92cb-0e7641cdebc2
+  guidNameSet: outlaw-rogue
+  portrait: {fileID: 21300000, guid: 96719c95b055e814da0c7d281b5394bc, type: 3}
+  portraitFemale: {fileID: 21300000, guid: 0ad1562a319e1254991853cadc88d6ca, type: 3}
+  description: Rogue
+  classId: rogue
+  raceId: outlaw
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: b90ac235285a8004aa6897a8e4f8211f, type: 2}
+  abilityArgs: []
+  cost: 22
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 9eb04034-683f-47c7-ae6e-f184296c1b76
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 48
+  hitpointsMax: 27
+  criticalEvasion: 0
+  evasion: 75
+  armor: 0
+  resistance: 0
+  movement: 6
+  levelsInto:
+  - {fileID: 11400000, guid: e696f9c7f51ce0f49abd57c5835ba0cb, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: bf6eed3e7836f8f48814484252b8cbbd, type: 3}
+    description: dagger
+    id: attack
+    damage: 7
+    nstrikes: 2
+    accuracy: 40
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: a65f5de82dfb3e249a08d2b2b2aec4d3, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: dfeac0fd5752b1547af00b0c9e89813e, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 936a7219de77e4c49a1e3ae93510cf3f, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 1
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f2cd942959fff0546b9f5086f1e191b7, type: 3}
+    - {fileID: 21300000, guid: 29ee9d6c016df6044a80dda0643e6e68, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 89eb83ba169e83042a3a7d5e287c2fb4, type: 3}
+    - {fileID: 21300000, guid: 68510062801b79e4bbba41264fccfa2e, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

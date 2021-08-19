@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: GreatBow
+  m_EditorClassIdentifier: 
+  guid: 7a142fba-c10f-4e95-8a9a-21b4d344b674
+  guidNameSet: GreatBow
+  icon: {fileID: 21300000, guid: d9e33d1224202394db1f622bf467cb83, type: 3}
+  description: Great Bow
+  summaryRules: +2 DMG
+  tooltipRules: +2 Damage
+  slot: {fileID: 11400000, guid: dc0ee3dc6dde8ee4c8b18bf567ba3179, type: 2}
+  consumable: 0
+  tier: 2
+  teamAssociation:
+  - {fileID: 11400000, guid: c4809bbd44ec22647ad27128084db861, type: 2}
+  activatedAbility: {fileID: 0}
+  beginTurnEffect: {fileID: 0}
+  mod:
+    description: Great Bow
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription:
+      - bow
+      excludeMelee: 0
+      excludedRanged: 0
+      damage: 2
+      accuracy: 0
+      critical: 0
+      nstrikes: 0
+      abilities: []
+      makesMagical: 0
+    abilities: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  attackRequired:
+  - bow
+  _price: 19

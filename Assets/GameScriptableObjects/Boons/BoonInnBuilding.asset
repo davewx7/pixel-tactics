@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a09fe365fac2d19428704f57d6387fcb, type: 3}
+  m_Name: BoonInnBuilding
+  m_EditorClassIdentifier: 
+  guid: 5e9d77cd-7c17-458a-9565-f485978a2d77
+  guidNameSet: BoonInnBuilding
+  priority: 1
+  embargoAfterOffering: 6
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 11400000, guid: 572970bfac90a7d419a995babbf01cfa, type: 2}
+  dialogStorylineText: '<i>"village_name has always welcomed weary travelers. If you
+    would help us make our old storehouse ready it could act as an inn for your weary
+    soldiers. Surely a strategic resting point like this would benefit you in your
+    campaigns?"</i>
+
+
+    The townspeople seem enthusiastic in helping you, and are willing to make their
+    village a suitable place for you to rest weary units.'
+  declineStoryText: You have other strategies in mind and different designs for this
+    hamlet; you decline their offer.
+  avatarSprite: {fileID: 21300000, guid: c9d8cb4428a4ec94db4e16e237d7bae1, type: 3}
+  effectText: Inn created in this village
+  storyText: A place to rest your weary legs! That sounds perfect. You gratefully
+    accept the villager's offer.

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: AmuletOfProtection
+  m_EditorClassIdentifier: 
+  guid: c9587970-1c7c-4e4b-a183-6f7e30cc59f4
+  guidNameSet: AmuletOfProtection
+  icon: {fileID: 21300000, guid: 46c77321ff585244c904d9adb9da54c1, type: 3}
+  hueShift: 0.8
+  description: Amulet of Protection
+  summaryRules: 
+  tooltipRules: At the start of your turn, you and all adjacent allies gain 6 temporary
+    hitpoints.
+  slot: {fileID: 11400000, guid: 368312626a33e684b8d9166a9f780479, type: 2}
+  consumable: 0
+  tier: 2
+  teamAssociation:
+  - {fileID: 11400000, guid: beebc512ac9bf6342bcafab52869839b, type: 2}
+  activatedAbility: {fileID: 0}
+  beginTurnEffect: {fileID: 11400000, guid: 08e329e2742efb14e879874b78050555, type: 2}
+  castSpellEffect: {fileID: 0}
+  mod:
+    description: Amulet of Vampirism
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription: []
+      excludeMelee: 0
+      excludedRanged: 0
+      excludeMagical: 0
+      excludePhysical: 0
+      damage: 0
+      accuracy: 0
+      critical: 0
+      nstrikes: 0
+      abilities:
+      - ability: {fileID: 11400000, guid: f24d0125d63153f4986cfbcf5c7f6c0f, type: 2}
+        param: 25
+        useParam: 1
+      makesMagical: 0
+    abilities: []
+    abilityArgs: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  attackRequired: []
+  _price: -1

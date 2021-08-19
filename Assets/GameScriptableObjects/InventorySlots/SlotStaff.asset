@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7efe75e97ab54baafb43cacaceace, type: 3}
+  m_Name: SlotStaff
+  m_EditorClassIdentifier: 
+  guid: 9d6443a0-a04e-4311-9003-6b0813bc1306
+  guidNameSet: SlotStaff
+  description: staff
+  describeAsArticle: a staff
+  describePlural: staves
+  sprite: {fileID: 21300000, guid: 93ef12222bbfe6942913a3745fc74341, type: 3}
+  weapon: 1

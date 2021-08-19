@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: monster-scorpling
+  m_EditorClassIdentifier: 
+  guid: d7264390-c748-4ee0-a9b3-11bfd6d4e2c7
+  guidNameSet: monster-scorpling
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Monster Scorpling
+  classId: scorpling
+  raceId: monster
+  tags: []
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 45c3da74-18d2-49f0-b13a-0fbd3ba7f931
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7382cd902036b8842acf720ef94845e1, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c6749fd8b45c6454098d2bff013ec839, type: 3}
+    - {fileID: 21300000, guid: 2cf6b79c8fb012a4f9ebc1d11940c39b, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: pincer
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 47ddd8ea96ed54c40a03ee073a5172eb, type: 3}
+    - {fileID: 21300000, guid: 48175f09534918c48929c5ce5b6184ab, type: 3}
+    - {fileID: 21300000, guid: 105dd43b313a993408a11e3db67d7201, type: 3}
+    - {fileID: 21300000, guid: cf8bb7b7dc5833c49a890d174796b589, type: 3}
+    - {fileID: 21300000, guid: 60f47897c3b58164295fb6cf48d0f70b, type: 3}
+    - {fileID: 21300000, guid: c578f7fa048e0694c95186811c32e5e9, type: 3}
+    - {fileID: 21300000, guid: 947000f895d809948934df9ad9a8a579, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: sting
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 67de87a3b97897a4690ca02ae7530af5, type: 3}
+    - {fileID: 21300000, guid: e3276bf8ceba1b04f93b1ba6e39353e5, type: 3}
+    - {fileID: 21300000, guid: 3a1a1c9f37041ae4b9d1b8e21ccae58b, type: 3}
+    - {fileID: 21300000, guid: c17a78d44a9f4f14d9cf383bee243542, type: 3}
+    - {fileID: 21300000, guid: bbf110bbda074f2429141b43d5122142, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

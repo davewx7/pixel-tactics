@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: monster-gryphon
+  m_EditorClassIdentifier: 
+  guid: 7e1f5db2-5847-4574-b1a7-7f4e62427008
+  guidNameSet: monster-gryphon
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Monster Gryphon
+  classId: gryphon
+  raceId: monster
+  tags: []
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 7b7d082d-4dda-4dfd-9c93-293902e348c9
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 2dcc5dae3f879ea408cfd5c03008fc85, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: flying
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 6c90ba700bd0d89479ae2f74c3f837dd, type: 3}
+    - {fileID: 21300000, guid: b136b6a808de2604ba1ee10a85abfd15, type: 3}
+    - {fileID: 21300000, guid: f915c674e152dbf479652f6bf21c1956, type: 3}
+    - {fileID: 21300000, guid: 243b6e5836cd44a44a095b7b4724273a, type: 3}
+    - {fileID: 21300000, guid: aa95e5b00c32e2a449f86746e61ba877, type: 3}
+    - {fileID: 21300000, guid: ffc875d1f32d9c949b1b80ece3faa85f, type: 3}
+    - {fileID: 21300000, guid: 4cf979a10901a2e40a0e8dc1f208c501, type: 3}
+    - {fileID: 21300000, guid: 192b830d86145a544b55970e49de5f38, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

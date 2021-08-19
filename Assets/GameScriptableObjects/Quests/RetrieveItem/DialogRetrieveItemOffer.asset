@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: DialogRetrieveItemOffer
+  m_EditorClassIdentifier: 
+  guid: e01a6fcc-d9ec-4fdd-9299-0ff137c94b93
+  guidNameSet: DialogRetrieveItemOffer
+  message: 'One of our adventurers, a young noble, perished recently in the wastes.
+    She was wearing the sacred Moon Amulet, which we hold dear.
+
+
+    We hope that you could find her body and lay it to rest and return the Moon Amulet
+    to us?
+
+
+    <i>By accepting this quest, you will be committing to retrieving the Moon Amulet
+    within 12 rounds and returning it to npc_team.</i>'
+  options:
+  - text: <color=#aaffaa>[Accept Quest]</color> A sad story, I shall do my best to
+      bring your kin to rest and retrieve the amulet for you.
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  - text: <color=#ffaaaa>[Hostile]</color> The realm bleeds with endless war and you
+      would have me worry about some dead fool? I may end up finding this Moon Amulet
+      of which you speak, though if I do I shall keep it for myself!
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  - text: <color=#aaffff>[Diplomacy]</color> I do wish to prove myself worthy of the
+      throne, but perhaps there is something else I can do to prove myself to you?
+    result: {fileID: 0}
+    instructions: []
+    conditions: 06000000
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

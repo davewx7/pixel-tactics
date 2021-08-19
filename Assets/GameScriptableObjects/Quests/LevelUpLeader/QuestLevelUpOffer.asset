@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: QuestLevelUpOffer
+  m_EditorClassIdentifier: 
+  guid: 5505be98-26e6-40aa-9afc-c7b5e7c200b5
+  guidNameSet: QuestLevelUpOffer
+  message: "A player_king must be willing to bleed and even die with player_his subjects.
+    To fight at their head. To fight alongside them. To hold a dying soldier in their
+    arms.\n\nWe feel you need to prove your worth if you want to be player_king. Gain
+    some hard-fought experience in battle. If you can do that\u2014and do it quickly\u2014perhaps
+    we will be willing to accept you as player_king. What say you?\n\n<i>If you accept
+    this quest you will commit to raising player_lisar to level 3 within 18 rounds.</i>"
+  options:
+  - text: <color=#aaffaa>[Accept]</color> I am willing to lead my troops into battle
+      and gain the experience necessary to win your trust.
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  - text: "<color=#ffaaaa>[Hostile]</color> I am more than ready to lead. How dare
+      you make such a demand of me. I will lead my troops into battle\u2014a battle
+      to kill you, prepare to die!"
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  - text: <color=#aaffff>[Diplomacy]</color> I do wish to prove myself worthy of the
+      throne, but perhaps there is something else I can do to prove myself to you?
+    result: {fileID: 0}
+    instructions: []
+    conditions: 06000000
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

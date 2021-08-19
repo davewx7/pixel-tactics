@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dbd743d5548438468743ec514d668b7, type: 3}
+  m_Name: icemissile
+  m_EditorClassIdentifier: 
+  guid: 2481f5c1-24d9-4316-89fb-48e037b42e62
+  guidNameSet: icemissile
+  flightTime: 0.4
+  distanceTravel: 1
+  animFail:
+    matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites: []
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  animImpact:
+    matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites: []
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  animations:
+  - matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: b021ac481924a6a4aabc494711fd3fcb, type: 3}
+    - {fileID: 21300000, guid: 2bc87042d07361048a645b5bbffc7024, type: 3}
+    - {fileID: 21300000, guid: d872def1a68db4b49bbcc5ca59c5635d, type: 3}
+    - {fileID: 21300000, guid: 6b95394e21cc7bd439552c34d41a9823, type: 3}
+    - {fileID: 21300000, guid: 74350424bf967294085df06763af4b29, type: 3}
+    - {fileID: 21300000, guid: c1d5545e71b84164b8811e245b8793a8, type: 3}
+    - {fileID: 21300000, guid: 51f6e2e51a26f394f8dd0b5b52fd8275, type: 3}
+    duration: 0.5
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: 5a72644a2da588a47a859b7be86181fe, type: 3}
+    - {fileID: 21300000, guid: 130d3eadebb607b49a24f6ca22d0d1b4, type: 3}
+    - {fileID: 21300000, guid: 7b2a39d07ef20d649b01298e75bca98e, type: 3}
+    - {fileID: 21300000, guid: 19aae368cc6014946869193a1e30dca7, type: 3}
+    - {fileID: 21300000, guid: 0c1fefd8b5d11564f9e3e026e6d91ac6, type: 3}
+    - {fileID: 21300000, guid: 34953a936f47b634389dbd0c16ce1fa5, type: 3}
+    - {fileID: 21300000, guid: eb4f3e3864a8f424095316859729583e, type: 3}
+    duration: 0.5
+    reverse: 0
+    cycle: 1
+    events: []

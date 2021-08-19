@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: monster-mudcrawler
+  m_EditorClassIdentifier: 
+  guid: c345cf9b-a652-4a67-a1f8-ef82d06efbcd
+  guidNameSet: monster-mudcrawler
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Monster Mudcrawler
+  classId: mudcrawler
+  raceId: monster
+  tags: []
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: ea766006-6ecd-46ce-b464-1f26e6880738
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 1b40d30c0a882fe41828784159a3c4cb, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7c351bb745a515c4c97d5910295c595b, type: 3}
+    - {fileID: 21300000, guid: 1903abadf7909aa468025f55fdc8be41, type: 3}
+    - {fileID: 21300000, guid: a63f98181fee79a45a9bf737e90131c8, type: 3}
+    - {fileID: 21300000, guid: 8b08ffe61a832484a94ebcfa41cd5a79, type: 3}
+    - {fileID: 21300000, guid: 64e21dbaa906c304daf8818988765495, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 93727a0e2bab83746b95b3c4f4332103, type: 3}
+    - {fileID: 21300000, guid: 19c68b3447032f644b8ff1526200c480, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c48cb63da49cbe4419bef974a36b63eb, type: 3}
+    - {fileID: 21300000, guid: a38821397fb3d4f428d9b00a797a4e35, type: 3}
+    - {fileID: 21300000, guid: d1026d00ea012ac46a56304b56516080, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

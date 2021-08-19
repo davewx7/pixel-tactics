@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a786d29dac4d4f990127905c942fb, type: 3}
+  m_Name: ShieldOfFaithSpell
+  m_EditorClassIdentifier: 
+  guid: 01b2dbf4-2411-4884-a31f-7e97b94713c9
+  guidNameSet: ShieldOfFaithSpell
+  modUntilEndOfTurn:
+    description: Shield of Faith
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 2
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  schools:
+  - {fileID: 11400000, guid: 56860e8d55d98e540a70451825ebaaf6, type: 2}
+  ispotion: 0
+  cooldown: 6
+  targetTypes: 0000000001000000
+  targetTerrain: []
+  targetLevelLessOrEqualToSpellLevel: 0
+  mustControlTarget: 0
+  targetsKeep: 0
+  targetRange: 3
+  targetRadius: 0
+  rangeIsUnitVision: 0
+  healTarget: 0
+  temporaryHitpoints: 8
+  drainLife: 0
+  blinkToTarget: 0
+  description: Shield of Faith
+  icon: {fileID: 21300000, guid: 0692756f4407eb94380c5bd28cc681da, type: 3}
+  hueshift: 0
+  spellLevel: 1
+  refreshesMovement: 0
+  refreshesAttack: 0
+  summaryRules: 
+  applyStatus: {fileID: 0}
+  summonType: {fileID: 0}
+  numSummons: 1
+  createEquipment: []
+  cannotTargetBlessedUnit: 0
+  effectSource: {fileID: 0}
+  effectDest: {fileID: 7195097288595192750, guid: a9c85fdfc5334314b9741488634c3e72,
+    type: 3}
+  tooltipRules: Unit gains 8 temporary hitpoints and 2 armor this turn.
+  _noTargetsErrorMessage: No targets in range

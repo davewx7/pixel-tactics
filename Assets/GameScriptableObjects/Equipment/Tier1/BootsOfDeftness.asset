@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: BootsOfDeftness
+  m_EditorClassIdentifier: 
+  guid: 62d118f8-7f4d-422b-9e07-2983968f7dcf
+  guidNameSet: BootsOfDeftness
+  icon: {fileID: 21300000, guid: 2d987f2f1ce03454aa907394a37b24ac, type: 3}
+  hueShift: 0.2
+  description: Boots of Deftness
+  summaryRules: Skirmish
+  tooltipRules: Gives Skirmish. The unit may ignore enemy zones of control
+  slot: {fileID: 11400000, guid: 05141ee8ba37e0d409a5619f0672b97c, type: 2}
+  consumable: 0
+  tier: 1
+  teamAssociation: []
+  activatedAbility: {fileID: 0}
+  beginTurnEffect: {fileID: 0}
+  mod:
+    description: Boots of Deftness
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities:
+    - {fileID: 11400000, guid: b90ac235285a8004aa6897a8e4f8211f, type: 2}
+    abilityArgs: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  attackRequired: []
+  _price: -1

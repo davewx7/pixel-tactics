@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: InitialGreetingResponseMerfolk
+  m_EditorClassIdentifier: 
+  guid: 10639dd0-82c6-48df-8074-807f58d0f055
+  guidNameSet: InitialGreetingResponseMerfolk
+  message: Greetings, land-dweller. npc_unit_introduction. Yet, rightful player_king
+    you say? The humans always make war over who might rule. Decide your next leader
+    quickly, but please leave the Merfolk out of this dispute among you who stride
+    upon the land.
+  options:
+  - text: Just as the Merfolk swore fealty to my ancestors I expect you to swear fealty
+      to me. Do so now or the Merfolk will be hunted and executed as traitors.
+    result: {fileID: 11400000, guid: a6c17fdd0cad2b04fb90b3c5f5a39520, type: 2}
+    instructions:
+    - {fileID: 11400000, guid: a4c1ec294fdadb44aaeca41bb68225dd, type: 2}
+  - text: We mean you no harm, for I am a friend of the Merfolk. Let us remain friends
+      and perhaps we can grow into allies.
+    result: {fileID: 11400000, guid: 724a031106b052748b96e74ae3d4fd0f, type: 2}
+    instructions: []
+  executeOnce: 0
+  focusPlayer: 0

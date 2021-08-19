@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dbd743d5548438468743ec514d668b7, type: 3}
+  m_Name: muzzle-flash
+  m_EditorClassIdentifier: 
+  guid: 0ac4d610-594b-45f3-b0c4-1b1594698308
+  guidNameSet: muzzle-flash
+  flightTime: 0.4
+  distanceTravel: 1
+  animFail:
+    matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites: []
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  animImpact:
+    matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites: []
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  animations:
+  - matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: ea4899d277785b24aa66016d56e87450, type: 3}
+    - {fileID: 21300000, guid: b72a7f2efbdce5c4f9057f824647a149, type: 3}
+    - {fileID: 21300000, guid: 3105dbaa899845f458ec6f736cef8468, type: 3}
+    - {fileID: 21300000, guid: b47bee3fc714027419d7d786d4f4ace6, type: 3}
+    - {fileID: 21300000, guid: d5f4909c952bc3348a589615f7f2a4ec, type: 3}
+    - {fileID: 21300000, guid: 7cb6237a7d51ce840a2d5953dc7f506d, type: 3}
+    - {fileID: 21300000, guid: a3ec46c3cd9881d4e9c27df53369f121, type: 3}
+    - {fileID: 21300000, guid: 2be0909c99aa4914593ab109023a7fd4, type: 3}
+    - {fileID: 21300000, guid: 1c983c21a91c3244f9316f40951c07e6, type: 3}
+    - {fileID: 21300000, guid: 6f7e088c3132f244195cd5f18dc591f2, type: 3}
+    - {fileID: 21300000, guid: ed005e107b7aee949b6ff22e375f9b89, type: 3}
+    - {fileID: 21300000, guid: 3e83e4eab2bbcd9468f56da079f228d1, type: 3}
+    - {fileID: 21300000, guid: 974e3dec60d30ab4c91952e69b701dff, type: 3}
+    - {fileID: 21300000, guid: d296fc39556459343a5307420b64e86c, type: 3}
+    duration: 0.5
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: 5f5ebe7a1a4969947ab017a9cb6285b9, type: 3}
+    - {fileID: 21300000, guid: 14b9689042cb0364e99a6d2699cb46ac, type: 3}
+    - {fileID: 21300000, guid: c36af6229c460704ea760806d2b72a4b, type: 3}
+    duration: 0.5
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: 7e179d33beefd9a4eb8b2479efc63fdb, type: 3}
+    - {fileID: 21300000, guid: 6efced5a5e9e5b2439f0f6e10e8bedfa, type: 3}
+    - {fileID: 21300000, guid: e89b962946277094385a3dc0886f1912, type: 3}
+    duration: 0.5
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: 563df69f64c9b484e8dd3947ef38d4e0, type: 3}
+    - {fileID: 21300000, guid: 71805b99ea022734dafccbbe0396d105, type: 3}
+    - {fileID: 21300000, guid: 3a36c09d51cad45469336b01ba05f56a, type: 3}
+    duration: 0.5
+    reverse: 0
+    cycle: 1
+    events: []

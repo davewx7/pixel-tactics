@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3145b769396bd4dbeb0a987a88b8ec, type: 3}
+  m_Name: Resilient
+  m_EditorClassIdentifier: 
+  guid: af856913-b8a6-4ee2-ac6d-c0029777ebb8
+  guidNameSet: Resilient
+  traitName: Resilient
+  traitTooltip: +7 hitpoints
+  unitMod:
+    description: Resilient
+    useMod: 1
+    hitpoints: 7
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []

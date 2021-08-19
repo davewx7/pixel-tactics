@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9ee15089d6c15448ea36702ce649a9, type: 3}
+  m_Name: LootTier1
+  m_EditorClassIdentifier: 
+  guid: 865dbe84-9818-428e-828d-0e371f92e38e
+  guidNameSet: LootTier1
+  _image: {fileID: 21300000, guid: 7d104c95dd9de3a49a2b1031c7f64079, type: 3}
+  _imageOpen: {fileID: 21300000, guid: a54dc14ff90382f49b6bc0c218f024c5, type: 3}
+  amount: 20
+  tier: 1

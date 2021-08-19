@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: troll-whelp
+  m_EditorClassIdentifier: 
+  guid: 37e82a3a-19d3-4d75-a453-82aaadacf625
+  guidNameSet: troll-whelp
+  portrait: {fileID: 21300000, guid: 5926f205010753e408b5e8d4569b8468, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Troll Whelp
+  classId: whelp
+  raceId: troll
+  tags:
+  - {fileID: 11400000, guid: af6d9699302e97e499353a4ce8f3c37a, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: b4ad621c22403394082c46877ab85a73, type: 2}
+  abilityArgs: []
+  cost: 13
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 2eb33ec0-d120-4901-914d-17e7c1e21a12
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 42
+  criticalEvasion: 0
+  evasion: 30
+  armor: 1
+  resistance: 0
+  movement: 4
+  levelsInto:
+  - {fileID: 11400000, guid: f1ad9dff31ba2ad4f98fc1ac7947070b, type: 2}
+  - {fileID: 11400000, guid: 6a03186d7c339834ab58ed8f72dc79a7, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: 7b603039b7d9e7a44a961267f77a2d71, type: 3}
+    description: fist
+    id: attack
+    damage: 7
+    nstrikes: 2
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c5e23c47b7344a140849c64c8fc25a36, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 413be16d0e41df94984ec5e32a4c3be5, type: 3}
+    - {fileID: 21300000, guid: 5a0876cd61303b541bc71417baf15a2a, type: 3}
+    - {fileID: 21300000, guid: 6ced610c24d3c6d41afba4a0be2e44c4, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 55328df38416bdb45a1a6e70ce3a0b01, type: 3}
+    - {fileID: 21300000, guid: 1c08ddf6969f3ad45b99762698de9e11, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 1
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 0f74ee772d8784d4189f9b6791d51614, type: 3}
+    - {fileID: 21300000, guid: 6b87701a768bf6b47988a2f03c84bd5c, type: 3}
+    - {fileID: 21300000, guid: 3c1c10908a08b5d469ac35785399a5a3, type: 3}
+    - {fileID: 21300000, guid: a73b400d0afde5746973b78b25cef690, type: 3}
+    - {fileID: 21300000, guid: d7cf9da42d68c5f46aa7e164ed4d83a2, type: 3}
+    - {fileID: 21300000, guid: 42e8f8f69fb0c164f8c9c99f8dc1a619, type: 3}
+    - {fileID: 21300000, guid: 6f5920ef5df51bc439e970260b8634ba, type: 3}
+    duration: 2
+    reverse: 0
+    cycle: 0
+    events: []

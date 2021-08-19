@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47cd5b10bb0653498bc6fd39a126cec, type: 3}
+  m_Name: BoonRecruit
+  m_EditorClassIdentifier: 
+  guid: ffe61766-2749-4354-b3b5-dc16ed168be0
+  guidNameSet: BoonRecruit
+  priority: 1
+  embargoAfterOffering: 9
+  minimumRound: 6
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 0}
+  dialogStorylineText: x
+  declineStoryText: There are proper channels by which people may join the swells
+    of your ranks, and approaching you in the street is not one of them. You have
+    important business to attend to so you send them on their way.
+  avatarSprite: {fileID: 0}
+  effectText: Gain a Recruit
+  storyText: You welcome all who will join you, and this volunteer is no exception.
+    You take time to welcome them into your forces.
+  _entries:
+  - debugPriority: 0
+    unitType: {fileID: 11400000, guid: 5edfe29085402704d8a21b7bb154b7b8, type: 2}
+    characterName: 
+    spellsOverride: []
+    characterMods: []
+    equipment: []
+    dialogStoryLine: An aloof robed figure is often seen observing you as you go about
+      your business around town. The townsfolk speak in whispers of {him} being a
+      wizard skilled with magic. Such a figure could be useful in your forces, though
+      trying to recruit {him} could also distract from other ventures.
+    recruitStoryLine: 'It takes some effort to convince {name} to join your forces,
+      but {he} is eventually convinced. You now have a {type} fighting for you! '
+    confirmStoryText: A wielder of magic could serve you well. Try to recruit {him}!
+    adjacentTerrain: []
+    enemyRequired: []
+  - debugPriority: 0
+    unitType: {fileID: 11400000, guid: 713036bc58bbf7d4fb41ec57a9282fca, type: 2}
+    characterName: 
+    spellsOverride: []
+    characterMods: []
+    equipment: []
+    dialogStoryLine: <i>"Oh, so you had better believe there is a network of thieves'
+      guilds throughout the realm, and we're not afraid to put our thumb on the scales
+      of who gets to rule when it's in our interests to do so."</i> the {man} says,
+      an irritating smirk on {his} face. {He} has just offered {his} services to you,
+      and you have to admit, having one with {his} skills in your service might have
+      some value.
+    recruitStoryLine: Even a ruler can make use of a thief, and {name} joins your
+      forces, ready to prove {his} mettle.
+    confirmStoryText: You are not above recruiting a thief into your forces as long
+      as they are skilled. Ask {him} to join you.
+    adjacentTerrain: []
+    enemyRequired: []
+  - debugPriority: 0
+    unitType: {fileID: 11400000, guid: 63831740cf4210844ad87bbd987b37a6, type: 2}
+    characterName: 
+    spellsOverride: []
+    characterMods: []
+    equipment: []
+    dialogStoryLine: '<i>"Serving the rightful heir to the throne. Something I have
+      desired ever since I was young"</i> this man -- still a young man by your estimation
+      -- offers as he approaches.
+
+
+      With a flourish he takes a kneel and offers up his rapier. <i>"If you would
+      have me, I would join your ranks."</i>'
+    recruitStoryLine: An enthusiastic fencer willing to serve you? Of course you take
+      {name} up on his offer to join, he readies himself to fight for you.
+    confirmStoryText: You gratefully accept this man's offer to join your forces.
+    adjacentTerrain: []
+    enemyRequired: []
+  - debugPriority: 0
+    unitType: {fileID: 11400000, guid: b8bd52abddd412140a3c54ae18c75d85, type: 2}
+    characterName: Beorc
+    spellsOverride: []
+    characterMods: []
+    equipment: []
+    dialogStoryLine: '<i>"{name} the half-orc is half orc. Half man. Orc no want.
+      Man no want. But, {name} will be a mighty warrior. {name} will be a Knight.
+      If you let {name} serve you he will. None will be as loyal or fierce as {name}."</i>
+
+
+      This half-orc seems ready and eager to join your forces. Will you have him?'
+    recruitStoryLine: '{name} enthusiastically joins your forces, eager to fight for
+      you.'
+    confirmStoryText: Human, orc, half-orc, you will take any eager to offer themselves
+      in service of you.
+    adjacentTerrain: []
+    enemyRequired: []
+  - debugPriority: 0
+    unitType: {fileID: 11400000, guid: ff63097cf5c0cc54d8e12e53eff54968, type: 2}
+    characterName: Aulel
+    spellsOverride:
+    - {fileID: 11400000, guid: c1b305e3f423487499ee9ef241a55255, type: 2}
+    characterMods:
+    - description: Aulel
+      useMod: 1
+      filter:
+        excludeIfFoughtThisTurn: 0
+      hitpoints: 0
+      experience: 0
+      evasion: 0
+      limitEvasion: -1
+      criticalEvasion: 0
+      armor: 0
+      resistance: 0
+      movement: 0
+      spellRange: 0
+      vision: 0
+      setAlignment: 1
+      alignment: 2
+      attackMods: []
+      abilities: []
+      abilityArgs: []
+    equipment: []
+    dialogStoryLine: "<i>\"I'm Aulel, I like to search the seas, find things. Interesting
+      things. Cool things. <b>Shiny</b> things. All of the things. Yeah, I'm basically
+      the best. I won't exactly work <b>for</b> you, but if you pay my expenses I
+      might work with you as long as you don't bother me or my experiments much.\r\"</i>\n\nThis
+      Initiate of the seas offers you her services if you would have her join you."
+    recruitStoryLine: Aulel has joined your forces, and will help you gain control
+      of the seas.
+    confirmStoryText: Having a wisened denizen of the depths by your side would be
+      very helpful. You add her to your ranks at once.
+    adjacentTerrain: []
+    enemyRequired: []
+  - debugPriority: 0
+    unitType: {fileID: 11400000, guid: 7818cb0a0aa6c794ebe30868185e4cb7, type: 2}
+    characterName: 
+    spellsOverride: []
+    characterMods: []
+    equipment: []
+    dialogStoryLine: '<i>"{name}. Soldier. Slitherer. Swamp dweller. And just today,
+      a sell-spear for your cause. If you will have me, of course."</i>
+
+
+      This Saurian greets you with a deep bow and an obsequious look. Will you allow
+      him to join your ranks?'
+    recruitStoryLine: '{name} joins your forces. Having one of the lizard folk fight
+      for you will be very helpful especially when fighting in the swamps.'
+    confirmStoryText: Accept the Saurian's offer to serve you and induct him immediately
+      into your ranks.
+    adjacentTerrain:
+    - {fileID: 11400000, guid: 7b0f01efff1325141a7055fe6ee92fc6, type: 2}
+    enemyRequired: []
+  - debugPriority: 0
+    unitType: {fileID: 11400000, guid: c3a531c061bfbcb449c4ffb3438128c7, type: 2}
+    characterName: 
+    spellsOverride: []
+    characterMods: []
+    equipment: []
+    dialogStoryLine: 'You are about to enter the village when a nearby tree comes
+      to life, lumbering over to you.
+
+
+      <i>"Are you one of the ones who fights {enemy_team}? They ravage the forest.
+      Axes. Swords. Fire. The other wose are still making council, but for me, it
+      is time to do something about it. Since you are an enemy of {team_name}, I will
+      fight for you if you will have me."'
+    recruitStoryLine: '{name} soon joins your forces, eager to fight {enemy_team}
+      though also willing to obey whatever orders you have for him.'
+    confirmStoryText: 'A wose! Fighting for you! Of course you will gladly '
+    adjacentTerrain:
+    - {fileID: 11400000, guid: 517d5f0355a5287418a6b04f9e5e047f, type: 2}
+    enemyRequired:
+    - {fileID: 11400000, guid: ebab1ca14b9cc5d4b99b6d127b8660e1, type: 2}
+    - {fileID: 11400000, guid: c4809bbd44ec22647ad27128084db861, type: 2}
+  - debugPriority: 0
+    unitType: {fileID: 11400000, guid: d8a5ccc761fb9b248bb65804a3d56428, type: 2}
+    characterName: 
+    spellsOverride: []
+    characterMods: []
+    equipment: []
+    dialogStoryLine: '<i>"You are an enemy of {enemy_team}? Long have I sought to
+      bring about their downfall, for they ravaged and desecrated the mines I grew
+      up in. Should you have me I would gladly serve you."</i>
+
+
+      This stout looking dwarf seems eager to join your caues if you will have him.'
+    recruitStoryLine: '{name} is ready to fight for you, and combat your enemies,
+      most especially {enemy_team}.'
+    confirmStoryText: The dwarves are renowned as firesome fighters, you gladly accept
+      him into your ranks.
+    adjacentTerrain: []
+    enemyRequired:
+    - {fileID: 11400000, guid: ebab1ca14b9cc5d4b99b6d127b8660e1, type: 2}
+    - {fileID: 11400000, guid: 4a0ef6aff68766c44a4f0e6cc04530c7, type: 2}
+  - debugPriority: 0
+    unitType: {fileID: 11400000, guid: dfdadaf8b9d7f0840adbc4ec34307c83, type: 2}
+    characterName: 
+    spellsOverride: []
+    characterMods: []
+    equipment: []
+    dialogStoryLine: 'You are about to enter the village when you hear a swooping
+      of wings. Turning, you see a Drake fly down and land before you.
+
+
+      <i>"Greetings. Friend. I hope I cmight call you friend. For we Drake judge one
+      by the enemies they have made, and you have made enemies of {enemy_team}. If
+      you would have it I would fight for you. If you have need for someone to be
+      burned, {name} of the Drake will burn them for you."</i>'
+    recruitStoryLine: A Drake among your forces will surely bolster your armies. {name}
+      is immediately ready to fight for you.
+    confirmStoryText: Heartily welcome this Drake into your forces.
+    adjacentTerrain: []
+    enemyRequired:
+    - {fileID: 11400000, guid: c4a6cc45e9746384a9fff36aa2edd6f6, type: 2}
+    - {fileID: 11400000, guid: 84e7dabed4d10a74a8fb58b8c3bb3ec4, type: 2}
+    - {fileID: 11400000, guid: 4a0ef6aff68766c44a4f0e6cc04530c7, type: 2}
+  - debugPriority: 0
+    unitType: {fileID: 11400000, guid: f22b27ec2c9346f47a7e014e6c5ce810, type: 2}
+    characterName: Rosario
+    spellsOverride: []
+    characterMods: []
+    equipment:
+    - {fileID: 11400000, guid: 67ba1d3678fb4af4ea45d8f82628ea6c, type: 2}
+    - {fileID: 11400000, guid: 98f61c4c4f3b06546b8f2e2cd0e3ac11, type: 2}
+    - {fileID: 11400000, guid: f1d4b839a0797824c85824fe4b79b325, type: 2}
+    dialogStoryLine: <i>"Greetings, friend. I am a traveler, a merchant, but most
+      of all an Alchemist. I come from distant lands always seeking to brew new potions
+      and supply them to those in need. Perhaps there is something that {name} can
+      do for you?"</i>
+    recruitStoryLine: "With just a little convincing\u2014and promises that he will
+      have many opportunities to brew potions\u2014you convince Rosario to join you!"
+    confirmStoryText: Having an Alchemist among your forces sounds like it would be
+      incredibly useful. Attempt to recruit him immediately.
+    adjacentTerrain: []
+    enemyRequired: []

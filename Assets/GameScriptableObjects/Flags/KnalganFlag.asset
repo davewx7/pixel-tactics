@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7128b8324fc30424fa8b5488a6f44bd7, type: 3}
+  m_Name: KnalganFlag
+  m_EditorClassIdentifier: 
+  guid: d51ebe32-6505-4919-8866-7349174de56f
+  guidNameSet: KnalganFlag
+  icon: {fileID: 21300000, guid: e37dccf40e0e783489f2f42dcd4c82dc, type: 3}
+  anim:
+    matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: a0c52c7dfe513a248bece9a765b11078, type: 3}
+    - {fileID: 21300000, guid: b611f6b4b47ef3941b786725095e05e4, type: 3}
+    - {fileID: 21300000, guid: f456357f9dd2c504da6f00466f1d2afc, type: 3}
+    - {fileID: 21300000, guid: 5fc73c1dda5258f4685ad410a65faecf, type: 3}
+    duration: 0.7
+    reverse: 0
+    cycle: 1
+    events: []

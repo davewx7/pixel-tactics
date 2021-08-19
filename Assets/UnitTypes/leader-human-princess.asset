@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: leader-human-princess
+  m_EditorClassIdentifier: 
+  guid: ce46ddec-c131-43fe-8d62-b12b7cd47024
+  guidNameSet: leader-human-princess
+  portrait: {fileID: 21300000, guid: bd1688b9c0979bd4a9e74752bb76a15d, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Princess
+  classId: human-princess
+  raceId: leader
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: b90ac235285a8004aa6897a8e4f8211f, type: 2}
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: fb92789a-1b9b-4e6a-9043-f828f0a9d800
+    characterName: Li'sar
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids:
+    - 572375a7-3148-467f-b04d-6d07c53a7cc6
+    - ca188bbc-17aa-4897-8c8d-e954cbf838ab
+    - 2b7a702b-7d02-49f8-8d99-40ca155e168f
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells:
+    - {fileID: 11400000, guid: 02b95e9da01d6fd468c51c6faedecc42, type: 2}
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 38
+  hitpointsMax: 28
+  criticalEvasion: 0
+  evasion: 60
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: cd66616b24a9d494d83325f144534e6d, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: f7963507fd6e850438e1df8445d69c38, type: 3}
+    description: sword
+    id: attack
+    damage: 5
+    nstrikes: 4
+    accuracy: 10
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 01000000
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: fa999bab20dcf97498a80f6f61465ae9, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 371a63db696bba1418b1cdce3bfcbc13, type: 3}
+    - {fileID: 21300000, guid: ee9d2574076d74f41a77bb507713495b, type: 3}
+    - {fileID: 21300000, guid: 7f180205f482b7f44b4d621f0b73964d, type: 3}
+    - {fileID: 21300000, guid: 59934e7fac15878449906007d5952ca8, type: 3}
+    - {fileID: 21300000, guid: db8ec08ab86d83046bfd6e90215e0324, type: 3}
+    - {fileID: 21300000, guid: 962e9799355a4d842be7f54e54a2d8bf, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: e0bf529afc574a44588ad6225d00176e, type: 3}
+    - {fileID: 21300000, guid: 026ec0550db29224798560883b5e0371, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 5
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a1707b72d92298f4ba693c6cb8731366, type: 3}
+    - {fileID: 21300000, guid: 3c895c1512c17494ebf97458004d98ed, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a09fe365fac2d19428704f57d6387fcb, type: 3}
+  m_Name: BoonInfirmaryBuilding
+  m_EditorClassIdentifier: 
+  guid: 0bc817cb-8720-414d-95e4-306a210c1b92
+  guidNameSet: BoonInfirmaryBuilding
+  priority: 1
+  embargoAfterOffering: 4
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 1
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  createBuilding: {fileID: 11400000, guid: 5615b3352389b9749a9ecaeec3d7bc20, type: 2}
+  dialogStorylineText: <i>"You look injured! I could convince the villagers here to
+    create an infirmary to help treat the injured such as yourself."</i>
+  declineStoryText: Any injuries you have are mere flesh wounds. You have more important
+    things to do.
+  avatarSprite: {fileID: 21300000, guid: 2d71ee69c304617449f8e340e52a9c99, type: 3}
+  effectText: Infirmary created in this village
+  storyText: You accept this generous offer, needing treatment for your injuries.

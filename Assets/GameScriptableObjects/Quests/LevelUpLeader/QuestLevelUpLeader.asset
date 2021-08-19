@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e322a22c3c118d345b6d9cff88fdadd7, type: 3}
+  m_Name: QuestLevelUpLeader
+  m_EditorClassIdentifier: 
+  guid: b4b95fd6-3040-4041-a3c6-c419158fad14
+  guidNameSet: QuestLevelUpLeader
+  acceptedNode:
+  - {fileID: 11400000, guid: 6d0c2e301405c0f4790a1fa45219096e, type: 2}
+  rejectedNode:
+  - {fileID: 11400000, guid: 3b607252b3e25384e9586f2701cb84ff, type: 2}
+  completedNode:
+  - {fileID: 11400000, guid: 701ee3cb0ec400a40b9994d79585a442, type: 2}
+  checkinNode:
+  - {fileID: 11400000, guid: c406c84bfadc76340beb8f60cad0055e, type: 2}
+  failedNode:
+  - {fileID: 11400000, guid: 0004fab6a76fd7c4192bb90d646aa750, type: 2}
+  questOfferTitle: Quest
+  timeExpected: 18
+  offerNode: {fileID: 11400000, guid: b992bc90d4e0a204d986e99e81bc54da, type: 2}

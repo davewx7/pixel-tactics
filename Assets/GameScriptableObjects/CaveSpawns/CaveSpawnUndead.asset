@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3cdb4b6f567da479993795d1d909bc, type: 3}
+  m_Name: CaveSpawnUndead
+  m_EditorClassIdentifier: 
+  guid: a3ce71e9-3921-404e-a382-1e36aa0cd67f
+  guidNameSet: CaveSpawnUndead
+  rumorDescription: a group of unholy undead
+  unitTypes:
+  - {fileID: 11400000, guid: 7c8bdb01cc56f8d41a1aa7e33f7d2ca6, type: 2}
+  - {fileID: 11400000, guid: bab08a81541907842af8ffd9b333752f, type: 2}
+  - {fileID: 11400000, guid: d1888d8053448a541997461ed451e3b2, type: 2}
+  - {fileID: 11400000, guid: bf7980ee56f487c41b681183610a94a3, type: 2}
+  - {fileID: 11400000, guid: d577e4dddf44e38499d1822d9c73e205, type: 2}
+  - {fileID: 11400000, guid: 6420dbd73409a2b408b4a6fb2e2f4078, type: 2}
+  - {fileID: 11400000, guid: 02eecc2b59054e94091723cb3f8fa196, type: 2}
+  - {fileID: 11400000, guid: 64228c2da087ac349961a06182649af2, type: 2}
+  - {fileID: 11400000, guid: 27284bdf1a59bfe4a95127da8dd61e30, type: 2}
+  - {fileID: 11400000, guid: da65f8d109521be4781c2b9691df8cca, type: 2}
+  - {fileID: 11400000, guid: 9fb88f60f3fc74546be0958acd736463, type: 2}
+  - {fileID: 11400000, guid: 1fccdcd0e097bb14bb27a6cb9d7c0747, type: 2}
+  - {fileID: 11400000, guid: e90e41eae5714514088dadf9f3bc290d, type: 2}
+  budgetByYear: 12000000180000001e000000240000002a0000002a00000030000000320000003200000032000000
+  spawnMonths:
+  - {fileID: 11400000, guid: d64febee2af737d4e8261af11db9db62, type: 2}
+  - {fileID: 11400000, guid: 0eb254c6729c0354ba22639da919c8fb, type: 2}
+  - {fileID: 11400000, guid: 6fa0a773ff0e25a45934d6990ff1a1a5, type: 2}

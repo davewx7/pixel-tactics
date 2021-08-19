@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: dwarf-pathfinder
+  m_EditorClassIdentifier: 
+  guid: 44d5d85c-6e25-485f-bafb-37524b0c2945
+  guidNameSet: dwarf-pathfinder
+  portrait: {fileID: 21300000, guid: 511148360a175ad4cb8dd52a7a41721f, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Dwarf Pathfinder
+  classId: pathfinder
+  raceId: dwarf
+  tags:
+  - {fileID: 11400000, guid: 639d981ee0cebce4d994b1202dfa89cf, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: c5c229a6-c7d3-40c9-8119-ce5405c10c05
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 50
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: a9a7a620acff1d449bb63e74e0bbff5a, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: d8fe514bcd498cb479d2de09ce99b7ce, type: 3}
+    description: axe
+    id: melee
+    damage: 5
+    nstrikes: 3
+    accuracy: 20
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: d8fe514bcd498cb479d2de09ce99b7ce, type: 3}
+    description: axe
+    id: ranged
+    damage: 8
+    nstrikes: 2
+    accuracy: 20
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: cee4b9067178a354799f6c834a964a4b, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: e1dad79fe14a37240bfa037c721f0b65, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 1
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c1be6387c583183428d97c6e65e6f68c, type: 3}
+    - {fileID: 21300000, guid: f76e4e746c0e5e84284193bea4f4bf1b, type: 3}
+    - {fileID: 21300000, guid: 64b6390cfbe166244b8430eb48c34c9f, type: 3}
+    - {fileID: 21300000, guid: 75eb4623561d77d4ea5d814f447a3fbc, type: 3}
+    - {fileID: 21300000, guid: 63e05254b8f94834688ea15b14c17d8a, type: 3}
+    - {fileID: 21300000, guid: 8073f69c72dd38c47bcb98a312c7092b, type: 3}
+    - {fileID: 21300000, guid: c92f3316472d840489b3d74ea03d4ac5, type: 3}
+    - {fileID: 21300000, guid: e215f477be58298478ab81b078f4ac86, type: 3}
+    - {fileID: 21300000, guid: 40851419f1baaa94489df7b9b7ff0680, type: 3}
+    - {fileID: 21300000, guid: 18d58ea814acc9b4ca211a767a73f721, type: 3}
+    - {fileID: 21300000, guid: 0ea693dbd5a936d46b896f29a7548885, type: 3}
+    - {fileID: 21300000, guid: 6da180b3a6686e6458121a8b76c81279, type: 3}
+    - {fileID: 21300000, guid: ec55a9a696f8291418ab18f3cd8772ce, type: 3}
+    - {fileID: 21300000, guid: 035b959012288774f87481cfa3712aac, type: 3}
+    duration: 2
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: afdbd931b376fa745ba2d034ef499b10, type: 3}
+    - {fileID: 21300000, guid: 6953028522b91b64e8fa5424309fc825, type: 3}
+    - {fileID: 21300000, guid: 1ac54d61e168fcc4b945f56a7837434a, type: 3}
+    - {fileID: 21300000, guid: ae5533aaaeb8c264c92b74938fa7fc8d, type: 3}
+    - {fileID: 21300000, guid: f5b5108e8d8fbdf42b4742e7e9c0a9b1, type: 3}
+    - {fileID: 21300000, guid: 8c9ae3cbc1b65584b981aa1d7d23b76e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: melee
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 0b3fd96dacbc2f749a725ac3bb7feaac, type: 3}
+    - {fileID: 21300000, guid: 4af5637233e8e444d8736282e4730646, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: ranged
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7532d6e6bf7407042b6f22484133af5a, type: 3}
+    - {fileID: 21300000, guid: 77898849896c24d459818346aeb24a32, type: 3}
+    - {fileID: 21300000, guid: 5335893c600049149ab825e00f0cb3dc, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: ranged
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 5dac62ac63af51f41a70e6ed965a0344, type: 3}
+    - {fileID: 21300000, guid: 55e5568fb0d2645419ce4a572221b984, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

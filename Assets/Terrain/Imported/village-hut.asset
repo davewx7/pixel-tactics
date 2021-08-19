@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: village-hut
+  m_EditorClassIdentifier: 
+  guid: 6a51be1e-90cf-4975-93b4-956705c061dd
+  guidNameSet: village-hut
+  rules: {fileID: 11400000, guid: c224f1393af670c4c91dd5d5d1510ec7, type: 2}
+  villageInfo: {fileID: 11400000, guid: 9919304609b579049a129847f705a317, type: 2}
+  _winterTerrain: {fileID: 11400000, guid: 4bc3bdeeee26ed240b506b80ac75f7a1, type: 2}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Village
+  zorder: 100
+  adjacent: []
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites: []
+  overlaySprites:
+  - {fileID: 21300000, guid: 510f97cfd3b3df24cb3e78f5d14524d5, type: 3}
+  - {fileID: 21300000, guid: 248f6a4a01daa6042ae16fa9d960a975, type: 3}
+  - {fileID: 21300000, guid: 7213b95765ec31d4898a0b1c69f79e8d, type: 3}
+  - {fileID: 21300000, guid: 99bb177660476fc408ea4b2daef8b693, type: 3}
+  castleWalls: []
+  _base: {fileID: 11400000, guid: 80d276771071e944fbbe4936052f1ca1, type: 2}
+  yadj: 0
+  waterline: 0

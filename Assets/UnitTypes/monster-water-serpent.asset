@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: monster-water-serpent
+  m_EditorClassIdentifier: 
+  guid: fc057ea7-2740-4e34-82c7-697ebfc81d11
+  guidNameSet: monster-water-serpent
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Monster Water Serpent
+  classId: water-serpent
+  raceId: monster
+  tags: []
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 2517ac70-43db-498a-b95d-8ddf6d41bb16
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 598fcda9ae87b6847bdc56aedbc679d5, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: 0ed276337e202994bb0ee6defa17939c, type: 3}
+    - {fileID: 21300000, guid: dd9aeabb4ed33564982d1fbbf44205a2, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 6f89d530c76e7c34c8d681d16e5ab7ba, type: 3}
+    - {fileID: 21300000, guid: a04dbfb61934d074ca96035d46e295ee, type: 3}
+    - {fileID: 21300000, guid: 9573e5ce4dfe37a4da944b7035a0e3bc, type: 3}
+    - {fileID: 21300000, guid: ab2f7c48fdfe5bb4c932a6d3977c4c02, type: 3}
+    - {fileID: 21300000, guid: 0099182bbfc97c54db83ad94883117f2, type: 3}
+    - {fileID: 21300000, guid: e19d84c34c6e7264b879accaabff79c2, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: e60abf4aa445aaf4ea8718f09349cb79, type: 3}
+    - {fileID: 21300000, guid: dd3e129b10475e4458330d1060b4ee7d, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 2
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: fcf4b17f1b975c34e916e84aeef74789, type: 3}
+    - {fileID: 21300000, guid: ed85d048f2378b94397fdca8773f0825, type: 3}
+    - {fileID: 21300000, guid: 48507b14b9bfba74b94c1c7e6658efe3, type: 3}
+    - {fileID: 21300000, guid: e39a538c35f33c541a4e145362033682, type: 3}
+    - {fileID: 21300000, guid: 9c731170a2b342242b2a365d854a48a7, type: 3}
+    - {fileID: 21300000, guid: bc9f338979c1c4444987f71678a88408, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 98e75d1c5a1b9e54f890c5eb6c1532d3, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []

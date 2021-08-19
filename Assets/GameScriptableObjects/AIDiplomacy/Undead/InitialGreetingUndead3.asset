@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: InitialGreetingUndead3
+  m_EditorClassIdentifier: 
+  guid: 9d56e34f-b4f6-4fd6-a0cd-33f1b24824f2
+  guidNameSet: InitialGreetingUndead3
+  message: I do speak. My master speaks through me. It seems this only steadies your
+    resolve to destroy me. And yet player_he who wishes to be player_king should consider
+    the great power I wield. Do as I ask and I shall see to it that you sit the throne.
+    With my power aiding you you will be unstoppable.
+  options:
+  - text: I shall have none of this. I shall put an end to you now!
+    result: {fileID: 11400000, guid: d566d225d026f9344b302ca98a4cc645, type: 2}
+    instructions:
+    - {fileID: 11400000, guid: a4c1ec294fdadb44aaeca41bb68225dd, type: 2}
+  - text: I shall at least listen. What is it you would have me do exactly?
+    result: {fileID: 11400000, guid: db6e3e205f366ee42a7bf27d729e46eb, type: 2}
+    instructions:
+    - {fileID: 11400000, guid: d8999c316c0c4e7439fcb7fea5ca91a1, type: 2}
+  executeOnce: 0
+  focusPlayer: 0

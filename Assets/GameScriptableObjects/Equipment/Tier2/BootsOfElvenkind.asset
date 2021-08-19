@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: BootsOfElvenkind
+  m_EditorClassIdentifier: 
+  guid: 2cf22191-d7b4-47a3-892a-03b422708544
+  guidNameSet: BootsOfElvenkind
+  icon: {fileID: 21300000, guid: 2d987f2f1ce03454aa907394a37b24ac, type: 3}
+  hueShift: 0.1
+  description: Boots of Elvenkind
+  summaryRules: +10EV Forestwalk
+  tooltipRules: +10% Evasion, advantage in Forest
+  slot: {fileID: 11400000, guid: 05141ee8ba37e0d409a5619f0672b97c, type: 2}
+  consumable: 0
+  tier: 2
+  teamAssociation:
+  - {fileID: 11400000, guid: 8e29004e726caf8499792e1a9838e7d8, type: 2}
+  activatedAbility: {fileID: 0}
+  beginTurnEffect: {fileID: 0}
+  mod:
+    description: Boots of Elvenkind
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 10
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  attackRequired: []
+  _price: 22

@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: outlaw-thug
+  m_EditorClassIdentifier: 
+  guid: 36eb03ea-68ed-4de1-b9e4-bee2a1e75d97
+  guidNameSet: outlaw-thug
+  portrait: {fileID: 21300000, guid: 75c8b189ddecaac4891445db0d8d4f5d, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Outlaw Thug
+  classId: thug
+  raceId: outlaw
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 13
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 15af4b4f-559b-43d3-ac7a-4944f91f07f3
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 32
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: 312bcb627b6b5194f91f0ae5ecc64da4, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: bb01401ac71401148b9884934ed080b2, type: 3}
+    description: club
+    id: melee
+    damage: 6
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: b21a8ac2ba6fb804597373983852ea71, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a0ff13910facf0841be5c98eb24378ad, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 690f797c7b66f684cae808971f82520b, type: 3}
+    - {fileID: 21300000, guid: 162f0831d85b7d643ad98251e17e7a5e, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 1
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 30b8f80ae65062440a0b4fe3ec734401, type: 3}
+    - {fileID: 21300000, guid: a2f9fc771be93394299e2e948337ae56, type: 3}
+    - {fileID: 21300000, guid: bb127b785dc541e43bcf09da7d182fcf, type: 3}
+    - {fileID: 21300000, guid: 76ab2cbfee0ea404caa3fda1ceadea26, type: 3}
+    - {fileID: 21300000, guid: 8fd3bcf71410d664da3501e7a17469e2, type: 3}
+    duration: 2
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 399cae1748fef9344be4f0445e1f042e, type: 3}
+    - {fileID: 21300000, guid: d2ce5dab659e6b247b91b3edf24fb421, type: 3}
+    - {fileID: 21300000, guid: 767a3e29a688a8a488e8582daf73dc0b, type: 3}
+    - {fileID: 21300000, guid: 4ec643741386bce408abcdfb3749706a, type: 3}
+    - {fileID: 21300000, guid: b4cff35f1c6af994d9ae4a1e28f899c9, type: 3}
+    - {fileID: 21300000, guid: 2c7da0997be5ea54bb32d37d648ac6a5, type: 3}
+    - {fileID: 21300000, guid: 129a0897ead403e4caa754c303166191, type: 3}
+    - {fileID: 21300000, guid: 9ddbc2db510d60e42a11fe308ccb8914, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

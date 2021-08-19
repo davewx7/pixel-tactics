@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: forest-deciduous-summer
+  m_EditorClassIdentifier: 
+  guid: a8190e3c-51be-4ab9-a40e-3ab6634f5a71
+  guidNameSet: forest-deciduous-summer
+  rules: {fileID: 11400000, guid: 517d5f0355a5287418a6b04f9e5e047f, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 11400000, guid: 052aaf9ab303fc946b3b635b3b37b332, type: 2}
+  _autumnTerrain: {fileID: 11400000, guid: b6c39d00399a9b64abd57d0e962dc273, type: 2}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Forest
+  zorder: 100
+  adjacent: []
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites: []
+  overlaySprites:
+  - {fileID: 21300000, guid: afe93ff614b6d7a45b12e21a6d8969e2, type: 3}
+  - {fileID: 21300000, guid: e375a17374bc5f349a54df22b6837ae2, type: 3}
+  - {fileID: 21300000, guid: e569b93173c3dbb449bbc0ed39492f1d, type: 3}
+  - {fileID: 21300000, guid: b609e9342524fc64190e9c7840ebbc71, type: 3}
+  castleWalls: []
+  _base: {fileID: 11400000, guid: 80d276771071e944fbbe4936052f1ca1, type: 2}
+  yadj: 0
+  waterline: 0

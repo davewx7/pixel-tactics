@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: facc2e28587d55a4c89f9190e172b3cb, type: 3}
+  m_Name: QuestMakeWar
+  m_EditorClassIdentifier: 
+  guid: 6e74dd2c-4111-4a26-814e-bb1e9c0a1e31
+  guidNameSet: QuestMakeWar
+  acceptedNode:
+  - {fileID: 11400000, guid: dbdf55899f3f6a84285e5106e4540ede, type: 2}
+  rejectedNode:
+  - {fileID: 11400000, guid: 1a551bf5996ee764b94cd8896e85151c, type: 2}
+  completedNode: []
+  checkinNode: []
+  failedNode: []
+  questOfferTitle: Quest
+  timeExpected: 12
+  hasSecondary: 1
+  dialogAlreadyFighting: {fileID: 11400000, guid: bcd368d5947aade458271a1349b516f3,
+    type: 2}
+  dialogHasContact: {fileID: 11400000, guid: 6c23a87fe46282e48a45bf6cd97d7dd2, type: 2}
+  dialogNoContact: {fileID: 11400000, guid: 4d9cc6ca935c8b4478932d099c21eb18, type: 2}
+  goodEarlyProgress:
+  - {fileID: 11400000, guid: cf5eed5541734a24381853cfbb7d608c, type: 2}
+  noProgressAlmostExpired:
+  - {fileID: 11400000, guid: 33359a2f0dbb74e4c9bc5f5f555ce888, type: 2}
+  goodProgressAlmostExpired:
+  - {fileID: 11400000, guid: 7d542104d46461047926463a618a0bdf, type: 2}

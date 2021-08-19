@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: DwarfForgedChainmail
+  m_EditorClassIdentifier: 
+  guid: 8039c279-af66-42bb-a744-d741e81f86f8
+  guidNameSet: DwarfForgedChainmail
+  icon: {fileID: 21300000, guid: a79f84ab77bbd284aa4f7ac53194af2e, type: 3}
+  hueShift: 0
+  description: Dwarf Forged Chainmail
+  summaryRules: +9 HP, +1 ARM
+  tooltipRules: +9 HP, +1 Armor, Evasion limited to 50%
+  slot: {fileID: 11400000, guid: 7a996e45b0350584bb70cfeaa3cc5cfe, type: 2}
+  consumable: 0
+  tier: 2
+  teamAssociation:
+  - {fileID: 11400000, guid: 98cc9637dc9ca33459c7a9099dcbf795, type: 2}
+  activatedAbility: {fileID: 0}
+  beginTurnEffect: {fileID: 0}
+  mod:
+    description: Dwarf Forged Chainmail
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 9
+    experience: 0
+    evasion: 0
+    limitEvasion: 50
+    criticalEvasion: 0
+    armor: 1
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  attackRequired: []
+  _price: -1

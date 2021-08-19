@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: VampiresCharm
+  m_EditorClassIdentifier: 
+  guid: 82ce6078-f4a2-452c-97b3-783d35b1d886
+  guidNameSet: VampiresCharm
+  icon: {fileID: 21300000, guid: e4292994035eb0146bc5a3086cb18d68, type: 3}
+  description: Vampire's Charm
+  summaryRules: 50% lifesteal...
+  tooltipRules: 'Unit is Chaotic. 50% lifesteal. Cannot heal by other means. '
+  slot: {fileID: 11400000, guid: 368312626a33e684b8d9166a9f780479, type: 2}
+  tier: -1
+  activatedAbility: {fileID: 0}
+  mod:
+    description: Vampire's Charm
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 1
+    alignment: 2
+    attackMods:
+    - attackDescription: []
+      excludeMelee: 0
+      excludedRanged: 0
+      damage: 0
+      accuracy: 0
+      critical: 0
+      abilities:
+      - ability: {fileID: 11400000, guid: f24d0125d63153f4986cfbcf5c7f6c0f, type: 2}
+        param: 50
+        useParam: 1
+      makesMagical: 0
+    abilities:
+    - {fileID: 11400000, guid: fc0452da8cbfadd4cb244586554bc618, type: 2}
+  attackRequired: []
+  _price: -1

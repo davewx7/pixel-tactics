@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dbd743d5548438468743ec514d668b7, type: 3}
+  m_Name: fire-breath
+  m_EditorClassIdentifier: 
+  guid: a3efd8c9-029c-43e1-a6e1-031ae187cd4b
+  guidNameSet: fire-breath
+  flightTime: 0.4
+  distanceTravel: 1
+  animFail:
+    matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites: []
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  animImpact:
+    matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites: []
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  animations:
+  - matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: d06528d07498a08438601160f1b58011, type: 3}
+    - {fileID: 21300000, guid: 89ced09575e455a459ded210b9e69d66, type: 3}
+    - {fileID: 21300000, guid: 9d78fd07e8648564a832f048c333f1ba, type: 3}
+    - {fileID: 21300000, guid: a2efed1a1fa50184e8b0b7331d7c1267, type: 3}
+    - {fileID: 21300000, guid: 2af404d963c487c41a3af8916fd7113a, type: 3}
+    - {fileID: 21300000, guid: c44c7c2912f0dfd4f8d553244dd1a5cb, type: 3}
+    - {fileID: 21300000, guid: 302e605c8d5911e4da3db2da7618853d, type: 3}
+    - {fileID: 21300000, guid: 201704b13f9f0e2498324009ce26e4b3, type: 3}
+    - {fileID: 21300000, guid: 5c9ac3d580768c143a54d8d14a5d5c20, type: 3}
+    - {fileID: 21300000, guid: bc9f5947c36d2534a9b80dcc33f17157, type: 3}
+    duration: 0.5
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: 107349d150b03a8498f5c67ecf70ebeb, type: 3}
+    - {fileID: 21300000, guid: db04e3d2ca0113f4d80a1f8e41a8c0bf, type: 3}
+    - {fileID: 21300000, guid: 467b5b6b4c089664fbd4569b8d450a6e, type: 3}
+    - {fileID: 21300000, guid: 8b883075afba94d45938852618b95cb6, type: 3}
+    - {fileID: 21300000, guid: dd3078be4ae255046b379a3293bafcf1, type: 3}
+    duration: 0.5
+    reverse: 0
+    cycle: 1
+    events: []

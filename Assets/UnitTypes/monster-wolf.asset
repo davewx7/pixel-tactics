@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: monster-wolf
+  m_EditorClassIdentifier: 
+  guid: 63733883-8322-41e1-bce1-13a9339d5054
+  guidNameSet: monster-wolf
+  portrait: {fileID: 21300000, guid: e79b4a72a81bffa4b8010cb57e2fde78, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Monster Wolf
+  classId: wolf
+  raceId: monster
+  tags:
+  - {fileID: 11400000, guid: 24af785bf5c2ad7469cce1174b34b36b, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 19b81f5a-9ac9-4d21-affc-0be7e3465f7f
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 0
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 32
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: f3fe41b600139454cb0cd743b39002c0, type: 3}
+    description: fangs
+    id: attack
+    damage: 5
+    nstrikes: 3
+    accuracy: 10
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 4121aeda70004ae438745b6761046527, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: b69bfe6ddad924b4a9f8bfff2542032f, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c46d52e698a861b4f952168b5b0e781e, type: 3}
+    - {fileID: 21300000, guid: 98ace3a5a2ed1d14f8bac7b82f542da4, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: great
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 4f4269a1c4f7a5343ae9352f443599e1, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: great+red
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 0a5c3326a25bc8a46bb0f5c37a588d2a, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: great+red-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: d6e41be4531c4ca47949ced9742db6b1, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: great+red
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 34b9f16d09fb1834fa70e95ebd055c47, type: 3}
+    - {fileID: 21300000, guid: 8d476be5a2fffbe49a0005cb2ac0af6f, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: great+red-moving
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 122e8728a78cc93409422664d7ec13a7, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: great-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f7763ce8773e419428c53a964e885631, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: great
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 3c6b99b11e06af14c91e1f918c016fe8, type: 3}
+    - {fileID: 21300000, guid: 7fe617d27efaf4d46b0983151d518624, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: great-moving
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: fdda248cb93a78246a26bab5c776c26b, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: moving
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 4478432d90898cf46a7b6742dee62d88, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: water
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7d63d56d7f0d26b4f88c6c080148fb3f, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

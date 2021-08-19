@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a03e288bf0d84045b27fea9848ae76e, type: 3}
+  m_Name: ArmoryBuildingUndead
+  m_EditorClassIdentifier: 
+  guid: a627c81f-8e89-425e-ac4c-0c12b6a7de17
+  guidNameSet: ArmoryBuildingUndead
+  buildingName: Armory
+  tooltip: Makes more equipment available for you to purchase.
+  achievementText: More equipment is now available to purchase for your units.
+  additionalAchievementText: []
+  givesHaste: 0
+  icon: {fileID: 21300000, guid: c7aff41257292b14ba650eb7ade25576, type: 3}
+  loc: {x: -1, y: -1}
+  buildCost: 200
+  unitRecruits: []
+  recruitSlots: 0
+  increaseDiplomacy: 0
+  villageHealAmount: 0
+  villageBuildingsAvailable: []
+  spells: []
+  equipmentInMarket:
+  - {fileID: 11400000, guid: 09fe53e0e30b0b24799f4d46b7f51da3, type: 2}
+  - {fileID: 11400000, guid: 9dffff587efecc048b5c6c456ab87f4a, type: 2}
+  - {fileID: 11400000, guid: 0dd917335f0c7b04493f3ec3ed94a584, type: 2}
+  - {fileID: 11400000, guid: 2340e01f744013646b52872b57e2f4ea, type: 2}
+  - {fileID: 11400000, guid: 496597cbaa7c23144955dafe25753a94, type: 2}
+  - {fileID: 11400000, guid: 90a919b802b00434eb2320e1b2abf37b, type: 2}
+  - {fileID: 11400000, guid: 32d9d6802489f9242bddd41cd806e16b, type: 2}
+  - {fileID: 11400000, guid: 65c99947b5c2a994ba249c6ddac4d139, type: 2}
+  - {fileID: 11400000, guid: 517dcc8cf79c50b459b7c203ec78f4de, type: 2}
+  - {fileID: 11400000, guid: b8eaca7a778a9454e92bb7372366025f, type: 2}
+  - {fileID: 11400000, guid: af460ece3d2caef488471265e4590c00, type: 2}
+  - {fileID: 11400000, guid: a5bfe61a7c2842c49af084264880e31e, type: 2}
+  recruitExperienceBonus: 0
+  potionGranted: 0
+  grantsEquipmentOnBuild: {fileID: 0}
+  modMaxUnits: -1
+  globalUnitMod:
+    description: (unknown)
+    useMod: 1
+    filter:
+      mustHaveTag: {fileID: 0}
+      excludeIfFoughtThisTurn: 0
+      baseAbility: {fileID: 0}
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  doubleXpHighLevelUnits: 0

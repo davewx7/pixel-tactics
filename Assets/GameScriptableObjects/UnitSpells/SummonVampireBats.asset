@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a786d29dac4d4f990127905c942fb, type: 3}
+  m_Name: SummonVampireBats
+  m_EditorClassIdentifier: 
+  guid: a23b5fc5-d6f4-4f0a-9282-8d3d51a5d26c
+  guidNameSet: SummonVampireBats
+  modUntilEndOfTurn:
+    description: (unknown)
+    useMod: 1
+    filter:
+      mustHaveTag: {fileID: 0}
+      excludeIfFoughtThisTurn: 0
+      baseAbility: {fileID: 0}
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  schools:
+  - {fileID: 11400000, guid: 5203d242bf1079e499249c14f474cb2f, type: 2}
+  consumable: 0
+  cooldown: -1
+  targetTypes: 00000000
+  targetTerrain: []
+  targetHasAbility: []
+  targetLevelLessOrEqualToSpellLevel: 0
+  mustControlTarget: 0
+  targetsKeep: 0
+  targetRange: 1
+  targetRadius: 0
+  rangeIsUnitVision: 0
+  rangeIsGlobal: 0
+  healTarget: 0
+  temporaryHitpoints: 0
+  drainLife: 0
+  blinkToTarget: 0
+  description: Summon Familiars
+  icon: {fileID: 21300000, guid: a50fee52eab277342972a093e21665e1, type: 3}
+  hueshift: 0
+  spellLevel: 1
+  refreshesMovement: 0
+  refreshesAttack: 0
+  summaryRules: 
+  applyStatus: {fileID: 0}
+  summonType: {fileID: 11400000, guid: d1888d8053448a541997461ed451e3b2, type: 2}
+  numSummons: 2
+  createEquipment: []
+  cannotTargetBlessedUnit: 0
+  effectSource: {fileID: 0}
+  effectDest: {fileID: 0}
+  tooltipRules: Summon two Vampire Bat familiars. When these familiars lifesteal you
+    gain life.
+  _noTargetsErrorMessage: 

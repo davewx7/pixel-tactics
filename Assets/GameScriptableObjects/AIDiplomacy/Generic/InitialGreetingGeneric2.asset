@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: InitialGreetingGeneric2
+  m_EditorClassIdentifier: 
+  guid: 1ebeb7f0-c0f4-4979-9e3c-9b788cff2473
+  guidNameSet: InitialGreetingGeneric2
+  message: npc_unit_introduction. We starting_relationship_description, starting_relationship_delta
+    starting_relationship_offer
+  options:
+  - text: <color=#aaffaa>[Friendly]</color> player_peaceful_offer
+    result: {fileID: 11400000, guid: 47c44026fafd755458466a0fda8eebcc, type: 2}
+    instructions: []
+    conditions: 
+  - text: <color=#ffaaaa>[Hostile]</color> player_hostile_offer
+    result: {fileID: 11400000, guid: ca99f868a3cb6d84e9743e78e9b289bb, type: 2}
+    instructions: []
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

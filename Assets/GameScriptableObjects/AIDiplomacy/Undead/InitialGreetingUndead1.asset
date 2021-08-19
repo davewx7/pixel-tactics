@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: InitialGreetingUndead1
+  m_EditorClassIdentifier: 
+  guid: 57bf20b7-5da8-4c98-b51a-d1ba8afa96d2
+  guidNameSet: InitialGreetingUndead1
+  message: Why greetings, player_human. You have but barely met me and yet already
+    you wish to destroy me. And yet I am the 'foul' one.
+  options:
+  - text: 
+    result: {fileID: 11400000, guid: 93f39fb64c4c71741930cbb1f309ca5b, type: 2}
+    instructions: []
+  executeOnce: 0
+  focusPlayer: 0

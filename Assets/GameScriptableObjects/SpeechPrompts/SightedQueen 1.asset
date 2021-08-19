@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a9c9c0c7b457a0499299e23dfb6618f, type: 3}
+  m_Name: SightedQueen 1
+  m_EditorClassIdentifier: 
+  guid: a2450424-859e-48b8-838f-a82da4562fbd
+  guidNameSet: SightedQueen 1
+  oncePerGame: 1
+  filterSpeaker:
+    unitTypesMatching: []
+    teamsMatching: []
+    playerUnitsMatch: 1
+    aiUnitsMatch: 0
+    barbarianUnitsMatch: 0
+    primaryEnemyUnitsMatch: 0
+    unitMustBeAbleToSpeak: 0
+  filterSightedUnits:
+  - unitTypesMatching: []
+    teamsMatching:
+    - {fileID: 11400000, guid: dd13261252a7ba047829bbf5c84eeeb3, type: 2}
+    playerUnitsMatch: 0
+    aiUnitsMatch: 1
+    barbarianUnitsMatch: 1
+    primaryEnemyUnitsMatch: 0
+    unitMustBeAbleToSpeak: 0
+  triggerOnSightUnderworldGate: 0
+  nextPrompt: {fileID: 0}
+  _speech:
+  - The Queen's men!
+  - Soldiers from the Queen!
+  - The Queen's forces!
+  - The Dark Queen's soldiers!

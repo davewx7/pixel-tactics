@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ab5fb0acf5924b489c13110ccedaa25, type: 3}
+  m_Name: SpawnBarbariansYear1
+  m_EditorClassIdentifier: 
+  guid: e959f826-fef9-4792-ac4b-a78cdcf98ab5
+  guidNameSet: SpawnBarbariansYear1
+  _round: 9
+  _entries:
+  - unitType: {fileID: 11400000, guid: e1bd43bf33deb89409c64968d4f00942, type: 2}
+    terrainRules:
+    - {fileID: 11400000, guid: 8dfca8d594eb0e44784dc1892d921d33, type: 2}
+    - {fileID: 11400000, guid: 7b0f01efff1325141a7055fe6ee92fc6, type: 2}
+    - {fileID: 11400000, guid: c224f1393af670c4c91dd5d5d1510ec7, type: 2}
+    - {fileID: 11400000, guid: 7f1dea815fd079f4c8b5f5cc68453af1, type: 2}
+    duplicates: 1
+  - unitType: {fileID: 11400000, guid: fd1fec27aebf79b4eb37c6de186668b0, type: 2}
+    terrainRules:
+    - {fileID: 11400000, guid: 517d5f0355a5287418a6b04f9e5e047f, type: 2}
+    - {fileID: 11400000, guid: 51c90df8d4f283e4db79d7ace15b89c5, type: 2}
+    - {fileID: 11400000, guid: add985989f0c8b24ca22320981bf580b, type: 2}
+    duplicates: 0
+  - unitType: {fileID: 11400000, guid: 5ef2d7073d0d13e429555f4acd788618, type: 2}
+    terrainRules:
+    - {fileID: 11400000, guid: 517d5f0355a5287418a6b04f9e5e047f, type: 2}
+    - {fileID: 11400000, guid: 51c90df8d4f283e4db79d7ace15b89c5, type: 2}
+    - {fileID: 11400000, guid: add985989f0c8b24ca22320981bf580b, type: 2}
+    duplicates: 0
+  - unitType: {fileID: 11400000, guid: aeef56066d3c8ad4289873e6343ff917, type: 2}
+    terrainRules:
+    - {fileID: 11400000, guid: 1fe0c76b519a7e34088af89693294258, type: 2}
+    - {fileID: 11400000, guid: ad923f12954f7f24f9c52fdcd3cfb532, type: 2}
+    duplicates: 0

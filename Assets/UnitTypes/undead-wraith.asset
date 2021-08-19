@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: undead-wraith
+  m_EditorClassIdentifier: 
+  guid: 88f42f5e-d888-41ed-9d2c-2a13574d3685
+  guidNameSet: undead-wraith
+  portrait: {fileID: 21300000, guid: 8870139b86315b64bb8c9fd060a31f12, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Wraith
+  classId: wraith
+  raceId: undead
+  tags:
+  - {fileID: 11400000, guid: b365a57449800304492401d99f6a81c3, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: fa9a776883830de488cec3d88e856d67, type: 2}
+  - {fileID: 11400000, guid: 7f42b26d8d277594e917ea12380a7b17, type: 2}
+  abilityArgs: []
+  cost: 22
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 2467ae5a-3714-43da-a584-2139dd6891fb
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    zombietype: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 48
+  hitpointsMax: 28
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 0
+  movement: 6
+  levelsInto:
+  - {fileID: 11400000, guid: 67a2071c597cbe04faeb73f84729e35b, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: 7f4fab1309d89174b9256124b13387a0, type: 3}
+    description: touch
+    id: attack
+    damage: 6
+    nstrikes: 3
+    accuracy: 10
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 1
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: 3b260325b94277a41bc6fbaf08e7440c, type: 3}
+    description: iceball
+    id: attack
+    damage: 4
+    nstrikes: 3
+    accuracy: 20
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 1
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: d34c5c4658afa514cab480a060efb0c4, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 97b566eb9779b9f4ca383e8a4deeea67, type: 3}
+    - {fileID: 21300000, guid: 977f35fa2659b4c4cb1ddc9cdf35fcad, type: 3}
+    - {fileID: 21300000, guid: ace36545552fd0f4dac411c585238ce2, type: 3}
+    - {fileID: 21300000, guid: 3c7133e568c416446b4ddd940f0dffd0, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a555c8bd6c1fb8a42a81336560d66cc9, type: 3}
+    - {fileID: 21300000, guid: c27cf3a223a4aec4c9708be627f30123, type: 3}
+    - {fileID: 21300000, guid: 376091ed3f13f9b44be170cb3c177fce, type: 3}
+    - {fileID: 21300000, guid: 216308065405e714487d32bff99d4ccf, type: 3}
+    - {fileID: 21300000, guid: a474bb01e9fd03d4d822202002e20776, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 796b90a019d5c5c408f9bf5597decffe, type: 3}
+    - {fileID: 21300000, guid: a412c1eb9e50b8c41ac3deb110bc2453, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

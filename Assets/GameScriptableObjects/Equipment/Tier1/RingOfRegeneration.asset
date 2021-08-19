@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: RingOfRegeneration
+  m_EditorClassIdentifier: 
+  guid: e57a9d82-cdf7-437d-bb2f-e18863a8bcc9
+  guidNameSet: RingOfRegeneration
+  icon: {fileID: 21300000, guid: 8ea9d37ff5933ec4d88edbb0578be6a1, type: 3}
+  description: Ring of Regeneration
+  summaryRules: Regeneration
+  tooltipRules: Regenerates 8HP each round
+  slot: {fileID: 11400000, guid: 368312626a33e684b8d9166a9f780479, type: 2}
+  tier: 1
+  activatedAbility: {fileID: 0}
+  mod:
+    description: Ring of Regeneration
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities:
+    - {fileID: 11400000, guid: b4ad621c22403394082c46877ab85a73, type: 2}
+  attackRequired: []
+  _price: 14

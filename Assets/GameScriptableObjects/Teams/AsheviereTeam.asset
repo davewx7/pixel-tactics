@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b01e285977ca04b8fdc3a6d598f812, type: 3}
+  m_Name: AsheviereTeam
+  m_EditorClassIdentifier: 
+  guid: 976aee44-ed0e-487e-b52d-95eecc5f20ba
+  guidNameSet: AsheviereTeam
+  debugForceShareVisionWithPlayer: 0
+  playerTeamReplaces: {fileID: 0}
+  player: 0
+  barbarian: 0
+  primaryEnemy: 1
+  handlesCaveSpawns: 0
+  unitsHaveHaste: 0
+  aiConquestRatio: 0
+  aiAggroRatio: 0
+  numQuestsForAlliance: 3
+  permanentFriends: []
+  swornEnemies: []
+  initialGreetingAlreadyAtWar: {fileID: 0}
+  friendlyDiplomacy: {fileID: 0}
+  completedQuestDiplomacy: {fileID: 0}
+  alliedDiplomacy: {fileID: 0}
+  playerStoryText: []
+  fealtyOffer: 
+  baseUpkeep: 8
+  coloring: {fileID: 11400000, guid: a7237866e73a51849a06579850d04113, type: 2}
+  ai: {fileID: 11400000, guid: fab7dba1e546cc44f8c804d7bc7af1b8, type: 2}
+  _diplomacy: {fileID: 11400000, guid: 072c3c467a997e747b273bf3d013b12f, type: 2}
+  flagType: {fileID: 11400000, guid: 48ed2ffac69cf1f4abcbe9d259934018, type: 2}
+  teamNameIsProperNoun: 0
+  teamName: Loyalists
+  rulerName: Asheviere
+  rulerTitle: Queen
+  factionDescription: 
+  startingGold: 300
+  baseIncome: 20
+  hasRoads: 1
+  aquatic: 0
+  rulerType: {fileID: 11400000, guid: adbaabce4da5a874387118594b1edb02, type: 2}
+  recruitmentOptions:
+  - {fileID: 11400000, guid: 921191ba6f85f814697be102cb775aae, type: 2}
+  - {fileID: 11400000, guid: f368b0ea8db22f744953aecb232dc497, type: 2}
+  - {fileID: 11400000, guid: ade7de35e48d5934c8fd0ddf5c369927, type: 2}
+  recruitmentSlots: -1
+  possibleQuests: []
+  knownSpells: []
+  economyBuildings: []

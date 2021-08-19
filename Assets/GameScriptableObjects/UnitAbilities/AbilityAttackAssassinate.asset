@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2c34f324b1e794695b978cca414163, type: 3}
+  m_Name: AbilityAttackAssassinate
+  m_EditorClassIdentifier: 
+  guid: 34feed36-664b-4873-b7eb-52c33e731a2b
+  guidNameSet: AbilityAttackAssassinate
+  description: Assassinate
+  icon: {fileID: 21300000, guid: c41536360253f1d44ba382746abdac44, type: 3}
+  tooltip: Gains +25% accuracy, +25% critical hit chance against units that have none
+    of their allies adjacent to them
+  defaultParam: 0
+  applyStatus: {fileID: 0}

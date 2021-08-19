@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: FineLongsword
+  m_EditorClassIdentifier: 
+  guid: c7bd275f-0e17-47b3-945b-67107b0b0a04
+  guidNameSet: FineLongsword
+  icon: {fileID: 21300000, guid: 24ced9cc0808ccf4790238abcfb513bb, type: 3}
+  description: Fine Longsword
+  summaryRules: +1 damage
+  tooltipRules: +1 damage
+  slot: {fileID: 11400000, guid: e9382669d9dcdbc48a3469c467b7a039, type: 2}
+  tier: 1
+  activatedAbility: {fileID: 0}
+  mod:
+    description: Fine Longsword
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription:
+      - sword
+      excludeMelee: 0
+      excludedRanged: 0
+      damage: 1
+      accuracy: 0
+      critical: 0
+      abilities: []
+      makesMagical: 0
+    abilities: []
+  attackRequired:
+  - sword
+  _price: -1

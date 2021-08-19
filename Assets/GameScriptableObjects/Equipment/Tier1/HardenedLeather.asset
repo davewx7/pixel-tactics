@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: HardenedLeather
+  m_EditorClassIdentifier: 
+  guid: 262f41d4-a2bd-4804-b6b4-637fc46398b3
+  guidNameSet: HardenedLeather
+  icon: {fileID: 21300000, guid: a93627fc10d5ec042a693df50a54af5e, type: 3}
+  hueShift: 0
+  description: Hardened Leather
+  summaryRules: +7 HP
+  tooltipRules: +7 HP, Evasion limited to 70%
+  slot: {fileID: 11400000, guid: 7a996e45b0350584bb70cfeaa3cc5cfe, type: 2}
+  consumable: 0
+  tier: 1
+  teamAssociation: []
+  activatedAbility: {fileID: 0}
+  beginTurnEffect: {fileID: 0}
+  castSpellEffect: {fileID: 0}
+  mod:
+    description: Hardened Leather
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 7
+    experience: 0
+    evasion: 0
+    limitEvasion: 70
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  attackRequired: []
+  _price: 9

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d803fa1d26f6d47910021383f523ff, type: 3}
+  m_Name: DiplomacyRegistryGeneric
+  m_EditorClassIdentifier: 
+  guid: 099ee670-0d70-4fc9-b123-1964aec024e0
+  guidNameSet: DiplomacyRegistryGeneric
+  baseRegistry: {fileID: 0}
+  _initialGreeting:
+  - {fileID: 11400000, guid: 4da5da9537d5dcd4a943dd66bcde5ca3, type: 2}
+  - {fileID: 11400000, guid: 8c562201995abe34fb22d2e30ed4e07c, type: 2}
+  - {fileID: 11400000, guid: 47c44026fafd755458466a0fda8eebcc, type: 2}
+  _initialGreetingPleased:
+  - {fileID: 11400000, guid: 4da5da9537d5dcd4a943dd66bcde5ca3, type: 2}
+  - {fileID: 11400000, guid: 302d8e207f30e1e4abf78dcc45231043, type: 2}
+  _initialGreetingQuestCompleted:
+  - {fileID: 0}
+  _initialGreetingLeaderDead:
+  - {fileID: 11400000, guid: 318fcb17e60a466438be10f42a983934, type: 2}
+  _offerJoinLeaderDead:
+  - {fileID: 11400000, guid: 6c44da92279a1134b9ca0900aa1c973e, type: 2}
+  _talkLeaderDead:
+  - {fileID: 11400000, guid: a0f7ac7d2ad920343b6a879c52c8b160, type: 2}
+  _initialGreetingSwornEnemies:
+  - {fileID: 11400000, guid: 3e882f41b466a7347960a968786ed68a, type: 2}
+  _initialGreetingAlreadyWar:
+  - {fileID: 11400000, guid: e39afe6ab1cf7a34f9acb54bd1f14f96, type: 2}
+  _declareWar:
+  - {fileID: 11400000, guid: cfa1c5f9e3e0c534e949a7dd669895da, type: 2}
+  _peacefulAgreement:
+  - {fileID: 11400000, guid: 5689ede202332b84282a319d2876a7fe, type: 2}
+  _friendlyGreetingHasQuest:
+  - {fileID: 11400000, guid: afdd516a6c8004a43ab2f79443e411d4, type: 2}
+  _friendlyGreetingNoQuest:
+  - {fileID: 11400000, guid: 890b8cf734bd4cb419c4e6f437edb336, type: 2}
+  _friendlyFarewell:
+  - {fileID: 11400000, guid: 3a844680801181144b903bdb21c7c52d, type: 2}
+  _offerGift:
+  - {fileID: 11400000, guid: 323a2b0d2eba667409c0e715133b629b, type: 2}
+  _offerGiftForRejectingEnemies:
+  - {fileID: 11400000, guid: ef8c9533c1f1afb43900c76b47940006, type: 2}
+  _questCompleted:
+  - {fileID: 11400000, guid: e56be00b96c518d4e92b422b9fde3f59, type: 2}
+  _offerFealty:
+  - {fileID: 11400000, guid: 4bfca080c985b5d4d84a688e53c64c2e, type: 2}
+  _allyGreeting:
+  - {fileID: 11400000, guid: e78aad9a09cfee644a46c5fa6300442e, type: 2}

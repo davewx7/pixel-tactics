@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2c34f324b1e794695b978cca414163, type: 3}
+  m_Name: AbilityAttackBludgeon
+  m_EditorClassIdentifier: 
+  guid: 0c75a01c-4f9d-4730-a2b7-84948670b413
+  guidNameSet: AbilityAttackBludgeon
+  description: Bludgeon
+  icon: {fileID: 21300000, guid: 27488804d2e66db45a9c4b12498e29ea, type: 3}
+  tooltip: Ignores Armor
+  defaultParam: 0
+  applyStatus: {fileID: 0}

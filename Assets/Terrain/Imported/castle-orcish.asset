@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: castle-orcish
+  m_EditorClassIdentifier: 
+  guid: 0711f55a-924b-47b7-b491-31047114b6fb
+  guidNameSet: castle-orcish
+  rules: {fileID: 11400000, guid: 1a68fcf486113404fbb942c733f9223e, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Castle
+  zorder: 2000
+  adjacent: []
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites:
+  - {fileID: 21300000, guid: 7a43dc09f81cf9d4e96d3215103f7539, type: 3}
+  overlaySprites: []
+  castleWalls:
+  - {fileID: 21300000, guid: 8d3d2f9c7da5de649b49cff83846f935, type: 3}
+  - {fileID: 21300000, guid: 0ab90ac8e4d25d24c995235bc581ccef, type: 3}
+  - {fileID: 21300000, guid: 502d3ece786b40340a79f8b4f6c832ae, type: 3}
+  - {fileID: 21300000, guid: e3ed7a1bd4ef67e46a91d51a7539cb1d, type: 3}
+  - {fileID: 21300000, guid: 4140a6d940a8352469eba2f4a3085cc2, type: 3}
+  - {fileID: 21300000, guid: 9ba3ebdaeee4e634587bf3fd6451c684, type: 3}
+  - {fileID: 21300000, guid: 7567b00306312f34f8bc39577ed2ab3e, type: 3}
+  - {fileID: 21300000, guid: 14fae7ebfc5495d48ab6632c7d9a205f, type: 3}
+  - {fileID: 21300000, guid: a5a8a33c7846d3a4ea2e571e89600e54, type: 3}
+  - {fileID: 21300000, guid: 9d8bacc9e8954034082ed8843793c51a, type: 3}
+  - {fileID: 21300000, guid: c2700a152f59afd47ac905f5a01aabe5, type: 3}
+  - {fileID: 21300000, guid: dc932750c3c981c45867e498e6792594, type: 3}
+  _base: {fileID: 0}
+  yadj: 0
+  waterline: 0

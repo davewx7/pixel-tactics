@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d6edfdc2c14e4479984e3013e7d39b, type: 3}
+  m_Name: TemporalStatus
+  m_EditorClassIdentifier: 
+  guid: 5278c879-78b5-4e0b-ba23-6fd13a37c8f6
+  guidNameSet: TemporalStatus
+  icon: {fileID: 21300000, guid: a624e9562caa7e14fb6f0a89b7d4a27a, type: 3}
+  description: Temporal
+  tooltip: Unit will be disbanded after 3 rounds. Temporal units do not count toward
+    upkeep limits.
+  applySlogan: Temporal
+  expiresAfterOneRound: 0
+  displayIconOnUnit: 1
+  unitMod:
+    description: 
+    useMod: 0
+    filter:
+      mustHaveTag: {fileID: 0}
+      excludeIfFoughtThisTurn: 0
+      baseAbility: {fileID: 0}
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription: []
+      excludeMelee: 0
+      excludedRanged: 0
+      excludeMagical: 0
+      excludePhysical: 0
+      damage: 0
+      accuracy: 0
+      critical: 0
+      nstrikes: 0
+      abilities: []
+      makesMagical: 0
+    abilities: []
+    abilityArgs: []

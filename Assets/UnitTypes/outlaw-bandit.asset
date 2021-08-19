@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: outlaw-bandit
+  m_EditorClassIdentifier: 
+  guid: 1cb1ea6c-5511-4e16-ac4e-11030434bc1c
+  guidNameSet: outlaw-bandit
+  portrait: {fileID: 21300000, guid: 75c8b189ddecaac4891445db0d8d4f5d, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Outlaw Bandit
+  classId: bandit
+  raceId: outlaw
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 13
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: cd4fd95e-cb5d-4a75-9538-cc32e7e7b45d
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 46
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: 19e67b57c7c039e41852b35940023723, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: bb01401ac71401148b9884934ed080b2, type: 3}
+    description: club
+    id: melee
+    damage: 7
+    nstrikes: 4
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: b21a8ac2ba6fb804597373983852ea71, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 037454561d50cae4faaadadb5fbc569d, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a9553c9eadb58fd4eb904b39bfb0995c, type: 3}
+    - {fileID: 21300000, guid: 2ef5c292755a3a446bdbe0b5423ba472, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f9c2b5cb4840e00428751ea54c11dfea, type: 3}
+    - {fileID: 21300000, guid: 11c52258e54e6ef4eb04e5579c123d08, type: 3}
+    - {fileID: 21300000, guid: 0703b8a1ba5bfd646b83ea9314a2f07f, type: 3}
+    - {fileID: 21300000, guid: 14abe20578967164c8b3a7929b36f010, type: 3}
+    - {fileID: 21300000, guid: a1b228fc9d085af41ae7ba1030d6ee5f, type: 3}
+    - {fileID: 21300000, guid: 57a17a4e7f46fb64a82bbef08bf80832, type: 3}
+    - {fileID: 21300000, guid: a30851c7fe136104ab30baf1335112b1, type: 3}
+    - {fileID: 21300000, guid: c4268c3b4c74dc2429fc37c97e75eafd, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

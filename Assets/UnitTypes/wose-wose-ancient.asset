@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: wose-wose-ancient
+  m_EditorClassIdentifier: 
+  guid: 800371f8-69a9-412e-951a-cf519b0b5edf
+  guidNameSet: wose-wose-ancient
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Wose Wose Ancient
+  classId: wose-ancient
+  raceId: wose
+  tags:
+  - {fileID: 11400000, guid: 39716117a3f372042ac1f7ea8b1ca68b, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: b4ad621c22403394082c46877ab85a73, type: 2}
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 6b81b9b0-f6ab-4dbd-9912-07de397749cf
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 337a53b5f046049479c816f95ed0f822, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 19f2d10e61eff0d4289ca7ddb59175be, type: 3}
+    - {fileID: 21300000, guid: e79525b5131d79a49a59b66ecb1893f2, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 6c3b131b3626efb4a9ebc50a3be5257d, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: fall
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 2afd6c031ed89854bab8e388d67afb79, type: 3}
+    - {fileID: 21300000, guid: d742bca39d40a474f9889a4f23838075, type: 3}
+    - {fileID: 21300000, guid: 3b58aa7982e76734dbf5f2fa241a625c, type: 3}
+    - {fileID: 21300000, guid: ea428e56c77465b479c758d1e39dce28, type: 3}
+    - {fileID: 21300000, guid: c4851bcb4c97df24c94c139008916a97, type: 3}
+    - {fileID: 21300000, guid: 0dabb7eee8c6580488243e7968317290, type: 3}
+    - {fileID: 21300000, guid: bacbeb6490732c345a6ac51afa440507, type: 3}
+    - {fileID: 21300000, guid: 13c58f6a363293b47b1f76fed720bcb7, type: 3}
+    - {fileID: 21300000, guid: 111385d1eeb84704687b03fddc78645c, type: 3}
+    - {fileID: 21300000, guid: 6334200a8c4e83a428874096320af56c, type: 3}
+    - {fileID: 21300000, guid: 8ee5c51ba3e979840afd7675b4718a10, type: 3}
+    - {fileID: 21300000, guid: e4c11e34bbcd572409af31fbd318ff4a, type: 3}
+    - {fileID: 21300000, guid: aec6db7454efe2a4ba444df9f41ff1ae, type: 3}
+    - {fileID: 21300000, guid: 453078e4583def943b5d49458b0abfce, type: 3}
+    - {fileID: 21300000, guid: 0cecbf213ee8edc4398183cf3daa20e8, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

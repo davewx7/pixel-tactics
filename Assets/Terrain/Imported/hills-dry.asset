@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: hills-dry
+  m_EditorClassIdentifier: 
+  guid: 4460890e-ad37-42f9-af0e-7e51def0b352
+  guidNameSet: hills-dry
+  rules: {fileID: 11400000, guid: 51c90df8d4f283e4db79d7ace15b89c5, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Hills
+  zorder: 55
+  adjacent:
+  - {fileID: 21300000, guid: 5db1af7303a203648ab8c4bc6c95c512, type: 3}
+  - {fileID: 21300000, guid: 025665670dbb5bf47b6ecec4fedba71e, type: 3}
+  - {fileID: 21300000, guid: f8a4b197dd99ad04d99db042d81f22e1, type: 3}
+  - {fileID: 21300000, guid: c90d92dafad400f41a8afa382af7905d, type: 3}
+  - {fileID: 21300000, guid: 5ae220435e310fa4a8a6204179739f1a, type: 3}
+  - {fileID: 21300000, guid: ac2766d43884e5e46a082bc9b3afcdf6, type: 3}
+  adjacent2:
+  - {fileID: 21300000, guid: 452673c304f005e4399ce8c18ffc473f, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: f9dfb96e1beb7824db0cce9cbdd6a32f, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites:
+  - {fileID: 21300000, guid: 89ae7d81afe13df49a8b4c6db0fff996, type: 3}
+  - {fileID: 21300000, guid: 836ef663f9e02344da07819b551d077f, type: 3}
+  - {fileID: 21300000, guid: 20ba5c5fd8c2ce844bff39f2451ac455, type: 3}
+  overlaySprites: []
+  castleWalls: []
+  _base: {fileID: 0}
+  yadj: 0
+  waterline: 0

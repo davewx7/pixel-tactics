@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: QuestLevelUpCheckin
+  m_EditorClassIdentifier: 
+  guid: d27fc33d-13fd-4c0d-8722-a744ae9c876f
+  guidNameSet: QuestLevelUpCheckin
+  message: We are hoping that player_lisar will continue to grow in player_his skills
+    as a warrior. This land needs a great and mighty warrior as its next ruler.
+  options: []
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91223fe794bf607478a727b19175f63d, type: 3}
+  m_Name: BoonMerchantGuildWar
+  m_EditorClassIdentifier: 
+  guid: fccd4691-3cb3-4036-8254-252e0104dcf2
+  guidNameSet: BoonMerchantGuildWar
+  priority: 1
+  embargoAfterOffering: 24
+  minimumRound: 6
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  dialogStorylineText: x
+  declineStoryText: You want no part of this and quickly decline the offer
+  avatarSprite: {fileID: 21300000, guid: 8a38b2aae2dbd014390ab4cace602f5d, type: 3}
+  effectText: 
+  storyText: The support of merchants is important as a ruler, and you gladly accept
+    the loan.
+  reward: 25

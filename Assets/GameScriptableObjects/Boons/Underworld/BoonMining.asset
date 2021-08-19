@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a6940098bde6740ad75e9225209cf8, type: 3}
+  m_Name: BoonMining
+  m_EditorClassIdentifier: 
+  guid: 8789f71f-d035-4b23-901d-bf82ec5b52c5
+  guidNameSet: BoonMining
+  priority: 1
+  embargoAfterOffering: -1
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 1
+  createBuilding: {fileID: 11400000, guid: f5b83aae4259b8b418853ed7e42cc08f, type: 2}
+  dialogStorylineText: '<i>"Thank goodness you came. We have been enslaved for so
+    long by those ... things. Now that you are here we will get the mine back in good
+    working order."</i>
+
+
+    The gold from the mine will boost your income!'
+  declineStoryText: 
+  avatarSprite: {fileID: 0}
+  effectText: Create a mine in this village
+  storyText: You work with the villages to re-open the mine

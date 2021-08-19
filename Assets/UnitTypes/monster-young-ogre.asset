@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: monster-young-ogre
+  m_EditorClassIdentifier: 
+  guid: eb0b3482-82ce-4b08-bc36-9dab99611f2a
+  guidNameSet: monster-young-ogre
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Monster Young Ogre
+  classId: young-ogre
+  raceId: monster
+  tags: []
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: e64191b2-96dc-473d-a497-9912842b8443
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 3ba26d43e5649ad4f9cc4229ab97afcc, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 81d7a647c2d18b743871de47e6ff3715, type: 3}
+    - {fileID: 21300000, guid: 4875c2cfd741f094fb7e67eda1ba40f6, type: 3}
+    - {fileID: 21300000, guid: b9d7d4fa3093e5e4ebc277003df9f3d0, type: 3}
+    - {fileID: 21300000, guid: 36ec11d0e46587646ad11130141aa25b, type: 3}
+    - {fileID: 21300000, guid: 75f7ecfc8dc09bd459af556f64f0ac2f, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: d218ff854ad9ef345917b47bb92c0df1, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 1
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7655facdd3dc9334cb8cb998e4ecf1b4, type: 3}
+    - {fileID: 21300000, guid: 980c1781723f6df44b18bf0bcbfb6005, type: 3}
+    - {fileID: 21300000, guid: 0261b8fa8c0d6374483c81b2885588a3, type: 3}
+    - {fileID: 21300000, guid: ccf8e22afcb3a224299b848b21980cbe, type: 3}
+    duration: 2
+    reverse: 0
+    cycle: 0
+    events: []

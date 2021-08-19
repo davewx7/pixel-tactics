@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a786d29dac4d4f990127905c942fb, type: 3}
+  m_Name: Barkskin Armor
+  m_EditorClassIdentifier: 
+  guid: d35273c2-f846-4db2-bed0-3b7178abe2ee
+  guidNameSet: Barkskin Armor
+  modUntilEndOfTurn:
+    description: 
+    useMod: 0
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+  schools: []
+  targetTypes: 00000000
+  targetTerrain: []
+  targetLevelLessOrEqualToSpellLevel: 0
+  mustControlTarget: 0
+  targetsKeep: 0
+  targetRange: 1
+  targetRadius: 0
+  rangeIsUnitVision: 0
+  healTarget: 0
+  temporaryHitpoints: 12
+  drainLife: 0
+  blinkToTarget: 0
+  description: 
+  icon: {fileID: 0}
+  spellLevel: -1
+  refreshesMovement: 0
+  refreshesAttack: 0
+  summaryRules: 
+  applyStatus: {fileID: 0}
+  summonType: {fileID: 0}
+  effectSource: {fileID: 0}
+  effectDest: {fileID: 0}
+  tooltipRules: 

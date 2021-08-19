@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b7a5f94fec1ab49b26328fad5ea536, type: 3}
+  m_Name: QuestRetrieveItem
+  m_EditorClassIdentifier: 
+  guid: 9af8b3c7-4320-45e8-9d75-8b5d2b91c72b
+  guidNameSet: QuestRetrieveItem
+  acceptedNode: []
+  rejectedNode: []
+  completedNode:
+  - {fileID: 11400000, guid: 24fbf18d62fe7f244b4a7d99ac7aa45f, type: 2}
+  checkinNode: []
+  failedNode:
+  - {fileID: 11400000, guid: 05ff5fd0afb7ddf469b69f18ba2a0a75, type: 2}
+  questOfferTitle: Quest
+  timeExpected: 12
+  offerNode: {fileID: 11400000, guid: 508a8bbc3dd472f408ff8543b14e90ff, type: 2}
+  equipment: {fileID: 11400000, guid: 871c5916c3a451744b13baa5d061fd52, type: 2}
+  checkinHaveItem:
+  - {fileID: 11400000, guid: 587afe6987c00b545b6476f880410e1e, type: 2}

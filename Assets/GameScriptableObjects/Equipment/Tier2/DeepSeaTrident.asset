@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: DeepSeaTrident
+  m_EditorClassIdentifier: 
+  guid: 7806820e-834f-4f89-9cc4-961a903131ef
+  guidNameSet: DeepSeaTrident
+  icon: {fileID: 21300000, guid: 914797bdbc4a7bd4b9d109d1762e4da3, type: 3}
+  description: Deep Sea Trident
+  summaryRules: +10% ACC, +1 DMG
+  tooltipRules: +10% Accuracy, +1 Damage
+  slot: {fileID: 11400000, guid: 21b2960f927781d4888e2eb1e6807023, type: 2}
+  consumable: 0
+  tier: 2
+  teamAssociation:
+  - {fileID: 11400000, guid: 0ae95ce6f1b53404ea919c29e8ae48f1, type: 2}
+  activatedAbility: {fileID: 0}
+  beginTurnEffect: {fileID: 0}
+  mod:
+    description: Deep Sea Trident
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription:
+      - spear
+      excludeMelee: 0
+      excludedRanged: 0
+      damage: 0
+      accuracy: 10
+      critical: 0
+      nstrikes: 1
+      abilities: []
+      makesMagical: 0
+    abilities: []
+    abilityArgs: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  attackRequired:
+  - spear
+  _price: -1

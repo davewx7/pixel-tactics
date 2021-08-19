@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: SureSeeingOrb
+  m_EditorClassIdentifier: 
+  guid: 5f268908-0779-4d1f-94e8-dc6cd44f8889
+  guidNameSet: SureSeeingOrb
+  icon: {fileID: 21300000, guid: 0c3573e06071d9e4ab1937bdccff344f, type: 3}
+  description: Sure Sight Orb
+  summaryRules: +3VIS +20ACC
+  tooltipRules: Unit has +3 vision radius and +20% accuracy
+  slot: {fileID: 11400000, guid: 368312626a33e684b8d9166a9f780479, type: 2}
+  tier: 2
+  activatedAbility: {fileID: 0}
+  mod:
+    description: Sure Sight Orb
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 3
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription: []
+      excludeMelee: 0
+      excludedRanged: 0
+      damage: 0
+      accuracy: 20
+      critical: 0
+      abilities: []
+      makesMagical: 0
+    abilities: []
+  attackRequired: []
+  _price: 17

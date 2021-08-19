@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: castle-dwarven
+  m_EditorClassIdentifier: 
+  guid: daa376ec-2574-48ed-bdf1-bc57903136e8
+  guidNameSet: castle-dwarven
+  rules: {fileID: 11400000, guid: 1a68fcf486113404fbb942c733f9223e, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Castle
+  zorder: 2000
+  adjacent: []
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites:
+  - {fileID: 21300000, guid: b93a1b118747e83468bba73ce8fdf2d0, type: 3}
+  - {fileID: 21300000, guid: c1baec852acb7e541bfe1c37889b8d53, type: 3}
+  - {fileID: 21300000, guid: 4fa9e8aebccc8a3499cb46eb007b34ab, type: 3}
+  overlaySprites: []
+  castleWalls:
+  - {fileID: 21300000, guid: e34d59662fa2ed54ca6d0fc104cdc4e6, type: 3}
+  - {fileID: 21300000, guid: 31b02d646e3f7244cb4557118c6e0fa2, type: 3}
+  - {fileID: 21300000, guid: cbf3a9dcb178b68418556e5cf1f8d11c, type: 3}
+  - {fileID: 21300000, guid: e1d16b60b735db44184a1b9fbc501c8a, type: 3}
+  - {fileID: 21300000, guid: 85998c401061f564f9e0cf261f88d5b0, type: 3}
+  - {fileID: 21300000, guid: 90a7b7721cd761d40b719880629a61b8, type: 3}
+  - {fileID: 21300000, guid: 1b25d8d5cd07c0f42b0817400207ea04, type: 3}
+  - {fileID: 21300000, guid: cdef9ff048018e04aba8dde20e5e7950, type: 3}
+  - {fileID: 21300000, guid: 81b3a8735d6e9b34ba15c082c2b21769, type: 3}
+  - {fileID: 21300000, guid: e8a3de31917502f4abc09c3544961bf7, type: 3}
+  - {fileID: 21300000, guid: 94a9f41b31008ef4d8aca7de30bc35f2, type: 3}
+  - {fileID: 21300000, guid: ffe4f91fd5bfc93429d0b75d46c25c28, type: 3}
+  _base: {fileID: 0}
+  yadj: 0
+  waterline: 0

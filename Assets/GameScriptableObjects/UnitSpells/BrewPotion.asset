@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a786d29dac4d4f990127905c942fb, type: 3}
+  m_Name: BrewPotion
+  m_EditorClassIdentifier: 
+  guid: 5280d2b9-a83d-456d-aefd-c03ccc08ee7e
+  guidNameSet: BrewPotion
+  modUntilEndOfTurn:
+    description: (unknown)
+    useMod: 0
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []
+  schools:
+  - {fileID: 11400000, guid: 6516af0ef33903c45913a8510046f80a, type: 2}
+  ispotion: 0
+  cooldown: 0
+  targetTypes: 00000000
+  targetTerrain: []
+  targetLevelLessOrEqualToSpellLevel: 0
+  mustControlTarget: 0
+  targetsKeep: 0
+  targetRange: 0
+  targetRadius: 0
+  rangeIsUnitVision: 0
+  healTarget: 0
+  temporaryHitpoints: 0
+  drainLife: 0
+  blinkToTarget: 0
+  description: Brew Potion
+  icon: {fileID: 21300000, guid: 6f8bd67394937364980f7315b13a7613, type: 3}
+  hueshift: 0.9
+  spellLevel: 1
+  refreshesMovement: 0
+  refreshesAttack: 0
+  summaryRules: 
+  applyStatus: {fileID: 0}
+  summonType: {fileID: 0}
+  numSummons: 0
+  createEquipment:
+  - {fileID: 11400000, guid: f2bb0a04160a51d42893b0aa1d7d2301, type: 2}
+  - {fileID: 11400000, guid: d04fd06e5468d9d4988f9627a565c4be, type: 2}
+  - {fileID: 11400000, guid: 67ba1d3678fb4af4ea45d8f82628ea6c, type: 2}
+  - {fileID: 11400000, guid: 98f61c4c4f3b06546b8f2e2cd0e3ac11, type: 2}
+  - {fileID: 11400000, guid: bee6f47536e184c41899ffcc1b33e319, type: 2}
+  - {fileID: 11400000, guid: f1d4b839a0797824c85824fe4b79b325, type: 2}
+  - {fileID: 11400000, guid: 66c36e723d832bf44a17b622bfb1018f, type: 2}
+  cannotTargetBlessedUnit: 0
+  effectSource: {fileID: 0}
+  effectDest: {fileID: 7195097288595192750, guid: b6e9c2aead987a643b0a8649788b1097,
+    type: 3}
+  tooltipRules: Create a random potion.
+  _noTargetsErrorMessage: Cannot carry more potions.

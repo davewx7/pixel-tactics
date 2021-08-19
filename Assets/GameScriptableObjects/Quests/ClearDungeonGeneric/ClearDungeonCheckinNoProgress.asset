@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: ClearDungeonCheckinNoProgress
+  m_EditorClassIdentifier: 
+  guid: 1426acc2-46ef-40ab-ad1d-a3d572634875
+  guidNameSet: ClearDungeonCheckinNoProgress
+  message: It has been many Moons since we requested you clear the Dungeon of its
+    dark denizens, and yet we understand you have made almost no progress. Do you
+    really intend to do this for us and prove your mettle as ruler?
+  options:
+  - text: Do not be alarmed! We can assure you the Dungeon and its many dark denizens
+      will soon be defeated and trouble you no more.
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  - text: <color=#ffaaaa>[Hostile]</color> I do not owe you anything! I am the ruler
+      of these lands and will punish you for your insolence. Prepare to fight!
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

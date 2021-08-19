@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: QuestLevelUpComplete
+  m_EditorClassIdentifier: 
+  guid: cd6150d4-8929-4f8d-9542-f5707b24d11c
+  guidNameSet: QuestLevelUpComplete
+  message: You are truly a great warrior! We have heard much of your exploits on the
+    field of battle. We thank you for listening to our counsel and leading your troops
+    into battle so you could learn the art of war.
+  options: []
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

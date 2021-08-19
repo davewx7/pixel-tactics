@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b7a17b2aaaf6341a22581c7de9060b, type: 3}
+  m_Name: ElvesColoringTeam1
+  m_EditorClassIdentifier: 
+  guid: 560c1498-9b24-4341-94c7-738babcca1c4
+  guidNameSet: ElvesColoringTeam1
+  color: {r: 0.23921569, g: 0.42745098, b: 0.23921569, a: 1}

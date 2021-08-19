@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3145b769396bd4dbeb0a987a88b8ec, type: 3}
+  m_Name: ZombieGoblin
+  m_EditorClassIdentifier: 
+  guid: 93f975d5-8be0-48e3-89ce-9ceaef038efc
+  guidNameSet: ZombieGoblin
+  traitName: Goblin
+  traitTooltip: This zombie was a goblin once and has some of the attributes of a
+    drake.
+  unitMod:
+    description: Goblin
+    useMod: 1
+    filter:
+      mustHaveTag: {fileID: 0}
+      excludeIfFoughtThisTurn: 0
+      baseAbility: {fileID: 0}
+    hitpoints: -4
+    experience: 0
+    evasion: 10
+    limitEvasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []

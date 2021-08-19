@@ -1,0 +1,363 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: dwarf-steelclad
+  m_EditorClassIdentifier: 
+  guid: ac480849-aaa9-4b4e-8926-b921b55d36d0
+  guidNameSet: dwarf-steelclad
+  portrait: {fileID: 21300000, guid: 430581ac49dbb0542bf2a2280d373025, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Dwarf Steelclad
+  classId: steelclad
+  raceId: dwarf
+  tags:
+  - {fileID: 11400000, guid: 639d981ee0cebce4d994b1202dfa89cf, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: ebaaf8e6-0e24-47f5-987a-bd59481b644f
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 40
+  armor: 1
+  resistance: 0
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: f4e3a659ba648f046a8cb02ff0eb7fc2, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: d8fe514bcd498cb479d2de09ce99b7ce, type: 3}
+    description: axe
+    id: axe
+    damage: 8
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: 37e92d97c3dea3b42862b9ab846073d2, type: 3}
+    description: hammer
+    id: hammer
+    damage: 12
+    nstrikes: 2
+    accuracy: -10
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: b21a8ac2ba6fb804597373983852ea71, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 97f7622f83022c847aaecc60c6c87f49, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 1
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c34ddcb85ba241b4cb8b86ec81723d89, type: 3}
+    - {fileID: 21300000, guid: 7e55efb242abc7047b52304c19e320ab, type: 3}
+    - {fileID: 21300000, guid: f49574e2b48970c4a9d570f01a19e2e9, type: 3}
+    - {fileID: 21300000, guid: 3cd16ea2239513d4dbae9194e67498fc, type: 3}
+    - {fileID: 21300000, guid: 8bd4520c5c7bc13418869357a6a0f81f, type: 3}
+    - {fileID: 21300000, guid: d0b62bbafec195c45b57f95a45cf252d, type: 3}
+    - {fileID: 21300000, guid: 8857029145f6f1641bcb6508a349a8e9, type: 3}
+    - {fileID: 21300000, guid: 4b33461d3849ef64b8ffa8f11d3c5d00, type: 3}
+    - {fileID: 21300000, guid: 963bf0ec24c551a438c4d921e63d677d, type: 3}
+    - {fileID: 21300000, guid: 52fcc3870a6707848b63bd7d1b3ce11f, type: 3}
+    - {fileID: 21300000, guid: f0a0e40d4afd63c448ca75287f026d9d, type: 3}
+    duration: 2
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 733aba85691706b42bcda1192a2b238e, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 2
+      tag: axe
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 0b01bd2374b2f024b9b9cebd1c223935, type: 3}
+    - {fileID: 21300000, guid: 07b2f68f87e90c44d8e5cba7f66a67f6, type: 3}
+    - {fileID: 21300000, guid: 873992d3a8630da42a016e836c142710, type: 3}
+    - {fileID: 21300000, guid: 3c8f3a10c58c9144fafecdee0b82449c, type: 3}
+    - {fileID: 21300000, guid: aa18f129916f320459c4cbe808c3297b, type: 3}
+    - {fileID: 21300000, guid: 16acf64aeb63d614e88a0eb01766ecc3, type: 3}
+    - {fileID: 21300000, guid: db11aa28ebb587c4ba4c1c05a01aadeb, type: 3}
+    - {fileID: 21300000, guid: a73918523b06bb249ab51779d64e8744, type: 3}
+    - {fileID: 21300000, guid: 78dced2d9cb488341bf375e30b335c37, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 2
+      tag: bob
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 266f6729756d8c74d920a162d0bf96f1, type: 3}
+    - {fileID: 21300000, guid: 93a767c197965d2459f5743e93066201, type: 3}
+    - {fileID: 21300000, guid: feeb5d1175cbabd4080f90f58fe15cb1, type: 3}
+    - {fileID: 21300000, guid: 6d2b0f3549bc00d448806d68a642a460, type: 3}
+    - {fileID: 21300000, guid: 4f30b115b01cda344967dd11dc361c40, type: 3}
+    - {fileID: 21300000, guid: 3831a8877bd7e9b40861809446d96b07, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 791c26c6bac25124a887fd88c84616c0, type: 3}
+    - {fileID: 21300000, guid: 049c42ca63517cb4ea90401f0c6a0d42, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 2
+      tag: hammer
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: d18840c0ef5577147bc8b49cdf39bcec, type: 3}
+    - {fileID: 21300000, guid: 2b616aeb16f036246a209640e4af494c, type: 3}
+    - {fileID: 21300000, guid: 27e6fa35d7488a541b556720ea5b7b01, type: 3}
+    - {fileID: 21300000, guid: 236801b0133b065488d664b632d45ed7, type: 3}
+    - {fileID: 21300000, guid: 2c8de9e5bbe6c7642abc71968a699e01, type: 3}
+    - {fileID: 21300000, guid: 95ac001361a89cf4a8cd1160aed02a5a, type: 3}
+    - {fileID: 21300000, guid: 4be61ec3e67606d4fb3b06a7759d8d76, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 3
+      tag: hammer
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 5c5b39a6cdf81b847b8b08361c0044a3, type: 3}
+    - {fileID: 21300000, guid: f37e96697645b2640b38f2436fe8ddff, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 2
+      tag: run
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 9aafa6a3b126f6f44a7ef1cc755ec479, type: 3}
+    - {fileID: 21300000, guid: d54c12c2d14282d4d9b8e53e074b9fe1, type: 3}
+    - {fileID: 21300000, guid: 1e31707794ae0774eab6c64e50db9cac, type: 3}
+    - {fileID: 21300000, guid: b1f6bfb2a1bc4f84baf7c425c0512693, type: 3}
+    - {fileID: 21300000, guid: 179b75eae579d88418920f68c8f21ee0, type: 3}
+    - {fileID: 21300000, guid: fa2ac06ae17abb74c9e0d6fc81f2f6b9, type: 3}
+    - {fileID: 21300000, guid: 6877dc9d0182dab4496bbcc33323aebf, type: 3}
+    - {fileID: 21300000, guid: c67e27f0e0594654a8802832832d1aa1, type: 3}
+    - {fileID: 21300000, guid: e44532e8f1ae5d444a1f11ce9ad25b18, type: 3}
+    - {fileID: 21300000, guid: 48613c2068b7758488b704c4741cc435, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 2
+      animType: 2
+      tag: axe
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 36b6302c2040d3a4e9b9fdecc981a923, type: 3}
+    - {fileID: 21300000, guid: 0a7f04a1184d6a04db7a9eb563f8f31b, type: 3}
+    - {fileID: 21300000, guid: 54c67cb64c93741458d97add470ed5e2, type: 3}
+    - {fileID: 21300000, guid: 1c191eccea260a7489dfdeda758d0a00, type: 3}
+    - {fileID: 21300000, guid: d732ce331eea4d8439cd50ac604857c8, type: 3}
+    - {fileID: 21300000, guid: 5b2d68737d59f4e40882b061abc94249, type: 3}
+    - {fileID: 21300000, guid: dd24d2d1d6ba52f488d6b803fd8774c7, type: 3}
+    - {fileID: 21300000, guid: af3c7677283dc834e91f8cd6aca034f0, type: 3}
+    - {fileID: 21300000, guid: a55fb292d75286a4fbdc27f86bbb7ea4, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 2
+      animType: 2
+      tag: bob
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 85ee1f742898dd14ca3c947c6485ee98, type: 3}
+    - {fileID: 21300000, guid: d0028d80a11a7fb46a8eed18af097bdc, type: 3}
+    - {fileID: 21300000, guid: e13a500e351628d41b2da9493d35aa4e, type: 3}
+    - {fileID: 21300000, guid: 35d0433847cd68a40aaa19f3ad3a4752, type: 3}
+    - {fileID: 21300000, guid: 91efaa83548409644afa55fe026365a6, type: 3}
+    - {fileID: 21300000, guid: abe61aa77763dc64fb7936dc32c2447e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 2
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a05944a8c4878d9479874e22007809dc, type: 3}
+    - {fileID: 21300000, guid: 6927c63d4c891814ab32574dd307526a, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 2
+      animType: 2
+      tag: hammer
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: df2f2f397d199dc4abcd76a1ec41afd3, type: 3}
+    - {fileID: 21300000, guid: c0594c577234972418082d5a70e7635d, type: 3}
+    - {fileID: 21300000, guid: 7b5e5c50a532f634996f963936d7dbb1, type: 3}
+    - {fileID: 21300000, guid: 46e6edde85b811e4dad712023241a678, type: 3}
+    - {fileID: 21300000, guid: 7fb1b95f1fe323043887e15e72a8dab7, type: 3}
+    - {fileID: 21300000, guid: bfbe09b0467f5f44fad22188a1ea3fbc, type: 3}
+    - {fileID: 21300000, guid: 76bd892df94742d4496909882d215415, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 2
+      animType: 3
+      tag: hammer
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 83ff9afa02322b143b89253d30ce5187, type: 3}
+    - {fileID: 21300000, guid: 9b53774e7c03a2643846bc7a1e25a902, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 2
+      animType: 2
+      tag: run
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 5d138c9bf9df209478454e1926fe0bb1, type: 3}
+    - {fileID: 21300000, guid: 4f56644a24aa97440aa89a2ed1b2d10c, type: 3}
+    - {fileID: 21300000, guid: c0bcbbbc5f0220b418071925d3a66486, type: 3}
+    - {fileID: 21300000, guid: fb49c680c73555347bc1bb463dd7711e, type: 3}
+    - {fileID: 21300000, guid: 517e768e25894b14b95b9ca595ad6e63, type: 3}
+    - {fileID: 21300000, guid: f6932ce4fedb95b4f9acc11918afbed1, type: 3}
+    - {fileID: 21300000, guid: 5fa381d47d2cc4649a1c26901ce7e40e, type: 3}
+    - {fileID: 21300000, guid: a07f951f2438f1f459ccf7c39d3789d5, type: 3}
+    - {fileID: 21300000, guid: 34cdc84450b964a458e72a335e960f22, type: 3}
+    - {fileID: 21300000, guid: e5e6aeec804594b4891258c4d96dc410, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

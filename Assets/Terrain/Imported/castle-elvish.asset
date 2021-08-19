@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: castle-elvish
+  m_EditorClassIdentifier: 
+  guid: 508f4382-6545-4690-8ee4-2d60d4a1ea55
+  guidNameSet: castle-elvish
+  rules: {fileID: 11400000, guid: 1a68fcf486113404fbb942c733f9223e, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Castle
+  zorder: 2000
+  adjacent: []
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites:
+  - {fileID: 21300000, guid: 7700927b6d420eb478238a136c44f922, type: 3}
+  overlaySprites: []
+  castleWalls:
+  - {fileID: 21300000, guid: ca0c94eb65a87b340bd3cf54ef761976, type: 3}
+  - {fileID: 21300000, guid: 8a10e441cdc0cb341bd922ff36042d22, type: 3}
+  - {fileID: 21300000, guid: d4b26aa3fda31db4fa03bdb1a0585c96, type: 3}
+  - {fileID: 21300000, guid: 080cad5ba396e804da126e6bf7f00d11, type: 3}
+  - {fileID: 21300000, guid: 5d64620fe396703458a1f00500b26593, type: 3}
+  - {fileID: 21300000, guid: 6866e03b6d7f57448b94cd5de67d31fa, type: 3}
+  - {fileID: 21300000, guid: e1421b315fb0b0b44ab9e9f31b1d2ab5, type: 3}
+  - {fileID: 21300000, guid: 15c67abb1d536a64e9cfe584c58a7861, type: 3}
+  - {fileID: 21300000, guid: 37a805dff0817b1409f869b9b7d4888a, type: 3}
+  - {fileID: 21300000, guid: 56ccb42fe14350c40933aa57764ffd75, type: 3}
+  - {fileID: 21300000, guid: 98117c1b7bf79e4428d46c56f12753fb, type: 3}
+  - {fileID: 21300000, guid: 388b27cdcda5a8f4ab8e528e2f1cc7c4, type: 3}
+  _base: {fileID: 0}
+  yadj: 0
+  waterline: 0

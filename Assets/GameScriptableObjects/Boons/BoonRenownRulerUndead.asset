@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9121c2f56ed41d5488ea8e132f782489, type: 3}
+  m_Name: BoonRenownRulerUndead
+  m_EditorClassIdentifier: 
+  guid: 2ce16025-07c6-4f55-93d5-802f91712ed2
+  guidNameSet: BoonRenownRulerUndead
+  alternatives: []
+  priority: 1
+  embargoAfterOffering: -1
+  minimumRound: 2
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 1
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 11400000, guid: 4f2e4a5225dc06c47b8a79394cff6394,
+    type: 2}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 0}
+  dialogStorylineText: <i>"It's player_him! It's player_name"</i> the villagers whisper
+    among themselves in fear, your name said in hushed tones as you walk through their
+    village.
+  declineStoryText: 
+  avatarSprite: {fileID: 0}
+  effectText: +40 Renown
+  storyText: Take time to demonstrate your power to the people here, reminding them
+    of your worthiness to rule.
+  amount: 40
+  resultTitle: Demonstrating your power
+  resultText: The villagers are awed by your power, as you convince them that none
+    but you can rule this land. Rumors of your supremacy over life and death spread
+    through the land.

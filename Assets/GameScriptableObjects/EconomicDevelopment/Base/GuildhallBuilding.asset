@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a03e288bf0d84045b27fea9848ae76e, type: 3}
+  m_Name: GuildhallBuilding
+  m_EditorClassIdentifier: 
+  guid: cc0fb50a-1f81-4a4c-835c-d9d7f8589e05
+  guidNameSet: GuildhallBuilding
+  buildingName: Guildhall
+  tooltip: Allows you to construct Stockades in your villages.
+  achievementText: You may now construct Stockades in your villages.
+  additionalAchievementText: []
+  givesHaste: 0
+  icon: {fileID: 21300000, guid: c43ebce88e85b9d428db3d0318cd1fef, type: 3}
+  loc: {x: 2, y: -1}
+  buildCost: 400
+  unitRecruits: []
+  recruitSlots: 0
+  villageBuildingsAvailable:
+  - {fileID: 11400000, guid: 1d1af0b27a704d24a95b633673335b39, type: 2}
+  spells: []
+  equipmentInMarket: []
+  recruitExperienceBonus: 0
+  potionGranted: 0
+  grantsEquipmentOnBuild: {fileID: 0}

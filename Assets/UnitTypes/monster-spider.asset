@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: monster-spider
+  m_EditorClassIdentifier: 
+  guid: 0989bc33-8f55-45be-99a8-42f18e49a7ca
+  guidNameSet: monster-spider
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Giant Spider
+  classId: spider
+  raceId: monster
+  tags: []
+  abilities: []
+  abilityArgs: []
+  cost: 36
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 07dc9b4c-d15a-41d9-856f-60b29da32406
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 3
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 56
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 0
+  movement: 6
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: ce0d74c440742704f8ba56cfcdba27d5, type: 3}
+    description: fangs
+    id: melee
+    damage: 9
+    nstrikes: 4
+    accuracy: 30
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: 8c0957c2b4a0bdb4b85657e845b1f56a, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 65e70866a9568e949a34040b7287e622, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 01a2ca0ee200c4d41b06dbea2ef54bd8, type: 3}
+    - {fileID: 21300000, guid: 1998524226b0f8849bd2159051b0fca0, type: 3}
+    - {fileID: 21300000, guid: b767aafcab5f9f547b6bcdcd444383a3, type: 3}
+    - {fileID: 21300000, guid: 0c0ef346db915614ba66c4410e36616c, type: 3}
+    - {fileID: 21300000, guid: b4d8fc31948e45e409ad58590172d304, type: 3}
+    - {fileID: 21300000, guid: 0cc740f144219ea40a215732f5bea6df, type: 3}
+    - {fileID: 21300000, guid: 5c4e4dcdde5cb7647a92dda805e01c2c, type: 3}
+    - {fileID: 21300000, guid: 93b1ffb5dc5bed8469c57323c11b5e90, type: 3}
+    - {fileID: 21300000, guid: 8a15db4a71bb9544991f3e5e20043f99, type: 3}
+    - {fileID: 21300000, guid: 53a3b22e0f7ce3741ba74b44d9a6c248, type: 3}
+    - {fileID: 21300000, guid: 41f858b4952981a42ad25d424a041550, type: 3}
+    - {fileID: 21300000, guid: 7a9853ccdda57ac428394eeca8c397ab, type: 3}
+    - {fileID: 21300000, guid: 60db57afb4c77c4499e43a033911523a, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: ranged
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 912272cc9a0b22a4688281a6d2597345, type: 3}
+    - {fileID: 21300000, guid: 89f4c688484fc6a4ab703f3778d2fc1b, type: 3}
+    - {fileID: 21300000, guid: 31e5a8c44ce62054aa9dde1ebede932d, type: 3}
+    - {fileID: 21300000, guid: ce4d061cb260bcc4696344ae69874aa6, type: 3}
+    - {fileID: 21300000, guid: 583202d5fbc191b44a50c21437da8916, type: 3}
+    - {fileID: 21300000, guid: 57218413f82914d41b7ac9bc31386d76, type: 3}
+    - {fileID: 21300000, guid: db874cabd9ad1094fbfb36083191108a, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

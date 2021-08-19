@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: elf-shyde
+  m_EditorClassIdentifier: 
+  guid: c8d5ccc4-6f27-45a3-a3c2-4c7bd186a459
+  guidNameSet: elf-shyde
+  portrait: {fileID: 21300000, guid: 8fab8e03c46515442ad190b027de9ca6, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Elf Shyde
+  classId: shyde
+  raceId: elf
+  tags:
+  - {fileID: 11400000, guid: ffb283ef68f579445a304e56bb9d1efe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 32
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 70f583a2-ae03-4b35-8ae3-8a26c4b5e079
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 3
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells:
+    - {fileID: 11400000, guid: 88fde8691721b97489b8100acac74a8e, type: 2}
+    - {fileID: 11400000, guid: 7a945d60cacd55a4c814fd44620c00d0, type: 2}
+    - {fileID: 11400000, guid: 78c6ba916d97ab544ace7d02e279158d, type: 2}
+    - {fileID: 11400000, guid: 44c513b9291a9bf4a9a6693dbc5abfa3, type: 2}
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 64
+  hitpointsMax: 42
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 1
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: 0cc5fb103edd6dc41bbe96c4848788c7, type: 3}
+    description: staff
+    id: attack
+    damage: 4
+    nstrikes: 2
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: d8257964882a1134d9eab9d9b180c4f3, type: 3}
+    description: thorns
+    id: net
+    damage: 3
+    nstrikes: 2
+    accuracy: 10
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: ebedcfb28488a79419f1b84dac9e18d6, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: 5f11bf1bd31f7e245a623965cb7e0a7c, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 00c126e7def3bff4db28e0375d4ce884, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 2d0954fcfc7c4f142957e3efa4ab27c4, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: ftouch-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 2e584bea87fb1104db6985e292a394f1, type: 3}
+    - {fileID: 21300000, guid: 66c13e85839a9544a852b8039fdbfc96, type: 3}
+    - {fileID: 21300000, guid: 9dd5ef0263a46df45aa4776f292983d0, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: healing
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 3e739abeabd0e114580dfba8ee6c306d, type: 3}
+    - {fileID: 21300000, guid: 931ee20df5c87e7459fc400539f92975, type: 3}
+    - {fileID: 21300000, guid: b2a2056b58d5f9642af22d29fb1fa173, type: 3}
+    - {fileID: 21300000, guid: c8d509823bba971479d3c35d83523319, type: 3}
+    - {fileID: 21300000, guid: 8cf23b097b576504b97e1d7324b24a94, type: 3}
+    - {fileID: 21300000, guid: 67adb5162df99c149b6fe3b5fce831bf, type: 3}
+    - {fileID: 21300000, guid: 4efaf3527985e8e4c8b20a8c675fa637, type: 3}
+    - {fileID: 21300000, guid: 1231f286f7363ac4bb4bf47d2ea0fb71, type: 3}
+    - {fileID: 21300000, guid: f2b545f2e08706046846a181ba2df4e8, type: 3}
+    - {fileID: 21300000, guid: 082ea22014de9c2489b5081ceaef7e1e, type: 3}
+    - {fileID: 21300000, guid: d39f59cd570ca5c48b94249f8b6ca4ab, type: 3}
+    - {fileID: 21300000, guid: 9b2cefc5bc174dd479faab4a6142e920, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

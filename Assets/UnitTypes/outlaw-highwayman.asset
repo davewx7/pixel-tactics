@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: outlaw-highwayman
+  m_EditorClassIdentifier: 
+  guid: 75c2bb93-1b62-4586-9734-44946bf6427b
+  guidNameSet: outlaw-highwayman
+  portrait: {fileID: 21300000, guid: 75c8b189ddecaac4891445db0d8d4f5d, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Outlaw Highwayman
+  classId: highwayman
+  raceId: outlaw
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: a38b5406-9d31-49fa-8660-f6fa395f3d42
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 3
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: bb01401ac71401148b9884934ed080b2, type: 3}
+    description: club
+    id: melee
+    damage: 7
+    nstrikes: 4
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: b21a8ac2ba6fb804597373983852ea71, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7ab49d1ca869a544197270f2f12d2e71, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: dc8c6ed3411c336439f1c194c1e4515c, type: 3}
+    - {fileID: 21300000, guid: 40f390bfb2432ee44bcc79fa6ba970b3, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: melee
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 953777bd7e2179e4d9bafcd57cf701d8, type: 3}
+    - {fileID: 21300000, guid: 25cb1fd3e01db86459606f8e73e7f465, type: 3}
+    - {fileID: 21300000, guid: 6007c3e9a5d229842ada763a289b44b2, type: 3}
+    - {fileID: 21300000, guid: 2ed17c07f8751294c975135254ef6baf, type: 3}
+    - {fileID: 21300000, guid: 8c2ffad9d154c71469cdef8c32c61e5e, type: 3}
+    - {fileID: 21300000, guid: 3d8db963684024d479e1337a5cca0a10, type: 3}
+    - {fileID: 21300000, guid: 3268b18d1fdf2d5449997480aca39658, type: 3}
+    - {fileID: 21300000, guid: e82693b4e113b484385dbaa4e055eeb6, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

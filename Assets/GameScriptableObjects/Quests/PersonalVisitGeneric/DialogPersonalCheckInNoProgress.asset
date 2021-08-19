@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: DialogPersonalCheckInNoProgress
+  m_EditorClassIdentifier: 
+  guid: 717da89d-a0aa-430e-b192-94affce17d4e
+  guidNameSet: DialogPersonalCheckInNoProgress
+  message: Greetings. You promised to visit our lands, a face to face conversation
+    with our ruler, yet we have no rumors of you even approaching our castle. Are
+    you seeking to try our patience?
+  options:
+  - text: I assume you, I will arrive there soon. I have simply had a few distractions
+      along the way.
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  - text: <color=#ffaaaa>[Hostile]</color> No, and yet you have tried mine. I am the
+      ruler and will not come to you like some lackey. Prepare for battle!
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

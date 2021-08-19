@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b7a17b2aaaf6341a22581c7de9060b, type: 3}
+  m_Name: TeamColoringSaurian1
+  m_EditorClassIdentifier: 
+  guid: 5d29d303-ef48-4a0d-a36f-ce89e8d01265
+  guidNameSet: TeamColoringSaurian1
+  color: {r: 0, g: 0.509434, b: 0, a: 1}

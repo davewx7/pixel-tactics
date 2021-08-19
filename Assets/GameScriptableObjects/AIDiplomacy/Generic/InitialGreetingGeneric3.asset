@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: InitialGreetingGeneric3
+  m_EditorClassIdentifier: 
+  guid: 05bfe05c-195a-4876-ba8d-8b91a931712b
+  guidNameSet: InitialGreetingGeneric3
+  message: We would at least consider supporting your claim, if it can be proven.
+    And if you can show your wisdom by doing something that we ask.
+  options:
+  - text: Very well, I am listening...
+    result: {fileID: 11400000, guid: 5689ede202332b84282a319d2876a7fe, type: 2}
+    instructions:
+    - {fileID: 11400000, guid: d8999c316c0c4e7439fcb7fea5ca91a1, type: 2}
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399fc44b4e15d8c47a955e3dafbdca47, type: 3}
+  m_Name: InfirmaryBuilding
+  m_EditorClassIdentifier: 
+  guid: 1188aea4-df60-4869-8a6c-cc346bf8b91d
+  guidNameSet: InfirmaryBuilding
+  icon: {fileID: 21300000, guid: cc836f8fdf6202441a7c1baa0f3a82d1, type: 3}
+  description: Infirmary
+  rulesText: Units in this village regenerate health at the end of their turn as well
+    as at the beginning.
+  xpGainFinishRest: 0
+  giveStatusAfterRest: []
+  giveEquipmentOnEndTurn: []
+  mustBeAdjacentToOcean: 0
+  acceleratesResting: 0
+  regenerateAtEndOfTurn: 1
+  unitMod:
+    description: (unknown)
+    useMod: 0
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []

@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: outlaw-trapper
+  m_EditorClassIdentifier: 
+  guid: 83e1aec3-3d2b-4f61-b51f-9429bba73750
+  guidNameSet: outlaw-trapper
+  portrait: {fileID: 21300000, guid: 10f0c8c4a9c0f0c49b344d280074673f, type: 3}
+  portraitFemale: {fileID: 21300000, guid: a608da7aa1f76594c84aa956ef9eed4a, type: 3}
+  description: Outlaw Trapper
+  classId: trapper
+  raceId: outlaw
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 5bffcee7-e981-4fc5-a019-3714d782c5c5
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 40
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: bf6eed3e7836f8f48814484252b8cbbd, type: 3}
+    description: dagger
+    id: dagger
+    damage: 4
+    nstrikes: 2
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: 51f964ae7c8228a479002ebb6a607968, type: 3}
+    description: bow
+    id: attack
+    damage: 5
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: 81d7c471b6560e249acc88193c0c648a, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 648d12b06080fee4cab2e703a4dc5036, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack-melee
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7340677db3446a14da1401ab836194e4, type: 3}
+    - {fileID: 21300000, guid: 920588611f0e57c458e4120956741752, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: dd7ff499e644e804887a84dd0f9b0626, type: 3}
+    - {fileID: 21300000, guid: 47ca6b4b40f2b564f8bff014960cbcd6, type: 3}
+    - {fileID: 21300000, guid: e0415de02ddfc6844859861e23f98aaa, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: bow
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 2af75f943616a3f459deedc634af7137, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: dagger
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 0a32a4c967db02640895556f13f80c53, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: ee7af5863ec25ed45b6a0d692bd99da0, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 681cba95b7474444d8ae1e2ba8453b00, type: 3}
+    - {fileID: 21300000, guid: 48146f97eee58ad40b8aa6fc88a749fd, type: 3}
+    - {fileID: 21300000, guid: 21cdb8627cac79f4bbbc76ea2b660ad7, type: 3}
+    - {fileID: 21300000, guid: 2de360b5935824144bd9fd85f5fc3597, type: 3}
+    - {fileID: 21300000, guid: a4089d51c14a8b74ebdf5be6a3a94b87, type: 3}
+    - {fileID: 21300000, guid: 8de3c71c8d98e53438b20ec096436d30, type: 3}
+    - {fileID: 21300000, guid: 3d8cfcbd41676d44c884dc00f39e9955, type: 3}
+    - {fileID: 21300000, guid: adc1e654614c24240a3c20deae086984, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

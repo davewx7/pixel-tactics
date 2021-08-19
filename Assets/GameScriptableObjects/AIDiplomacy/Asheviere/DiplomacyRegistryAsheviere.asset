@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d803fa1d26f6d47910021383f523ff, type: 3}
+  m_Name: DiplomacyRegistryAsheviere
+  m_EditorClassIdentifier: 
+  guid: 6f9bcdf2-066f-49c3-97a7-90ae6b624ff2
+  guidNameSet: DiplomacyRegistryAsheviere
+  baseRegistry: {fileID: 0}
+  _initialGreeting:
+  - {fileID: 11400000, guid: 2505a7f5d86893e45bd4e12de7b3c7fa, type: 2}
+  _initialGreetingPleased: []
+  _initialGreetingSwornEnemies: []
+  _initialGreetingAlreadyWar:
+  - {fileID: 11400000, guid: 2505a7f5d86893e45bd4e12de7b3c7fa, type: 2}
+  _declareWar: []
+  _peacefulAgreement: []
+  _friendlyGreetingHasQuest: []
+  _friendlyGreetingNoQuest: []
+  _friendlyFarewell: []
+  _offerGift: []
+  _offerGiftForRejectingEnemies: []
+  _questCompleted: []
+  _offerFealty: []
+  _allyGreeting: []

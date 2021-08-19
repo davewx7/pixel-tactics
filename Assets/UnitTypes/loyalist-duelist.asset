@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: loyalist-duelist
+  m_EditorClassIdentifier: 
+  guid: 6a0cbc7a-f255-421b-8d61-d3460e381586
+  guidNameSet: loyalist-duelist
+  portrait: {fileID: 21300000, guid: 0c5ff1ab50ed351459f50c5e160d34cf, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Duelist
+  classId: duelist
+  raceId: loyalist
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: b90ac235285a8004aa6897a8e4f8211f, type: 2}
+  - {fileID: 11400000, guid: a765bcbd21a3c8d438c8d22637e51f46, type: 2}
+  abilityArgs: []
+  cost: 24
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 1520d31c-e63f-4ae7-a6df-58b26966e80a
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 52
+  hitpointsMax: 31
+  criticalEvasion: 0
+  evasion: 60
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto:
+  - {fileID: 11400000, guid: b197d13c15645c54b9662fd64f49282f, type: 2}
+  attacks:
+  - icon: {fileID: 21300000, guid: f797840da9e8f7149aa003ffb5ca3023, type: 3}
+    description: sword
+    id: attack
+    damage: 4
+    nstrikes: 4
+    accuracy: 50
+    critical: 10
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 6571bc4eeb2dd6547926e92ef1f1eb91, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: ff418da8261804a4fb5ec6759e39139f, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 5f886374e079caf4ba29d797fab6e375, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 79b8d4d41438885459190805d76749da, type: 3}
+    - {fileID: 21300000, guid: 2496e55659d7ce7488cd4f1be90e3594, type: 3}
+    - {fileID: 21300000, guid: aadb1a6307306ab438a12cf9a907745e, type: 3}
+    - {fileID: 21300000, guid: 204995d32c28328428c7f313defc1a3e, type: 3}
+    - {fileID: 21300000, guid: ae43b6537ef51d9458c862c9af7d1fb6, type: 3}
+    - {fileID: 21300000, guid: 6e8e5c473b4df2a458dd00d0512ab342, type: 3}
+    - {fileID: 21300000, guid: 8b52eec283489534c8c52ff8f36972c4, type: 3}
+    - {fileID: 21300000, guid: 256b77d9156fd55459e24c2e91d0a058, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: ranged
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 9c532cb547bbb10459bb6305dc4788ed, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

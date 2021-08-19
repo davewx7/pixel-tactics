@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7128b8324fc30424fa8b5488a6f44bd7, type: 3}
+  m_Name: UndeadFlag
+  m_EditorClassIdentifier: 
+  guid: 071a1641-6006-4784-aabc-0f6102214212
+  guidNameSet: UndeadFlag
+  icon: {fileID: 21300000, guid: 7f7b8ac0d52b15d4f9f37a7308a03582, type: 3}
+  anim:
+    matchInfo:
+      gender: 0
+      direction: 0
+      animType: 0
+      tag: 
+    sprites:
+    - {fileID: 21300000, guid: 129f9011b11657543942b89c595cd05a, type: 3}
+    - {fileID: 21300000, guid: 75a5c4723768bda42b17914f576d9d26, type: 3}
+    - {fileID: 21300000, guid: 7a923a1bf08d381498104a9c117694d3, type: 3}
+    - {fileID: 21300000, guid: 9f7d1d51ebac8ba47b1a91d0bb420997, type: 3}
+    duration: 0.7
+    reverse: 0
+    cycle: 1
+    events: []

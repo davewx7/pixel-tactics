@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e89e6fe7b98f11c4db390377dfe97169, type: 3}
+  m_Name: QuestPersonalVisit
+  m_EditorClassIdentifier: 
+  guid: 3ed22445-0f1d-4062-b05d-751efe75858a
+  guidNameSet: QuestPersonalVisit
+  acceptedNode:
+  - {fileID: 11400000, guid: 17031455a760d4449907801fe1e5794d, type: 2}
+  rejectedNode:
+  - {fileID: 11400000, guid: 2056a46f953eac24fbf3eac70c6b18cb, type: 2}
+  completedNode:
+  - {fileID: 11400000, guid: 5ba82b0e272a0114abf6b5123c0ed945, type: 2}
+  checkinNode:
+  - {fileID: 11400000, guid: 7bd4f50e463e0034abdb1092172a38bd, type: 2}
+  failedNode:
+  - {fileID: 11400000, guid: 0b3862d6160104d45ba8050a38b1ec1f, type: 2}
+  questOfferTitle: Quest
+  timeExpected: 12
+  offerNode: {fileID: 11400000, guid: 2a3d52f70e9d126438c2db03706ba74c, type: 2}
+  noProgressAlmostExpired:
+  - {fileID: 11400000, guid: 8fda79cdef324994db01fa5bdbff70d1, type: 2}

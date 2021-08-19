@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9121c2f56ed41d5488ea8e132f782489, type: 3}
+  m_Name: BoonRenownRuler
+  m_EditorClassIdentifier: 
+  guid: b1c1d10d-5592-4420-871c-993fc3f9c4e2
+  guidNameSet: BoonRenownRuler
+  alternatives:
+  - team: {fileID: 11400000, guid: e6574919d29a7cb4486370e67b5c2da1, type: 2}
+    boon: {fileID: 11400000, guid: f6ee7bcc6de20b34781a12254e7ae0af, type: 2}
+  priority: 1
+  embargoAfterOffering: -1
+  minimumRound: 3
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 1
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 11400000, guid: a75b47f2299854d42aeb3f163d8a95ea,
+    type: 2}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 0}
+  dialogStorylineText: <i>"It's ruler_her, it's the ruler_title!"</i> the people of
+    the village are excited that you would personally visit them in this time of peril.
+    They line the streets, all hoping to get a glimpse of you.
+  declineStoryText: 
+  avatarSprite: {fileID: 0}
+  effectText: +40 Renown
+  storyText: Spend time among the villagers, hearing the their needs and what they
+    ask of their ruler.
+  amount: 40

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: AxeOfReaping
+  m_EditorClassIdentifier: 
+  guid: a113a349-a5ff-4ddf-b72e-dd6dc33bffe6
+  guidNameSet: AxeOfReaping
+  icon: {fileID: 21300000, guid: 721c0f157d3c3794ba8a1995d7a32597, type: 3}
+  hueShift: 0
+  description: Axe of Reaping
+  summaryRules: +10% ACC, Plague
+  tooltipRules: +10% Accuracy. Units killed by Axe of Reaping rise as zombies under
+    your control.
+  slot: {fileID: 11400000, guid: f94604dc440f8284183d512db7ddef7d, type: 2}
+  consumable: 0
+  tier: 2
+  teamAssociation:
+  - {fileID: 11400000, guid: 4a0ef6aff68766c44a4f0e6cc04530c7, type: 2}
+  activatedAbility: {fileID: 0}
+  beginTurnEffect: {fileID: 0}
+  castSpellEffect: {fileID: 0}
+  mod:
+    description: Axe of Reaping
+    useMod: 1
+    filter:
+      mustHaveTag: {fileID: 0}
+      excludeIfFoughtThisTurn: 0
+      baseAbility: {fileID: 0}
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription:
+      - axe
+      excludeMelee: 0
+      excludedRanged: 0
+      excludeMagical: 0
+      excludePhysical: 0
+      damage: 0
+      accuracy: 10
+      critical: 0
+      nstrikes: 0
+      abilities:
+      - ability: {fileID: 11400000, guid: 054b1584881c45743a390a2593947618, type: 2}
+        param: 0
+        useParam: 0
+      makesMagical: 0
+    abilities: []
+    abilityArgs: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  attackRequired:
+  - axe
+  _price: 22

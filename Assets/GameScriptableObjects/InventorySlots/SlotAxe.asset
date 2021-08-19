@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7efe75e97ab54baafb43cacaceace, type: 3}
+  m_Name: SlotAxe
+  m_EditorClassIdentifier: 
+  guid: eaacfbac-bf15-41da-9c9f-024377106735
+  guidNameSet: SlotAxe
+  description: axe
+  describeAsArticle: an axe
+  describePlural: axes
+  sprite: {fileID: 21300000, guid: d8fe514bcd498cb479d2de09ce99b7ce, type: 3}
+  weapon: 1

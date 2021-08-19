@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: ClearDungeonOfferGeneric
+  m_EditorClassIdentifier: 
+  guid: 8babb9c5-4161-4337-9250-51f82b1a4b8e
+  guidNameSet: ClearDungeonOfferGeneric
+  message: There is a dark cavern near us, with dungeon_description within. Each Winter,
+    many dark denizens come forth from it wreaking havoc upon the countryside. We
+    would appreciate you entering this cavern and slaying the creatures within.
+  options:
+  - text: <color=#aaffaa>[Accept]</color> The denizens of the underworld being allowed
+      to pillage Wesnoth at their whim is not tolerable to me. I will of course deal
+      with this threat at once.
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  - text: <color=#ffaaaa>[Hostile]</color> You would see me go down into some deep
+      dark cave? Surely this is some plot of yours to see me perish in the Underworld.
+      For your treachery, prepare to die!
+    result: {fileID: 0}
+    instructions: []
+    conditions: 
+  - text: <color=#aaffff>[Diplomacy]</color> I do wish to prove myself worthy of the
+      throne, but perhaps there is something different I can do to prove myself?
+    result: {fileID: 0}
+    instructions: []
+    conditions: 06000000
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

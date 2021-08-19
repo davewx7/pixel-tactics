@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a786d29dac4d4f990127905c942fb, type: 3}
+  m_Name: GreaterHealSpell
+  m_EditorClassIdentifier: 
+  guid: cc1b9078-34de-41d7-af55-45153875ed5d
+  guidNameSet: GreaterHealSpell
+  modUntilEndOfTurn:
+    description: (unknown)
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+  schools:
+  - {fileID: 11400000, guid: 56860e8d55d98e540a70451825ebaaf6, type: 2}
+  - {fileID: 11400000, guid: ec9cde8dcf72950409f8d718fbf7dd86, type: 2}
+  targetTypes: 0000000001000000
+  targetTerrain: []
+  mustControlTarget: 0
+  targetsKeep: 0
+  targetRange: 1
+  rangeIsUnitVision: 0
+  healTarget: 16
+  blinkToTarget: 0
+  description: Greater Heal
+  icon: {fileID: 21300000, guid: b49608a49e66c7d44b41f9d46896191e, type: 3}
+  spellLevel: 2
+  summaryRules: 
+  applyStatus: {fileID: 0}
+  summonType: {fileID: 0}
+  effectSource: {fileID: 0}
+  effectDest: {fileID: 0}
+  tooltipRules: Heals self or an ally for 16 hitpoints.

@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b01e285977ca04b8fdc3a6d598f812, type: 3}
+  m_Name: LisarTeam
+  m_EditorClassIdentifier: 
+  guid: dcb095b4-e01f-4c79-9594-6d127081d30d
+  guidNameSet: LisarTeam
+  debugForceShareVisionWithPlayer: 0
+  debugAISkip: 0
+  playerTeamReplaces: {fileID: 0}
+  speechPrompts: []
+  player: 0
+  barbarian: 0
+  primaryEnemy: 0
+  handlesCaveSpawns: 0
+  unitsHaveHaste: 0
+  unitsDieOnRulerDeath: 0
+  aiConquestRatio: 0
+  aiAggroRatio: 0.6
+  numQuestsForAlliance: 3
+  permanentFriends: []
+  swornEnemies: []
+  defaultRelationships:
+  - team: {fileID: 11400000, guid: 80d41bae47bc2e541bf3de1ea1d3c09c, type: 2}
+    rating: 40
+  - team: {fileID: 11400000, guid: e92a8f675c4d05448b19974be3df3364, type: 2}
+    rating: 40
+  - team: {fileID: 11400000, guid: e6574919d29a7cb4486370e67b5c2da1, type: 2}
+    rating: 20
+  maxDepth: 1
+  initialGreetingAlreadyAtWar: {fileID: 11400000, guid: e39afe6ab1cf7a34f9acb54bd1f14f96,
+    type: 2}
+  friendlyDiplomacy: {fileID: 11400000, guid: a3f61b6c1544a7748b86b361d6e0cf3d, type: 2}
+  completedQuestDiplomacy: {fileID: 0}
+  alliedDiplomacy: {fileID: 0}
+  playerStoryText: []
+  fealtyOffer: I can see that you truly are the rightful heir. I will swear fealty
+    to you and raise my banners in support of your claim to the throne.
+  baseUpkeep: 3
+  coloring: {fileID: 11400000, guid: 395872ac3055f9946a947c6d95856e79, type: 2}
+  ai: {fileID: 11400000, guid: adcaf9868ccf1484aa1efbd767ee4d5e, type: 2}
+  _diplomacy: {fileID: 0}
+  flagType: {fileID: 11400000, guid: 48ed2ffac69cf1f4abcbe9d259934018, type: 2}
+  teamNameIsProperNoun: 1
+  teamName: Nierloch
+  rulerName: Li'sar
+  rulerTitle: 
+  factionDescription: 
+  startingGold: 100
+  baseIncome: -1
+  incomeRamp: []
+  hasRoads: 1
+  aquatic: 0
+  rulerType: {fileID: 11400000, guid: cd66616b24a9d494d83325f144534e6d, type: 2}
+  recruitmentOptions:
+  - {fileID: 11400000, guid: 921191ba6f85f814697be102cb775aae, type: 2}
+  - {fileID: 11400000, guid: 90eb1be97595a9c49acfb9b77ac88d16, type: 2}
+  - {fileID: 11400000, guid: f368b0ea8db22f744953aecb232dc497, type: 2}
+  - {fileID: 11400000, guid: ade7de35e48d5934c8fd0ddf5c369927, type: 2}
+  - {fileID: 11400000, guid: 63831740cf4210844ad87bbd987b37a6, type: 2}
+  - {fileID: 11400000, guid: 85857a50eaa60234dad708c37b3c9a0c, type: 2}
+  recruitmentSlots: -1
+  possibleQuests:
+  - seed: 0
+    count: 0
+    countNeeded: 1
+    secondary: 0
+    progressEstimate: 0
+    progressEstimateMax: 1
+    completedRound: -1
+    expirationRound: -1
+    quest: {fileID: 11400000, guid: fd48c26065fbee24ca969abdf942f704, type: 2}
+    clientTeam: {fileID: 0}
+    enemyTeam: {fileID: 0}
+    unitTags: []
+    itemToRetrieve: {fileID: 0}
+    itemRetrieveLoc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    unitGuid: 
+    unitName: 
+    dungeonGuid: 
+  - seed: 0
+    count: 0
+    countNeeded: 1
+    secondary: 0
+    progressEstimate: 0
+    progressEstimateMax: 1
+    completedRound: -1
+    expirationRound: -1
+    quest: {fileID: 11400000, guid: 2525d58658f83d24794dfc0603d34add, type: 2}
+    clientTeam: {fileID: 0}
+    enemyTeam: {fileID: 0}
+    unitTags: []
+    itemToRetrieve: {fileID: 0}
+    itemRetrieveLoc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    unitGuid: 
+    unitName: 
+    dungeonGuid: 
+  - seed: 0
+    count: 0
+    countNeeded: 1
+    secondary: 0
+    progressEstimate: 0
+    progressEstimateMax: 1
+    completedRound: -1
+    expirationRound: -1
+    quest: {fileID: 11400000, guid: 79ead6545efb3984fbad43cd1a05fbc9, type: 2}
+    clientTeam: {fileID: 0}
+    enemyTeam: {fileID: 0}
+    unitTags: []
+    itemToRetrieve: {fileID: 0}
+    itemRetrieveLoc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    unitGuid: 
+    unitName: 
+    dungeonGuid: 
+  - seed: 0
+    count: 0
+    countNeeded: 1
+    secondary: 0
+    progressEstimate: 0
+    progressEstimateMax: 1
+    completedRound: -1
+    expirationRound: -1
+    quest: {fileID: 11400000, guid: ec4899ab37999fc43aaa9f24a54f45b7, type: 2}
+    clientTeam: {fileID: 0}
+    enemyTeam: {fileID: 0}
+    unitTags: []
+    itemToRetrieve: {fileID: 0}
+    itemRetrieveLoc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    unitGuid: 
+    unitName: 
+    dungeonGuid: 
+  - seed: 0
+    count: 0
+    countNeeded: 1
+    secondary: 0
+    progressEstimate: 0
+    progressEstimateMax: 1
+    completedRound: -1
+    expirationRound: -1
+    quest: {fileID: 11400000, guid: b2365b99b07644941a6b2ae8b9dd52b7, type: 2}
+    clientTeam: {fileID: 0}
+    enemyTeam: {fileID: 0}
+    unitTags: []
+    itemToRetrieve: {fileID: 0}
+    itemRetrieveLoc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    unitGuid: 
+    unitName: 
+    dungeonGuid: 
+  - seed: 0
+    count: 0
+    countNeeded: 1
+    secondary: 0
+    progressEstimate: 0
+    progressEstimateMax: 1
+    completedRound: -1
+    expirationRound: -1
+    quest: {fileID: 11400000, guid: 95fee343dc2685843b3d6fa02a9253bf, type: 2}
+    clientTeam: {fileID: 0}
+    enemyTeam: {fileID: 0}
+    unitTags: []
+    itemToRetrieve: {fileID: 0}
+    itemRetrieveLoc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    unitGuid: 
+    unitName: 
+    dungeonGuid: 
+  - seed: 0
+    count: 0
+    countNeeded: 1
+    secondary: 0
+    progressEstimate: 0
+    progressEstimateMax: 1
+    completedRound: -1
+    expirationRound: -1
+    quest: {fileID: 11400000, guid: 02994eaf714bbc046bff9bc4bbbc9878, type: 2}
+    clientTeam: {fileID: 0}
+    enemyTeam: {fileID: 0}
+    unitTags: []
+    itemToRetrieve: {fileID: 0}
+    itemRetrieveLoc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    unitGuid: 
+    unitName: 
+    dungeonGuid: 
+  knownSpells: []
+  _uniqueEconomyBuildings: []

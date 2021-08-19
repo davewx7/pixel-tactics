@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b01e285977ca04b8fdc3a6d598f812, type: 3}
+  m_Name: PlayerTeamUndead
+  m_EditorClassIdentifier: 
+  guid: 94b46203-a40a-4d93-a05f-0dba147854d3
+  guidNameSet: PlayerTeamUndead
+  debugForceShareVisionWithPlayer: 0
+  debugAISkip: 0
+  playerTeamReplaces: {fileID: 11400000, guid: 4a0ef6aff68766c44a4f0e6cc04530c7, type: 2}
+  speechPrompts:
+  - {fileID: 11400000, guid: f6f6f3a775ba5b74f8c5d9038d5f45a2, type: 2}
+  - {fileID: 11400000, guid: 0c12f85cb67bf254ba6d5744835ebcd9, type: 2}
+  player: 1
+  barbarian: 0
+  primaryEnemy: 0
+  handlesCaveSpawns: 0
+  unitsHaveHaste: 0
+  unitsDieOnRulerDeath: 0
+  aiConquestRatio: 0
+  aiAggroRatio: 0
+  numQuestsForAlliance: 3
+  permanentFriends: []
+  swornEnemies: []
+  defaultRelationships: []
+  maxDepth: 2
+  initialGreetingAlreadyAtWar: {fileID: 0}
+  friendlyDiplomacy: {fileID: 0}
+  completedQuestDiplomacy: {fileID: 0}
+  alliedDiplomacy: {fileID: 0}
+  playerStoryText:
+  - 'The Necromancers will rise again. It is our creed, uttered to start and end each
+    and every one of our meetings. '
+  - 'I believe that once again a mighty Lich-King might sit the throne, as it was
+    in the days of old. Yet, the Necromancers I have been taught and trained by do
+    not see this vision. They wish to hold onto some dim, dark, limited version of
+    what Necromancy can do. They do not understand that given the chance to understand
+    us, the people will welcome us with open arms. '
+  - 'And that is why after careful plotting and planning, today I rise up, I summon
+    my own dark legion. It is written that every great Sorcerer arises by vanquishing
+    his own master first. And that, I shall eagerly do. '
+  - 'Come, my servants, rise up and prepare to fight for me. I, Muff-Malal, will be
+    Grand Necromancer of all the land, and claim the throne for myself. '
+  - 'Soon, I will sit the throne, for when my subjects see my power, they will wish
+    to do nothing but bow the knee and serve me. I am Muff-Malal, lord of the undead,
+    and through my power I will wrest the throne from all who oppose me. '
+  fealtyOffer: 
+  baseUpkeep: 0
+  coloring: {fileID: 11400000, guid: b920abfc40023cb438d430dc595dad81, type: 2}
+  ai: {fileID: 0}
+  _diplomacy: {fileID: 0}
+  flagType: {fileID: 11400000, guid: f068fa44caca78140b198cc628fc7d47, type: 2}
+  teamNameIsProperNoun: 0
+  teamName: Undead
+  rulerName: Muf-Malal
+  rulerTitle: Necromancer
+  factionDescription: Long have the Necromancers been reviled. Yet, seeing an opportunity,
+    Muf-Malal believes he can see them ascend to their rightful place in the land.
+  startingGold: 50
+  baseIncome: -1
+  incomeRamp: []
+  hasRoads: 1
+  aquatic: 0
+  rulerType: {fileID: 11400000, guid: 60841c7396b3ec54da370bd7475316c4, type: 2}
+  recruitmentOptions:
+  - {fileID: 11400000, guid: 7c8bdb01cc56f8d41a1aa7e33f7d2ca6, type: 2}
+  - {fileID: 11400000, guid: a2e5201f2d073ef43bf7ff09215b5f95, type: 2}
+  - {fileID: 11400000, guid: 1fccdcd0e097bb14bb27a6cb9d7c0747, type: 2}
+  recruitmentSlots: 3
+  possibleQuests: []
+  knownSpells:
+  - {fileID: 11400000, guid: 3b43c751f7df5be47a8585eb77683485, type: 2}
+  - {fileID: 11400000, guid: 7a945d60cacd55a4c814fd44620c00d0, type: 2}
+  - {fileID: 11400000, guid: a95d9401c3078394db576fb4509528de, type: 2}
+  - {fileID: 11400000, guid: a3282daec492c4d488ea97b9ce3c4658, type: 2}
+  _uniqueEconomyBuildings:
+  - {fileID: 11400000, guid: 127c27f3b4739d14a828dd2927b7130a, type: 2}
+  - {fileID: 11400000, guid: b1d6751999bc108479147c5167049c4a, type: 2}
+  - {fileID: 11400000, guid: 2177926403cc333408e6b63b279a1e2b, type: 2}
+  - {fileID: 11400000, guid: de2c8ac07db30b64abc8a055877f4e0f, type: 2}
+  - {fileID: 11400000, guid: 5abf557e0a98e8f41bb0d41ce2d46b5d, type: 2}
+  - {fileID: 11400000, guid: 907308d9ad2af04459dd2b84514f7235, type: 2}
+  - {fileID: 11400000, guid: 4788702fcf050c14188ae6cb726f2411, type: 2}
+  - {fileID: 11400000, guid: 570301d001a2e3346b58399b96121cc8, type: 2}
+  relationsDescriptions:
+  - maxRelations: 20
+    descriptions:
+    - have always said that the Necromancers should die
+    - have hated the Necromancers and wish to rid the land of them
+    - have taught our young that those who dabble with the Undead are unspeakably
+      evil
+  - maxRelations: 30
+    descriptions:
+    - have always been hostile to the Necromancers
+    - have battled the Undead often
+    - have never been friends of your kind
+  - maxRelations: 40
+    descriptions:
+    - have been cautious about befriending the undead
+    - have been hesitant about making friends with the Necromancers
+    - have taught our young to be cautious about the dark arts
+  - maxRelations: 50
+    descriptions:
+    - have, unlike others, had little issue with the practice of Necromancy
+    - have had enemies who are Necromancers, but also friends who are Necromancers
+  - maxRelations: 60
+    descriptions:
+    - 'have had sympathy for the Necromancers and the persecution they have faced '
+    - have found the practioners of Necromancy can make fine allies
+  - maxRelations: 100
+    descriptions:
+    - have been good friends of many Necromancers

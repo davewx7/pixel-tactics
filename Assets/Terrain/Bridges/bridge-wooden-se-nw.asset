@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28dcf04db67dc3c4b90264ff5ad007fd, type: 3}
+  m_Name: bridge-wooden-se-nw
+  m_EditorClassIdentifier: 
+  guid: e9cbce89-bb32-46a2-a028-09a5a64b0622
+  guidNameSet: bridge-wooden-se-nw
+  rules: {fileID: 11400000, guid: 276e7afd50ae1584dbc809cbfbb7c14f, type: 2}
+  villageInfo: {fileID: 0}
+  _winterTerrain: {fileID: 0}
+  _autumnTerrain: {fileID: 0}
+  _winterTerrainFreshwaterOnly: 0
+  englishName: Bridge
+  _adjZorder: 500
+  zorder: 0
+  adjacent:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: eaf7213bde420bd4b830c680f1abcee0, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 6109dfd286ffa7f4e9f24e8f5475a965, type: 3}
+  adjacent2: []
+  adjacent3: []
+  adjacent4: []
+  adjacent5: []
+  adjacent6: {fileID: 0}
+  _sprites: []
+  overlaySprites:
+  - {fileID: 21300000, guid: e19fa053cda7a124f9efffb16d481a8f, type: 3}
+  castleWalls: []
+  _base: {fileID: 11400000, guid: 03c9922d71b6bf449b2cf5d62a70b50f, type: 2}
+  yadj: 0
+  waterline: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2c34f324b1e794695b978cca414163, type: 3}
+  m_Name: AbilityAttackLifesteal
+  m_EditorClassIdentifier: 
+  guid: 4607acad-52ee-4f69-9d0f-53aa6658ce20
+  guidNameSet: AbilityAttackLifesteal
+  description: Lifesteal
+  icon: {fileID: 21300000, guid: 595dd2a070bcca44895bc83ded06b579, type: 3}
+  tooltip: Steals {0}% of damage dealt.
+  defaultParam: 100
+  applyStatus: {fileID: 0}

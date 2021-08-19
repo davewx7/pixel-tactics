@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: wose-wose-elder
+  m_EditorClassIdentifier: 
+  guid: c9aea130-795d-4cba-bc11-fc4e8b545bdb
+  guidNameSet: wose-wose-elder
+  portrait: {fileID: 21300000, guid: 7d275f1b8293a8b498dadd7c01ee175d, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Wose Wose Elder
+  classId: wose-elder
+  raceId: wose
+  tags:
+  - {fileID: 11400000, guid: 39716117a3f372042ac1f7ea8b1ca68b, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: 93218ae438d14c74aa9522704cbcdaa0, type: 2}
+  abilityArgs:
+  - ability: {fileID: 11400000, guid: 93218ae438d14c74aa9522704cbcdaa0, type: 2}
+    arg: 24
+  cost: 35
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 60e29490-c926-442e-80a0-0caaf687338e
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 60
+  hitpointsMax: 44
+  criticalEvasion: 0
+  evasion: 10
+  armor: 2
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: c350f32a4998cb54aad17d0e7ae02fbe, type: 3}
+    description: crush
+    id: attack
+    damage: 22
+    nstrikes: 2
+    accuracy: -20
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 54892964b9d942d43b9fc6cb71736a5a, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 45e0880bb859c70428f4759091f38bce, type: 3}
+    - {fileID: 21300000, guid: 579830571098478448f9dfbe1b3a0ee7, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 2f96c29f25aa91b45a456b476d18dacb, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: fall
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 30e11e8d85d642c44b2311ad9c24863d, type: 3}
+    - {fileID: 21300000, guid: f74178b08b9ea5a4a85a135181d698d7, type: 3}
+    - {fileID: 21300000, guid: 51f37598552896e4eb72ae9ebdef01f0, type: 3}
+    - {fileID: 21300000, guid: f936ce92e05fceb44a82568dc9405b43, type: 3}
+    - {fileID: 21300000, guid: 18aa4651bb8ab99469060d47d1c43c9f, type: 3}
+    - {fileID: 21300000, guid: 2d4840748514896418779b49c28b4572, type: 3}
+    - {fileID: 21300000, guid: d4b871f9af8ff044ba5fb65ae103c7d4, type: 3}
+    - {fileID: 21300000, guid: ebf4871e5a8e31341a07d6ba376cb16b, type: 3}
+    - {fileID: 21300000, guid: cb0f1ead1270a094b99cd559f7cbaafd, type: 3}
+    - {fileID: 21300000, guid: eaf60c6f03b82f8448882182959d68eb, type: 3}
+    - {fileID: 21300000, guid: fb3babf62b11be64485e66cdd930613c, type: 3}
+    - {fileID: 21300000, guid: 0589da31bc8e371489670cbcba17cdfe, type: 3}
+    - {fileID: 21300000, guid: 7b65b52007c69b845b2ce28f3a39146e, type: 3}
+    - {fileID: 21300000, guid: f83025b2412e6cc4daba28fed509d086, type: 3}
+    - {fileID: 21300000, guid: 68aa8c535e57d64458e2440ba372d33c, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

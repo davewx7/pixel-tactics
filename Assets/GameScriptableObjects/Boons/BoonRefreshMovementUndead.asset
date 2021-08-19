@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63850b65779638047bcfd2ccdb8996eb, type: 3}
+  m_Name: BoonRefreshMovementUndead
+  m_EditorClassIdentifier: 
+  guid: 7eeac6ce-9764-41c9-be02-56f031f63784
+  guidNameSet: BoonRefreshMovementUndead
+  alternatives: []
+  priority: 1
+  embargoAfterOffering: -1
+  minimumRound: 0
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 0}
+  dialogStorylineText: Innocent, naive villagers. Ready to have the life sucked out
+    of them allowing you to move on quickly to further exploits. You can loiter in
+    this village, investigating what it has to offer you, or suck the blood from its
+    residents, using their life force to move on quickly.
+  declineStoryText: You look around the village to see what resources it might have
+    to offer you.
+  avatarSprite: {fileID: 0}
+  effectText: Refresh movement
+  storyText: You eagerly suck the villagers dry, refreshing your movement and allowing
+    you to move on quickly.

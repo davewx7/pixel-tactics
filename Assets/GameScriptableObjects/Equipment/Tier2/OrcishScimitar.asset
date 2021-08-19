@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: OrcishScimitar
+  m_EditorClassIdentifier: 
+  guid: 4fbc1000-82b3-4f42-9a96-a52f5cf1f62b
+  guidNameSet: OrcishScimitar
+  icon: {fileID: 21300000, guid: 09279156226fcbe459751412916b10de, type: 3}
+  description: Orcish Scimitar
+  summaryRules: +30%CRIT
+  tooltipRules: +30% Critical hit chance
+  slot: {fileID: 11400000, guid: e9382669d9dcdbc48a3469c467b7a039, type: 2}
+  consumable: 0
+  tier: 2
+  teamAssociation:
+  - {fileID: 11400000, guid: ebab1ca14b9cc5d4b99b6d127b8660e1, type: 2}
+  activatedAbility: {fileID: 0}
+  beginTurnEffect: {fileID: 0}
+  mod:
+    description: Orcish Scimitar
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods:
+    - attackDescription:
+      - sword
+      excludeMelee: 0
+      excludedRanged: 0
+      damage: 0
+      accuracy: 0
+      critical: 30
+      nstrikes: 0
+      abilities: []
+      makesMagical: 0
+    abilities: []
+    abilityArgs: []
+  advantagedTerrain: []
+  disadvantagedTerrain: []
+  attackRequired:
+  - sword
+  _price: 20

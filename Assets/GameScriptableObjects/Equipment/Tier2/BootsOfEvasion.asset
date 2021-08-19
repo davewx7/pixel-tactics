@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4198a728d1438f44a9972898be12a9d, type: 3}
+  m_Name: BootsOfEvasion
+  m_EditorClassIdentifier: 
+  guid: 2b5c3271-b54a-4ebc-b0ca-2f14e00b8987
+  guidNameSet: BootsOfEvasion
+  icon: {fileID: 21300000, guid: 2d987f2f1ce03454aa907394a37b24ac, type: 3}
+  description: Boots of Evasion
+  summaryRules: +10EV +1MV
+  tooltipRules: +10% Evasion, +1 Movement
+  slot: {fileID: 11400000, guid: 05141ee8ba37e0d409a5619f0672b97c, type: 2}
+  tier: 2
+  activatedAbility: {fileID: 0}
+  mod:
+    description: Boots of Evasion
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 10
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 1
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+  attackRequired: []
+  _price: 22

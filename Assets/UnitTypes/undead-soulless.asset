@@ -1,0 +1,1034 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: undead-soulless
+  m_EditorClassIdentifier: 
+  guid: 806bf86f-115d-4aae-ae1a-2221137e2dfc
+  guidNameSet: undead-soulless
+  portrait: {fileID: 21300000, guid: 46a23473e3e8f314eb95245e828c2a85, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Soulless
+  classId: soulless
+  raceId: undead
+  tags:
+  - {fileID: 11400000, guid: b365a57449800304492401d99f6a81c3, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 2
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 9d11f54d-6988-49d9-bd75-49592fcba2c2
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: eaca4fabefecb414eac6d33b1f1a988d, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: b74098624c0586747904f45edc960f9b, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 75edf79fc47e38c4796b540ad8b64757, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 69a8c3b086da0cf44824077dbdd6ebc4, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: bat
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 801713db20b0dea45b5689e8a0447fee, type: 3}
+    - {fileID: 21300000, guid: a8b4a0729cac1a54f824f076c56365a4, type: 3}
+    - {fileID: 21300000, guid: a5e360ef9ad69af4bbb7a4694208aa75, type: 3}
+    - {fileID: 21300000, guid: 801452216fa2a7244b7a763931472ed3, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 1
+      animType: 2
+      tag: bat
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 62dec22116289144a82551f39b0ba33d, type: 3}
+    - {fileID: 21300000, guid: b949dbf7cf4857843841dbe999b55208, type: 3}
+    - {fileID: 21300000, guid: afc0108566c72894881077146bf9329f, type: 3}
+    - {fileID: 21300000, guid: c3f2368440c0f93478e8a0b9e47f9838, type: 3}
+    - {fileID: 21300000, guid: 17c4861f18ce51f4c8e021d0ea70d7cd, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 2
+      animType: 2
+      tag: bat
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 1940c43fc2b25f04a9aa67c2d951c2bb, type: 3}
+    - {fileID: 21300000, guid: 41013690784dcbc48b6b2f36609f0af1, type: 3}
+    - {fileID: 21300000, guid: 3d44ff4d7e9a77b478bf6a6988db65cd, type: 3}
+    - {fileID: 21300000, guid: 8bd8069a8be7afd428aaf20d2e13d005, type: 3}
+    - {fileID: 21300000, guid: 24abb4110c349fe44811edaef3014d67, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 815a6dd1b4d94144fb7faf58c17e60fa, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f5d46be26cd1639439d9f274aa6ff45a, type: 3}
+    - {fileID: 21300000, guid: 9bdf8f07d3b05d242a7f7ed991bb2763, type: 3}
+    - {fileID: 21300000, guid: 6902765b31dc1e748b4cfcc1a83121c5, type: 3}
+    - {fileID: 21300000, guid: 9a082dc5a38c8664e84ed6fc5a046cd8, type: 3}
+    - {fileID: 21300000, guid: f77cae7599525364f8d29653cf250f01, type: 3}
+    - {fileID: 21300000, guid: e852170574b37564bb49a81ea47d76d8, type: 3}
+    - {fileID: 21300000, guid: f4474b59920e5024fb8822263d6aaa47, type: 3}
+    - {fileID: 21300000, guid: 7bc0f8c0df9c02b4088b94bbc642df53, type: 3}
+    - {fileID: 21300000, guid: 16da3e8d07e9f7b459d06d42d211f434, type: 3}
+    - {fileID: 21300000, guid: 8e294d119b9103444a1415a303b7f1ef, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: drake
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 2ac7727ff27d0de4892e3cb3a5fb6712, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: drake-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 144cf0b0904aa014196854a61f4d2a82, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: drake-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: b3fac008687fb6a459177644be71d7c6, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: drake-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 3a48b2dc9234adc49bd8615b602a1f38, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: drake
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: b7d49c48208145e4aa5e5a998e955140, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: drake
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: bd262810deae080439c0d5cf63c11601, type: 3}
+    - {fileID: 21300000, guid: bfa4cb91fcd95944d95ef47e83306952, type: 3}
+    - {fileID: 21300000, guid: 820a1b837092dee4db3575908adeb4f5, type: 3}
+    - {fileID: 21300000, guid: 3c8d14d790914cf4893c5f0c526e8f7c, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: dwarf
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a774982fb1d145241ad8b49b7b26cc84, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: dwarf-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 4b7784f109356d441b80c432cc741618, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: dwarf-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 639f77e7de8cb4040a90220ab23a6303, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: dwarf-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 819c9ebea3d395a42af8d93f69e8448b, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: dwarf
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 4cc80e814db564748bb60fb59eb25a8f, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: dwarf
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 35f304a4d586e464fa593f87025d594c, type: 3}
+    - {fileID: 21300000, guid: ef671877d5134a24086f60714540b738, type: 3}
+    - {fileID: 21300000, guid: 55c17549e955f7d4cadc247c9f04a4f8, type: 3}
+    - {fileID: 21300000, guid: 7828102157996234cac36821929e8750, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: goblin
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 55960e557ed93ee44bf3a05123702eb3, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: goblin-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: fc6e137d9359b874f9c17d9c5e7ba3ec, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: goblin-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 23110a3db456ee5429aee8e433937570, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: goblin-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 09c684bb6ed80694eb1b0febfb03f00f, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: goblin
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 411b797678494a247991eff25f6de75b, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: goblin
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c2afd5e512b3e65489540765dd39bd62, type: 3}
+    - {fileID: 21300000, guid: dd95071ac7ed59f49b17e0421178b897, type: 3}
+    - {fileID: 21300000, guid: e1101f2732fe5ab4eae954dacbe2a050, type: 3}
+    - {fileID: 21300000, guid: 7c656703ce33f45428c9863e761c7acd, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: gryphon
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: bcacd1203fa4a134f802329a54e7f15d, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: gryphon-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: df54aa72ac153194c8c0c3e7097b0892, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: gryphon-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: ad16806c22e03a942bd702e87cd5c6d3, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: gryphon-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 51846237b62767746933ad07bcd2490c, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: gryphon
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 52c8fa29881a580449ad90152a6f9396, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: gryphon
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f27398790ebab3e4d9a41ba7f872e0e8, type: 3}
+    - {fileID: 21300000, guid: 85cd33c9327f61c458fde865ef283e26, type: 3}
+    - {fileID: 21300000, guid: 28832beae638ebb4a9e6af9be3f2ef10, type: 3}
+    - {fileID: 21300000, guid: 61547a465d434be4a8b743f2dffbf6d8, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: mounted
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7cfbe6e8d6fe58b45aa09eee618acb02, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: mounted-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: d0e1dc79ae536a44cb91bc38508a5af4, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: mounted-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: ecccdac35d1891847a98c8b15144622e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: mounted-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 5ce4c119579a1024dbe4675412a926c4, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: mounted
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 59ddecd5de92e324b8eca61222ffbf18, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: mounted
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a7a268ec3dc80844387db3a7ffac2163, type: 3}
+    - {fileID: 21300000, guid: 09ac85c1459733e43bc9260e8b8d3349, type: 3}
+    - {fileID: 21300000, guid: 5fe2ee289c65fea478800b4e3c10550d, type: 3}
+    - {fileID: 21300000, guid: efe3de684764d89418f5f770356416c7, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: saurian
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 36be22b643dec7e4090b3cd2ee1300fe, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: saurian-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: dfef5e274e62249439615187954fdc86, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: saurian-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 9c13abb2ade77464d9e34b1968d24ee4, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: saurian-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7e61b638fb1f19146b7e94b1b3021a96, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: saurian
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: b00ec9c127852f94987312ae40aca876, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: saurian
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 5ebd1eaeb9b2204418dd67a24a668719, type: 3}
+    - {fileID: 21300000, guid: bcadc75cdb60a7548bf540dda5c25a18, type: 3}
+    - {fileID: 21300000, guid: a262f903eb5c9ed49ad4c31faaa23f64, type: 3}
+    - {fileID: 21300000, guid: 7cdd9fad765049142b3f996bdc0c4121, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: spider
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 8ec74b0caa4a9a4408963c3eb4207567, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: spider-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: aa1946a19c8224e459ce0253dd1185ae, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: spider-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: b9e2f7a544e6f08469ed4985edf2bb21, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: spider-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: c9b9b9118b17f904b967adef44d79e3f, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: spider
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 6464cc181c4ab84429e84756b2dd162b, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: spider
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: df9c5c1160e60c14680cab901dce61be, type: 3}
+    - {fileID: 21300000, guid: ca81e462374e9b846ba2f29794ca5b05, type: 3}
+    - {fileID: 21300000, guid: 2f892b9db076283429ba25cb90a8c283, type: 3}
+    - {fileID: 21300000, guid: cce36e29a287e0a4a8b3cab2caf1625f, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: swimmer
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: dad77c9d0cf99384989b91d853907a58, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: swimmer-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 0dd58d422fb57814db8b2ec78e0b076c, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: swimmer-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 26fa1069cceddc64ab442cc427020ae5, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: swimmer-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 8d49b4c5c426b4949999c48fb05c753a, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: swimmer
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 1bd478341d310774db7bd38c80d19132, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: swimmer
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a09aefe635abbf34389095a51b05a4d9, type: 3}
+    - {fileID: 21300000, guid: 275b28d338c348648acfd01a4c012d51, type: 3}
+    - {fileID: 21300000, guid: 3d1e46f853a61b147ade29ba6e4ae6ec, type: 3}
+    - {fileID: 21300000, guid: a1fec5150312b5941be095eea5887888, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: troll
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: f07ffffaab94e434ea37ba0df3167092, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: troll-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: bd6cfabd66245704aa7daa3dcf39f119, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: troll-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 91a68c310311ec64882557e451cb39ff, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: troll-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: e47ebf1ac2ab96f408bf39ec0fa02a30, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: troll
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 3b9b3b2b0cb229547aa8ab2edeec8076, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: troll
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: cf8278f313eebc541930152a58dc4e98, type: 3}
+    - {fileID: 21300000, guid: 3b6d60dcf38b64b40b91520d9c65cd47, type: 3}
+    - {fileID: 21300000, guid: 1b6020a21718c254297166345c4b151d, type: 3}
+    - {fileID: 21300000, guid: fdee6ef734b4eec42836ed98d68eca86, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: wolf
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: abcd2fa29d408424dba1f65c834e0085, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: wolf-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: fc94b8cb4419b1b4eaa42984d44cb4d2, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: wolf-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 0622e2b797f41f54fb35cde2ff22bea4, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: wolf-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 3e7057149d0f5594a99cf281742489f7, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: wolf
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 4724db300a5c89a498326facd4d2640e, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: wolf
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 89a103fd3c565ef46b77528b74621681, type: 3}
+    - {fileID: 21300000, guid: ae5c1d880e561544386c893f521cb8e3, type: 3}
+    - {fileID: 21300000, guid: 1f3cf24c51e8e5d4c954f3b137c936c8, type: 3}
+    - {fileID: 21300000, guid: c52685d665941e643900061a988d7e22, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: wose
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 2e4c3dea80e74994f8f958b13c967547, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: wose-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 7f356aab5913bf44eadb58094f144011, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 0
+      animType: 2
+      tag: wose-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: e21fef6d14b293d498ff1511814d99f5, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 3
+      animType: 2
+      tag: wose-attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 9d40f0d96e70eb942b30ed97f63d3dc7, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: wose
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a44e1173fc1cdde49872317dc0137c02, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 4
+      tag: wose
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 651803bd37da0cb4ca5319fe35acf1f3, type: 3}
+    - {fileID: 21300000, guid: 54e360d9620bc2e4fb606d462bb9d96c, type: 3}
+    - {fileID: 21300000, guid: 274b503ca1237a44f9c1283bbc4e6dd0, type: 3}
+    - {fileID: 21300000, guid: 5c3af8f0f97e0674d8908ace4d2c977d, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

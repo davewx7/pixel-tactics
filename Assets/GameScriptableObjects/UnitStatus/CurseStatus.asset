@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d6edfdc2c14e4479984e3013e7d39b, type: 3}
+  m_Name: CurseStatus
+  m_EditorClassIdentifier: 
+  guid: 25dd66b8-3977-469b-aa75-72e74bfbe12b
+  guidNameSet: CurseStatus
+  icon: {fileID: 21300000, guid: e6d340e94be38b44984f62ec86752219, type: 3}
+  description: Curse
+  tooltip: 'Cursed: Whenever this unit enters combat there is a chance the curse will
+    trigger. When triggered, the unit has -100% evasion and -100% accuracy. The curse
+    disappears at the end of that combat.'
+  applySlogan: Cursed!
+  expiresAfterOneRound: 0
+  displayIconOnUnit: 1
+  unitMod:
+    description: Curse
+    useMod: 0
+    filter:
+      mustHaveTag: {fileID: 0}
+      excludeIfFoughtThisTurn: 0
+      baseAbility: {fileID: 0}
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []

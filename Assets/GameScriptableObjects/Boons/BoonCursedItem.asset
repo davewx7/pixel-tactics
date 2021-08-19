@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd767a03f3eb384f99e86444fae98ac, type: 3}
+  m_Name: BoonCursedItem
+  m_EditorClassIdentifier: 
+  guid: be33ccfe-b998-4d38-82c9-3e508c3ce455
+  guidNameSet: BoonCursedItem
+  priority: 1
+  embargoAfterOffering: -1
+  minimumRound: 3
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 0
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 0}
+  dialogStorylineText: As you enter the village, a hooded figure approaches you. She
+    holds out a small box. <i>"Great power lies within, but also great danger"</i>
+    she says, offering you the box. <i>"I have searched long for someone with the
+    fortitude to take this burden from me. Dare you be the one?"</i>
+  declineStoryText: With a shudder you move away from the hooded figure, quickly going
+    about your business around the village.
+  avatarSprite: {fileID: 21300000, guid: d7fb8a94aae4ba64ab78f8b35b47fa3f, type: 3}
+  effectText: Gain (cursed?) Equipment
+  storyText: Cautiously, you take the box and open it.

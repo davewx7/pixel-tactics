@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: monster-giant-mudcrawler
+  m_EditorClassIdentifier: 
+  guid: 94ca4428-b793-4a87-bb06-bc14120548fd
+  guidNameSet: monster-giant-mudcrawler
+  portrait: {fileID: 0}
+  portraitFemale: {fileID: 0}
+  description: Monster Giant Mudcrawler
+  classId: giant-mudcrawler
+  raceId: monster
+  tags: []
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 1
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: c17897cf-8611-4bcb-a9f5-b47d083967a8
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 1
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 30
+  hitpointsMax: 30
+  criticalEvasion: 0
+  evasion: 10
+  armor: 0
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks: []
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 5e070d178aed49340bf93d12b0a9d83b, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 83b80aa1ad4b74c49a0a2b27ebf66dbf, type: 3}
+    - {fileID: 21300000, guid: aefc31cf3e8aec349aff4c93409085a5, type: 3}
+    - {fileID: 21300000, guid: cef864d7629b80748a51e7bc3025e1ee, type: 3}
+    - {fileID: 21300000, guid: b754bc5fe210ed243a0f49d35192485d, type: 3}
+    - {fileID: 21300000, guid: 3dbd30674e4c87140a0bc2ed05f89947, type: 3}
+    - {fileID: 21300000, guid: 7a995996e9a85004cbd4d7b0ceb3fd66, type: 3}
+    - {fileID: 21300000, guid: a7e72cabc2535b642a75bc1a6a3c84da, type: 3}
+    - {fileID: 21300000, guid: 07af73d84e44e6f48abc264078dab556, type: 3}
+    - {fileID: 21300000, guid: 3763b10d856d6ab42a73d225f55f17d5, type: 3}
+    - {fileID: 21300000, guid: 2d9cc080fb73bcf4e8b34295ede47a74, type: 3}
+    - {fileID: 21300000, guid: 7cb4814ed5307ae4d98a3a9ca3e9b1f5, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: death
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 55664835caa5a78409afb44f3bb0d398, type: 3}
+    - {fileID: 21300000, guid: f2d0009c7f85a804a99f09f2798d58c4, type: 3}
+    - {fileID: 21300000, guid: 9794f2c582a52744d8c9698f0deb4d8f, type: 3}
+    - {fileID: 21300000, guid: 853e2463bc8e63949b24b02978e6a95c, type: 3}
+    - {fileID: 21300000, guid: 634fd62fd282cba42917a8a24d6b9a58, type: 3}
+    - {fileID: 21300000, guid: e9145744b117c98488c625ca89ac2f28, type: 3}
+    - {fileID: 21300000, guid: cc850897c23859d448fdd3d9c30c0fb9, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 6ef3611f63edacc42afafa912cb695fb, type: 3}
+    - {fileID: 21300000, guid: 227cd2f88e0f8f143a8b82bdcbe8abfc, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: ranged
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: a0caa2eb2be38f143bdc71ae5ad46e51, type: 3}
+    - {fileID: 21300000, guid: 02c1422cb7d3a704d829830333c960d8, type: 3}
+    - {fileID: 21300000, guid: 095a21598fe6ac5488f7886ddfc2da96, type: 3}
+    - {fileID: 21300000, guid: c36f7b6c09d2a6441b45a0c3b5870cdd, type: 3}
+    - {fileID: 21300000, guid: 22573dbac80c6ee42996ec3161c78f0a, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []

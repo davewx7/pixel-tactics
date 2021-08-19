@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b01e285977ca04b8fdc3a6d598f812, type: 3}
+  m_Name: CaveSpawnTeam
+  m_EditorClassIdentifier: 
+  guid: 80f00fcc-fea9-44bf-b21f-36e127bc809b
+  guidNameSet: CaveSpawnTeam
+  playerTeamReplaces: {fileID: 0}
+  player: 0
+  barbarian: 1
+  handlesCaveSpawns: 1
+  unitsHaveHaste: 1
+  aiConquestRatio: 0
+  aiAggroRatio: 0
+  permanentFriends: []
+  swornEnemies:
+  - {fileID: 11400000, guid: 80d41bae47bc2e541bf3de1ea1d3c09c, type: 2}
+  initialGreetingAlreadyAtWar: {fileID: 0}
+  friendlyDiplomacy: {fileID: 0}
+  completedQuestDiplomacy: {fileID: 0}
+  alliedDiplomacy: {fileID: 0}
+  playerStoryText: []
+  fealtyOffer: 
+  baseUpkeep: 3
+  coloring: {fileID: 11400000, guid: d93d81397f9d56c4eafe7695c5383b39, type: 2}
+  ai: {fileID: 11400000, guid: d7c139b0fc324744bb14d6ef7b558291, type: 2}
+  _diplomacy: {fileID: 11400000, guid: 167355ef6ff38d247ab5d0e1c152e880, type: 2}
+  flagType: {fileID: 0}
+  teamNameIsProperNoun: 0
+  teamName: 
+  rulerName: 
+  rulerTitle: 
+  factionDescription: 
+  startingGold: -1
+  baseIncome: -1
+  hasRoads: 1
+  aquatic: 0
+  rulerType: {fileID: 11400000, guid: 312bcb627b6b5194f91f0ae5ecc64da4, type: 2}
+  recruitmentOptions:
+  - {fileID: 11400000, guid: bfc6eb38d02860049826872809a60b00, type: 2}
+  - {fileID: 11400000, guid: 500d67d19fba13e4e98447a232eac48d, type: 2}
+  - {fileID: 11400000, guid: 53c30353df35b7148a19f3233aecbbd0, type: 2}
+  recruitmentSlots: -1
+  possibleQuests: []
+  knownSpells: []
+  economyBuildings: []

@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3de4d660669b44392d7150f0af6f7e, type: 3}
+  m_Name: loyalist-javelineer
+  m_EditorClassIdentifier: 
+  guid: a8c8f48f-4ade-42e1-ac86-a96700ece68f
+  guidNameSet: loyalist-javelineer
+  portrait: {fileID: 21300000, guid: 5218a95fc3657c64490df6e56676051b, type: 3}
+  portraitFemale: {fileID: 0}
+  description: Javelineer
+  classId: javelineer
+  raceId: loyalist
+  tags:
+  - {fileID: 11400000, guid: 57579be134a19794ea7ac720cfc98bbe, type: 2}
+  abilities: []
+  abilityArgs: []
+  cost: 10
+  alignment: 0
+  spellSchoolsOverride: []
+  AIThinkOrder: 0
+  _unitInfo:
+    fightsThisTurn: 0
+    guid: 1c64d991-976f-46df-89a9-ae1560daedfd
+    characterName: CharName
+    characterMods: []
+    ruler: 0
+    facing: 3
+    level: 2
+    nteam: 0
+    seed: 0
+    unitType: {fileID: 11400000}
+    loc:
+      _loc: {x: 0, y: 0}
+      _depth: 0
+    roundCreated: 0
+    summonerGuid: 
+    familiarGuids: []
+    attacksExpended: []
+    equipment: []
+    originTeam: {fileID: 0}
+    traits: []
+    status: []
+    statusRemoveEndOfTurn: []
+    _modUntilEndOfTurn: []
+    spellsChangedThisTurn: 0
+    spells: []
+    amla: 0
+    temporaryHitpoints: 0
+    damageTaken: 0
+    experience: 0
+    hasAttacked: 0
+    expendedVision: 0
+    movementExpended: 0
+    resting: 0
+    killedByPlayerEvent:
+      valid: 0
+      goldReward: 0
+      renownReward: 0
+      renownDescription: 
+      terrainChanges: []
+      dialog: []
+  experienceMax: 44
+  hitpointsMax: 36
+  criticalEvasion: 0
+  evasion: 50
+  armor: 1
+  resistance: 0
+  movement: 5
+  levelsInto: []
+  attacks:
+  - icon: {fileID: 21300000, guid: e483663cd6cf1314c9968ac2b5c4bb61, type: 3}
+    description: spear
+    id: attack
+    damage: 7
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 0
+    attackType: 0
+    abilities:
+    - {fileID: 11400000, guid: 6e30010cc297e824c8114de1f69629d3, type: 2}
+    - {fileID: 11400000, guid: 121d2dd2d77e4a04b97a8aed8e1bbdcd, type: 2}
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 0}
+  - icon: {fileID: 21300000, guid: e483663cd6cf1314c9968ac2b5c4bb61, type: 3}
+    description: javelin
+    id: attack-ranged
+    damage: 7
+    nstrikes: 3
+    accuracy: 0
+    critical: 0
+    criticalDamage: 0
+    range: 1
+    attackType: 0
+    abilities: []
+    abilityParams: []
+    activeEffects: 
+    numCharges: 0
+    projectileType: {fileID: 11400000, guid: f37f29db184aec54bb6d428b0930e262, type: 2}
+  possibleGenders: 
+  animInfo:
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 0
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 85bc8ed6147ed4541aee10a643523642, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 1
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack-melee
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: cda59f7f61af1f846815f9f012451ca7, type: 3}
+    - {fileID: 21300000, guid: 2d9778903ca0233439622acd63064b26, type: 3}
+    - {fileID: 21300000, guid: 6252180aa2f8e2c4a9c79c5fefe470e1, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 2
+      tag: attack-ranged
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: d3020fc7cc519804daf9d1d336b16833, type: 3}
+    - {fileID: 21300000, guid: 0ab45fa92ce67e449bf3aee44ded334f, type: 3}
+    - {fileID: 21300000, guid: f102ad8483eb7694d93859e5d39158c4, type: 3}
+    - {fileID: 21300000, guid: 3fcf8b05b6b8d0245b24a6fb32feaa7e, type: 3}
+    duration: 1
+    reverse: 1
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: 
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 44e10c6812a166d45a544fbf2e0ca0db, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []
+  - matchInfo:
+      gender: 2
+      direction: 6
+      animType: 3
+      tag: ranged
+      zombietype: 
+    sprites:
+    - {fileID: 21300000, guid: 731bdfc52cc80d6418a0a1fe29646514, type: 3}
+    duration: 1
+    reverse: 0
+    cycle: 0
+    events: []

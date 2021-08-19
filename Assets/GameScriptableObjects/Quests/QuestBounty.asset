@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76992e103cdc8ea47b3fcfa7481b5dd4, type: 3}
+  m_Name: QuestBounty
+  m_EditorClassIdentifier: 
+  guid: 79ede9fa-9fdc-414e-b263-dc0bf3825896
+  guidNameSet: QuestBounty
+  questOfferTitle: Quest

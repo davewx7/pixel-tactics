@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844678c03ede8a049b3e372113cd4bf5, type: 3}
+  m_Name: BoonHostilesEasy
+  m_EditorClassIdentifier: 
+  guid: 1e5620d1-b13e-4806-8c47-9b3e098c329e
+  guidNameSet: BoonHostilesEasy
+  alternatives:
+  - team: {fileID: 11400000, guid: e6574919d29a7cb4486370e67b5c2da1, type: 2}
+    boon: {fileID: 11400000, guid: 1549221c63f683046b60ffbdf8c5201d, type: 2}
+  priority: 1
+  embargoAfterOffering: -1
+  minimumRound: 3
+  minimumEnemiesLevel: 0
+  unitMustBeInjured: 0
+  unitMustBeRuler: 0
+  allowOnlyInNeutralVillages: 1
+  forcedSecondaryBoon: {fileID: 0}
+  noSecondaryBoon: 0
+  createBuilding: {fileID: 0}
+  dialogStorylineText: primary
+  declineStoryText: 
+  avatarSprite: {fileID: 0}
+  effectText: 
+  storyText: 
+  _boons:
+  - {fileID: 11400000, guid: 4d4dfe7e64cff9c4ba768825eb291260, type: 2}
+  - {fileID: 11400000, guid: a3cf5c585bedc13489f09c0538542bfb, type: 2}

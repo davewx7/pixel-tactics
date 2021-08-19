@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: DialogMakeWarAlreadyFighting
+  m_EditorClassIdentifier: 
+  guid: 59a66e37-11b7-4b8f-b8b1-4bdf15378246
+  guidNameSet: DialogMakeWarAlreadyFighting
+  message: It pleases me greatly that you are fighting our enemies, quest_enemy_team_name.
+    I ask nothing but that you finish the job of destroying them.
+  options:
+  - text: 
+    result: {fileID: 11400000, guid: dbdf55899f3f6a84285e5106e4540ede, type: 2}
+    instructions: []
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0

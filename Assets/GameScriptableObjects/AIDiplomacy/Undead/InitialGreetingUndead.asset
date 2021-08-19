@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: InitialGreetingUndead
+  m_EditorClassIdentifier: 
+  guid: 4934155e-62dc-40ba-ae24-029e34068f30
+  guidNameSet: InitialGreetingUndead
+  message: What is this foul creature that approaches? Dead, and yet animated by dark
+    magic, I shall fell it.
+  options:
+  - text: 
+    result: {fileID: 11400000, guid: 4c2ad102c3dd97e4dafc05ae5c0e1b1a, type: 2}
+    instructions: []
+  executeOnce: 0
+  focusPlayer: 1

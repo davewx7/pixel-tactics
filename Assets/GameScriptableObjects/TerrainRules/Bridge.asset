@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52b975513f4dee45a4c6bd4370b8c25, type: 3}
+  m_Name: Bridge
+  m_EditorClassIdentifier: 
+  guid: da211c82-38dc-421a-b24d-b995166d7da3
+  guidNameSet: Bridge
+  terrainName: Bridge
+  moveCost: 1
+  visionCost: 1
+  roadBuildCost: 100
+  canReplaceWithRoad: 0
+  canLongRest: 0
+  village: 0
+  chargeWorks: 0
+  keep: 0
+  castle: 0
+  navigableWaterway: 1
+  aquatic: 1
+  elevatedVision: 0
+  minimapColor: {r: 0, g: 0.56078434, b: 0, a: 1}
+  unitMod:
+    description: Terrain
+    useMod: 0
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    limitEvasion: -1
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    spellRange: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities: []
+    abilityArgs: []

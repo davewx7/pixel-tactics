@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbeac6afd20ddf41b727f055cf99830, type: 3}
+  m_Name: BoonHideUnit
+  m_EditorClassIdentifier: 
+  guid: 26b352b7-a494-4e55-90c3-24c2e00cee1a
+  guidNameSet: BoonHideUnit
+  priority: 2
+  embargoAfterOffering: -1
+  forcedSecondaryBoon: {fileID: 0}
+  dialogStorylineText: <i>"Quick, over here!"</i> You turn to see several bails of
+    hay that some of the villagers have arranged as a convenient place for you to
+    hide. <i>"We thought you might like to hide from your enemies in here for a while"</i>
+    an old woman suggests in a raspy voice.
+  declineStoryText: You don't need to hide, and declining the well-meaning villager's
+    help go about town as normal
+  avatarSprite: {fileID: 21300000, guid: d60378f79f8b64d439860cebe84ca305, type: 3}
+  effectText: Gain invisibility this turn
+  storyText: Agreeing it would be best to lay low for a while you hurriedly accept
+    their help and hide yourself.
+  _mod:
+    description: Hiding in village
+    useMod: 1
+    filter:
+      excludeIfFoughtThisTurn: 0
+    hitpoints: 0
+    experience: 0
+    evasion: 0
+    criticalEvasion: 0
+    armor: 0
+    resistance: 0
+    movement: 0
+    vision: 0
+    setAlignment: 0
+    alignment: 0
+    attackMods: []
+    abilities:
+    - {fileID: 11400000, guid: 1911eac320e8ecf48b060114c3cf6287, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8db5c956174104d9b7559f2bedb0d1, type: 3}
+  m_Name: QuestFosterUnit
+  m_EditorClassIdentifier: 
+  guid: eb7c3935-653e-4df0-b012-cfa14937069e
+  guidNameSet: QuestFosterUnit
+  acceptedNode: []
+  rejectedNode: []
+  completedNode:
+  - {fileID: 11400000, guid: b5837e9eaa6e4b44784e02a45e143db5, type: 2}
+  checkinNode:
+  - {fileID: 11400000, guid: 1c3acea956230e140b2d1f1587ad23eb, type: 2}
+  failedNode:
+  - {fileID: 11400000, guid: f265728812d4d2c4ca9595e29130c363, type: 2}
+  debugBonusScore: 0
+  questOfferTitle: Quest
+  timeExpected: 12
+  hasSecondary: 0
+  offerNode: {fileID: 11400000, guid: f2661c006df5cfb4fa2ddcdc8ae0b037, type: 2}
+  checkinNodeProgress:
+  - {fileID: 11400000, guid: e7130fcabbddbb540bb98dc66638d1bf, type: 2}

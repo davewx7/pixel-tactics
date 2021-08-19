@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65832b84009cc4a4b9be649449ce13d1, type: 3}
+  m_Name: ClearDungeonFail
+  m_EditorClassIdentifier: 
+  guid: 185db8c1-4003-49ca-b6be-816a9befae1b
+  guidNameSet: ClearDungeonFail
+  message: We can see that you never had any intention of clearing the Dungeon for
+    us. Meanwhile, the true Queen has been aiding us greatly, offering us financial
+    support. It is time for us to put an end to you!
+  options:
+  - text: <color=#ffaaaa>[Hostile]</color> Very well. You shall soon die for your
+      perfidy!
+    result: {fileID: 0}
+    instructions:
+    - {fileID: 11400000, guid: a4c1ec294fdadb44aaeca41bb68225dd, type: 2}
+    conditions: 
+  executeOnce: 0
+  focusPlayer: 0
+  focusQuestEnemyTeam: 0
